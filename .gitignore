@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+venv/
+.venv/
+env/
+
+# Models (large files — commit only with Git LFS if needed)
+# models/*.joblib
+# models/*.pkl
+
+# Data (raw data is generated, not committed)
+# data/raw/
+# data/processed/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/

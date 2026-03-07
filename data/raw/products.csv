@@ -1,0 +1,77 @@
+product_id,product_name,category,tier,unit_price,base_demand,reorder_point,lead_time_days
+SAI-D001,Sainsbury's British Whole Milk 6 Pints,Dairy & Eggs,Sainsbury's,1.45,85,60,1
+SAI-D002,Sainsbury's Semi-Skimmed Milk 4 Pints,Dairy & Eggs,Sainsbury's,1.1,70,50,1
+SAI-D003,Sainsbury's Skimmed Milk 2 Pints,Dairy & Eggs,Sainsbury's,0.8,40,30,1
+SAI-D004,Sainsbury's Large Free Range Eggs 12pk,Dairy & Eggs,Sainsbury's,3.25,55,40,1
+SAI-D005,Taste the Difference Burford Brown Eggs 6pk,Dairy & Eggs,Taste the Difference,3.75,22,15,2
+SAI-D006,Sainsbury's Salted Butter 250g,Dairy & Eggs,Sainsbury's,1.6,38,28,2
+SAI-D007,Taste the Difference Normandy Butter 250g,Dairy & Eggs,Taste the Difference,2.2,18,12,2
+SAI-D008,Sainsbury's Mature Cheddar 400g,Dairy & Eggs,Sainsbury's,3.5,45,32,3
+SAI-D009,Taste the Difference West Country Cheddar 300g,Dairy & Eggs,Taste the Difference,4.0,20,14,3
+SAI-D010,Sainsbury's Greek Style Yogurt 500g,Dairy & Eggs,Sainsbury's,1.5,30,22,2
+SAI-B001,Sainsbury's Medium Sliced White Bread 800g,Fresh Bakery,Sainsbury's,1.1,90,70,1
+SAI-B002,Sainsbury's Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,1.2,55,42,1
+SAI-B003,Taste the Difference Sourdough Loaf 400g,Fresh Bakery,Taste the Difference,2.75,30,22,1
+SAI-B004,Sainsbury's Croissants 4pk,Fresh Bakery,Sainsbury's,1.4,40,30,1
+SAI-B005,Taste the Difference All Butter Croissants 4pk,Fresh Bakery,Taste the Difference,2.5,25,18,1
+SAI-B006,Sainsbury's Bagels 5pk,Fresh Bakery,Sainsbury's,1.3,28,20,1
+SAI-B007,Sainsbury's Hot Cross Buns 6pk,Fresh Bakery,Sainsbury's,1.25,35,25,1
+SAI-M001,Sainsbury's British Chicken Breast Fillets 600g,Meat & Fish,Sainsbury's,4.5,52,38,2
+SAI-M002,Taste the Difference Corn Fed Chicken 1.5kg,Meat & Fish,Taste the Difference,7.0,18,12,2
+SAI-M003,Sainsbury's British Beef Mince 500g (20% fat),Meat & Fish,Sainsbury's,3.75,45,32,2
+SAI-M004,Taste the Difference Scottish Beef Mince 500g,Meat & Fish,Taste the Difference,5.0,20,14,2
+SAI-M005,Sainsbury's Pork Sausages 8pk 454g,Meat & Fish,Sainsbury's,2.5,40,28,2
+SAI-M006,Taste the Difference Cumberland Sausages 400g,Meat & Fish,Taste the Difference,3.5,22,15,2
+SAI-M007,Sainsbury's Smoked Back Bacon 300g,Meat & Fish,Sainsbury's,2.75,35,25,2
+SAI-M008,Sainsbury's Atlantic Salmon Fillets 240g,Meat & Fish,Sainsbury's,5.5,25,18,2
+SAI-M009,Taste the Difference Scottish Salmon Fillet 2pk,Meat & Fish,Taste the Difference,7.0,15,10,2
+SAI-M010,Sainsbury's Cod Fillets 420g,Meat & Fish,Sainsbury's,4.75,20,14,3
+SAI-P001,Sainsbury's Bananas Loose,Fresh Produce,Sainsbury's,0.99,110,80,1
+SAI-P002,Sainsbury's Easy Peelers 600g,Fresh Produce,Sainsbury's,1.5,60,45,1
+SAI-P003,Sainsbury's British Vine Tomatoes 500g,Fresh Produce,Sainsbury's,1.2,55,40,1
+SAI-P004,Sainsbury's Tenderstem Broccoli 200g,Fresh Produce,Sainsbury's,1.5,42,30,1
+SAI-P005,Sainsbury's Avocado,Fresh Produce,Sainsbury's,0.8,48,35,2
+SAI-P006,Sainsbury's Baby Spinach 200g,Fresh Produce,Sainsbury's,1.6,38,28,1
+SAI-P007,Sainsbury's Maris Piper Potatoes 2.5kg,Fresh Produce,Sainsbury's,1.75,65,48,2
+SAI-P008,Taste the Difference Chantenay Carrots 300g,Fresh Produce,Taste the Difference,1.8,30,22,2
+SAI-P009,Sainsbury's Iceberg Lettuce,Fresh Produce,Sainsbury's,0.59,50,36,1
+SAI-P010,Sainsbury's British Strawberries 400g,Fresh Produce,Sainsbury's,2.5,35,25,1
+SAI-DK01,Sainsbury's Pure Orange Juice 1L,Drinks,Sainsbury's,1.55,52,38,2
+SAI-DK02,Innocent Orange Juice 900ml,Drinks,Branded,2.8,30,22,3
+SAI-DK03,Sainsbury's Cola 2L,Drinks,Sainsbury's,1.15,60,45,2
+SAI-DK04,Coca-Cola Original 6x330ml,Drinks,Branded,4.5,42,30,3
+SAI-DK05,Sainsbury's Still Water 6x500ml,Drinks,Sainsbury's,1.6,48,35,2
+SAI-DK06,Highland Spring Sparkling Water 6x500ml,Drinks,Branded,3.0,28,20,3
+SAI-DK07,Taste the Difference Fairtrade Orange Juice 1L,Drinks,Taste the Difference,2.2,20,14,2
+SAI-DK08,Sainsbury's Apple Juice 1L,Drinks,Sainsbury's,1.3,38,28,2
+SAI-G001,Sainsbury's Long Grain White Rice 1kg,Ambient Grocery,Sainsbury's,1.25,35,25,5
+SAI-G002,Sainsbury's Spaghetti 500g,Ambient Grocery,Sainsbury's,0.9,45,32,5
+SAI-G003,Heinz Baked Beans in Tomato Sauce 415g,Ambient Grocery,Branded,0.9,70,52,5
+SAI-G004,Sainsbury's Chopped Tomatoes 400g,Ambient Grocery,Sainsbury's,0.65,55,40,5
+SAI-G005,Taste the Difference Italian Passata 690g,Ambient Grocery,Taste the Difference,1.35,25,18,5
+SAI-G006,Sainsbury's Plain Flour 1.5kg,Ambient Grocery,Sainsbury's,1.1,30,22,5
+SAI-G007,Kellogg's Cornflakes 500g,Ambient Grocery,Branded,2.75,35,25,5
+SAI-G008,Sainsbury's Porridge Oats 1kg,Ambient Grocery,Sainsbury's,1.2,42,30,5
+SAI-G009,Sainsbury's Baked Beans 4pk x 415g,Ambient Grocery,Sainsbury's,2.25,40,30,5
+SAI-G010,Taste the Difference Crunchy Peanut Butter 280g,Ambient Grocery,Taste the Difference,2.5,18,12,5
+SAI-S001,Walkers Ready Salted Crisps 6pk,Snacks,Branded,2.0,55,40,3
+SAI-S002,Doritos Chilli Heatwave 150g,Snacks,Branded,1.8,45,32,3
+SAI-S003,Sainsbury's Salted Popcorn 100g,Snacks,Sainsbury's,0.85,38,28,4
+SAI-S004,Cadbury Dairy Milk 200g,Snacks,Branded,2.5,60,45,3
+SAI-S005,Taste the Difference 70% Dark Chocolate 100g,Snacks,Taste the Difference,1.75,25,18,3
+SAI-S006,McVitie's Digestive Biscuits 400g,Snacks,Branded,1.5,48,35,4
+SAI-S007,Sainsbury's Houmous 200g,Snacks,Sainsbury's,1.0,42,30,3
+SAI-S008,Pringles Original 200g,Snacks,Branded,2.0,40,28,3
+SAI-F001,Sainsbury's Garden Peas 1kg,Frozen,Sainsbury's,1.25,38,28,5
+SAI-F002,Sainsbury's Oven Chips 1.5kg,Frozen,Sainsbury's,1.45,55,40,5
+SAI-F003,Taste the Difference Stone Baked Margherita 435g,Frozen,Taste the Difference,4.5,20,14,5
+SAI-F004,Sainsbury's Beef Lasagne 400g,Frozen,Sainsbury's,2.75,30,22,5
+SAI-F005,Sainsbury's Vanilla Ice Cream 1L,Frozen,Sainsbury's,2.0,28,20,5
+SAI-F006,Taste the Difference Clotted Cream Ice Cream 1L,Frozen,Taste the Difference,4.0,15,10,5
+SAI-F007,Sainsbury's Fish Fingers 10pk,Frozen,Sainsbury's,2.5,35,25,4
+SAI-H001,Sainsbury's Toilet Tissue 9 Rolls,Household,Sainsbury's,3.5,40,30,5
+SAI-H002,Andrex Gentle Clean Toilet Tissue 9 Rolls,Household,Branded,5.0,30,22,5
+SAI-H003,Sainsbury's Washing Up Liquid 500ml,Household,Sainsbury's,0.89,30,22,7
+SAI-H004,Fairy Platinum Plus Washing Up Liquid 650ml,Household,Branded,2.75,25,18,7
+SAI-H005,Sainsbury's Ibuprofen 200mg 16 Tablets,Health & Beauty,Sainsbury's,1.49,22,16,7
+SAI-H006,Sainsbury's Vitamin D 1000IU 90 Tablets,Health & Beauty,Sainsbury's,3.5,15,10,7

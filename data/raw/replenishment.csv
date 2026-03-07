@@ -1,0 +1,685 @@
+product_id,store_id,order_date,expected_date,units_ordered,units_received,supplier,status
+SAI-D001,SBY-LON-001,2024-10-19,2024-10-20,141,141,Sainsbury's DC Weybridge,received
+SAI-D001,SBY-LON-001,2024-10-23,2024-10-24,154,154,Sainsbury's DC Emerald Park,received
+SAI-D001,SBY-LON-001,2024-11-10,2024-11-11,143,143,Sainsbury's DC Weybridge,received
+SAI-D001,SBY-LON-001,2024-11-22,2024-11-23,164,164,Sainsbury's DC Emerald Park,received
+SAI-D001,SBY-LON-001,2024-11-28,2024-11-29,124,124,Sainsbury's DC Weybridge,received
+SAI-D001,SBY-LON-001,2024-12-06,2024-12-07,209,209,Sainsbury's DC Hams Hall,received
+SAI-D001,SBY-LON-001,2024-12-16,2024-12-17,160,160,Sainsbury's DC Hams Hall,received
+SAI-D001,SBY-LON-001,2024-12-24,2024-12-25,212,212,Sainsbury's DC Weybridge,received
+SAI-D002,SBY-LON-001,2024-10-17,2024-10-18,185,185,Sainsbury's DC Hams Hall,received
+SAI-D002,SBY-LON-001,2024-10-31,2024-11-01,150,150,Sainsbury's DC Hams Hall,received
+SAI-D002,SBY-LON-001,2024-11-09,2024-11-10,141,141,Sainsbury's DC Emerald Park,received
+SAI-D002,SBY-LON-001,2024-11-10,2024-11-11,153,153,Sainsbury's DC Emerald Park,received
+SAI-D002,SBY-LON-001,2024-11-22,2024-11-23,136,136,Sainsbury's DC Hams Hall,received
+SAI-D002,SBY-LON-001,2024-12-11,2024-12-12,110,110,Sainsbury's DC Weybridge,received
+SAI-D003,SBY-LON-001,2024-10-09,2024-10-10,79,79,Sainsbury's DC Hams Hall,received
+SAI-D003,SBY-LON-001,2024-10-14,2024-10-15,65,65,Sainsbury's DC Weybridge,received
+SAI-D003,SBY-LON-001,2024-10-24,2024-10-25,76,76,Sainsbury's DC Hams Hall,received
+SAI-D003,SBY-LON-001,2024-10-30,2024-10-31,85,85,Sainsbury's DC Emerald Park,received
+SAI-D003,SBY-LON-001,2024-11-06,2024-11-07,81,81,Sainsbury's DC Emerald Park,received
+SAI-D003,SBY-LON-001,2024-11-21,2024-11-22,66,66,Sainsbury's DC Hams Hall,received
+SAI-D003,SBY-LON-001,2024-12-05,2024-12-06,102,102,Sainsbury's DC Emerald Park,received
+SAI-D003,SBY-LON-001,2024-12-08,2024-12-09,77,77,Sainsbury's DC Hams Hall,received
+SAI-D003,SBY-LON-001,2024-12-10,2024-12-11,111,111,Sainsbury's DC Hams Hall,received
+SAI-D003,SBY-LON-001,2024-12-18,2024-12-19,116,116,Sainsbury's DC Weybridge,received
+SAI-D003,SBY-LON-001,2024-12-27,2024-12-28,103,103,Sainsbury's DC Hams Hall,received
+SAI-D004,SBY-LON-001,2024-10-15,2024-10-16,88,88,Sainsbury's DC Weybridge,received
+SAI-D004,SBY-LON-001,2024-10-16,2024-10-17,141,141,Sainsbury's DC Hams Hall,received
+SAI-D004,SBY-LON-001,2024-11-29,2024-11-30,135,135,Sainsbury's DC Hams Hall,received
+SAI-D004,SBY-LON-001,2024-12-03,2024-12-04,111,111,Sainsbury's DC Emerald Park,received
+SAI-D004,SBY-LON-001,2024-12-10,2024-12-11,137,137,Sainsbury's DC Emerald Park,received
+SAI-D005,SBY-LON-001,2024-10-14,2024-10-16,35,35,Sainsbury's Premium Suppliers Ltd,received
+SAI-D005,SBY-LON-001,2024-10-20,2024-10-22,50,50,Sainsbury's Premium Suppliers Ltd,received
+SAI-D005,SBY-LON-001,2024-10-26,2024-10-28,43,43,UK Farmhouse Co-op,received
+SAI-D005,SBY-LON-001,2024-10-31,2024-11-02,44,44,Sainsbury's Premium Suppliers Ltd,received
+SAI-D005,SBY-LON-001,2024-11-12,2024-11-14,37,32,Sainsbury's Premium Suppliers Ltd,partial
+SAI-D005,SBY-LON-001,2024-11-24,2024-11-26,56,56,UK Farmhouse Co-op,received
+SAI-D005,SBY-LON-001,2024-11-29,2024-12-01,43,43,UK Farmhouse Co-op,received
+SAI-D005,SBY-LON-001,2024-12-06,2024-12-08,59,59,UK Farmhouse Co-op,received
+SAI-D006,SBY-LON-001,2024-10-18,2024-10-20,63,63,Sainsbury's DC Emerald Park,received
+SAI-D006,SBY-LON-001,2024-10-31,2024-11-02,87,87,Sainsbury's DC Hams Hall,received
+SAI-D006,SBY-LON-001,2024-11-04,2024-11-06,101,101,Sainsbury's DC Hams Hall,received
+SAI-D006,SBY-LON-001,2024-11-08,2024-11-10,77,77,Sainsbury's DC Emerald Park,received
+SAI-D006,SBY-LON-001,2024-11-11,2024-11-13,96,96,Sainsbury's DC Hams Hall,received
+SAI-D006,SBY-LON-001,2024-11-14,2024-11-16,102,102,Sainsbury's DC Emerald Park,received
+SAI-D006,SBY-LON-001,2024-11-24,2024-11-26,97,97,Sainsbury's DC Emerald Park,received
+SAI-D006,SBY-LON-001,2024-11-27,2024-11-29,94,94,Sainsbury's DC Weybridge,received
+SAI-D006,SBY-LON-001,2024-12-07,2024-12-09,106,106,Sainsbury's DC Weybridge,received
+SAI-D006,SBY-LON-001,2024-12-10,2024-12-12,89,89,Sainsbury's DC Hams Hall,received
+SAI-D006,SBY-LON-001,2024-12-20,2024-12-22,99,99,Sainsbury's DC Hams Hall,received
+SAI-D006,SBY-LON-001,2024-12-23,2024-12-25,69,69,Sainsbury's DC Hams Hall,received
+SAI-D007,SBY-LON-001,2024-10-20,2024-10-22,28,28,Sainsbury's Premium Suppliers Ltd,received
+SAI-D007,SBY-LON-001,2024-10-27,2024-10-29,25,25,Sainsbury's Premium Suppliers Ltd,received
+SAI-D007,SBY-LON-001,2024-11-07,2024-11-09,40,40,UK Farmhouse Co-op,received
+SAI-D007,SBY-LON-001,2024-11-17,2024-11-19,45,45,Sainsbury's Premium Suppliers Ltd,received
+SAI-D007,SBY-LON-001,2024-12-16,2024-12-18,27,27,UK Farmhouse Co-op,received
+SAI-D007,SBY-LON-001,2024-12-21,2024-12-23,33,33,Sainsbury's Premium Suppliers Ltd,received
+SAI-D008,SBY-LON-001,2024-10-04,2024-10-07,95,95,Sainsbury's DC Weybridge,received
+SAI-D008,SBY-LON-001,2024-10-23,2024-10-26,70,70,Sainsbury's DC Weybridge,received
+SAI-D008,SBY-LON-001,2024-11-07,2024-11-10,74,74,Sainsbury's DC Weybridge,received
+SAI-D008,SBY-LON-001,2024-11-15,2024-11-18,99,99,Sainsbury's DC Emerald Park,received
+SAI-D008,SBY-LON-001,2024-12-03,2024-12-06,101,101,Sainsbury's DC Hams Hall,received
+SAI-D008,SBY-LON-001,2024-12-14,2024-12-17,75,75,Sainsbury's DC Hams Hall,received
+SAI-D008,SBY-LON-001,2024-12-31,2025-01-03,68,68,Sainsbury's DC Emerald Park,received
+SAI-D009,SBY-LON-001,2024-10-05,2024-10-08,44,44,UK Farmhouse Co-op,received
+SAI-D009,SBY-LON-001,2024-10-12,2024-10-15,38,38,Sainsbury's Premium Suppliers Ltd,received
+SAI-D009,SBY-LON-001,2024-10-16,2024-10-19,34,34,UK Farmhouse Co-op,received
+SAI-D009,SBY-LON-001,2024-10-23,2024-10-26,30,30,UK Farmhouse Co-op,received
+SAI-D009,SBY-LON-001,2024-10-30,2024-11-02,37,37,Sainsbury's Premium Suppliers Ltd,received
+SAI-D009,SBY-LON-001,2024-11-05,2024-11-08,47,47,UK Farmhouse Co-op,received
+SAI-D009,SBY-LON-001,2024-11-23,2024-11-26,55,55,Sainsbury's Premium Suppliers Ltd,received
+SAI-D009,SBY-LON-001,2024-11-30,2024-12-03,34,34,Sainsbury's Premium Suppliers Ltd,received
+SAI-D009,SBY-LON-001,2024-12-23,2024-12-26,48,48,UK Farmhouse Co-op,received
+SAI-D009,SBY-LON-001,2024-12-26,2024-12-29,32,32,Sainsbury's Premium Suppliers Ltd,received
+SAI-D010,SBY-LON-001,2024-10-14,2024-10-16,59,59,Sainsbury's DC Emerald Park,received
+SAI-D010,SBY-LON-001,2024-10-19,2024-10-21,64,64,Sainsbury's DC Weybridge,received
+SAI-D010,SBY-LON-001,2024-10-30,2024-11-01,66,66,Sainsbury's DC Hams Hall,received
+SAI-D010,SBY-LON-001,2024-11-08,2024-11-10,81,81,Sainsbury's DC Hams Hall,received
+SAI-D010,SBY-LON-001,2024-11-24,2024-11-26,54,54,Sainsbury's DC Hams Hall,received
+SAI-D010,SBY-LON-001,2024-12-04,2024-12-06,71,71,Sainsbury's DC Emerald Park,received
+SAI-D010,SBY-LON-001,2024-12-09,2024-12-11,82,82,Sainsbury's DC Emerald Park,received
+SAI-D010,SBY-LON-001,2024-12-16,2024-12-18,81,81,Sainsbury's DC Emerald Park,received
+SAI-D010,SBY-LON-001,2024-12-28,2024-12-30,80,80,Sainsbury's DC Hams Hall,received
+SAI-B001,SBY-LON-001,2024-10-02,2024-10-03,235,204,Sainsbury's DC Hams Hall,partial
+SAI-B001,SBY-LON-001,2024-10-04,2024-10-05,202,202,Sainsbury's DC Hams Hall,received
+SAI-B001,SBY-LON-001,2024-10-05,2024-10-06,170,170,Sainsbury's DC Weybridge,received
+SAI-B001,SBY-LON-001,2024-11-04,2024-11-05,145,145,Sainsbury's DC Hams Hall,received
+SAI-B001,SBY-LON-001,2024-12-16,2024-12-17,278,278,Sainsbury's DC Weybridge,received
+SAI-B001,SBY-LON-001,2024-12-21,2024-12-22,141,141,Sainsbury's DC Hams Hall,received
+SAI-B001,SBY-LON-001,2024-12-30,2024-12-31,166,166,Sainsbury's DC Weybridge,received
+SAI-B002,SBY-LON-001,2024-10-03,2024-10-04,145,145,Sainsbury's DC Emerald Park,received
+SAI-B002,SBY-LON-001,2024-10-19,2024-10-20,141,141,Sainsbury's DC Weybridge,received
+SAI-B002,SBY-LON-001,2024-10-24,2024-10-25,120,120,Sainsbury's DC Weybridge,received
+SAI-B002,SBY-LON-001,2024-10-27,2024-10-28,143,143,Sainsbury's DC Emerald Park,received
+SAI-B002,SBY-LON-001,2024-10-30,2024-10-31,150,150,Sainsbury's DC Hams Hall,received
+SAI-B002,SBY-LON-001,2024-11-04,2024-11-05,167,167,Sainsbury's DC Weybridge,received
+SAI-B002,SBY-LON-001,2024-11-13,2024-11-14,108,108,Sainsbury's DC Emerald Park,received
+SAI-B002,SBY-LON-001,2024-11-15,2024-11-16,137,137,Sainsbury's DC Weybridge,received
+SAI-B002,SBY-LON-001,2024-11-18,2024-11-19,121,121,Sainsbury's DC Hams Hall,received
+SAI-B002,SBY-LON-001,2024-11-22,2024-11-23,130,130,Sainsbury's DC Emerald Park,received
+SAI-B002,SBY-LON-001,2024-11-24,2024-11-25,112,112,Sainsbury's DC Hams Hall,received
+SAI-B002,SBY-LON-001,2024-12-14,2024-12-15,121,121,Sainsbury's DC Hams Hall,received
+SAI-B002,SBY-LON-001,2024-12-26,2024-12-27,131,131,Sainsbury's DC Hams Hall,received
+SAI-B003,SBY-LON-001,2024-10-13,2024-10-14,57,57,UK Farmhouse Co-op,received
+SAI-B003,SBY-LON-001,2024-10-30,2024-10-31,59,59,Sainsbury's Premium Suppliers Ltd,received
+SAI-B003,SBY-LON-001,2024-11-15,2024-11-16,72,72,Sainsbury's Premium Suppliers Ltd,received
+SAI-B003,SBY-LON-001,2024-12-03,2024-12-04,80,80,UK Farmhouse Co-op,received
+SAI-B003,SBY-LON-001,2024-12-20,2024-12-21,70,70,UK Farmhouse Co-op,received
+SAI-B003,SBY-LON-001,2024-12-25,2024-12-26,87,87,Sainsbury's Premium Suppliers Ltd,received
+SAI-B004,SBY-LON-001,2024-10-29,2024-10-30,105,105,Sainsbury's DC Emerald Park,received
+SAI-B004,SBY-LON-001,2024-11-11,2024-11-12,78,78,Sainsbury's DC Hams Hall,received
+SAI-B004,SBY-LON-001,2024-11-17,2024-11-18,101,101,Sainsbury's DC Emerald Park,received
+SAI-B004,SBY-LON-001,2024-11-21,2024-11-22,111,111,Sainsbury's DC Weybridge,received
+SAI-B004,SBY-LON-001,2024-11-28,2024-11-29,95,95,Sainsbury's DC Emerald Park,received
+SAI-B005,SBY-LON-001,2024-10-18,2024-10-19,61,61,Sainsbury's Premium Suppliers Ltd,received
+SAI-B005,SBY-LON-001,2024-11-02,2024-11-03,53,53,Sainsbury's Premium Suppliers Ltd,received
+SAI-B005,SBY-LON-001,2024-11-07,2024-11-08,44,44,UK Farmhouse Co-op,received
+SAI-B005,SBY-LON-001,2024-11-15,2024-11-16,37,37,Sainsbury's Premium Suppliers Ltd,received
+SAI-B005,SBY-LON-001,2024-12-08,2024-12-09,64,64,UK Farmhouse Co-op,received
+SAI-B005,SBY-LON-001,2024-12-19,2024-12-20,67,67,Sainsbury's Premium Suppliers Ltd,received
+SAI-B005,SBY-LON-001,2024-12-24,2024-12-25,57,57,Sainsbury's Premium Suppliers Ltd,received
+SAI-B006,SBY-LON-001,2024-10-09,2024-10-10,79,79,Sainsbury's DC Weybridge,received
+SAI-B006,SBY-LON-001,2024-10-22,2024-10-23,63,63,Sainsbury's DC Emerald Park,received
+SAI-B006,SBY-LON-001,2024-10-23,2024-10-24,68,68,Sainsbury's DC Emerald Park,received
+SAI-B006,SBY-LON-001,2024-10-26,2024-10-27,43,43,Sainsbury's DC Weybridge,received
+SAI-B006,SBY-LON-001,2024-10-30,2024-10-31,57,50,Sainsbury's DC Emerald Park,partial
+SAI-B006,SBY-LON-001,2024-11-01,2024-11-02,48,48,Sainsbury's DC Emerald Park,received
+SAI-B006,SBY-LON-001,2024-11-03,2024-11-04,44,44,Sainsbury's DC Emerald Park,received
+SAI-B006,SBY-LON-001,2024-11-10,2024-11-11,72,72,Sainsbury's DC Emerald Park,received
+SAI-B006,SBY-LON-001,2024-11-12,2024-11-13,75,75,Sainsbury's DC Weybridge,received
+SAI-B006,SBY-LON-001,2024-11-30,2024-12-01,61,61,Sainsbury's DC Hams Hall,received
+SAI-B006,SBY-LON-001,2024-12-12,2024-12-13,68,68,Sainsbury's DC Emerald Park,received
+SAI-B006,SBY-LON-001,2024-12-31,2025-01-01,69,69,Sainsbury's DC Emerald Park,received
+SAI-B007,SBY-LON-001,2024-10-03,2024-10-04,57,51,Sainsbury's DC Weybridge,partial
+SAI-B007,SBY-LON-001,2024-10-06,2024-10-07,56,56,Sainsbury's DC Emerald Park,received
+SAI-B007,SBY-LON-001,2024-10-13,2024-10-14,59,59,Sainsbury's DC Weybridge,received
+SAI-B007,SBY-LON-001,2024-10-28,2024-10-29,85,85,Sainsbury's DC Emerald Park,received
+SAI-B007,SBY-LON-001,2024-10-31,2024-11-01,76,76,Sainsbury's DC Weybridge,received
+SAI-B007,SBY-LON-001,2024-11-03,2024-11-04,84,84,Sainsbury's DC Emerald Park,received
+SAI-B007,SBY-LON-001,2024-11-10,2024-11-11,55,55,Sainsbury's DC Emerald Park,received
+SAI-B007,SBY-LON-001,2024-11-14,2024-11-15,73,73,Sainsbury's DC Hams Hall,received
+SAI-B007,SBY-LON-001,2024-11-27,2024-11-28,96,96,Sainsbury's DC Hams Hall,received
+SAI-B007,SBY-LON-001,2024-12-09,2024-12-10,70,70,Sainsbury's DC Emerald Park,received
+SAI-B007,SBY-LON-001,2024-12-10,2024-12-11,92,87,Sainsbury's DC Weybridge,partial
+SAI-B007,SBY-LON-001,2024-12-22,2024-12-23,72,72,Sainsbury's DC Hams Hall,received
+SAI-B007,SBY-LON-001,2024-12-28,2024-12-29,56,56,Sainsbury's DC Emerald Park,received
+SAI-M001,SBY-LON-001,2024-10-14,2024-10-16,77,77,Cranswick PLC,received
+SAI-M001,SBY-LON-001,2024-11-20,2024-11-22,86,86,ABP Food Group,received
+SAI-M001,SBY-LON-001,2024-11-30,2024-12-02,100,100,Morrisons Wholesale,received
+SAI-M001,SBY-LON-001,2024-12-11,2024-12-13,83,83,ABP Food Group,received
+SAI-M001,SBY-LON-001,2024-12-24,2024-12-26,100,100,Morrisons Wholesale,received
+SAI-M001,SBY-LON-001,2024-12-26,2024-12-28,119,119,Cranswick PLC,received
+SAI-M002,SBY-LON-001,2024-10-07,2024-10-09,31,31,UK Farmhouse Co-op,received
+SAI-M002,SBY-LON-001,2024-10-26,2024-10-28,35,35,Sainsbury's Premium Suppliers Ltd,received
+SAI-M002,SBY-LON-001,2024-11-01,2024-11-03,35,35,Sainsbury's Premium Suppliers Ltd,received
+SAI-M002,SBY-LON-001,2024-11-10,2024-11-12,42,42,UK Farmhouse Co-op,received
+SAI-M002,SBY-LON-001,2024-11-19,2024-11-21,32,30,Sainsbury's Premium Suppliers Ltd,partial
+SAI-M002,SBY-LON-001,2024-12-05,2024-12-07,42,42,UK Farmhouse Co-op,received
+SAI-M002,SBY-LON-001,2024-12-12,2024-12-14,42,42,UK Farmhouse Co-op,received
+SAI-M002,SBY-LON-001,2024-12-25,2024-12-27,31,31,Sainsbury's Premium Suppliers Ltd,received
+SAI-M003,SBY-LON-001,2024-10-09,2024-10-11,98,98,Cranswick PLC,received
+SAI-M003,SBY-LON-001,2024-10-12,2024-10-14,70,70,Morrisons Wholesale,received
+SAI-M003,SBY-LON-001,2024-10-29,2024-10-31,94,94,Cranswick PLC,received
+SAI-M003,SBY-LON-001,2024-11-02,2024-11-04,104,99,Cranswick PLC,partial
+SAI-M003,SBY-LON-001,2024-11-04,2024-11-06,77,77,Cranswick PLC,received
+SAI-M003,SBY-LON-001,2024-11-08,2024-11-10,102,102,Cranswick PLC,received
+SAI-M003,SBY-LON-001,2024-11-29,2024-12-01,79,79,Morrisons Wholesale,received
+SAI-M003,SBY-LON-001,2024-12-06,2024-12-08,75,75,Morrisons Wholesale,received
+SAI-M003,SBY-LON-001,2024-12-16,2024-12-18,89,89,Cranswick PLC,received
+SAI-M003,SBY-LON-001,2024-12-18,2024-12-20,93,93,ABP Food Group,received
+SAI-M004,SBY-LON-001,2024-10-05,2024-10-07,55,55,UK Farmhouse Co-op,received
+SAI-M004,SBY-LON-001,2024-10-27,2024-10-29,32,32,UK Farmhouse Co-op,received
+SAI-M004,SBY-LON-001,2024-11-02,2024-11-04,45,45,Sainsbury's Premium Suppliers Ltd,received
+SAI-M004,SBY-LON-001,2024-11-07,2024-11-09,54,50,UK Farmhouse Co-op,partial
+SAI-M004,SBY-LON-001,2024-11-17,2024-11-19,52,52,UK Farmhouse Co-op,received
+SAI-M004,SBY-LON-001,2024-11-22,2024-11-24,55,55,Sainsbury's Premium Suppliers Ltd,received
+SAI-M004,SBY-LON-001,2024-12-21,2024-12-23,29,29,UK Farmhouse Co-op,received
+SAI-M004,SBY-LON-001,2024-12-23,2024-12-25,31,31,UK Farmhouse Co-op,received
+SAI-M004,SBY-LON-001,2024-12-26,2024-12-28,54,54,UK Farmhouse Co-op,received
+SAI-M005,SBY-LON-001,2024-10-03,2024-10-05,58,58,Morrisons Wholesale,received
+SAI-M005,SBY-LON-001,2024-10-15,2024-10-17,98,98,Morrisons Wholesale,received
+SAI-M005,SBY-LON-001,2024-10-19,2024-10-21,91,91,Morrisons Wholesale,received
+SAI-M005,SBY-LON-001,2024-10-21,2024-10-23,107,107,Morrisons Wholesale,received
+SAI-M005,SBY-LON-001,2024-10-31,2024-11-02,80,80,Morrisons Wholesale,received
+SAI-M005,SBY-LON-001,2024-11-15,2024-11-17,88,88,Morrisons Wholesale,received
+SAI-M005,SBY-LON-001,2024-11-24,2024-11-26,93,93,Morrisons Wholesale,received
+SAI-M005,SBY-LON-001,2024-12-05,2024-12-07,109,109,ABP Food Group,received
+SAI-M005,SBY-LON-001,2024-12-12,2024-12-14,111,111,Morrisons Wholesale,received
+SAI-M005,SBY-LON-001,2024-12-15,2024-12-17,57,57,Morrisons Wholesale,received
+SAI-M005,SBY-LON-001,2024-12-27,2024-12-29,81,81,Cranswick PLC,received
+SAI-M005,SBY-LON-001,2024-12-31,2025-01-02,84,84,ABP Food Group,received
+SAI-M006,SBY-LON-001,2024-10-03,2024-10-05,32,32,UK Farmhouse Co-op,received
+SAI-M006,SBY-LON-001,2024-10-17,2024-10-19,37,37,Sainsbury's Premium Suppliers Ltd,received
+SAI-M006,SBY-LON-001,2024-10-30,2024-11-01,55,55,UK Farmhouse Co-op,received
+SAI-M006,SBY-LON-001,2024-11-18,2024-11-20,53,53,UK Farmhouse Co-op,received
+SAI-M006,SBY-LON-001,2024-11-28,2024-11-30,36,31,Sainsbury's Premium Suppliers Ltd,partial
+SAI-M006,SBY-LON-001,2024-12-02,2024-12-04,51,51,UK Farmhouse Co-op,received
+SAI-M006,SBY-LON-001,2024-12-06,2024-12-08,40,40,Sainsbury's Premium Suppliers Ltd,received
+SAI-M006,SBY-LON-001,2024-12-11,2024-12-13,46,46,Sainsbury's Premium Suppliers Ltd,received
+SAI-M006,SBY-LON-001,2024-12-15,2024-12-17,59,59,Sainsbury's Premium Suppliers Ltd,received
+SAI-M006,SBY-LON-001,2024-12-27,2024-12-29,53,53,UK Farmhouse Co-op,received
+SAI-M006,SBY-LON-001,2024-12-31,2025-01-02,54,54,Sainsbury's Premium Suppliers Ltd,received
+SAI-M007,SBY-LON-001,2024-10-25,2024-10-27,52,50,Morrisons Wholesale,partial
+SAI-M007,SBY-LON-001,2024-11-15,2024-11-17,80,80,Cranswick PLC,received
+SAI-M007,SBY-LON-001,2024-11-17,2024-11-19,64,64,Cranswick PLC,received
+SAI-M007,SBY-LON-001,2024-12-16,2024-12-18,90,90,ABP Food Group,received
+SAI-M007,SBY-LON-001,2024-12-27,2024-12-29,57,57,Morrisons Wholesale,received
+SAI-M008,SBY-LON-001,2024-10-02,2024-10-04,47,47,Morrisons Wholesale,received
+SAI-M008,SBY-LON-001,2024-10-27,2024-10-29,53,53,ABP Food Group,received
+SAI-M008,SBY-LON-001,2024-10-30,2024-11-01,52,52,Morrisons Wholesale,received
+SAI-M008,SBY-LON-001,2024-11-04,2024-11-06,53,53,ABP Food Group,received
+SAI-M008,SBY-LON-001,2024-11-19,2024-11-21,38,38,ABP Food Group,received
+SAI-M008,SBY-LON-001,2024-11-22,2024-11-24,70,70,Morrisons Wholesale,received
+SAI-M008,SBY-LON-001,2024-12-08,2024-12-10,43,43,Cranswick PLC,received
+SAI-M008,SBY-LON-001,2024-12-12,2024-12-14,67,67,Morrisons Wholesale,received
+SAI-M009,SBY-LON-001,2024-10-15,2024-10-17,31,31,Sainsbury's Premium Suppliers Ltd,received
+SAI-M009,SBY-LON-001,2024-10-22,2024-10-24,28,28,Sainsbury's Premium Suppliers Ltd,received
+SAI-M009,SBY-LON-001,2024-11-22,2024-11-24,24,24,Sainsbury's Premium Suppliers Ltd,received
+SAI-M009,SBY-LON-001,2024-12-04,2024-12-06,27,27,Sainsbury's Premium Suppliers Ltd,received
+SAI-M009,SBY-LON-001,2024-12-14,2024-12-16,24,24,UK Farmhouse Co-op,received
+SAI-M009,SBY-LON-001,2024-12-18,2024-12-20,36,36,Sainsbury's Premium Suppliers Ltd,received
+SAI-M010,SBY-LON-001,2024-10-06,2024-10-09,37,37,Cranswick PLC,received
+SAI-M010,SBY-LON-001,2024-10-12,2024-10-15,51,51,ABP Food Group,received
+SAI-M010,SBY-LON-001,2024-10-19,2024-10-22,35,34,ABP Food Group,partial
+SAI-M010,SBY-LON-001,2024-11-03,2024-11-06,32,32,ABP Food Group,received
+SAI-M010,SBY-LON-001,2024-11-09,2024-11-12,47,47,Morrisons Wholesale,received
+SAI-M010,SBY-LON-001,2024-11-12,2024-11-15,51,51,Morrisons Wholesale,received
+SAI-M010,SBY-LON-001,2024-11-16,2024-11-19,49,49,Morrisons Wholesale,received
+SAI-M010,SBY-LON-001,2024-11-25,2024-11-28,31,31,ABP Food Group,received
+SAI-M010,SBY-LON-001,2024-12-03,2024-12-06,45,45,Morrisons Wholesale,received
+SAI-M010,SBY-LON-001,2024-12-08,2024-12-11,47,47,Morrisons Wholesale,received
+SAI-M010,SBY-LON-001,2024-12-20,2024-12-23,54,54,Morrisons Wholesale,received
+SAI-M010,SBY-LON-001,2024-12-27,2024-12-30,39,39,Cranswick PLC,received
+SAI-P001,SBY-LON-001,2024-10-05,2024-10-06,272,272,Fresca Group,received
+SAI-P001,SBY-LON-001,2024-10-11,2024-10-12,236,236,Fresca Group,received
+SAI-P001,SBY-LON-001,2024-10-17,2024-10-18,161,161,G's Fresh,received
+SAI-P001,SBY-LON-001,2024-11-03,2024-11-04,194,170,Berry World,partial
+SAI-P001,SBY-LON-001,2024-11-12,2024-11-13,318,318,G's Fresh,received
+SAI-P001,SBY-LON-001,2024-11-24,2024-11-25,284,284,Fresca Group,received
+SAI-P001,SBY-LON-001,2024-11-30,2024-12-01,184,184,Fresca Group,received
+SAI-P001,SBY-LON-001,2024-12-08,2024-12-09,265,265,G's Fresh,received
+SAI-P001,SBY-LON-001,2024-12-10,2024-12-11,296,279,Berry World,partial
+SAI-P001,SBY-LON-001,2024-12-13,2024-12-14,267,267,G's Fresh,received
+SAI-P001,SBY-LON-001,2024-12-21,2024-12-22,275,275,G's Fresh,received
+SAI-P001,SBY-LON-001,2024-12-24,2024-12-25,301,301,G's Fresh,received
+SAI-P001,SBY-LON-001,2024-12-29,2024-12-30,190,190,G's Fresh,received
+SAI-P002,SBY-LON-001,2024-10-09,2024-10-10,112,112,G's Fresh,received
+SAI-P002,SBY-LON-001,2024-10-21,2024-10-22,117,117,Fresca Group,received
+SAI-P002,SBY-LON-001,2024-10-30,2024-10-31,99,99,Berry World,received
+SAI-P002,SBY-LON-001,2024-11-11,2024-11-12,105,105,G's Fresh,received
+SAI-P002,SBY-LON-001,2024-11-17,2024-11-18,97,90,G's Fresh,partial
+SAI-P002,SBY-LON-001,2024-12-12,2024-12-13,94,94,Fresca Group,received
+SAI-P003,SBY-LON-001,2024-10-08,2024-10-09,97,97,Fresca Group,received
+SAI-P003,SBY-LON-001,2024-11-04,2024-11-05,89,89,Fresca Group,received
+SAI-P003,SBY-LON-001,2024-11-13,2024-11-14,122,122,Berry World,received
+SAI-P003,SBY-LON-001,2024-11-15,2024-11-16,91,91,Fresca Group,received
+SAI-P003,SBY-LON-001,2024-11-24,2024-11-25,108,108,G's Fresh,received
+SAI-P003,SBY-LON-001,2024-12-19,2024-12-20,135,135,Fresca Group,received
+SAI-P004,SBY-LON-001,2024-10-05,2024-10-06,90,90,G's Fresh,received
+SAI-P004,SBY-LON-001,2024-10-09,2024-10-10,85,73,Berry World,partial
+SAI-P004,SBY-LON-001,2024-10-13,2024-10-14,96,96,Fresca Group,received
+SAI-P004,SBY-LON-001,2024-10-17,2024-10-18,95,95,G's Fresh,received
+SAI-P004,SBY-LON-001,2024-10-18,2024-10-19,113,113,Berry World,received
+SAI-P004,SBY-LON-001,2024-10-31,2024-11-01,87,87,G's Fresh,received
+SAI-P004,SBY-LON-001,2024-11-09,2024-11-10,111,111,G's Fresh,received
+SAI-P004,SBY-LON-001,2024-11-15,2024-11-16,84,84,Berry World,received
+SAI-P004,SBY-LON-001,2024-11-29,2024-11-30,84,84,G's Fresh,received
+SAI-P004,SBY-LON-001,2024-12-07,2024-12-08,111,111,Fresca Group,received
+SAI-P004,SBY-LON-001,2024-12-09,2024-12-10,119,119,Fresca Group,received
+SAI-P004,SBY-LON-001,2024-12-13,2024-12-14,76,76,G's Fresh,received
+SAI-P004,SBY-LON-001,2024-12-18,2024-12-19,86,86,Berry World,received
+SAI-P004,SBY-LON-001,2024-12-27,2024-12-28,77,69,G's Fresh,partial
+SAI-P005,SBY-LON-001,2024-10-02,2024-10-04,109,109,G's Fresh,received
+SAI-P005,SBY-LON-001,2024-10-11,2024-10-13,102,102,Fresca Group,received
+SAI-P005,SBY-LON-001,2024-10-15,2024-10-17,119,119,Berry World,received
+SAI-P005,SBY-LON-001,2024-11-01,2024-11-03,97,97,G's Fresh,received
+SAI-P005,SBY-LON-001,2024-11-04,2024-11-06,129,129,G's Fresh,received
+SAI-P005,SBY-LON-001,2024-11-17,2024-11-19,127,127,Berry World,received
+SAI-P005,SBY-LON-001,2024-11-22,2024-11-24,91,91,Fresca Group,received
+SAI-P005,SBY-LON-001,2024-12-10,2024-12-12,83,83,Berry World,received
+SAI-P005,SBY-LON-001,2024-12-19,2024-12-21,136,136,Fresca Group,received
+SAI-P005,SBY-LON-001,2024-12-23,2024-12-25,99,99,Fresca Group,received
+SAI-P005,SBY-LON-001,2024-12-29,2024-12-31,82,82,Fresca Group,received
+SAI-P006,SBY-LON-001,2024-10-04,2024-10-05,90,90,Fresca Group,received
+SAI-P006,SBY-LON-001,2024-10-05,2024-10-06,75,75,Fresca Group,received
+SAI-P006,SBY-LON-001,2024-10-29,2024-10-30,68,68,Berry World,received
+SAI-P006,SBY-LON-001,2024-11-03,2024-11-04,107,107,Fresca Group,received
+SAI-P006,SBY-LON-001,2024-11-04,2024-11-05,76,76,Berry World,received
+SAI-P006,SBY-LON-001,2024-11-08,2024-11-09,107,107,Berry World,received
+SAI-P006,SBY-LON-001,2024-11-11,2024-11-12,100,100,G's Fresh,received
+SAI-P006,SBY-LON-001,2024-11-18,2024-11-19,95,95,G's Fresh,received
+SAI-P006,SBY-LON-001,2024-11-24,2024-11-25,57,57,Berry World,received
+SAI-P006,SBY-LON-001,2024-12-02,2024-12-03,75,75,G's Fresh,received
+SAI-P006,SBY-LON-001,2024-12-05,2024-12-06,79,79,Berry World,received
+SAI-P006,SBY-LON-001,2024-12-29,2024-12-30,94,94,Berry World,received
+SAI-P007,SBY-LON-001,2024-10-08,2024-10-10,191,191,Berry World,received
+SAI-P007,SBY-LON-001,2024-10-10,2024-10-12,122,122,Fresca Group,received
+SAI-P007,SBY-LON-001,2024-10-15,2024-10-17,107,107,Fresca Group,received
+SAI-P007,SBY-LON-001,2024-10-18,2024-10-20,137,137,Berry World,received
+SAI-P007,SBY-LON-001,2024-11-02,2024-11-04,174,174,Fresca Group,received
+SAI-P007,SBY-LON-001,2024-11-17,2024-11-19,175,175,Fresca Group,received
+SAI-P007,SBY-LON-001,2024-11-27,2024-11-29,159,159,G's Fresh,received
+SAI-P007,SBY-LON-001,2024-12-02,2024-12-04,96,96,Berry World,received
+SAI-P007,SBY-LON-001,2024-12-05,2024-12-07,191,191,G's Fresh,received
+SAI-P007,SBY-LON-001,2024-12-09,2024-12-11,180,180,G's Fresh,received
+SAI-P007,SBY-LON-001,2024-12-11,2024-12-13,166,166,Fresca Group,received
+SAI-P007,SBY-LON-001,2024-12-13,2024-12-15,130,130,G's Fresh,received
+SAI-P007,SBY-LON-001,2024-12-16,2024-12-18,116,116,Berry World,received
+SAI-P007,SBY-LON-001,2024-12-22,2024-12-24,96,96,G's Fresh,received
+SAI-P008,SBY-LON-001,2024-10-11,2024-10-13,83,83,UK Farmhouse Co-op,received
+SAI-P008,SBY-LON-001,2024-10-24,2024-10-26,84,84,Sainsbury's Premium Suppliers Ltd,received
+SAI-P008,SBY-LON-001,2024-11-01,2024-11-03,76,76,Sainsbury's Premium Suppliers Ltd,received
+SAI-P008,SBY-LON-001,2024-11-08,2024-11-10,45,45,UK Farmhouse Co-op,received
+SAI-P008,SBY-LON-001,2024-11-22,2024-11-24,80,80,UK Farmhouse Co-op,received
+SAI-P008,SBY-LON-001,2024-12-06,2024-12-08,67,67,Sainsbury's Premium Suppliers Ltd,received
+SAI-P008,SBY-LON-001,2024-12-13,2024-12-15,64,64,UK Farmhouse Co-op,received
+SAI-P008,SBY-LON-001,2024-12-17,2024-12-19,53,53,Sainsbury's Premium Suppliers Ltd,received
+SAI-P009,SBY-LON-001,2024-10-04,2024-10-05,130,130,G's Fresh,received
+SAI-P009,SBY-LON-001,2024-10-26,2024-10-27,134,134,Fresca Group,received
+SAI-P009,SBY-LON-001,2024-10-27,2024-10-28,100,100,G's Fresh,received
+SAI-P009,SBY-LON-001,2024-11-08,2024-11-09,133,133,Fresca Group,received
+SAI-P009,SBY-LON-001,2024-11-18,2024-11-19,122,122,G's Fresh,received
+SAI-P009,SBY-LON-001,2024-11-26,2024-11-27,136,136,G's Fresh,received
+SAI-P009,SBY-LON-001,2024-11-27,2024-11-28,120,120,Fresca Group,received
+SAI-P009,SBY-LON-001,2024-12-17,2024-12-18,130,130,Fresca Group,received
+SAI-P009,SBY-LON-001,2024-12-24,2024-12-25,136,136,G's Fresh,received
+SAI-P009,SBY-LON-001,2024-12-29,2024-12-30,102,102,Fresca Group,received
+SAI-P010,SBY-LON-001,2024-10-12,2024-10-13,96,96,Berry World,received
+SAI-P010,SBY-LON-001,2024-10-23,2024-10-24,81,81,Fresca Group,received
+SAI-P010,SBY-LON-001,2024-11-04,2024-11-05,74,74,Fresca Group,received
+SAI-P010,SBY-LON-001,2024-11-08,2024-11-09,51,51,Fresca Group,received
+SAI-P010,SBY-LON-001,2024-11-15,2024-11-16,65,65,Berry World,received
+SAI-P010,SBY-LON-001,2024-11-23,2024-11-24,91,91,Berry World,received
+SAI-P010,SBY-LON-001,2024-12-01,2024-12-02,54,54,G's Fresh,received
+SAI-DK01,SBY-LON-001,2024-10-10,2024-10-12,120,120,Sainsbury's DC Weybridge,received
+SAI-DK01,SBY-LON-001,2024-10-19,2024-10-21,128,128,Sainsbury's DC Hams Hall,received
+SAI-DK01,SBY-LON-001,2024-10-27,2024-10-29,130,130,Sainsbury's DC Hams Hall,received
+SAI-DK01,SBY-LON-001,2024-11-07,2024-11-09,103,103,Sainsbury's DC Hams Hall,received
+SAI-DK01,SBY-LON-001,2024-11-13,2024-11-15,127,127,Sainsbury's DC Hams Hall,received
+SAI-DK01,SBY-LON-001,2024-11-27,2024-11-29,135,135,Sainsbury's DC Hams Hall,received
+SAI-DK01,SBY-LON-001,2024-12-12,2024-12-14,115,115,Sainsbury's DC Weybridge,received
+SAI-DK01,SBY-LON-001,2024-12-16,2024-12-18,97,97,Sainsbury's DC Emerald Park,received
+SAI-DK01,SBY-LON-001,2024-12-28,2024-12-30,93,93,Sainsbury's DC Hams Hall,received
+SAI-DK02,SBY-LON-001,2024-10-10,2024-10-13,45,45,Sainsbury's DC Hams Hall,received
+SAI-DK02,SBY-LON-001,2024-10-13,2024-10-16,83,83,Sainsbury's DC Emerald Park,received
+SAI-DK02,SBY-LON-001,2024-11-01,2024-11-04,52,52,Sainsbury's DC Hams Hall,received
+SAI-DK02,SBY-LON-001,2024-11-06,2024-11-09,85,85,Sainsbury's DC Emerald Park,received
+SAI-DK02,SBY-LON-001,2024-11-24,2024-11-27,72,72,Sainsbury's DC Emerald Park,received
+SAI-DK02,SBY-LON-001,2024-11-28,2024-12-01,72,72,Sainsbury's DC Hams Hall,received
+SAI-DK02,SBY-LON-001,2024-12-04,2024-12-07,85,85,Sainsbury's DC Hams Hall,received
+SAI-DK02,SBY-LON-001,2024-12-14,2024-12-17,79,79,Sainsbury's DC Hams Hall,received
+SAI-DK02,SBY-LON-001,2024-12-21,2024-12-24,71,71,Sainsbury's DC Hams Hall,received
+SAI-DK02,SBY-LON-001,2024-12-26,2024-12-29,86,86,Sainsbury's DC Weybridge,received
+SAI-DK03,SBY-LON-001,2024-10-03,2024-10-05,140,140,Sainsbury's DC Weybridge,received
+SAI-DK03,SBY-LON-001,2024-10-07,2024-10-09,133,133,Sainsbury's DC Hams Hall,received
+SAI-DK03,SBY-LON-001,2024-10-25,2024-10-27,162,162,Sainsbury's DC Weybridge,received
+SAI-DK03,SBY-LON-001,2024-10-30,2024-11-01,94,94,Sainsbury's DC Emerald Park,received
+SAI-DK03,SBY-LON-001,2024-11-03,2024-11-05,175,175,Sainsbury's DC Weybridge,received
+SAI-DK03,SBY-LON-001,2024-11-10,2024-11-12,150,150,Sainsbury's DC Emerald Park,received
+SAI-DK03,SBY-LON-001,2024-11-16,2024-11-18,154,154,Sainsbury's DC Weybridge,received
+SAI-DK03,SBY-LON-001,2024-11-24,2024-11-26,130,130,Sainsbury's DC Hams Hall,received
+SAI-DK03,SBY-LON-001,2024-11-27,2024-11-29,158,158,Sainsbury's DC Hams Hall,received
+SAI-DK03,SBY-LON-001,2024-12-18,2024-12-20,107,107,Sainsbury's DC Weybridge,received
+SAI-DK03,SBY-LON-001,2024-12-24,2024-12-26,139,139,Sainsbury's DC Weybridge,received
+SAI-DK04,SBY-LON-001,2024-10-03,2024-10-06,85,85,Sainsbury's DC Weybridge,received
+SAI-DK04,SBY-LON-001,2024-10-13,2024-10-16,107,107,Sainsbury's DC Emerald Park,received
+SAI-DK04,SBY-LON-001,2024-10-30,2024-11-02,72,72,Sainsbury's DC Hams Hall,received
+SAI-DK04,SBY-LON-001,2024-11-10,2024-11-13,98,98,Sainsbury's DC Hams Hall,received
+SAI-DK04,SBY-LON-001,2024-11-17,2024-11-20,90,90,Sainsbury's DC Hams Hall,received
+SAI-DK04,SBY-LON-001,2024-11-21,2024-11-24,107,107,Sainsbury's DC Emerald Park,received
+SAI-DK04,SBY-LON-001,2024-11-25,2024-11-28,73,73,Sainsbury's DC Hams Hall,received
+SAI-DK04,SBY-LON-001,2024-12-04,2024-12-07,68,68,Sainsbury's DC Emerald Park,received
+SAI-DK04,SBY-LON-001,2024-12-12,2024-12-15,88,88,Sainsbury's DC Emerald Park,received
+SAI-DK04,SBY-LON-001,2024-12-15,2024-12-18,109,109,Sainsbury's DC Emerald Park,received
+SAI-DK05,SBY-LON-001,2024-10-07,2024-10-09,133,133,Sainsbury's DC Hams Hall,received
+SAI-DK05,SBY-LON-001,2024-10-15,2024-10-17,136,136,Sainsbury's DC Weybridge,received
+SAI-DK05,SBY-LON-001,2024-11-12,2024-11-14,83,83,Sainsbury's DC Hams Hall,received
+SAI-DK05,SBY-LON-001,2024-11-21,2024-11-23,139,139,Sainsbury's DC Emerald Park,received
+SAI-DK05,SBY-LON-001,2024-11-26,2024-11-28,95,95,Sainsbury's DC Hams Hall,received
+SAI-DK05,SBY-LON-001,2024-12-16,2024-12-18,86,86,Sainsbury's DC Hams Hall,received
+SAI-DK05,SBY-LON-001,2024-12-27,2024-12-29,95,95,Sainsbury's DC Emerald Park,received
+SAI-DK06,SBY-LON-001,2024-10-18,2024-10-21,48,48,Sainsbury's DC Hams Hall,received
+SAI-DK06,SBY-LON-001,2024-10-22,2024-10-25,53,53,Sainsbury's DC Emerald Park,received
+SAI-DK06,SBY-LON-001,2024-11-09,2024-11-12,65,65,Sainsbury's DC Hams Hall,received
+SAI-DK06,SBY-LON-001,2024-11-16,2024-11-19,77,69,Sainsbury's DC Weybridge,partial
+SAI-DK06,SBY-LON-001,2024-11-23,2024-11-26,42,42,Sainsbury's DC Weybridge,received
+SAI-DK06,SBY-LON-001,2024-11-27,2024-11-30,68,68,Sainsbury's DC Emerald Park,received
+SAI-DK06,SBY-LON-001,2024-11-30,2024-12-03,45,42,Sainsbury's DC Hams Hall,partial
+SAI-DK06,SBY-LON-001,2024-12-22,2024-12-25,56,56,Sainsbury's DC Weybridge,received
+SAI-DK06,SBY-LON-001,2024-12-31,2025-01-03,71,71,Sainsbury's DC Emerald Park,received
+SAI-DK07,SBY-LON-001,2024-10-05,2024-10-07,41,41,UK Farmhouse Co-op,received
+SAI-DK07,SBY-LON-001,2024-10-12,2024-10-14,55,52,Sainsbury's Premium Suppliers Ltd,partial
+SAI-DK07,SBY-LON-001,2024-10-28,2024-10-30,38,38,UK Farmhouse Co-op,received
+SAI-DK07,SBY-LON-001,2024-11-03,2024-11-05,44,44,UK Farmhouse Co-op,received
+SAI-DK07,SBY-LON-001,2024-11-09,2024-11-11,43,43,Sainsbury's Premium Suppliers Ltd,received
+SAI-DK07,SBY-LON-001,2024-11-15,2024-11-17,54,54,UK Farmhouse Co-op,received
+SAI-DK07,SBY-LON-001,2024-11-21,2024-11-23,55,55,Sainsbury's Premium Suppliers Ltd,received
+SAI-DK07,SBY-LON-001,2024-11-28,2024-11-30,31,31,UK Farmhouse Co-op,received
+SAI-DK07,SBY-LON-001,2024-12-01,2024-12-03,30,27,Sainsbury's Premium Suppliers Ltd,partial
+SAI-DK07,SBY-LON-001,2024-12-22,2024-12-24,36,36,Sainsbury's Premium Suppliers Ltd,received
+SAI-DK07,SBY-LON-001,2024-12-25,2024-12-27,31,31,UK Farmhouse Co-op,received
+SAI-DK07,SBY-LON-001,2024-12-28,2024-12-30,50,50,UK Farmhouse Co-op,received
+SAI-DK08,SBY-LON-001,2024-10-07,2024-10-09,68,68,Sainsbury's DC Hams Hall,received
+SAI-DK08,SBY-LON-001,2024-10-15,2024-10-17,62,62,Sainsbury's DC Weybridge,received
+SAI-DK08,SBY-LON-001,2024-10-25,2024-10-27,101,101,Sainsbury's DC Weybridge,received
+SAI-DK08,SBY-LON-001,2024-11-10,2024-11-12,99,99,Sainsbury's DC Emerald Park,received
+SAI-DK08,SBY-LON-001,2024-11-13,2024-11-15,62,62,Sainsbury's DC Weybridge,received
+SAI-DK08,SBY-LON-001,2024-11-16,2024-11-18,80,80,Sainsbury's DC Emerald Park,received
+SAI-DK08,SBY-LON-001,2024-11-19,2024-11-21,105,105,Sainsbury's DC Emerald Park,received
+SAI-DK08,SBY-LON-001,2024-12-11,2024-12-13,64,64,Sainsbury's DC Emerald Park,received
+SAI-DK08,SBY-LON-001,2024-12-25,2024-12-27,92,92,Sainsbury's DC Hams Hall,received
+SAI-G001,SBY-LON-001,2024-10-11,2024-10-16,52,52,Sainsbury's DC Weybridge,received
+SAI-G001,SBY-LON-001,2024-10-23,2024-10-28,59,59,Sainsbury's DC Emerald Park,received
+SAI-G001,SBY-LON-001,2024-11-10,2024-11-15,83,83,Sainsbury's DC Emerald Park,received
+SAI-G001,SBY-LON-001,2024-11-15,2024-11-20,68,68,Sainsbury's DC Weybridge,received
+SAI-G001,SBY-LON-001,2024-11-24,2024-11-29,85,85,Sainsbury's DC Emerald Park,received
+SAI-G001,SBY-LON-001,2024-12-19,2024-12-24,100,100,Sainsbury's DC Weybridge,received
+SAI-G001,SBY-LON-001,2024-12-27,2025-01-01,69,69,Sainsbury's DC Hams Hall,received
+SAI-G002,SBY-LON-001,2024-10-06,2024-10-11,76,76,Sainsbury's DC Hams Hall,received
+SAI-G002,SBY-LON-001,2024-10-14,2024-10-19,77,77,Sainsbury's DC Weybridge,received
+SAI-G002,SBY-LON-001,2024-10-20,2024-10-25,81,81,Sainsbury's DC Emerald Park,received
+SAI-G002,SBY-LON-001,2024-11-02,2024-11-07,94,94,Sainsbury's DC Weybridge,received
+SAI-G002,SBY-LON-001,2024-11-11,2024-11-16,81,81,Sainsbury's DC Hams Hall,received
+SAI-G002,SBY-LON-001,2024-11-22,2024-11-27,83,83,Sainsbury's DC Emerald Park,received
+SAI-G002,SBY-LON-001,2024-11-30,2024-12-05,88,88,Sainsbury's DC Weybridge,received
+SAI-G002,SBY-LON-001,2024-12-08,2024-12-13,82,82,Sainsbury's DC Emerald Park,received
+SAI-G002,SBY-LON-001,2024-12-15,2024-12-20,78,78,Sainsbury's DC Weybridge,received
+SAI-G002,SBY-LON-001,2024-12-20,2024-12-25,105,105,Sainsbury's DC Emerald Park,received
+SAI-G002,SBY-LON-001,2024-12-27,2025-01-01,122,122,Sainsbury's DC Weybridge,received
+SAI-G003,SBY-LON-001,2024-10-04,2024-10-09,194,194,Sainsbury's DC Emerald Park,received
+SAI-G003,SBY-LON-001,2024-10-24,2024-10-29,171,171,Sainsbury's DC Emerald Park,received
+SAI-G003,SBY-LON-001,2024-10-31,2024-11-05,168,168,Sainsbury's DC Weybridge,received
+SAI-G003,SBY-LON-001,2024-11-11,2024-11-16,115,115,Sainsbury's DC Weybridge,received
+SAI-G003,SBY-LON-001,2024-11-16,2024-11-21,158,158,Sainsbury's DC Hams Hall,received
+SAI-G003,SBY-LON-001,2024-11-24,2024-11-29,170,170,Sainsbury's DC Hams Hall,received
+SAI-G003,SBY-LON-001,2024-11-29,2024-12-04,131,131,Sainsbury's DC Weybridge,received
+SAI-G003,SBY-LON-001,2024-12-16,2024-12-21,142,142,Sainsbury's DC Emerald Park,received
+SAI-G004,SBY-LON-001,2024-10-04,2024-10-09,144,144,Sainsbury's DC Emerald Park,received
+SAI-G004,SBY-LON-001,2024-10-15,2024-10-20,108,108,Sainsbury's DC Weybridge,received
+SAI-G004,SBY-LON-001,2024-10-24,2024-10-29,97,91,Sainsbury's DC Weybridge,partial
+SAI-G004,SBY-LON-001,2024-10-31,2024-11-05,117,117,Sainsbury's DC Weybridge,received
+SAI-G004,SBY-LON-001,2024-11-16,2024-11-21,90,90,Sainsbury's DC Hams Hall,received
+SAI-G004,SBY-LON-001,2024-11-23,2024-11-28,144,144,Sainsbury's DC Weybridge,received
+SAI-G004,SBY-LON-001,2024-11-29,2024-12-04,109,109,Sainsbury's DC Weybridge,received
+SAI-G004,SBY-LON-001,2024-12-04,2024-12-09,157,157,Sainsbury's DC Emerald Park,received
+SAI-G004,SBY-LON-001,2024-12-12,2024-12-17,144,144,Sainsbury's DC Hams Hall,received
+SAI-G004,SBY-LON-001,2024-12-19,2024-12-24,86,86,Sainsbury's DC Weybridge,received
+SAI-G004,SBY-LON-001,2024-12-25,2024-12-30,146,146,Sainsbury's DC Weybridge,received
+SAI-G004,SBY-LON-001,2024-12-31,2025-01-05,127,127,Sainsbury's DC Emerald Park,received
+SAI-G005,SBY-LON-001,2024-10-04,2024-10-09,60,60,UK Farmhouse Co-op,received
+SAI-G005,SBY-LON-001,2024-10-09,2024-10-14,48,48,Sainsbury's Premium Suppliers Ltd,received
+SAI-G005,SBY-LON-001,2024-10-17,2024-10-22,70,70,Sainsbury's Premium Suppliers Ltd,received
+SAI-G005,SBY-LON-001,2024-10-22,2024-10-27,50,50,UK Farmhouse Co-op,received
+SAI-G005,SBY-LON-001,2024-11-01,2024-11-06,48,48,Sainsbury's Premium Suppliers Ltd,received
+SAI-G005,SBY-LON-001,2024-12-05,2024-12-10,41,41,Sainsbury's Premium Suppliers Ltd,received
+SAI-G005,SBY-LON-001,2024-12-12,2024-12-17,40,40,UK Farmhouse Co-op,received
+SAI-G005,SBY-LON-001,2024-12-21,2024-12-26,62,62,Sainsbury's Premium Suppliers Ltd,received
+SAI-G006,SBY-LON-001,2024-10-02,2024-10-07,70,70,Sainsbury's DC Emerald Park,received
+SAI-G006,SBY-LON-001,2024-10-08,2024-10-13,77,77,Sainsbury's DC Emerald Park,received
+SAI-G006,SBY-LON-001,2024-10-24,2024-10-29,62,62,Sainsbury's DC Hams Hall,received
+SAI-G006,SBY-LON-001,2024-11-11,2024-11-16,74,74,Sainsbury's DC Hams Hall,received
+SAI-G006,SBY-LON-001,2024-11-28,2024-12-03,56,56,Sainsbury's DC Hams Hall,received
+SAI-G006,SBY-LON-001,2024-12-05,2024-12-10,80,80,Sainsbury's DC Weybridge,received
+SAI-G006,SBY-LON-001,2024-12-16,2024-12-21,70,70,Sainsbury's DC Emerald Park,received
+SAI-G006,SBY-LON-001,2024-12-21,2024-12-26,67,67,Sainsbury's DC Emerald Park,received
+SAI-G007,SBY-LON-001,2024-10-12,2024-10-17,63,63,Sainsbury's DC Weybridge,received
+SAI-G007,SBY-LON-001,2024-10-24,2024-10-29,95,95,Sainsbury's DC Emerald Park,received
+SAI-G007,SBY-LON-001,2024-10-30,2024-11-04,90,90,Sainsbury's DC Emerald Park,received
+SAI-G007,SBY-LON-001,2024-11-06,2024-11-11,78,78,Sainsbury's DC Hams Hall,received
+SAI-G007,SBY-LON-001,2024-11-14,2024-11-19,95,95,Sainsbury's DC Weybridge,received
+SAI-G007,SBY-LON-001,2024-11-22,2024-11-27,91,91,Sainsbury's DC Weybridge,received
+SAI-G007,SBY-LON-001,2024-11-30,2024-12-05,79,79,Sainsbury's DC Emerald Park,received
+SAI-G007,SBY-LON-001,2024-12-09,2024-12-14,84,84,Sainsbury's DC Emerald Park,received
+SAI-G007,SBY-LON-001,2024-12-14,2024-12-19,97,97,Sainsbury's DC Emerald Park,received
+SAI-G007,SBY-LON-001,2024-12-24,2024-12-29,97,97,Sainsbury's DC Hams Hall,received
+SAI-G007,SBY-LON-001,2024-12-30,2025-01-04,71,71,Sainsbury's DC Emerald Park,received
+SAI-G008,SBY-LON-001,2024-10-02,2024-10-07,104,104,Sainsbury's DC Weybridge,received
+SAI-G008,SBY-LON-001,2024-10-13,2024-10-18,99,99,Sainsbury's DC Hams Hall,received
+SAI-G008,SBY-LON-001,2024-10-18,2024-10-23,117,117,Sainsbury's DC Emerald Park,received
+SAI-G008,SBY-LON-001,2024-10-26,2024-10-31,88,88,Sainsbury's DC Weybridge,received
+SAI-G008,SBY-LON-001,2024-11-09,2024-11-14,64,64,Sainsbury's DC Hams Hall,received
+SAI-G008,SBY-LON-001,2024-11-21,2024-11-26,74,74,Sainsbury's DC Weybridge,received
+SAI-G008,SBY-LON-001,2024-11-28,2024-12-03,90,90,Sainsbury's DC Emerald Park,received
+SAI-G008,SBY-LON-001,2024-12-06,2024-12-11,109,109,Sainsbury's DC Weybridge,received
+SAI-G008,SBY-LON-001,2024-12-14,2024-12-19,69,69,Sainsbury's DC Emerald Park,received
+SAI-G008,SBY-LON-001,2024-12-21,2024-12-26,92,87,Sainsbury's DC Weybridge,partial
+SAI-G008,SBY-LON-001,2024-12-29,2025-01-03,76,76,Sainsbury's DC Emerald Park,received
+SAI-G009,SBY-LON-001,2024-10-11,2024-10-16,80,80,Sainsbury's DC Hams Hall,received
+SAI-G009,SBY-LON-001,2024-11-14,2024-11-19,116,116,Sainsbury's DC Hams Hall,received
+SAI-G009,SBY-LON-001,2024-11-29,2024-12-04,83,83,Sainsbury's DC Emerald Park,received
+SAI-G009,SBY-LON-001,2024-12-04,2024-12-09,109,109,Sainsbury's DC Hams Hall,received
+SAI-G009,SBY-LON-001,2024-12-16,2024-12-21,87,87,Sainsbury's DC Weybridge,received
+SAI-G009,SBY-LON-001,2024-12-30,2025-01-04,105,105,Sainsbury's DC Weybridge,received
+SAI-G010,SBY-LON-001,2024-10-05,2024-10-10,31,31,UK Farmhouse Co-op,received
+SAI-G010,SBY-LON-001,2024-10-13,2024-10-18,31,31,UK Farmhouse Co-op,received
+SAI-G010,SBY-LON-001,2024-10-18,2024-10-23,43,43,UK Farmhouse Co-op,received
+SAI-G010,SBY-LON-001,2024-10-26,2024-10-31,38,38,UK Farmhouse Co-op,received
+SAI-G010,SBY-LON-001,2024-11-17,2024-11-22,32,32,Sainsbury's Premium Suppliers Ltd,received
+SAI-G010,SBY-LON-001,2024-11-22,2024-11-27,48,48,UK Farmhouse Co-op,received
+SAI-G010,SBY-LON-001,2024-11-29,2024-12-04,36,36,Sainsbury's Premium Suppliers Ltd,received
+SAI-G010,SBY-LON-001,2024-12-07,2024-12-12,45,45,Sainsbury's Premium Suppliers Ltd,received
+SAI-G010,SBY-LON-001,2024-12-12,2024-12-17,33,33,Sainsbury's Premium Suppliers Ltd,received
+SAI-G010,SBY-LON-001,2024-12-21,2024-12-26,48,46,UK Farmhouse Co-op,partial
+SAI-S001,SBY-LON-001,2024-10-09,2024-10-12,117,117,Sainsbury's DC Weybridge,received
+SAI-S001,SBY-LON-001,2024-10-22,2024-10-25,99,99,Sainsbury's DC Hams Hall,received
+SAI-S001,SBY-LON-001,2024-10-27,2024-10-30,150,150,Sainsbury's DC Hams Hall,received
+SAI-S001,SBY-LON-001,2024-11-03,2024-11-06,119,119,Sainsbury's DC Hams Hall,received
+SAI-S001,SBY-LON-001,2024-11-17,2024-11-20,106,106,Sainsbury's DC Hams Hall,received
+SAI-S001,SBY-LON-001,2024-11-22,2024-11-25,81,81,Sainsbury's DC Hams Hall,received
+SAI-S001,SBY-LON-001,2024-12-07,2024-12-10,155,155,Sainsbury's DC Emerald Park,received
+SAI-S001,SBY-LON-001,2024-12-20,2024-12-23,156,156,Sainsbury's DC Hams Hall,received
+SAI-S002,SBY-LON-001,2024-10-03,2024-10-06,128,128,Sainsbury's DC Weybridge,received
+SAI-S002,SBY-LON-001,2024-10-07,2024-10-10,95,95,Sainsbury's DC Emerald Park,received
+SAI-S002,SBY-LON-001,2024-10-12,2024-10-15,112,112,Sainsbury's DC Emerald Park,received
+SAI-S002,SBY-LON-001,2024-10-21,2024-10-24,125,125,Sainsbury's DC Emerald Park,received
+SAI-S002,SBY-LON-001,2024-11-09,2024-11-12,79,79,Sainsbury's DC Emerald Park,received
+SAI-S002,SBY-LON-001,2024-11-21,2024-11-24,78,78,Sainsbury's DC Emerald Park,received
+SAI-S002,SBY-LON-001,2024-12-01,2024-12-04,78,78,Sainsbury's DC Hams Hall,received
+SAI-S002,SBY-LON-001,2024-12-04,2024-12-07,72,72,Sainsbury's DC Hams Hall,received
+SAI-S002,SBY-LON-001,2024-12-12,2024-12-15,109,109,Sainsbury's DC Emerald Park,received
+SAI-S002,SBY-LON-001,2024-12-17,2024-12-20,89,89,Sainsbury's DC Emerald Park,received
+SAI-S002,SBY-LON-001,2024-12-29,2025-01-01,118,118,Sainsbury's DC Hams Hall,received
+SAI-S003,SBY-LON-001,2024-10-02,2024-10-06,102,102,Sainsbury's DC Hams Hall,received
+SAI-S003,SBY-LON-001,2024-10-30,2024-11-03,57,57,Sainsbury's DC Hams Hall,received
+SAI-S003,SBY-LON-001,2024-11-08,2024-11-12,80,80,Sainsbury's DC Hams Hall,received
+SAI-S003,SBY-LON-001,2024-11-24,2024-11-28,96,96,Sainsbury's DC Hams Hall,received
+SAI-S003,SBY-LON-001,2024-12-05,2024-12-09,102,102,Sainsbury's DC Weybridge,received
+SAI-S003,SBY-LON-001,2024-12-12,2024-12-16,69,69,Sainsbury's DC Hams Hall,received
+SAI-S003,SBY-LON-001,2024-12-24,2024-12-28,98,98,Sainsbury's DC Hams Hall,received
+SAI-S004,SBY-LON-001,2024-10-15,2024-10-18,146,146,Sainsbury's DC Weybridge,received
+SAI-S004,SBY-LON-001,2024-10-23,2024-10-26,160,160,Sainsbury's DC Hams Hall,received
+SAI-S004,SBY-LON-001,2024-11-15,2024-11-18,171,171,Sainsbury's DC Hams Hall,received
+SAI-S004,SBY-LON-001,2024-11-28,2024-12-01,160,160,Sainsbury's DC Weybridge,received
+SAI-S004,SBY-LON-001,2024-12-05,2024-12-08,151,151,Sainsbury's DC Emerald Park,received
+SAI-S004,SBY-LON-001,2024-12-10,2024-12-13,132,132,Sainsbury's DC Emerald Park,received
+SAI-S004,SBY-LON-001,2024-12-14,2024-12-17,165,165,Sainsbury's DC Emerald Park,received
+SAI-S005,SBY-LON-001,2024-10-04,2024-10-07,60,60,UK Farmhouse Co-op,received
+SAI-S005,SBY-LON-001,2024-10-09,2024-10-12,67,67,UK Farmhouse Co-op,received
+SAI-S005,SBY-LON-001,2024-11-02,2024-11-05,71,71,UK Farmhouse Co-op,received
+SAI-S005,SBY-LON-001,2024-11-07,2024-11-10,58,58,Sainsbury's Premium Suppliers Ltd,received
+SAI-S005,SBY-LON-001,2024-11-15,2024-11-18,54,54,UK Farmhouse Co-op,received
+SAI-S005,SBY-LON-001,2024-11-22,2024-11-25,38,38,UK Farmhouse Co-op,received
+SAI-S005,SBY-LON-001,2024-12-06,2024-12-09,67,67,UK Farmhouse Co-op,received
+SAI-S005,SBY-LON-001,2024-12-19,2024-12-22,62,62,UK Farmhouse Co-op,received
+SAI-S005,SBY-LON-001,2024-12-26,2024-12-29,38,38,UK Farmhouse Co-op,received
+SAI-S005,SBY-LON-001,2024-12-30,2025-01-02,50,50,Sainsbury's Premium Suppliers Ltd,received
+SAI-S006,SBY-LON-001,2024-10-17,2024-10-21,83,83,Sainsbury's DC Emerald Park,received
+SAI-S006,SBY-LON-001,2024-10-22,2024-10-26,85,85,Sainsbury's DC Emerald Park,received
+SAI-S006,SBY-LON-001,2024-11-03,2024-11-07,127,127,Sainsbury's DC Emerald Park,received
+SAI-S006,SBY-LON-001,2024-11-07,2024-11-11,94,94,Sainsbury's DC Hams Hall,received
+SAI-S006,SBY-LON-001,2024-11-14,2024-11-18,135,135,Sainsbury's DC Hams Hall,received
+SAI-S006,SBY-LON-001,2024-11-20,2024-11-24,106,106,Sainsbury's DC Weybridge,received
+SAI-S006,SBY-LON-001,2024-11-24,2024-11-28,137,137,Sainsbury's DC Hams Hall,received
+SAI-S006,SBY-LON-001,2024-11-30,2024-12-04,101,101,Sainsbury's DC Weybridge,received
+SAI-S006,SBY-LON-001,2024-12-05,2024-12-09,140,140,Sainsbury's DC Weybridge,received
+SAI-S006,SBY-LON-001,2024-12-19,2024-12-23,125,125,Sainsbury's DC Weybridge,received
+SAI-S006,SBY-LON-001,2024-12-29,2025-01-02,77,77,Sainsbury's DC Emerald Park,received
+SAI-S007,SBY-LON-001,2024-10-17,2024-10-20,69,69,Sainsbury's DC Emerald Park,received
+SAI-S007,SBY-LON-001,2024-10-20,2024-10-23,84,84,Sainsbury's DC Weybridge,received
+SAI-S007,SBY-LON-001,2024-11-02,2024-11-05,73,73,Sainsbury's DC Weybridge,received
+SAI-S007,SBY-LON-001,2024-11-08,2024-11-11,89,89,Sainsbury's DC Hams Hall,received
+SAI-S007,SBY-LON-001,2024-11-20,2024-11-23,103,103,Sainsbury's DC Weybridge,received
+SAI-S007,SBY-LON-001,2024-11-24,2024-11-27,108,108,Sainsbury's DC Weybridge,received
+SAI-S007,SBY-LON-001,2024-11-28,2024-12-01,87,87,Sainsbury's DC Emerald Park,received
+SAI-S007,SBY-LON-001,2024-12-11,2024-12-14,84,84,Sainsbury's DC Weybridge,received
+SAI-S007,SBY-LON-001,2024-12-14,2024-12-17,78,78,Sainsbury's DC Weybridge,received
+SAI-S007,SBY-LON-001,2024-12-23,2024-12-26,83,83,Sainsbury's DC Weybridge,received
+SAI-S007,SBY-LON-001,2024-12-31,2025-01-03,114,114,Sainsbury's DC Emerald Park,received
+SAI-S008,SBY-LON-001,2024-10-05,2024-10-08,90,90,Sainsbury's DC Hams Hall,received
+SAI-S008,SBY-LON-001,2024-10-11,2024-10-14,110,110,Sainsbury's DC Weybridge,received
+SAI-S008,SBY-LON-001,2024-10-14,2024-10-17,93,93,Sainsbury's DC Hams Hall,received
+SAI-S008,SBY-LON-001,2024-10-20,2024-10-23,81,81,Sainsbury's DC Emerald Park,received
+SAI-S008,SBY-LON-001,2024-10-24,2024-10-27,78,78,Sainsbury's DC Hams Hall,received
+SAI-S008,SBY-LON-001,2024-11-07,2024-11-10,88,88,Sainsbury's DC Weybridge,received
+SAI-S008,SBY-LON-001,2024-11-17,2024-11-20,91,91,Sainsbury's DC Emerald Park,received
+SAI-S008,SBY-LON-001,2024-11-24,2024-11-27,58,58,Sainsbury's DC Hams Hall,received
+SAI-S008,SBY-LON-001,2024-11-28,2024-12-01,90,90,Sainsbury's DC Emerald Park,received
+SAI-S008,SBY-LON-001,2024-12-06,2024-12-09,69,69,Sainsbury's DC Emerald Park,received
+SAI-S008,SBY-LON-001,2024-12-11,2024-12-14,90,90,Sainsbury's DC Emerald Park,received
+SAI-S008,SBY-LON-001,2024-12-14,2024-12-17,96,96,Sainsbury's DC Weybridge,received
+SAI-S008,SBY-LON-001,2024-12-17,2024-12-20,62,62,Sainsbury's DC Emerald Park,received
+SAI-F001,SBY-LON-001,2024-10-02,2024-10-07,59,59,Sainsbury's DC Emerald Park,received
+SAI-F001,SBY-LON-001,2024-10-09,2024-10-14,93,93,Sainsbury's DC Emerald Park,received
+SAI-F001,SBY-LON-001,2024-11-19,2024-11-24,99,99,Sainsbury's DC Emerald Park,received
+SAI-F001,SBY-LON-001,2024-11-28,2024-12-03,71,71,Sainsbury's DC Weybridge,received
+SAI-F001,SBY-LON-001,2024-12-08,2024-12-13,74,74,Sainsbury's DC Emerald Park,received
+SAI-F001,SBY-LON-001,2024-12-23,2024-12-28,101,101,Sainsbury's DC Hams Hall,received
+SAI-F001,SBY-LON-001,2024-12-30,2025-01-04,93,93,Sainsbury's DC Hams Hall,received
+SAI-F002,SBY-LON-001,2024-10-13,2024-10-18,105,105,Sainsbury's DC Weybridge,received
+SAI-F002,SBY-LON-001,2024-10-19,2024-10-24,146,146,Sainsbury's DC Emerald Park,received
+SAI-F002,SBY-LON-001,2024-10-26,2024-10-31,100,100,Sainsbury's DC Hams Hall,received
+SAI-F002,SBY-LON-001,2024-11-04,2024-11-09,159,159,Sainsbury's DC Hams Hall,received
+SAI-F002,SBY-LON-001,2024-11-16,2024-11-21,83,83,Sainsbury's DC Hams Hall,received
+SAI-F002,SBY-LON-001,2024-11-25,2024-11-30,106,106,Sainsbury's DC Weybridge,received
+SAI-F002,SBY-LON-001,2024-12-05,2024-12-10,148,148,Sainsbury's DC Weybridge,received
+SAI-F002,SBY-LON-001,2024-12-15,2024-12-20,101,101,Sainsbury's DC Emerald Park,received
+SAI-F002,SBY-LON-001,2024-12-20,2024-12-25,98,95,Sainsbury's DC Weybridge,partial
+SAI-F003,SBY-LON-001,2024-10-05,2024-10-10,34,34,Sainsbury's Premium Suppliers Ltd,received
+SAI-F003,SBY-LON-001,2024-10-28,2024-11-02,50,50,Sainsbury's Premium Suppliers Ltd,received
+SAI-F003,SBY-LON-001,2024-11-20,2024-11-25,41,41,Sainsbury's Premium Suppliers Ltd,received
+SAI-F003,SBY-LON-001,2024-11-28,2024-12-03,50,50,Sainsbury's Premium Suppliers Ltd,received
+SAI-F003,SBY-LON-001,2024-12-06,2024-12-11,28,28,UK Farmhouse Co-op,received
+SAI-F003,SBY-LON-001,2024-12-19,2024-12-24,39,39,UK Farmhouse Co-op,received
+SAI-F003,SBY-LON-001,2024-12-30,2025-01-04,31,31,Sainsbury's Premium Suppliers Ltd,received
+SAI-F004,SBY-LON-001,2024-10-02,2024-10-07,83,83,Sainsbury's DC Weybridge,received
+SAI-F004,SBY-LON-001,2024-10-11,2024-10-16,86,86,Sainsbury's DC Emerald Park,received
+SAI-F004,SBY-LON-001,2024-10-21,2024-10-26,49,49,Sainsbury's DC Hams Hall,received
+SAI-F004,SBY-LON-001,2024-10-31,2024-11-05,77,77,Sainsbury's DC Hams Hall,received
+SAI-F004,SBY-LON-001,2024-11-13,2024-11-18,78,78,Sainsbury's DC Weybridge,received
+SAI-F004,SBY-LON-001,2024-12-03,2024-12-08,86,86,Sainsbury's DC Weybridge,received
+SAI-F004,SBY-LON-001,2024-12-12,2024-12-17,51,51,Sainsbury's DC Emerald Park,received
+SAI-F004,SBY-LON-001,2024-12-17,2024-12-22,46,46,Sainsbury's DC Weybridge,received
+SAI-F004,SBY-LON-001,2024-12-29,2025-01-03,69,69,Sainsbury's DC Hams Hall,received
+SAI-F005,SBY-LON-001,2024-10-08,2024-10-13,73,73,Sainsbury's DC Emerald Park,received
+SAI-F005,SBY-LON-001,2024-10-15,2024-10-20,78,78,Sainsbury's DC Hams Hall,received
+SAI-F005,SBY-LON-001,2024-10-26,2024-10-31,48,48,Sainsbury's DC Hams Hall,received
+SAI-F005,SBY-LON-001,2024-11-03,2024-11-08,68,68,Sainsbury's DC Weybridge,received
+SAI-F005,SBY-LON-001,2024-11-18,2024-11-23,56,56,Sainsbury's DC Weybridge,received
+SAI-F005,SBY-LON-001,2024-11-24,2024-11-29,67,67,Sainsbury's DC Hams Hall,received
+SAI-F005,SBY-LON-001,2024-12-01,2024-12-06,50,50,Sainsbury's DC Hams Hall,received
+SAI-F005,SBY-LON-001,2024-12-08,2024-12-13,51,51,Sainsbury's DC Weybridge,received
+SAI-F005,SBY-LON-001,2024-12-20,2024-12-25,53,53,Sainsbury's DC Weybridge,received
+SAI-F005,SBY-LON-001,2024-12-26,2024-12-31,72,72,Sainsbury's DC Hams Hall,received
+SAI-F006,SBY-LON-001,2024-10-05,2024-10-10,28,28,UK Farmhouse Co-op,received
+SAI-F006,SBY-LON-001,2024-10-12,2024-10-17,34,34,UK Farmhouse Co-op,received
+SAI-F006,SBY-LON-001,2024-10-18,2024-10-23,24,24,Sainsbury's Premium Suppliers Ltd,received
+SAI-F006,SBY-LON-001,2024-10-29,2024-11-03,33,33,UK Farmhouse Co-op,received
+SAI-F006,SBY-LON-001,2024-11-09,2024-11-14,39,39,UK Farmhouse Co-op,received
+SAI-F006,SBY-LON-001,2024-11-17,2024-11-22,36,36,UK Farmhouse Co-op,received
+SAI-F006,SBY-LON-001,2024-12-02,2024-12-07,30,29,UK Farmhouse Co-op,partial
+SAI-F006,SBY-LON-001,2024-12-11,2024-12-16,36,36,Sainsbury's Premium Suppliers Ltd,received
+SAI-F006,SBY-LON-001,2024-12-17,2024-12-22,31,28,Sainsbury's Premium Suppliers Ltd,partial
+SAI-F007,SBY-LON-001,2024-10-03,2024-10-07,78,78,Sainsbury's DC Emerald Park,received
+SAI-F007,SBY-LON-001,2024-10-29,2024-11-02,97,97,Sainsbury's DC Emerald Park,received
+SAI-F007,SBY-LON-001,2024-11-05,2024-11-09,99,99,Sainsbury's DC Hams Hall,received
+SAI-F007,SBY-LON-001,2024-11-11,2024-11-15,68,68,Sainsbury's DC Hams Hall,received
+SAI-F007,SBY-LON-001,2024-11-15,2024-11-19,94,94,Sainsbury's DC Emerald Park,received
+SAI-F007,SBY-LON-001,2024-11-28,2024-12-02,58,55,Sainsbury's DC Hams Hall,partial
+SAI-F007,SBY-LON-001,2024-12-03,2024-12-07,100,100,Sainsbury's DC Hams Hall,received
+SAI-F007,SBY-LON-001,2024-12-16,2024-12-20,66,66,Sainsbury's DC Hams Hall,received
+SAI-H001,SBY-LON-001,2024-10-04,2024-10-09,114,114,Sainsbury's DC Weybridge,received
+SAI-H001,SBY-LON-001,2024-10-09,2024-10-14,89,80,Sainsbury's DC Weybridge,partial
+SAI-H001,SBY-LON-001,2024-10-17,2024-10-22,72,72,Sainsbury's DC Emerald Park,received
+SAI-H001,SBY-LON-001,2024-10-24,2024-10-29,105,105,Sainsbury's DC Hams Hall,received
+SAI-H001,SBY-LON-001,2024-11-15,2024-11-20,113,113,Sainsbury's DC Hams Hall,received
+SAI-H001,SBY-LON-001,2024-11-21,2024-11-26,74,74,Sainsbury's DC Hams Hall,received
+SAI-H001,SBY-LON-001,2024-12-15,2024-12-20,80,80,Sainsbury's DC Emerald Park,received
+SAI-H001,SBY-LON-001,2024-12-21,2024-12-26,98,98,Sainsbury's DC Weybridge,received
+SAI-H001,SBY-LON-001,2024-12-26,2024-12-31,86,86,Sainsbury's DC Emerald Park,received
+SAI-H002,SBY-LON-001,2024-10-02,2024-10-07,66,66,Sainsbury's DC Weybridge,received
+SAI-H002,SBY-LON-001,2024-10-10,2024-10-15,78,75,Sainsbury's DC Weybridge,partial
+SAI-H002,SBY-LON-001,2024-11-04,2024-11-09,71,71,Sainsbury's DC Weybridge,received
+SAI-H002,SBY-LON-001,2024-11-09,2024-11-14,59,59,Sainsbury's DC Hams Hall,received
+SAI-H002,SBY-LON-001,2024-12-03,2024-12-08,54,54,Sainsbury's DC Emerald Park,received
+SAI-H002,SBY-LON-001,2024-12-20,2024-12-25,57,57,Sainsbury's DC Weybridge,received
+SAI-H002,SBY-LON-001,2024-12-27,2025-01-01,75,75,Sainsbury's DC Emerald Park,received
+SAI-H003,SBY-LON-001,2024-10-10,2024-10-17,47,47,Sainsbury's DC Hams Hall,received
+SAI-H003,SBY-LON-001,2024-10-23,2024-10-30,64,64,Sainsbury's DC Hams Hall,received
+SAI-H003,SBY-LON-001,2024-10-30,2024-11-06,45,45,Sainsbury's DC Emerald Park,received
+SAI-H003,SBY-LON-001,2024-11-15,2024-11-22,82,82,Sainsbury's DC Weybridge,received
+SAI-H003,SBY-LON-001,2024-11-27,2024-12-04,63,63,Sainsbury's DC Weybridge,received
+SAI-H003,SBY-LON-001,2024-12-20,2024-12-27,44,44,Sainsbury's DC Weybridge,received
+SAI-H004,SBY-LON-001,2024-10-07,2024-10-14,61,61,Sainsbury's DC Hams Hall,received
+SAI-H004,SBY-LON-001,2024-10-16,2024-10-23,64,64,Sainsbury's DC Hams Hall,received
+SAI-H004,SBY-LON-001,2024-10-26,2024-11-02,70,70,Sainsbury's DC Hams Hall,received
+SAI-H004,SBY-LON-001,2024-11-21,2024-11-28,45,45,Sainsbury's DC Emerald Park,received
+SAI-H004,SBY-LON-001,2024-12-16,2024-12-23,59,59,Sainsbury's DC Emerald Park,received
+SAI-H004,SBY-LON-001,2024-12-26,2025-01-02,69,69,Sainsbury's DC Hams Hall,received
+SAI-H005,SBY-LON-001,2024-10-26,2024-11-02,40,40,Sainsbury's DC Emerald Park,received
+SAI-H005,SBY-LON-001,2024-11-03,2024-11-10,52,52,Sainsbury's DC Hams Hall,received
+SAI-H005,SBY-LON-001,2024-11-12,2024-11-19,37,37,Sainsbury's DC Hams Hall,received
+SAI-H005,SBY-LON-001,2024-11-22,2024-11-29,38,38,Sainsbury's DC Weybridge,received
+SAI-H005,SBY-LON-001,2024-11-29,2024-12-06,60,60,Sainsbury's DC Weybridge,received
+SAI-H005,SBY-LON-001,2024-12-06,2024-12-13,54,54,Sainsbury's DC Hams Hall,received
+SAI-H005,SBY-LON-001,2024-12-28,2025-01-04,53,53,Sainsbury's DC Weybridge,received
+SAI-H006,SBY-LON-001,2024-10-05,2024-10-12,31,31,Sainsbury's DC Weybridge,received
+SAI-H006,SBY-LON-001,2024-10-15,2024-10-22,24,24,Sainsbury's DC Emerald Park,received
+SAI-H006,SBY-LON-001,2024-10-22,2024-10-29,26,26,Sainsbury's DC Emerald Park,received
+SAI-H006,SBY-LON-001,2024-10-30,2024-11-06,26,26,Sainsbury's DC Weybridge,received
+SAI-H006,SBY-LON-001,2024-11-09,2024-11-16,22,22,Sainsbury's DC Weybridge,received
+SAI-H006,SBY-LON-001,2024-11-24,2024-12-01,31,31,Sainsbury's DC Emerald Park,received
+SAI-H006,SBY-LON-001,2024-12-01,2024-12-08,22,22,Sainsbury's DC Emerald Park,received
+SAI-H006,SBY-LON-001,2024-12-13,2024-12-20,34,34,Sainsbury's DC Hams Hall,received
+SAI-H006,SBY-LON-001,2024-12-22,2024-12-29,27,27,Sainsbury's DC Hams Hall,received
+SAI-H006,SBY-LON-001,2024-12-29,2025-01-05,22,22,Sainsbury's DC Emerald Park,received
