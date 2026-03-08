@@ -204,11 +204,25 @@ with st.spinner("Loading Sainsbury's intelligence engine …"):
 # PAGE 1 — OVERVIEW
 # ═══════════════════════════════════════════════════════════════════════════════
 if page == "🏠 Overview":
-    st.markdown("# 🛒 Sainsbury's — Stockout Intelligence")
-    st.markdown(
-        "<p style='color:#8b949e;'>Store SBY-LON-001 · London · Q4 2024 · Live AI Risk Monitor</p>",
-        unsafe_allow_html=True,
-    )
+    st.markdown("""
+        <div style="background: linear-gradient(135deg, rgba(240,106,0,0.1) 0%, rgba(123,45,139,0.1) 100%);
+                    border-radius: 16px; padding: 32px 36px; border: 1px solid rgba(240,106,0,0.2); 
+                    margin-bottom: 24px; position: relative; overflow: hidden;
+                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px);">
+            <div style="position: absolute; right: -20px; top: -40px; opacity: 0.1; font-size: 14rem;">🛒</div>
+            <h1 style="color: #F06A00; margin:0 0 12px 0; font-size: 2.6rem; font-weight: 800; letter-spacing: -0.5px;">
+                Retail Brain <span style="color:#e6edf3; font-weight:300;">| Stockout Intelligence</span>
+            </h1>
+            <p style="color: #8b949e; font-size: 1.15rem; margin: 0 0 16px 0; max-width: 700px; line-height: 1.5;">
+                Advanced predictive analytics engine monitoring <strong>Sainsbury's SBY-LON-001 (London Flagship)</strong>. 
+                Utilising XGBoost to forecast inventory depletion risks across 76 premium SKUs during Q4 peak trading.
+            </p>
+            <div style="display: flex; gap: 12px;">
+               <span style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 6px; font-size: 0.8rem; color:#8b949e;">Q4 2024 Simulation</span>
+               <span style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 6px; font-size: 0.8rem; color:#8b949e;">Live Decision Intelligence</span>
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
 
     # Active UK event banner
     try:
