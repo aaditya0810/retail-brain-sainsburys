@@ -1,6 +1,6 @@
 # 🛒 Retail Brain × Sainsbury's
 
-**AI-powered retail operations intelligence system predicting stockouts across 76 real Sainsbury's SKUs during Q4 2024.**
+**AI-powered retail operations intelligence system predicting stockouts across 1000 real Sainsbury's SKUs during Q4 2024.**
 
 ![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.33+-red.svg)
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 The repository comes without the large generated CSVs. You need to run the data pipeline once:
 
 ```bash
-# Generate Q4 2024 Synthetic Dataset (76 SKUs, ~7,000 daily records)
+# Generate Q4 2024 Synthetic Dataset (1000 SKUs, ~92,000 daily records)
 python scripts/generate_sainsburys_data.py
 
 # Run Feature Engineering (creates rolling averages, velocity trends)

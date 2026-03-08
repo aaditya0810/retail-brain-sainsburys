@@ -1,5 +1,5 @@
 {
-  "best_model": "random_forest",
+  "best_model": "logistic_regression",
   "target": "stockout_72h",
   "feature_columns": [
     "sales_velocity_3d",
@@ -23,24 +23,24 @@
   ],
   "metrics": {
     "logistic_regression": {
-      "roc_auc": 0.9999,
-      "f1": 0.9929,
+      "roc_auc": 1.0,
+      "f1": 0.9969,
       "precision": 1.0,
-      "recall": 0.9859
+      "recall": 0.9939
     },
     "random_forest": {
       "roc_auc": 1.0,
       "f1": 1.0,
-      "precision": 1.0,
+      "precision": 0.9999,
       "recall": 1.0
     },
     "xgboost": {
       "roc_auc": 1.0,
-      "f1": 0.9991,
-      "precision": 0.9982,
+      "f1": 0.9993,
+      "precision": 0.9986,
       "recall": 1.0
     }
   },
-  "train_size": 5593,
-  "test_size": 1399
+  "train_size": 73600,
+  "test_size": 18400
 }

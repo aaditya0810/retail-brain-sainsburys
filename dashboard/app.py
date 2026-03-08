@@ -215,7 +215,7 @@ if page == "🏠 Overview":
             </h1>
             <p style="color: #8b949e; font-size: 1.15rem; margin: 0 0 16px 0; max-width: 700px; line-height: 1.5;">
                 Advanced predictive analytics engine monitoring <strong>Sainsbury's SBY-LON-001 (London Flagship)</strong>. 
-                Utilising XGBoost to forecast inventory depletion risks across 76 premium SKUs during Q4 peak trading.
+                Utilising XGBoost to forecast inventory depletion risks across 1000 premium SKUs during Q4 peak trading.
             </p>
             <div style="display: flex; gap: 12px;">
                <span style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 6px; font-size: 0.8rem; color:#8b949e;">Q4 2024 Simulation</span>

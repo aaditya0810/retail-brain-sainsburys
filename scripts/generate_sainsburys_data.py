@@ -122,6 +122,77 @@ SAINSBURYS_PRODUCTS = [
 ]
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Dynamically Generate 924 More Products to reach 1000 SKUs
+# ─────────────────────────────────────────────────────────────────────────────
+ADJECTIVES = ["Premium", "Organic", "British", "Scottish", "Fresh", "finest", "Value", "Classic", "Spicy", "Sweet", "Smoked", "Roasted", "Free Range", "Corn Fed", "Stone Baked", "Salted", "Unsalted", "Mixed", "Chilled", "Frozen", "Handmade"]
+NOUNS = {
+    "Dairy & Eggs": ["Milk 2 Pints", "Milk 4 Pints", "Cheddar 400g", "Brie 200g", "Yogurt 500g", "Butter 250g", "Eggs 6pk", "Eggs 12pk", "Cream 300ml", "Mozzarella 125g"],
+    "Fresh Bakery": ["White Bread 800g", "Wholemeal Bread 800g", "Sourdough 400g", "Baguette", "Croissants 4pk", "Bagels 5pk", "Muffins 4pk", "Rolls 6pk", "Wraps 8pk"],
+    "Meat & Fish": ["Chicken Breast 600g", "Beef Mince 500g", "Pork Sausages 8pk", "Salmon Fillets 240g", "Cod Fillets 400g", "Bacon 300g", "Lamb Chops 400g", "Turkey Mince 500g", "Prawns 200g"],
+    "Fresh Produce": ["Bananas", "Apples 6pk", "Oranges 5pk", "Potatoes 2.5kg", "Carrots 1kg", "Broccoli 300g", "Spinach 200g", "Tomatoes 500g", "Onions 1kg", "Grapes 500g", "Strawberries 400g", "Blueberries 150g", "Lemons 3pk"],
+    "Drinks": ["Orange Juice 1L", "Apple Juice 1L", "Cola 2L", "Sparkling Water 6x500ml", "Still Water 6x500ml", "Lemonade 2L", "Coffee 200g", "Tea Bags 80pk", "Squash 1L", "Energy Drink 500ml"],
+    "Ambient Grocery": ["Rice 1kg", "Pasta 500g", "Baked Beans 415g", "Chopped Tomatoes 400g", "Flour 1.5kg", "Sugar 1kg", "Olive Oil 500ml", "Cereal 500g", "Oats 1kg", "Peanut Butter 280g", "Jam 340g", "Soup 400g", "Ketchup 500g"],
+    "Snacks": ["Crisps 6pk", "Tortilla Chips 200g", "Popcorn 100g", "Chocolate Bar 200g", "Biscuits 400g", "Nuts 200g", "Crackers 150g", "Rice Cakes 130g", "Mints 4pk"],
+    "Frozen": ["Peas 1kg", "Oven Chips 1.5kg", "Pizza 400g", "Lasagne 400g", "Ice Cream 1L", "Fish Fingers 10pk", "Chicken Nuggets 500g", "Mixed Veg 1kg", "Hash Browns 700g"],
+    "Household": ["Toilet Roll 9pk", "Kitchen Roll 2pk", "Washing Up Liquid 500ml", "Laundry Pods 20pk", "Fabric Conditioner 1L", "Bleach 750ml", "Bin Liners 20pk", "Foil 10m", "Sponges 4pk"],
+    "Health & Beauty": ["Ibuprofen 16pk", "Paracetamol 16pk", "Toothpaste 75ml", "Shower Gel 250ml", "Shampoo 250ml", "Deodorant 150ml", "Hand Wash 250ml", "Cotton Pads 100pk", "Plasters 40pk"]
+}
+BRANDS = ["Heinz", "Kellogg's", "Walkers", "Cadbury", "Coca-Cola", "Fairy", "Andrex", "McVitie's", "Pringles", "Colgate", "Nivea", "Persil", "L'Oreal", "Nestle"]
+
+for i in range(len(SAINSBURYS_PRODUCTS) + 1, 1001):
+    cat = random.choice(list(NOUNS.keys()))
+    noun = random.choice(NOUNS[cat])
+    adj = random.choice(ADJECTIVES)
+    
+    tier_rand = random.random()
+    if cat in ["Household", "Health & Beauty", "Drinks", "Snacks", "Ambient Grocery"]:
+        if tier_rand < 0.25:
+            tier = "Branded"
+            brand = random.choice(BRANDS)
+            name = f"{brand} {adj} {noun}"
+        elif tier_rand < 0.65:
+            tier = "Sainsbury's"
+            name = f"Sainsbury's {adj} {noun}"
+        elif tier_rand < 0.85:
+            tier = "Taste the Difference"
+            name = f"Taste the Difference {adj} {noun}"
+        else:
+            tier = "So Good"
+            name = f"Sainsbury's So Good {noun}"
+    else:
+        if tier_rand < 0.7:
+             tier = "Sainsbury's"
+             name = f"Sainsbury's {adj} {noun}"
+        elif tier_rand < 0.9:
+             tier = "Taste the Difference"
+             name = f"Taste the Difference {adj} {noun}"
+        else:
+             tier = "So Good"
+             name = f"Sainsbury's So Good {noun}"
+             
+    name = name.replace("  ", " ").strip()
+    
+    sku = f"SAI-GEN{str(i).zfill(4)}"
+    unit_price = round(random.uniform(0.5, 8.0), 2)
+    
+    if tier == "Taste the Difference":
+        unit_price = round(unit_price * 1.5, 2)
+        base_demand = random.randint(15, 35)
+    elif tier == "So Good":
+        unit_price = round(unit_price * 0.7, 2)
+        base_demand = random.randint(50, 90)
+    elif tier == "Branded":
+        unit_price = round(unit_price * 1.3, 2)
+        base_demand = random.randint(30, 60)
+    else:
+        base_demand = random.randint(35, 75)
+        
+    reorder_point = int(base_demand * random.uniform(0.5, 0.8))
+    lead_time = random.randint(1, 4) if cat not in ["Fresh Bakery", "Dairy & Eggs", "Fresh Produce"] else random.randint(1, 2)
+    
+    SAINSBURYS_PRODUCTS.append((sku, name, cat, tier, unit_price, base_demand, reorder_point, lead_time))
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Build DataFrame
 # ─────────────────────────────────────────────────────────────────────────────
 products_df = pd.DataFrame(SAINSBURYS_PRODUCTS, columns=[
