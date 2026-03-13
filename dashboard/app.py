@@ -33,12 +33,13 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ── CSS — Retail Brain v2.0 Premium UI ───────────────────────────────────────
+# ── CSS — Retail Brain v3.0 Enterprise Light UI ──────────────────────────────
 st.markdown("""
 <style>
 /* =================================================================
-   Retail Brain x Sainsbury's — Premium Dark UI
-   Palette: Sainsbury's Orange #F06A00 · Purple #7B2D8B · Deep #080c12
+   Retail Brain x Sainsbury's — Enterprise Light UI v3.0
+   Primary: Sainsbury's Orange #F06A00
+   Style: Clean enterprise (Atlassian / Power BI / Tableau aesthetic)
    ================================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
@@ -48,273 +49,246 @@ html, body, [class*="css"] {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ── App background with ambient glow ── */
-.stApp { background: #080c12; color: #e2e8f0; }
-.stApp::before {
-  content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
-  background:
-    radial-gradient(ellipse at 15% 15%, rgba(240,106,0,.038) 0%, transparent 55%),
-    radial-gradient(ellipse at 85% 85%, rgba(123,45,139,.038) 0%, transparent 55%);
-}
+/* ── App background ── */
+.stApp { background: #f4f5f7; color: #172b4d; }
 
 /* ── Sidebar ── */
 [data-testid="stSidebar"] {
-  background: #060910 !important;
-  border-right: 1px solid rgba(255,255,255,.055) !important;
+  background: #ffffff !important;
+  border-right: 1px solid #dfe1e6 !important;
+  box-shadow: 2px 0 8px rgba(9,30,66,.06) !important;
 }
-[data-testid="stSidebar"] * { color: #c9d1d9 !important; }
+[data-testid="stSidebar"] * { color: #172b4d !important; }
 [data-testid="stSidebar"] > div:first-child { padding: 0 !important; }
 
 /* Brand header strip */
 .brand-header {
-  padding: 22px 20px 18px;
-  background: linear-gradient(135deg, #c4440a 0%, #F06A00 45%, #7B2D8B 100%);
+  padding: 20px 20px 16px;
+  background: linear-gradient(135deg, #c4440a 0%, #F06A00 100%);
   position: relative; overflow: hidden;
 }
 .brand-header::after {
   content: ''; position: absolute; top: -40px; right: -40px;
-  width: 120px; height: 120px; background: rgba(255,255,255,.06); border-radius: 50%;
+  width: 110px; height: 110px; background: rgba(255,255,255,.08); border-radius: 50%;
 }
 .brand-name {
-  font-size: 1.15rem; font-weight: 900; letter-spacing: -.5px;
-  color: #fff; margin: 0 0 4px; position: relative; z-index: 1;
+  font-size: 1.1rem; font-weight: 800; letter-spacing: -.4px;
+  color: #fff; margin: 0 0 3px; position: relative; z-index: 1;
 }
 .brand-tagline {
-  font-size: .67rem; color: rgba(255,255,255,.72);
+  font-size: .67rem; color: rgba(255,255,255,.88);
   line-height: 1.45; position: relative; z-index: 1;
 }
 
 /* Live status dot */
 @keyframes pulse-green {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(74,222,128,.55); }
-  50%       { box-shadow: 0 0 0 5px rgba(74,222,128,0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0,135,90,.5); }
+  50%       { box-shadow: 0 0 0 5px rgba(0,135,90,0); }
 }
 .status-dot {
   display: inline-block; width: 7px; height: 7px;
-  background: #4ade80; border-radius: 50%;
+  background: #00875a; border-radius: 50%;
   animation: pulse-green 2.2s infinite;
   margin-right: 5px; vertical-align: middle;
 }
 
 /* Sidebar stat box */
 .sb-stat {
-  background: rgba(240,106,0,.07); border: 1px solid rgba(240,106,0,.18);
-  border-radius: 10px; padding: 10px 14px; margin-bottom: 6px;
+  background: #fff7f0; border: 1px solid #fed7aa;
+  border-radius: 8px; padding: 10px 14px; margin-bottom: 6px;
 }
-.sb-stat-val { font-size: 1.35rem; font-weight: 700; color: #F06A00 !important; line-height: 1; }
-.sb-stat-lbl { font-size: .67rem; color: #6e7681 !important; margin-top: 3px; }
+.sb-stat-val { font-size: 1.35rem; font-weight: 800; color: #de350b !important; line-height: 1; }
+.sb-stat-lbl { font-size: .67rem; color: #5e6c84 !important; margin-top: 3px; }
 
 /* ── KPI Cards ── */
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(10px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
 .kpi-card {
-  background: linear-gradient(145deg, #0e1420, #131a25);
-  border: 1px solid rgba(255,255,255,.065);
-  border-radius: 18px; padding: 22px 18px;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-top: 3px solid #F06A00;
+  border-radius: 8px; padding: 20px 16px;
   text-align: center;
-  transition: all .28s cubic-bezier(.4,0,.2,1);
-  animation: fadeUp .4s ease-out;
-  position: relative; overflow: hidden;
-}
-.kpi-card::before {
-  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-  background: linear-gradient(90deg, transparent, #F06A00, transparent);
-  opacity: 0; transition: opacity .28s;
+  box-shadow: 0 1px 3px rgba(9,30,66,.06), 0 1px 2px rgba(9,30,66,.04);
+  transition: all .2s ease;
+  position: relative;
 }
 .kpi-card:hover {
-  transform: translateY(-5px);
-  border-color: rgba(240,106,0,.3);
-  box-shadow: 0 16px 48px rgba(0,0,0,.5), 0 0 0 1px rgba(240,106,0,.12);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(9,30,66,.10);
+  border-top-color: #c4440a;
 }
-.kpi-card:hover::before { opacity: 1; }
 .kpi-value {
   font-size: 2.15rem; font-weight: 800; line-height: 1; letter-spacing: -1.5px;
-  background: linear-gradient(135deg, #F06A00, #fbbf24);
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  color: #172b4d;
 }
 .kpi-label {
-  font-size: .72rem; color: #5a6270; margin-top: 7px;
+  font-size: .72rem; color: #5e6c84; margin-top: 7px;
   font-weight: 600; text-transform: uppercase; letter-spacing: .06em;
 }
-.kpi-sub { font-size: .67rem; color: #404955; margin-top: 3px; }
+.kpi-sub { font-size: .67rem; color: #97a0af; margin-top: 3px; }
 
 /* ── Feature / Tech cards ── */
 .feature-card {
-  background: linear-gradient(145deg, #0e1420, #131a25);
-  border: 1px solid rgba(255,255,255,.065);
-  border-radius: 16px; padding: 22px 18px;
-  transition: all .28s cubic-bezier(.4,0,.2,1);
-  height: 100%; position: relative; overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 8px; padding: 22px 18px;
+  box-shadow: 0 1px 3px rgba(9,30,66,.05);
+  transition: all .2s ease;
+  height: 100%;
 }
 .feature-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(240,106,0,.28);
-  box-shadow: 0 12px 36px rgba(0,0,0,.45);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(9,30,66,.09);
+  border-color: #F06A00;
 }
-.feature-icon { font-size: 2.0rem; margin-bottom: 11px; display: block; }
-.feature-title { font-size: .95rem; font-weight: 700; color: #dde4f0; margin-bottom: 7px; }
-.feature-desc { font-size: .76rem; color: #5a6270; line-height: 1.58; }
+.feature-icon { font-size: 1.8rem; margin-bottom: 10px; display: block; }
+.feature-title { font-size: .95rem; font-weight: 700; color: #172b4d; margin-bottom: 7px; }
+.feature-desc { font-size: .76rem; color: #5e6c84; line-height: 1.58; }
 .feature-tag {
   display: inline-block; margin-top: 12px;
-  background: rgba(240,106,0,.1); color: #fb923c;
-  border: 1px solid rgba(240,106,0,.25);
+  background: #fff7ed; color: #c4440a;
+  border: 1px solid #fed7aa;
   font-size: .62rem; font-weight: 800;
-  padding: 2px 9px; border-radius: 99px;
+  padding: 2px 9px; border-radius: 4px;
   text-transform: uppercase; letter-spacing: .08em;
 }
 
 /* ── Pipeline steps ── */
 .pipeline-step {
-  background: linear-gradient(145deg, #0e1420, #131a25);
-  border: 1px solid rgba(255,255,255,.065);
-  border-radius: 14px; padding: 20px 16px; text-align: center;
-  transition: all .25s; height: 100%;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 8px; padding: 20px 16px; text-align: center;
+  box-shadow: 0 1px 3px rgba(9,30,66,.05);
+  transition: all .2s; height: 100%;
 }
-.pipeline-step:hover { border-color: rgba(240,106,0,.28); transform: translateY(-3px); }
+.pipeline-step:hover { border-color: #F06A00; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(9,30,66,.08); }
 .pipeline-num {
   display: inline-flex; align-items: center; justify-content: center;
   width: 30px; height: 30px;
-  background: linear-gradient(135deg, #F06A00, #7B2D8B);
+  background: #F06A00;
   border-radius: 50%; font-size: .78rem; font-weight: 900; color: #fff;
   margin-bottom: 12px;
 }
-.pipeline-title { font-size: .9rem; font-weight: 700; color: #dde4f0; margin-bottom: 7px; }
-.pipeline-desc { font-size: .73rem; color: #5a6270; line-height: 1.52; }
+.pipeline-title { font-size: .9rem; font-weight: 700; color: #172b4d; margin-bottom: 7px; }
+.pipeline-desc { font-size: .73rem; color: #5e6c84; line-height: 1.52; }
 
 /* ── Hero banner ── */
 .hero-banner {
   position: relative;
-  background: linear-gradient(135deg, rgba(240,106,0,.07) 0%, rgba(123,45,139,.07) 100%);
-  border: 1px solid rgba(240,106,0,.2);
-  border-radius: 22px; padding: 44px 48px; margin-bottom: 30px; overflow: hidden;
-}
-.hero-banner::before {
-  content: ''; position: absolute; top: -100px; right: -100px;
-  width: 360px; height: 360px;
-  background: radial-gradient(circle, rgba(240,106,0,.06) 0%, transparent 65%);
-  border-radius: 50%;
-}
-.hero-banner::after {
-  content: ''; position: absolute; bottom: -80px; left: 25%;
-  width: 250px; height: 250px;
-  background: radial-gradient(circle, rgba(123,45,139,.045) 0%, transparent 65%);
-  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-left: 5px solid #F06A00;
+  border-radius: 8px; padding: 36px 44px; margin-bottom: 28px;
+  box-shadow: 0 2px 6px rgba(9,30,66,.07);
 }
 .hero-title {
-  font-size: 3.2rem; font-weight: 900; line-height: 1.0;
-  letter-spacing: -2px; margin: 0 0 8px;
-  background: linear-gradient(135deg, #F06A00 0%, #fbbf24 45%, #c084fc 100%);
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-  position: relative; z-index: 1;
+  font-size: 2.8rem; font-weight: 900; line-height: 1.05;
+  letter-spacing: -1.8px; margin: 0 0 8px;
+  color: #F06A00;
 }
 .hero-subtitle {
-  font-size: 1.25rem; color: #8492a6; font-weight: 300;
-  letter-spacing: -.3px; margin-bottom: 14px;
-  position: relative; z-index: 1;
+  font-size: 1.15rem; color: #5e6c84; font-weight: 400;
+  letter-spacing: -.2px; margin-bottom: 14px;
 }
 .hero-sub {
-  font-size: 1.01rem; color: #6e7a8a; max-width: 700px;
-  line-height: 1.68; margin: 0 0 22px; position: relative; z-index: 1;
+  font-size: .96rem; color: #42526e; max-width: 720px;
+  line-height: 1.68; margin: 0 0 20px;
 }
 .hero-chip {
   display: inline-flex; align-items: center; gap: 4px;
-  background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.09);
-  padding: 4px 12px; border-radius: 99px;
-  font-size: .73rem; color: #8492a6;
-  margin-right: 7px; margin-bottom: 5px; position: relative; z-index: 1;
+  background: #f4f5f7; border: 1px solid #dfe1e6;
+  padding: 4px 10px; border-radius: 4px;
+  font-size: .72rem; color: #42526e; font-weight: 500;
+  margin-right: 6px; margin-bottom: 5px;
 }
 
 /* ── Section headers ── */
 .section-header {
   display: flex; align-items: center; gap: 10px;
-  font-size: 1.0rem; font-weight: 700; color: #c9d1d9;
+  font-size: .95rem; font-weight: 700; color: #172b4d;
   margin: 28px 0 14px;
 }
 .section-header::after {
-  content: ''; flex: 1; height: 1px;
-  background: linear-gradient(90deg, rgba(255,255,255,.07), transparent);
+  content: ''; flex: 1; height: 1px; background: #dfe1e6;
 }
 
 /* ── Insight cards ── */
 .insight-card {
-  background: #0d1420; border: 1px solid rgba(255,255,255,.065);
-  border-left: 3px solid #F06A00; border-radius: 12px;
+  background: #ffffff; border: 1px solid #dfe1e6;
+  border-left: 4px solid #F06A00; border-radius: 8px;
   padding: 15px 18px; margin-bottom: 12px;
-  line-height: 1.65; color: #c9d1d9;
+  line-height: 1.65; color: #172b4d;
+  box-shadow: 0 1px 3px rgba(9,30,66,.04);
   transition: border-left-color .2s, transform .2s;
 }
-.insight-card:hover { border-left-color: #fbbf24; transform: translateX(2px); }
-.insight-product { font-size: .95rem; font-weight: 700; color: #fbbf24; margin-bottom: 7px; }
+.insight-card:hover { border-left-color: #7B2D8B; transform: translateX(2px); }
+.insight-product { font-size: .95rem; font-weight: 700; color: #F06A00; margin-bottom: 7px; }
 
 /* ── Risk / tier badges ── */
-.badge-ttd     { background:rgba(192,132,252,.1); color:#c084fc; border:1px solid rgba(192,132,252,.3); padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
-.badge-std     { background:rgba(251,146, 60,.1); color:#fb923c; border:1px solid rgba(251,146,60,.3);  padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
-.badge-branded { background:rgba(129,140,248,.1); color:#818cf8; border:1px solid rgba(129,140,248,.3); padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
-.badge-danger  { background:rgba(248,113,113,.1); color:#f87171; border:1px solid rgba(248,113,113,.3); padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
-.badge-warning { background:rgba(251,191, 36,.1); color:#fbbf24; border:1px solid rgba(251,191,36,.3);  padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
-.badge-success { background:rgba( 74,222,128,.1); color:#4ade80; border:1px solid rgba(74,222,128,.3);  padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
+.badge-ttd     { background:#f3e8ff; color:#6d28d9; border:1px solid #c4b5fd; padding:2px 10px; border-radius:4px; font-size:.72rem; font-weight:700; }
+.badge-std     { background:#fff7ed; color:#c4440a; border:1px solid #fed7aa; padding:2px 10px; border-radius:4px; font-size:.72rem; font-weight:700; }
+.badge-branded { background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:2px 10px; border-radius:4px; font-size:.72rem; font-weight:700; }
+.badge-danger  { background:#ffebe6; color:#de350b; border:1px solid #ffbdad; padding:2px 10px; border-radius:4px; font-size:.72rem; font-weight:700; }
+.badge-warning { background:#fffae6; color:#974f0c; border:1px solid #ffe380; padding:2px 10px; border-radius:4px; font-size:.72rem; font-weight:700; }
+.badge-success { background:#e3fcef; color:#006644; border:1px solid #abf5d1; padding:2px 10px; border-radius:4px; font-size:.72rem; font-weight:700; }
 
-/* ── Event pill (animated shimmer) ── */
-@keyframes sheen { 0% { background-position:-200% center; } 100% { background-position:200% center; } }
+/* ── Event pill ── */
 .event-pill {
   display: inline-flex; align-items: center; gap: 6px;
-  background: linear-gradient(90deg, rgba(240,106,0,.15), rgba(123,45,139,.15), rgba(240,106,0,.15));
-  background-size: 200%; border: 1px solid rgba(240,106,0,.32);
-  color: #fb923c; padding: 5px 16px; border-radius: 99px;
-  font-size: .78rem; font-weight: 600; animation: sheen 3s linear infinite;
+  background: #fff7ed; border: 1px solid #fed7aa;
+  color: #c4440a; padding: 5px 16px; border-radius: 5px;
+  font-size: .78rem; font-weight: 600;
 }
 
 /* ── Buttons ── */
 .stButton > button {
-  background: linear-gradient(135deg, #F06A00, #c4440a) !important;
+  background: #F06A00 !important;
   color: #fff !important; border: none !important;
-  border-radius: 10px !important; font-weight: 600 !important;
-  box-shadow: 0 4px 14px rgba(240,106,0,.28) !important;
-  transition: all .22s !important;
+  border-radius: 6px !important; font-weight: 600 !important;
+  box-shadow: none !important;
+  transition: background .18s !important;
 }
 .stButton > button:hover {
-  transform: translateY(-1px) !important;
-  box-shadow: 0 7px 22px rgba(240,106,0,.4) !important;
+  background: #c4440a !important;
+  box-shadow: 0 2px 8px rgba(196,68,10,.28) !important;
 }
 
 /* ── Metrics ── */
 [data-testid="metric-container"] {
-  background: linear-gradient(145deg, #0e1420, #131a25) !important;
-  border: 1px solid rgba(255,255,255,.065) !important;
-  border-radius: 14px !important; padding: 18px !important;
+  background: #ffffff !important;
+  border: 1px solid #dfe1e6 !important;
+  border-radius: 8px !important; padding: 16px !important;
+  box-shadow: 0 1px 3px rgba(9,30,66,.05) !important;
 }
 [data-testid="metric-container"] [data-testid="stMetricValue"] { color: #F06A00 !important; }
 
 /* ── Expander ── */
 [data-testid="stExpander"] {
-  background: #0d1420 !important;
-  border: 1px solid rgba(255,255,255,.065) !important; border-radius: 12px !important;
+  background: #ffffff !important;
+  border: 1px solid #dfe1e6 !important; border-radius: 8px !important;
 }
 
 /* ── Selectbox ── */
-[data-baseweb="select"] > div { background: #0d1420 !important; border-color: rgba(255,255,255,.1) !important; }
+[data-baseweb="select"] > div { background: #ffffff !important; border-color: #dfe1e6 !important; }
 
 /* ── Tabs ── */
-.stTabs [data-baseweb="tab-list"] { background: #0d1420 !important; border-radius: 10px !important; gap: 3px !important; padding: 4px !important; }
-.stTabs [data-baseweb="tab"] { border-radius: 8px !important; color: #5a6270 !important; font-weight: 500 !important; }
-.stTabs [aria-selected="true"] { background: rgba(240,106,0,.13) !important; color: #F06A00 !important; }
+.stTabs [data-baseweb="tab-list"] { background: #ffffff !important; border-radius: 6px !important; gap: 2px !important; padding: 3px !important; border: 1px solid #dfe1e6 !important; }
+.stTabs [data-baseweb="tab"] { border-radius: 5px !important; color: #5e6c84 !important; font-weight: 500 !important; }
+.stTabs [aria-selected="true"] { background: #fff7ed !important; color: #c4440a !important; }
 
 /* ── Dataframe ── */
-[data-testid="stDataFrame"] { border-radius: 12px; overflow: hidden; }
+[data-testid="stDataFrame"] { border-radius: 8px; overflow: hidden; border: 1px solid #dfe1e6; }
 
 /* ── Scrollbar ── */
 ::-webkit-scrollbar { width: 5px; height: 5px; }
-::-webkit-scrollbar-track { background: #080c12; }
-::-webkit-scrollbar-thumb { background: #1c2433; border-radius: 3px; }
+::-webkit-scrollbar-track { background: #f4f5f7; }
+::-webkit-scrollbar-thumb { background: #c1c7d0; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #F06A00; }
 
 /* ── Misc ── */
-hr { border-color: rgba(255,255,255,.055) !important; }
+hr { border-color: #dfe1e6 !important; }
 .stSpinner > div { border-top-color: #F06A00 !important; }
-.stProgress > div > div { background: linear-gradient(90deg, #F06A00, #7B2D8B) !important; }
-@keyframes risk-blink { 0%,100%{opacity:1;} 50%{opacity:.55;} }
+.stProgress > div > div { background: #F06A00 !important; }
+@keyframes risk-blink { 0%,100%{opacity:1;} 50%{opacity:.65;} }
 .risk-blink { animation: risk-blink 2s ease-in-out infinite; }
 </style>
 """, unsafe_allow_html=True)
@@ -355,8 +329,8 @@ with st.sidebar:
     st.markdown(
         "<div style='padding:9px 16px 2px;'>"
         "<span class='status-dot'></span>"
-        "<span style='font-size:.73rem;color:#4ade80;font-weight:700;'>LIVE</span>"
-        "<span style='font-size:.7rem;color:#404955;margin-left:7px;'>All systems operational</span>"
+        "<span style='font-size:.73rem;color:#00875a;font-weight:700;'>LIVE</span>"
+        "<span style='font-size:.7rem;color:#5e6c84;margin-left:7px;'>All systems operational</span>"
         "</div>",
         unsafe_allow_html=True,
     )
@@ -364,7 +338,7 @@ with st.sidebar:
 
     # ── Navigation
     st.markdown(
-        "<p style='font-size:.6rem;font-weight:700;color:#404955;letter-spacing:.12em;"
+        "<p style='font-size:.6rem;font-weight:700;color:#5e6c84;letter-spacing:.12em;"
         "text-transform:uppercase;margin:2px 0 4px;padding:0 6px;'>Navigate</p>",
         unsafe_allow_html=True,
     )
@@ -395,16 +369,16 @@ with st.sidebar:
 
     # ── Project phase guide
     st.markdown(
-        "<p style='font-size:.6rem;font-weight:700;color:#404955;letter-spacing:.12em;"
+        "<p style='font-size:.6rem;font-weight:700;color:#5e6c84;letter-spacing:.12em;"
         "text-transform:uppercase;margin:10px 0 6px;padding:0 6px;'>Project Phases</p>",
         unsafe_allow_html=True,
     )
     _phases = [
-        ("1", "Data Ingestion",   "#818cf8", "rgba(129,140,248,.1)",  "rgba(129,140,248,.28)"),
-        ("2", "ML Predictions",   "#fb923c", "rgba(251,146, 60,.1)",  "rgba(251,146,60,.28)"),
-        ("3", "Explainability",   "#4ade80", "rgba( 74,222,128,.1)",  "rgba(74,222,128,.28)"),
-        ("4", "Intelligence Hub", "#c084fc", "rgba(192,132,252,.1)",  "rgba(192,132,252,.28)"),
-        ("5", "Co-Pilot AI",      "#F06A00", "rgba(240,106,  0,.1)",  "rgba(240,106,0,.28)"),
+        ("1", "Data Ingestion",   "#4338ca", "#eef2ff",  "#c7d2fe"),
+        ("2", "ML Predictions",   "#c4440a", "#fff7ed",  "#fed7aa"),
+        ("3", "Explainability",   "#047857", "#ecfdf5",  "#a7f3d0"),
+        ("4", "Intelligence Hub", "#7c3aed", "#f5f3ff",  "#ddd6fe"),
+        ("5", "Co-Pilot AI",      "#c4440a", "#fff7ed",  "#fed7aa"),
     ]
     _ph_html = "<div style='display:flex;flex-direction:column;gap:4px;padding:0 2px;'>"
     for _n, _lbl, _c, _bg, _bd in _phases:
@@ -425,7 +399,7 @@ with st.sidebar:
         st.cache_data.clear()
         st.rerun()
     st.markdown(
-        "<p style='color:#1c2433;font-size:.65rem;margin-top:10px;text-align:center;line-height:1.6;'>"
+        "<p style='color:#97a0af;font-size:.65rem;margin-top:10px;text-align:center;line-height:1.6;'>"
         "Retail Brain v2.0 · Sainsbury's PLC<br>"
         "XGBoost · Holt-Winters · IsolationForest · RAG</p>",
         unsafe_allow_html=True,
@@ -605,25 +579,25 @@ if page == "🏠 Overview":
         _h0, _h1, _h2, _h3, _h4 = st.columns([3.5, 1.2, 1.2, 1.5, 2])
         for _hcol, _htxt in zip([_h0, _h1, _h2, _h3, _h4],
                                  ["Product", "Risk", "Time Left", "Order Qty", "Revenue at Risk"]):
-            _hcol.markdown(f"<span style='font-size:.7rem;font-weight:700;color:#404955;text-transform:uppercase;letter-spacing:.06em;'>{_htxt}</span>",
+            _hcol.markdown(f"<span style='font-size:.7rem;font-weight:700;color:#5e6c84;text-transform:uppercase;letter-spacing:.06em;'>{_htxt}</span>",
                            unsafe_allow_html=True)
         st.markdown("<hr style='margin:4px 0 8px;border-color:rgba(255,255,255,.06);'>", unsafe_allow_html=True)
         for _, row in high_risk.head(8).iterrows():
             ca, cb, cc, cd, ce = st.columns([3.5, 1.2, 1.2, 1.5, 2])
-            ca.markdown(f"<span style='font-size:.88rem;font-weight:600;color:#c9d1d9;'>{row['product_name']}</span>",
+            ca.markdown(f"<span style='font-size:.88rem;font-weight:600;color:#172b4d;'>{row['product_name']}</span>",
                         unsafe_allow_html=True)
             cb.markdown(f"<span class='badge-danger risk-blink'>{row['stockout_probability']*100:.0f}%</span>",
                         unsafe_allow_html=True)
-            cc.markdown(f"<span style='font-size:.83rem;color:#6e7681;'>{row['time_to_stockout']}</span>",
+            cc.markdown(f"<span style='font-size:.83rem;color:#5e6c84;'>{row['time_to_stockout']}</span>",
                         unsafe_allow_html=True)
-            cd.markdown(f"<span style='font-size:.85rem;font-weight:600;color:#fb923c;'>{row['replenishment_qty']:,} units</span>",
+            cd.markdown(f"<span style='font-size:.85rem;font-weight:600;color:#c4440a;'>{row['replenishment_qty']:,} units</span>",
                         unsafe_allow_html=True)
             price_row = prods_df[prods_df["product_id"] == row.get("product_id", "")]
             if not price_row.empty:
                 rev_risk = round(row["replenishment_qty"] * float(price_row.iloc[0]["unit_price"]), 2)
-                ce.markdown(f"<span style='font-size:.85rem;font-weight:700;color:#f87171;'>£{rev_risk:,.2f}</span>",
+                ce.markdown(f"<span style='font-size:.85rem;font-weight:700;color:#de350b;'>£{rev_risk:,.2f}</span>",
                             unsafe_allow_html=True)
-            st.markdown("<hr style='margin:4px 0;border-color:rgba(255,255,255,.04);'>", unsafe_allow_html=True)
+            st.markdown("<hr style='margin:4px 0;border-color:rgba(0,0,0,.07);'>", unsafe_allow_html=True)
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -905,10 +879,10 @@ elif page == "📅 Event Calendar":
                 )
         fig.update_layout(
             title=dict(text="📈 Q4 2024 — Store Daily Sales Volume (SBY-LON-001)",
-                       font=dict(color="#f0f6fc", size=14)),
-            height=420, paper_bgcolor="#161b22", plot_bgcolor="#161b22",
-            font=dict(color="#f0f6fc", family="Inter"),
-            xaxis=dict(gridcolor="#21262d"), yaxis=dict(gridcolor="#21262d"),
+                       font=dict(color="#172b4d", size=14)),
+            height=420, paper_bgcolor="#ffffff", plot_bgcolor="#f4f5f7",
+            font=dict(color="#172b4d", family="Inter"),
+            xaxis=dict(gridcolor="#dfe1e6"), yaxis=dict(gridcolor="#dfe1e6"),
             margin=dict(l=40, r=20, t=55, b=40),
         )
         st.plotly_chart(fig, use_container_width=True)
@@ -1049,10 +1023,10 @@ elif page == "🧠 Intelligence Hub":
                 ))
                 fig.update_layout(
                     title="Price Sensitivity by Category (|Elasticity|)",
-                    height=400, paper_bgcolor="#161b22", plot_bgcolor="#161b22",
-                    font=dict(color="#f0f6fc", family="Inter"),
-                    xaxis=dict(gridcolor="#21262d"),
-                    yaxis=dict(gridcolor="#21262d", title="|Elasticity|"),
+                    height=400, paper_bgcolor="#ffffff", plot_bgcolor="#f4f5f7",
+                    font=dict(color="#172b4d", family="Inter"),
+                    xaxis=dict(gridcolor="#dfe1e6"),
+                    yaxis=dict(gridcolor="#dfe1e6", title="|Elasticity|"),
                     margin=dict(l=40, r=20, t=55, b=80),
                 )
                 st.plotly_chart(fig, use_container_width=True)
@@ -1113,10 +1087,10 @@ elif page == "🧠 Intelligence Hub":
                     ))
                     fig.update_layout(
                         title="RL Agent Training Curve",
-                        height=350, paper_bgcolor="#161b22", plot_bgcolor="#161b22",
-                        font=dict(color="#f0f6fc", family="Inter"),
-                        xaxis=dict(title="Episode", gridcolor="#21262d"),
-                        yaxis=dict(title="Reward", gridcolor="#21262d"),
+                        height=350, paper_bgcolor="#ffffff", plot_bgcolor="#f4f5f7",
+                        font=dict(color="#172b4d", family="Inter"),
+                        xaxis=dict(title="Episode", gridcolor="#dfe1e6"),
+                        yaxis=dict(title="Reward", gridcolor="#dfe1e6"),
                         margin=dict(l=40, r=20, t=55, b=40),
                     )
                     st.plotly_chart(fig, use_container_width=True)
@@ -1285,10 +1259,10 @@ elif page == "📦 Auto-Orders":
             fig.update_layout(
                 title="Cost-Benefit Analysis — Top 20 Orders",
                 barmode="group", height=420,
-                paper_bgcolor="#161b22", plot_bgcolor="#161b22",
-                font=dict(color="#f0f6fc", family="Inter"),
-                xaxis=dict(gridcolor="#21262d", tickangle=-45),
-                yaxis=dict(gridcolor="#21262d", title="£ GBP"),
+                paper_bgcolor="#ffffff", plot_bgcolor="#f4f5f7",
+                font=dict(color="#172b4d", family="Inter"),
+                xaxis=dict(gridcolor="#dfe1e6", tickangle=-45),
+                yaxis=dict(gridcolor="#dfe1e6", title="£ GBP"),
                 margin=dict(l=40, r=20, t=55, b=120),
                 legend=dict(orientation="h", y=1.12),
             )
@@ -1362,10 +1336,10 @@ elif page == "📈 Demand Forecast":
                 ))
                 fig_cat.update_layout(
                     title=f"{horizon}-Day Demand Forecast by Category",
-                    height=420, paper_bgcolor="#161b22", plot_bgcolor="#161b22",
-                    font=dict(color="#f0f6fc", family="Inter"),
-                    xaxis=dict(gridcolor="#21262d", tickangle=-25),
-                    yaxis=dict(gridcolor="#21262d", title="Forecasted Units"),
+                    height=420, paper_bgcolor="#ffffff", plot_bgcolor="#f4f5f7",
+                    font=dict(color="#172b4d", family="Inter"),
+                    xaxis=dict(gridcolor="#dfe1e6", tickangle=-25),
+                    yaxis=dict(gridcolor="#dfe1e6", title="Forecasted Units"),
                     margin=dict(l=40, r=20, t=55, b=100),
                 )
                 st.plotly_chart(fig_cat, use_container_width=True)
@@ -1428,10 +1402,10 @@ elif page == "📈 Demand Forecast":
                         ))
                     fig_p.update_layout(
                         title=f"Demand Forecast — {pid_sel} ({fc_result['category']})",
-                        height=420, paper_bgcolor="#161b22", plot_bgcolor="#161b22",
-                        font=dict(color="#f0f6fc", family="Inter"),
-                        xaxis=dict(gridcolor="#21262d"),
-                        yaxis=dict(gridcolor="#21262d", title="Units"),
+                        height=420, paper_bgcolor="#ffffff", plot_bgcolor="#f4f5f7",
+                        font=dict(color="#172b4d", family="Inter"),
+                        xaxis=dict(gridcolor="#dfe1e6"),
+                        yaxis=dict(gridcolor="#dfe1e6", title="Units"),
                         margin=dict(l=40, r=20, t=55, b=40),
                         legend=dict(orientation="h", y=1.12),
                     )
@@ -1536,9 +1510,9 @@ elif page == "🤖 Co-Pilot":
         # Model status banner
         model_label = "🟢 GPT-4o-mini" if copilot._has_openai else "🟡 Rule-Based Engine"
         st.markdown(
-            f"<div style='background:#161b22;border:1px solid #30363d;border-left:4px solid "
+            f"<div style='background:#ffffff;border:1px solid #dfe1e6;border-left:4px solid "
             f"{'#22c55e' if copilot._has_openai else '#f59e0b'};"
-            f"border-radius:8px;padding:10px 16px;margin-bottom:16px;'>"
+            f"border-radius:8px;padding:10px 16px;margin-bottom:16px;color:#172b4d;'>"
             f"<b>Model:</b> {model_label} &nbsp;·&nbsp; "
             f"<b>Context:</b> {len(risk_context)} products · {len(anomaly_list)} anomalies · {len(fc_summaries)} forecasts"
             f"</div>",
@@ -1571,16 +1545,16 @@ elif page == "🤖 Co-Pilot":
             content = msg["content"]
             if role == "user":
                 st.markdown(
-                    f"<div style='background:#21262d;border-radius:12px;padding:12px 16px;"
-                    f"margin-bottom:10px;border-left:3px solid #F06A00;'>"
-                    f"<b style='color:#F06A00;'>You</b><br>{content}</div>",
+                    f"<div style='background:#fff7ed;border-radius:8px;padding:12px 16px;"
+                    f"margin-bottom:10px;border-left:3px solid #F06A00;border:1px solid #fed7aa;'>"
+                    f"<b style='color:#F06A00;'>You</b><br><span style='color:#172b4d;'>{content}</span></div>",
                     unsafe_allow_html=True,
                 )
             else:
                 st.markdown(
-                    f"<div style='background:#161b22;border:1px solid #30363d;border-radius:12px;"
+                    f"<div style='background:#ffffff;border:1px solid #dfe1e6;border-radius:8px;"
                     f"padding:14px 18px;margin-bottom:14px;'>"
-                    f"<b style='color:#7B2D8B;'>🤖 Co-Pilot</b><br><br>{content}</div>",
+                    f"<b style='color:#7B2D8B;'>🤖 Co-Pilot</b><br><br><span style='color:#172b4d;'>{content}</span></div>",
                     unsafe_allow_html=True,
                 )
 
@@ -1626,12 +1600,12 @@ elif page == "🤖 Co-Pilot":
                 for a in high_anom:
                     sev_color = {"high": "#ef4444", "medium": "#f59e0b", "low": "#22c55e"}.get(a["severity"], "#8b949e")
                     st.markdown(
-                        f"<div style='background:#161b22;border:1px solid #30363d;"
+                        f"<div style='background:#ffffff;border:1px solid #dfe1e6;"
                         f"border-left:3px solid {sev_color};border-radius:8px;"
-                        f"padding:10px 14px;margin-bottom:8px;font-size:0.85rem;'>"
+                        f"padding:10px 14px;margin-bottom:8px;font-size:0.85rem;color:#172b4d;'>"
                         f"<b>{a['date']}</b> · <code>{a['product_id']}</code> · "
                         f"<span style='color:{sev_color};'>{a['anomaly_type'].replace('_',' ').title()}</span>"
-                        f"<br><span style='color:#8b949e;'>{a['description'][:100]}…</span>"
+                        f"<br><span style='color:#5e6c84;'>{a['description'][:100]}…</span>"
                         f"</div>",
                         unsafe_allow_html=True,
                     )
