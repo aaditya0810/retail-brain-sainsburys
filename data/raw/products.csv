@@ -1,1001 +1,501 @@
 product_id,product_name,category,tier,unit_price,base_demand,reorder_point,lead_time_days
-SAI-D001,Sainsbury's British Whole Milk 6 Pints,Dairy & Eggs,Sainsbury's,1.45,85,60,1
-SAI-D002,Sainsbury's Semi-Skimmed Milk 4 Pints,Dairy & Eggs,Sainsbury's,1.1,70,50,1
-SAI-D003,Sainsbury's Skimmed Milk 2 Pints,Dairy & Eggs,Sainsbury's,0.8,40,30,1
-SAI-D004,Sainsbury's Large Free Range Eggs 12pk,Dairy & Eggs,Sainsbury's,3.25,55,40,1
-SAI-D005,Taste the Difference Burford Brown Eggs 6pk,Dairy & Eggs,Taste the Difference,3.75,22,15,2
-SAI-D006,Sainsbury's Salted Butter 250g,Dairy & Eggs,Sainsbury's,1.6,38,28,2
-SAI-D007,Taste the Difference Normandy Butter 250g,Dairy & Eggs,Taste the Difference,2.2,18,12,2
-SAI-D008,Sainsbury's Mature Cheddar 400g,Dairy & Eggs,Sainsbury's,3.5,45,32,3
-SAI-D009,Taste the Difference West Country Cheddar 300g,Dairy & Eggs,Taste the Difference,4.0,20,14,3
-SAI-D010,Sainsbury's Greek Style Yogurt 500g,Dairy & Eggs,Sainsbury's,1.5,30,22,2
-SAI-B001,Sainsbury's Medium Sliced White Bread 800g,Fresh Bakery,Sainsbury's,1.1,90,70,1
-SAI-B002,Sainsbury's Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,1.2,55,42,1
-SAI-B003,Taste the Difference Sourdough Loaf 400g,Fresh Bakery,Taste the Difference,2.75,30,22,1
-SAI-B004,Sainsbury's Croissants 4pk,Fresh Bakery,Sainsbury's,1.4,40,30,1
-SAI-B005,Taste the Difference All Butter Croissants 4pk,Fresh Bakery,Taste the Difference,2.5,25,18,1
-SAI-B006,Sainsbury's Bagels 5pk,Fresh Bakery,Sainsbury's,1.3,28,20,1
-SAI-B007,Sainsbury's Hot Cross Buns 6pk,Fresh Bakery,Sainsbury's,1.25,35,25,1
-SAI-M001,Sainsbury's British Chicken Breast Fillets 600g,Meat & Fish,Sainsbury's,4.5,52,38,2
-SAI-M002,Taste the Difference Corn Fed Chicken 1.5kg,Meat & Fish,Taste the Difference,7.0,18,12,2
-SAI-M003,Sainsbury's British Beef Mince 500g (20% fat),Meat & Fish,Sainsbury's,3.75,45,32,2
-SAI-M004,Taste the Difference Scottish Beef Mince 500g,Meat & Fish,Taste the Difference,5.0,20,14,2
-SAI-M005,Sainsbury's Pork Sausages 8pk 454g,Meat & Fish,Sainsbury's,2.5,40,28,2
-SAI-M006,Taste the Difference Cumberland Sausages 400g,Meat & Fish,Taste the Difference,3.5,22,15,2
-SAI-M007,Sainsbury's Smoked Back Bacon 300g,Meat & Fish,Sainsbury's,2.75,35,25,2
-SAI-M008,Sainsbury's Atlantic Salmon Fillets 240g,Meat & Fish,Sainsbury's,5.5,25,18,2
-SAI-M009,Taste the Difference Scottish Salmon Fillet 2pk,Meat & Fish,Taste the Difference,7.0,15,10,2
-SAI-M010,Sainsbury's Cod Fillets 420g,Meat & Fish,Sainsbury's,4.75,20,14,3
-SAI-P001,Sainsbury's Bananas Loose,Fresh Produce,Sainsbury's,0.99,110,80,1
-SAI-P002,Sainsbury's Easy Peelers 600g,Fresh Produce,Sainsbury's,1.5,60,45,1
-SAI-P003,Sainsbury's British Vine Tomatoes 500g,Fresh Produce,Sainsbury's,1.2,55,40,1
-SAI-P004,Sainsbury's Tenderstem Broccoli 200g,Fresh Produce,Sainsbury's,1.5,42,30,1
-SAI-P005,Sainsbury's Avocado,Fresh Produce,Sainsbury's,0.8,48,35,2
-SAI-P006,Sainsbury's Baby Spinach 200g,Fresh Produce,Sainsbury's,1.6,38,28,1
-SAI-P007,Sainsbury's Maris Piper Potatoes 2.5kg,Fresh Produce,Sainsbury's,1.75,65,48,2
-SAI-P008,Taste the Difference Chantenay Carrots 300g,Fresh Produce,Taste the Difference,1.8,30,22,2
-SAI-P009,Sainsbury's Iceberg Lettuce,Fresh Produce,Sainsbury's,0.59,50,36,1
-SAI-P010,Sainsbury's British Strawberries 400g,Fresh Produce,Sainsbury's,2.5,35,25,1
-SAI-DK01,Sainsbury's Pure Orange Juice 1L,Drinks,Sainsbury's,1.55,52,38,2
-SAI-DK02,Innocent Orange Juice 900ml,Drinks,Branded,2.8,30,22,3
-SAI-DK03,Sainsbury's Cola 2L,Drinks,Sainsbury's,1.15,60,45,2
-SAI-DK04,Coca-Cola Original 6x330ml,Drinks,Branded,4.5,42,30,3
-SAI-DK05,Sainsbury's Still Water 6x500ml,Drinks,Sainsbury's,1.6,48,35,2
-SAI-DK06,Highland Spring Sparkling Water 6x500ml,Drinks,Branded,3.0,28,20,3
-SAI-DK07,Taste the Difference Fairtrade Orange Juice 1L,Drinks,Taste the Difference,2.2,20,14,2
-SAI-DK08,Sainsbury's Apple Juice 1L,Drinks,Sainsbury's,1.3,38,28,2
-SAI-G001,Sainsbury's Long Grain White Rice 1kg,Ambient Grocery,Sainsbury's,1.25,35,25,5
-SAI-G002,Sainsbury's Spaghetti 500g,Ambient Grocery,Sainsbury's,0.9,45,32,5
-SAI-G003,Heinz Baked Beans in Tomato Sauce 415g,Ambient Grocery,Branded,0.9,70,52,5
-SAI-G004,Sainsbury's Chopped Tomatoes 400g,Ambient Grocery,Sainsbury's,0.65,55,40,5
-SAI-G005,Taste the Difference Italian Passata 690g,Ambient Grocery,Taste the Difference,1.35,25,18,5
-SAI-G006,Sainsbury's Plain Flour 1.5kg,Ambient Grocery,Sainsbury's,1.1,30,22,5
-SAI-G007,Kellogg's Cornflakes 500g,Ambient Grocery,Branded,2.75,35,25,5
-SAI-G008,Sainsbury's Porridge Oats 1kg,Ambient Grocery,Sainsbury's,1.2,42,30,5
-SAI-G009,Sainsbury's Baked Beans 4pk x 415g,Ambient Grocery,Sainsbury's,2.25,40,30,5
-SAI-G010,Taste the Difference Crunchy Peanut Butter 280g,Ambient Grocery,Taste the Difference,2.5,18,12,5
-SAI-S001,Walkers Ready Salted Crisps 6pk,Snacks,Branded,2.0,55,40,3
-SAI-S002,Doritos Chilli Heatwave 150g,Snacks,Branded,1.8,45,32,3
-SAI-S003,Sainsbury's Salted Popcorn 100g,Snacks,Sainsbury's,0.85,38,28,4
-SAI-S004,Cadbury Dairy Milk 200g,Snacks,Branded,2.5,60,45,3
-SAI-S005,Taste the Difference 70% Dark Chocolate 100g,Snacks,Taste the Difference,1.75,25,18,3
-SAI-S006,McVitie's Digestive Biscuits 400g,Snacks,Branded,1.5,48,35,4
-SAI-S007,Sainsbury's Houmous 200g,Snacks,Sainsbury's,1.0,42,30,3
-SAI-S008,Pringles Original 200g,Snacks,Branded,2.0,40,28,3
-SAI-F001,Sainsbury's Garden Peas 1kg,Frozen,Sainsbury's,1.25,38,28,5
-SAI-F002,Sainsbury's Oven Chips 1.5kg,Frozen,Sainsbury's,1.45,55,40,5
-SAI-F003,Taste the Difference Stone Baked Margherita 435g,Frozen,Taste the Difference,4.5,20,14,5
-SAI-F004,Sainsbury's Beef Lasagne 400g,Frozen,Sainsbury's,2.75,30,22,5
-SAI-F005,Sainsbury's Vanilla Ice Cream 1L,Frozen,Sainsbury's,2.0,28,20,5
-SAI-F006,Taste the Difference Clotted Cream Ice Cream 1L,Frozen,Taste the Difference,4.0,15,10,5
-SAI-F007,Sainsbury's Fish Fingers 10pk,Frozen,Sainsbury's,2.5,35,25,4
-SAI-H001,Sainsbury's Toilet Tissue 9 Rolls,Household,Sainsbury's,3.5,40,30,5
-SAI-H002,Andrex Gentle Clean Toilet Tissue 9 Rolls,Household,Branded,5.0,30,22,5
-SAI-H003,Sainsbury's Washing Up Liquid 500ml,Household,Sainsbury's,0.89,30,22,7
-SAI-H004,Fairy Platinum Plus Washing Up Liquid 650ml,Household,Branded,2.75,25,18,7
-SAI-H005,Sainsbury's Ibuprofen 200mg 16 Tablets,Health & Beauty,Sainsbury's,1.49,22,16,7
-SAI-H006,Sainsbury's Vitamin D 1000IU 90 Tablets,Health & Beauty,Sainsbury's,3.5,15,10,7
-SAI-GEN0077,Sainsbury's Chilled Pizza 400g,Frozen,Sainsbury's,7.15,61,44,3
-SAI-GEN0078,Taste the Difference Handmade Laundry Pods 20pk,Household,Taste the Difference,6.36,28,18,2
-SAI-GEN0079,Sainsbury's Smoked Squash 1L,Drinks,Sainsbury's,5.99,48,33,4
-SAI-GEN0080,Taste the Difference Value Prawns 200g,Meat & Fish,Taste the Difference,11.76,26,17,4
-SAI-GEN0081,Sainsbury's Smoked Sourdough 400g,Fresh Bakery,Sainsbury's,3.09,47,28,2
-SAI-GEN0082,Sainsbury's So Good Peanut Butter 280g,Ambient Grocery,So Good,2.48,63,32,2
-SAI-GEN0083,Sainsbury's Unsalted Yogurt 500g,Dairy & Eggs,Sainsbury's,7.7,61,41,2
-SAI-GEN0084,Sainsbury's So Good Shower Gel 250ml,Health & Beauty,So Good,2.27,62,37,2
-SAI-GEN0085,Sainsbury's Frozen Coffee 200g,Drinks,Sainsbury's,7.55,64,48,2
-SAI-GEN0086,Taste the Difference Chilled Chopped Tomatoes 400g,Ambient Grocery,Taste the Difference,1.84,20,10,2
-SAI-GEN0087,Sainsbury's Roasted Lasagne 400g,Frozen,Sainsbury's,1.97,53,30,4
-SAI-GEN0088,Sainsbury's Salted Shampoo 250ml,Health & Beauty,Sainsbury's,3.77,61,34,1
-SAI-GEN0089,Nivea Spicy Still Water 6x500ml,Drinks,Branded,7.77,46,24,2
-SAI-GEN0090,Sainsbury's Free Range Lemons 3pk,Fresh Produce,Sainsbury's,6.88,55,33,1
-SAI-GEN0091,Sainsbury's So Good Plasters 40pk,Health & Beauty,So Good,4.13,90,46,2
-SAI-GEN0092,Sainsbury's So Good Cream 300ml,Dairy & Eggs,So Good,1.46,90,61,1
-SAI-GEN0093,Sainsbury's Classic Washing Up Liquid 500ml,Household,Sainsbury's,6.49,45,24,2
-SAI-GEN0094,Sainsbury's Frozen Paracetamol 16pk,Health & Beauty,Sainsbury's,7.96,75,38,1
-SAI-GEN0095,Taste the Difference Mixed Washing Up Liquid 500ml,Household,Taste the Difference,0.75,23,11,1
-SAI-GEN0096,Sainsbury's Chilled Baguette,Fresh Bakery,Sainsbury's,1.93,46,29,2
-SAI-GEN0097,Sainsbury's Value Mixed Veg 1kg,Frozen,Sainsbury's,7.0,61,41,2
-SAI-GEN0098,Sainsbury's Sweet Oranges 5pk,Fresh Produce,Sainsbury's,6.14,57,36,1
-SAI-GEN0099,Taste the Difference Premium Bagels 5pk,Fresh Bakery,Taste the Difference,9.21,28,19,1
-SAI-GEN0100,Sainsbury's Stone Baked Grapes 500g,Fresh Produce,Sainsbury's,4.6,38,23,1
-SAI-GEN0101,Sainsbury's So Good Bleach 750ml,Household,So Good,5.28,66,46,2
-SAI-GEN0102,Taste the Difference Scottish Grapes 500g,Fresh Produce,Taste the Difference,10.27,17,13,1
-SAI-GEN0103,Sainsbury's Smoked Chicken Breast 600g,Meat & Fish,Sainsbury's,7.37,66,36,4
-SAI-GEN0104,Sainsbury's Frozen Rice Cakes 130g,Snacks,Sainsbury's,0.78,42,22,4
-SAI-GEN0105,Sainsbury's Scottish Prawns 200g,Meat & Fish,Sainsbury's,3.77,36,26,3
-SAI-GEN0106,Sainsbury's Smoked Apples 6pk,Fresh Produce,Sainsbury's,4.75,48,32,1
-SAI-GEN0107,Taste the Difference Frozen Tortilla Chips 200g,Snacks,Taste the Difference,3.74,32,17,2
-SAI-GEN0108,Sainsbury's Scottish Cream 300ml,Dairy & Eggs,Sainsbury's,4.52,61,38,1
-SAI-GEN0109,Taste the Difference Sweet Onions 1kg,Fresh Produce,Taste the Difference,3.85,26,16,1
-SAI-GEN0110,Sainsbury's Sweet Crackers 150g,Snacks,Sainsbury's,4.42,50,37,3
-SAI-GEN0111,Sainsbury's Stone Baked Spinach 200g,Fresh Produce,Sainsbury's,2.65,47,30,1
-SAI-GEN0112,Andrex Handmade Coffee 200g,Drinks,Branded,5.71,50,29,2
-SAI-GEN0113,Sainsbury's Classic Wraps 8pk,Fresh Bakery,Sainsbury's,2.61,50,34,2
-SAI-GEN0114,Taste the Difference Salted Cola 2L,Drinks,Taste the Difference,11.64,34,23,1
-SAI-GEN0115,Sainsbury's Corn Fed Beef Mince 500g,Meat & Fish,Sainsbury's,1.93,39,28,3
-SAI-GEN0116,Sainsbury's Unsalted Yogurt 500g,Dairy & Eggs,Sainsbury's,6.9,62,34,2
-SAI-GEN0117,Colgate Stone Baked Apple Juice 1L,Drinks,Branded,3.26,53,32,1
-SAI-GEN0118,Sainsbury's Chilled Lemons 3pk,Fresh Produce,Sainsbury's,2.72,43,32,2
-SAI-GEN0119,Sainsbury's Smoked Sourdough 400g,Fresh Bakery,Sainsbury's,5.22,56,37,1
-SAI-GEN0120,Sainsbury's Spicy Mozzarella 125g,Dairy & Eggs,Sainsbury's,4.77,45,29,2
-SAI-GEN0121,Taste the Difference Fresh Onions 1kg,Fresh Produce,Taste the Difference,9.09,21,11,1
-SAI-GEN0122,Sainsbury's Premium Carrots 1kg,Fresh Produce,Sainsbury's,5.58,62,40,1
-SAI-GEN0123,Taste the Difference Spicy Pizza 400g,Frozen,Taste the Difference,5.94,24,15,4
-SAI-GEN0124,Nivea Sweet Toilet Roll 9pk,Household,Branded,9.4,50,30,4
-SAI-GEN0125,Sainsbury's British Baked Beans 415g,Ambient Grocery,Sainsbury's,7.79,70,40,2
-SAI-GEN0126,Sainsbury's Smoked Mixed Veg 1kg,Frozen,Sainsbury's,1.56,42,26,3
-SAI-GEN0127,Sainsbury's Salted Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,2.08,67,47,1
-SAI-GEN0128,Sainsbury's Unsalted Jam 340g,Ambient Grocery,Sainsbury's,4.16,72,37,2
-SAI-GEN0129,Sainsbury's Classic Foil 10m,Household,Sainsbury's,7.99,51,30,2
-SAI-GEN0130,Sainsbury's Mixed Plasters 40pk,Health & Beauty,Sainsbury's,3.09,38,22,3
-SAI-GEN0131,Sainsbury's So Good Chopped Tomatoes 400g,Ambient Grocery,So Good,4.58,83,42,2
-SAI-GEN0132,Sainsbury's Handmade Rolls 6pk,Fresh Bakery,Sainsbury's,0.9,47,33,1
-SAI-GEN0133,Sainsbury's Stone Baked Rice 1kg,Ambient Grocery,Sainsbury's,3.61,50,26,4
-SAI-GEN0134,Taste the Difference Frozen Rice 1kg,Ambient Grocery,Taste the Difference,6.62,35,25,2
-SAI-GEN0135,Sainsbury's So Good Beef Mince 500g,Meat & Fish,So Good,5.26,76,49,4
-SAI-GEN0136,Sainsbury's So Good Mixed Veg 1kg,Frozen,So Good,4.8,78,58,1
-SAI-GEN0137,Sainsbury's Roasted Apple Juice 1L,Drinks,Sainsbury's,4.52,58,30,4
-SAI-GEN0138,Sainsbury's Spicy Cotton Pads 100pk,Health & Beauty,Sainsbury's,5.93,59,38,3
-SAI-GEN0139,Taste the Difference Classic White Bread 800g,Fresh Bakery,Taste the Difference,10.88,28,15,1
-SAI-GEN0140,Sainsbury's Premium Bananas,Fresh Produce,Sainsbury's,1.3,45,35,1
-SAI-GEN0141,Nestle British Fabric Conditioner 1L,Household,Branded,8.88,38,29,3
-SAI-GEN0142,Sainsbury's Roasted Wraps 8pk,Fresh Bakery,Sainsbury's,1.31,51,37,2
-SAI-GEN0143,Sainsbury's Organic Lasagne 400g,Frozen,Sainsbury's,1.56,57,33,1
-SAI-GEN0144,Sainsbury's Roasted Lasagne 400g,Frozen,Sainsbury's,1.59,56,29,1
-SAI-GEN0145,Sainsbury's British Oven Chips 1.5kg,Frozen,Sainsbury's,6.18,45,30,2
-SAI-GEN0146,Taste the Difference Salted Potatoes 2.5kg,Fresh Produce,Taste the Difference,11.45,33,17,2
-SAI-GEN0147,Sainsbury's Unsalted Bin Liners 20pk,Household,Sainsbury's,6.65,75,53,2
-SAI-GEN0148,Sainsbury's Value Broccoli 300g,Fresh Produce,Sainsbury's,0.65,43,25,1
-SAI-GEN0149,Sainsbury's finest Crackers 150g,Snacks,Sainsbury's,3.84,71,49,3
-SAI-GEN0150,Kellogg's Frozen Fabric Conditioner 1L,Household,Branded,6.8,41,21,4
-SAI-GEN0151,Sainsbury's Fresh Baguette,Fresh Bakery,Sainsbury's,6.55,41,27,2
-SAI-GEN0152,Sainsbury's So Good Chicken Nuggets 500g,Frozen,So Good,2.91,86,51,2
-SAI-GEN0153,Taste the Difference Frozen Salmon Fillets 240g,Meat & Fish,Taste the Difference,11.14,15,9,3
-SAI-GEN0154,Sainsbury's finest Yogurt 500g,Dairy & Eggs,Sainsbury's,7.22,52,29,2
-SAI-GEN0155,Sainsbury's So Good Fish Fingers 10pk,Frozen,So Good,0.8,83,63,3
-SAI-GEN0156,Taste the Difference Value Mozzarella 125g,Dairy & Eggs,Taste the Difference,11.56,35,20,2
-SAI-GEN0157,Sainsbury's Fresh Kitchen Roll 2pk,Household,Sainsbury's,4.69,54,31,3
-SAI-GEN0158,Sainsbury's Value Sourdough 400g,Fresh Bakery,Sainsbury's,7.77,70,35,2
-SAI-GEN0159,Taste the Difference Handmade Lemons 3pk,Fresh Produce,Taste the Difference,2.52,23,14,2
-SAI-GEN0160,Sainsbury's Smoked Lemonade 2L,Drinks,Sainsbury's,1.9,50,36,4
-SAI-GEN0161,Sainsbury's Organic Wraps 8pk,Fresh Bakery,Sainsbury's,2.64,48,36,1
-SAI-GEN0162,Kellogg's Handmade Toothpaste 75ml,Health & Beauty,Branded,8.61,35,26,1
-SAI-GEN0163,Sainsbury's Scottish Rice 1kg,Ambient Grocery,Sainsbury's,7.84,73,49,4
-SAI-GEN0164,Sainsbury's Value Tomatoes 500g,Fresh Produce,Sainsbury's,6.0,57,35,2
-SAI-GEN0165,Taste the Difference Unsalted Milk 4 Pints,Dairy & Eggs,Taste the Difference,9.24,26,15,1
-SAI-GEN0166,Sainsbury's British Pizza 400g,Frozen,Sainsbury's,6.8,42,31,2
-SAI-GEN0167,Sainsbury's So Good Deodorant 150ml,Health & Beauty,So Good,2.44,72,52,2
-SAI-GEN0168,L'Oreal finest Tortilla Chips 200g,Snacks,Branded,0.9,33,23,2
-SAI-GEN0169,Sainsbury's So Good Fish Fingers 10pk,Frozen,So Good,0.61,53,30,3
-SAI-GEN0170,Taste the Difference Handmade Lasagne 400g,Frozen,Taste the Difference,7.21,17,11,4
-SAI-GEN0171,Sainsbury's So Good Tea Bags 80pk,Drinks,So Good,1.26,83,50,1
-SAI-GEN0172,Sainsbury's Smoked Chicken Nuggets 500g,Frozen,Sainsbury's,0.97,46,27,3
-SAI-GEN0173,Sainsbury's Mixed Beef Mince 500g,Meat & Fish,Sainsbury's,5.51,58,37,2
-SAI-GEN0174,Sainsbury's Handmade Eggs 6pk,Dairy & Eggs,Sainsbury's,3.32,43,22,1
-SAI-GEN0175,Nivea British Peanut Butter 280g,Ambient Grocery,Branded,9.89,53,30,3
-SAI-GEN0176,Sainsbury's Roasted Eggs 12pk,Dairy & Eggs,Sainsbury's,3.18,38,19,1
-SAI-GEN0177,Sainsbury's Value Peas 1kg,Frozen,Sainsbury's,5.1,67,43,1
-SAI-GEN0178,Sainsbury's Premium Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,5.78,73,55,2
-SAI-GEN0179,Sainsbury's So Good Crisps 6pk,Snacks,So Good,3.18,65,43,4
-SAI-GEN0180,Sainsbury's British White Bread 800g,Fresh Bakery,Sainsbury's,1.13,37,23,1
-SAI-GEN0181,Taste the Difference Unsalted Muffins 4pk,Fresh Bakery,Taste the Difference,9.38,34,27,1
-SAI-GEN0182,Sainsbury's Stone Baked Mixed Veg 1kg,Frozen,Sainsbury's,3.38,44,24,4
-SAI-GEN0183,Sainsbury's So Good Turkey Mince 500g,Meat & Fish,So Good,3.32,62,48,1
-SAI-GEN0184,Sainsbury's Sweet Squash 1L,Drinks,Sainsbury's,0.66,63,38,1
-SAI-GEN0185,Sainsbury's So Good Cotton Pads 100pk,Health & Beauty,So Good,0.42,68,52,3
-SAI-GEN0186,Sainsbury's Value Bacon 300g,Meat & Fish,Sainsbury's,1.44,68,53,4
-SAI-GEN0187,Cadbury Stone Baked Sparkling Water 6x500ml,Drinks,Branded,5.38,50,25,1
-SAI-GEN0188,Taste the Difference Frozen Muffins 4pk,Fresh Bakery,Taste the Difference,8.42,28,16,2
-SAI-GEN0189,Sainsbury's Corn Fed Rice Cakes 130g,Snacks,Sainsbury's,6.55,63,32,2
-SAI-GEN0190,Sainsbury's Roasted Cotton Pads 100pk,Health & Beauty,Sainsbury's,4.25,62,34,2
-SAI-GEN0191,Sainsbury's Smoked Eggs 6pk,Dairy & Eggs,Sainsbury's,7.81,70,41,2
-SAI-GEN0192,Sainsbury's So Good Coffee 200g,Drinks,So Good,4.15,56,43,3
-SAI-GEN0193,Taste the Difference Roasted Oven Chips 1.5kg,Frozen,Taste the Difference,6.23,24,17,4
-SAI-GEN0194,McVitie's Organic Olive Oil 500ml,Ambient Grocery,Branded,8.11,41,26,2
-SAI-GEN0195,Sainsbury's British Milk 4 Pints,Dairy & Eggs,Sainsbury's,3.11,56,36,1
-SAI-GEN0196,Sainsbury's So Good White Bread 800g,Fresh Bakery,So Good,4.19,56,40,1
-SAI-GEN0197,Sainsbury's Value Ibuprofen 16pk,Health & Beauty,Sainsbury's,7.63,52,26,4
-SAI-GEN0198,Sainsbury's Mixed Oven Chips 1.5kg,Frozen,Sainsbury's,2.88,58,33,4
-SAI-GEN0199,Taste the Difference British Rolls 6pk,Fresh Bakery,Taste the Difference,1.32,18,11,1
-SAI-GEN0200,Sainsbury's finest Pork Sausages 8pk,Meat & Fish,Sainsbury's,3.19,49,37,4
-SAI-GEN0201,Taste the Difference Stone Baked Milk 4 Pints,Dairy & Eggs,Taste the Difference,5.16,26,15,2
-SAI-GEN0202,Sainsbury's Value Soup 400g,Ambient Grocery,Sainsbury's,3.59,44,22,2
-SAI-GEN0203,Sainsbury's Unsalted Shampoo 250ml,Health & Beauty,Sainsbury's,3.29,68,52,3
-SAI-GEN0204,Sainsbury's finest Strawberries 400g,Fresh Produce,Sainsbury's,3.41,53,41,2
-SAI-GEN0205,Sainsbury's Sweet Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,0.82,60,40,2
-SAI-GEN0206,Sainsbury's Scottish Baked Beans 415g,Ambient Grocery,Sainsbury's,1.21,63,46,3
-SAI-GEN0207,Sainsbury's Frozen Sponges 4pk,Household,Sainsbury's,3.86,44,32,4
-SAI-GEN0208,Sainsbury's Free Range Hand Wash 250ml,Health & Beauty,Sainsbury's,5.49,42,30,4
-SAI-GEN0209,Sainsbury's Roasted Blueberries 150g,Fresh Produce,Sainsbury's,2.21,56,34,1
-SAI-GEN0210,Sainsbury's So Good Pork Sausages 8pk,Meat & Fish,So Good,1.56,73,39,1
-SAI-GEN0211,Sainsbury's Premium Lasagne 400g,Frozen,Sainsbury's,2.37,55,32,4
-SAI-GEN0212,Sainsbury's Stone Baked Hash Browns 700g,Frozen,Sainsbury's,1.62,50,39,1
-SAI-GEN0213,Sainsbury's Chilled Fish Fingers 10pk,Frozen,Sainsbury's,0.9,57,43,3
-SAI-GEN0214,Sainsbury's finest Cola 2L,Drinks,Sainsbury's,5.29,45,34,1
-SAI-GEN0215,Sainsbury's British Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,5.29,64,48,2
-SAI-GEN0216,Sainsbury's Sweet Bagels 5pk,Fresh Bakery,Sainsbury's,7.69,73,58,1
-SAI-GEN0217,Taste the Difference Chilled Kitchen Roll 2pk,Household,Taste the Difference,4.54,32,19,1
-SAI-GEN0218,Sainsbury's Scottish Oranges 5pk,Fresh Produce,Sainsbury's,3.7,68,42,2
-SAI-GEN0219,Sainsbury's So Good Milk 4 Pints,Dairy & Eggs,So Good,1.6,71,50,2
-SAI-GEN0220,Sainsbury's British White Bread 800g,Fresh Bakery,Sainsbury's,5.74,37,21,1
-SAI-GEN0221,Sainsbury's Unsalted Chicken Breast 600g,Meat & Fish,Sainsbury's,4.08,67,35,3
-SAI-GEN0222,Sainsbury's Fresh Brie 200g,Dairy & Eggs,Sainsbury's,1.29,52,36,2
-SAI-GEN0223,Sainsbury's British Shampoo 250ml,Health & Beauty,Sainsbury's,3.05,48,33,3
-SAI-GEN0224,McVitie's Stone Baked Kitchen Roll 2pk,Household,Branded,7.97,55,32,2
-SAI-GEN0225,Nestle Free Range Toilet Roll 9pk,Household,Branded,3.22,42,33,3
-SAI-GEN0226,Nivea Unsalted Crisps 6pk,Snacks,Branded,6.71,58,29,4
-SAI-GEN0227,Sainsbury's Frozen Lamb Chops 400g,Meat & Fish,Sainsbury's,4.7,65,47,1
-SAI-GEN0228,Kellogg's Organic Flour 1.5kg,Ambient Grocery,Branded,2.54,53,33,3
-SAI-GEN0229,Kellogg's Premium Bin Liners 20pk,Household,Branded,8.74,56,40,3
-SAI-GEN0230,Sainsbury's Classic Pizza 400g,Frozen,Sainsbury's,2.76,47,31,4
-SAI-GEN0231,Taste the Difference Handmade Eggs 6pk,Dairy & Eggs,Taste the Difference,2.39,18,12,1
-SAI-GEN0232,Sainsbury's Classic Washing Up Liquid 500ml,Household,Sainsbury's,5.71,54,28,4
-SAI-GEN0233,Sainsbury's So Good Flour 1.5kg,Ambient Grocery,So Good,1.47,65,41,4
-SAI-GEN0234,Sainsbury's Value Shower Gel 250ml,Health & Beauty,Sainsbury's,4.62,58,43,3
-SAI-GEN0235,Colgate British Ibuprofen 16pk,Health & Beauty,Branded,6.81,44,22,4
-SAI-GEN0236,Taste the Difference Spicy Plasters 40pk,Health & Beauty,Taste the Difference,1.91,18,11,1
-SAI-GEN0237,Sainsbury's Value Toothpaste 75ml,Health & Beauty,Sainsbury's,7.6,50,29,1
-SAI-GEN0238,Sainsbury's Value Oats 1kg,Ambient Grocery,Sainsbury's,4.04,43,32,4
-SAI-GEN0239,Sainsbury's Classic Butter 250g,Dairy & Eggs,Sainsbury's,0.74,66,38,2
-SAI-GEN0240,Sainsbury's Mixed Milk 2 Pints,Dairy & Eggs,Sainsbury's,5.39,41,22,1
-SAI-GEN0241,Sainsbury's finest Milk 2 Pints,Dairy & Eggs,Sainsbury's,6.8,73,40,2
-SAI-GEN0242,Taste the Difference Spicy Cream 300ml,Dairy & Eggs,Taste the Difference,9.57,31,21,1
-SAI-GEN0243,Sainsbury's Corn Fed Apple Juice 1L,Drinks,Sainsbury's,4.23,61,41,3
-SAI-GEN0244,Sainsbury's finest Rolls 6pk,Fresh Bakery,Sainsbury's,4.57,75,56,2
-SAI-GEN0245,Sainsbury's Scottish Mozzarella 125g,Dairy & Eggs,Sainsbury's,2.34,69,34,1
-SAI-GEN0246,Sainsbury's Fresh Oven Chips 1.5kg,Frozen,Sainsbury's,7.46,45,27,1
-SAI-GEN0247,Colgate Salted Plasters 40pk,Health & Beauty,Branded,2.25,60,32,2
-SAI-GEN0248,Sainsbury's Salted Milk 2 Pints,Dairy & Eggs,Sainsbury's,3.38,54,28,2
-SAI-GEN0249,Sainsbury's So Good Plasters 40pk,Health & Beauty,So Good,4.57,78,41,3
-SAI-GEN0250,Sainsbury's Chilled Lamb Chops 400g,Meat & Fish,Sainsbury's,2.65,71,36,2
-SAI-GEN0251,Sainsbury's So Good Toilet Roll 9pk,Household,So Good,0.91,89,62,2
-SAI-GEN0252,Sainsbury's Classic Cream 300ml,Dairy & Eggs,Sainsbury's,2.53,62,33,2
-SAI-GEN0253,Sainsbury's Chilled Lemons 3pk,Fresh Produce,Sainsbury's,1.05,41,29,1
-SAI-GEN0254,Taste the Difference Premium Plasters 40pk,Health & Beauty,Taste the Difference,9.25,28,15,1
-SAI-GEN0255,Sainsbury's Handmade Eggs 6pk,Dairy & Eggs,Sainsbury's,6.94,64,37,1
-SAI-GEN0256,Taste the Difference Unsalted Apple Juice 1L,Drinks,Taste the Difference,7.21,16,11,3
-SAI-GEN0257,Sainsbury's finest Eggs 6pk,Dairy & Eggs,Sainsbury's,6.23,42,26,2
-SAI-GEN0258,Sainsbury's Unsalted Baguette,Fresh Bakery,Sainsbury's,5.58,71,41,2
-SAI-GEN0259,Sainsbury's Free Range Rolls 6pk,Fresh Bakery,Sainsbury's,6.3,45,30,2
-SAI-GEN0260,Taste the Difference Fresh Tortilla Chips 200g,Snacks,Taste the Difference,2.66,27,21,3
-SAI-GEN0261,Sainsbury's Salted Apples 6pk,Fresh Produce,Sainsbury's,4.87,49,25,2
-SAI-GEN0262,Sainsbury's Stone Baked Cream 300ml,Dairy & Eggs,Sainsbury's,0.79,64,47,1
-SAI-GEN0263,Walkers Classic Ketchup 500g,Ambient Grocery,Branded,6.6,32,21,4
-SAI-GEN0264,Sainsbury's finest Yogurt 500g,Dairy & Eggs,Sainsbury's,1.91,35,24,2
-SAI-GEN0265,Sainsbury's Corn Fed Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,6.84,44,28,2
-SAI-GEN0266,Sainsbury's Scottish Fabric Conditioner 1L,Household,Sainsbury's,7.43,41,22,4
-SAI-GEN0267,Sainsbury's Spicy Foil 10m,Household,Sainsbury's,1.97,53,38,2
-SAI-GEN0268,Sainsbury's Mixed Plasters 40pk,Health & Beauty,Sainsbury's,1.47,69,50,2
-SAI-GEN0269,Sainsbury's So Good Tea Bags 80pk,Drinks,So Good,2.89,52,39,3
-SAI-GEN0270,Sainsbury's So Good Bagels 5pk,Fresh Bakery,So Good,1.39,73,55,1
-SAI-GEN0271,Sainsbury's Premium Grapes 500g,Fresh Produce,Sainsbury's,3.59,43,33,2
-SAI-GEN0272,Sainsbury's Sweet Shower Gel 250ml,Health & Beauty,Sainsbury's,3.01,72,46,2
-SAI-GEN0273,Sainsbury's Handmade Peas 1kg,Frozen,Sainsbury's,1.85,45,29,4
-SAI-GEN0274,Sainsbury's Salted Muffins 4pk,Fresh Bakery,Sainsbury's,1.64,36,25,1
-SAI-GEN0275,Sainsbury's Unsalted Chopped Tomatoes 400g,Ambient Grocery,Sainsbury's,3.56,38,22,1
-SAI-GEN0276,Sainsbury's So Good Tea Bags 80pk,Drinks,So Good,4.07,79,44,2
-SAI-GEN0277,Taste the Difference Handmade Fabric Conditioner 1L,Household,Taste the Difference,7.05,23,14,1
-SAI-GEN0278,Pringles Spicy Crisps 6pk,Snacks,Branded,8.48,59,46,2
-SAI-GEN0279,Sainsbury's Mixed Chicken Nuggets 500g,Frozen,Sainsbury's,7.13,38,19,1
-SAI-GEN0280,Sainsbury's Organic Mozzarella 125g,Dairy & Eggs,Sainsbury's,5.7,50,26,1
-SAI-GEN0281,Sainsbury's Corn Fed Mozzarella 125g,Dairy & Eggs,Sainsbury's,5.46,51,36,1
-SAI-GEN0282,Sainsbury's Mixed Rolls 6pk,Fresh Bakery,Sainsbury's,6.15,69,53,2
-SAI-GEN0283,Sainsbury's Scottish Chicken Nuggets 500g,Frozen,Sainsbury's,2.43,64,49,4
-SAI-GEN0284,Andrex finest Washing Up Liquid 500ml,Household,Branded,6.46,48,34,3
-SAI-GEN0285,Sainsbury's Free Range Pork Sausages 8pk,Meat & Fish,Sainsbury's,5.51,41,29,4
-SAI-GEN0286,Sainsbury's So Good Soup 400g,Ambient Grocery,So Good,4.0,67,35,1
-SAI-GEN0287,Taste the Difference Mixed Peas 1kg,Frozen,Taste the Difference,1.97,29,21,3
-SAI-GEN0288,Sainsbury's Stone Baked Chicken Nuggets 500g,Frozen,Sainsbury's,7.96,73,39,4
-SAI-GEN0289,Sainsbury's So Good Shower Gel 250ml,Health & Beauty,So Good,2.95,87,49,1
-SAI-GEN0290,Taste the Difference Free Range Peas 1kg,Frozen,Taste the Difference,11.85,28,17,2
-SAI-GEN0291,Taste the Difference Mixed Hash Browns 700g,Frozen,Taste the Difference,8.01,25,13,4
-SAI-GEN0292,Sainsbury's Sweet Wraps 8pk,Fresh Bakery,Sainsbury's,6.72,73,53,2
-SAI-GEN0293,Sainsbury's British Rolls 6pk,Fresh Bakery,Sainsbury's,3.15,60,37,1
-SAI-GEN0294,Sainsbury's Mixed Peas 1kg,Frozen,Sainsbury's,1.36,64,34,2
-SAI-GEN0295,Sainsbury's Unsalted Hand Wash 250ml,Health & Beauty,Sainsbury's,7.32,57,28,2
-SAI-GEN0296,Taste the Difference Unsalted Pizza 400g,Frozen,Taste the Difference,10.14,34,20,1
-SAI-GEN0297,Sainsbury's Organic Cheddar 400g,Dairy & Eggs,Sainsbury's,2.57,38,27,2
-SAI-GEN0298,Sainsbury's Frozen Crackers 150g,Snacks,Sainsbury's,4.82,51,35,2
-SAI-GEN0299,Sainsbury's So Good Foil 10m,Household,So Good,4.05,80,60,1
-SAI-GEN0300,Sainsbury's Corn Fed Carrots 1kg,Fresh Produce,Sainsbury's,5.54,70,37,1
-SAI-GEN0301,Sainsbury's Sweet Beef Mince 500g,Meat & Fish,Sainsbury's,4.04,57,42,1
-SAI-GEN0302,Sainsbury's finest Blueberries 150g,Fresh Produce,Sainsbury's,2.57,44,30,2
-SAI-GEN0303,Sainsbury's Roasted Paracetamol 16pk,Health & Beauty,Sainsbury's,2.35,74,37,3
-SAI-GEN0304,Sainsbury's So Good Pizza 400g,Frozen,So Good,3.5,89,53,3
-SAI-GEN0305,Sainsbury's Handmade White Bread 800g,Fresh Bakery,Sainsbury's,1.31,52,40,2
-SAI-GEN0306,Taste the Difference Unsalted Bin Liners 20pk,Household,Taste the Difference,11.58,26,17,3
-SAI-GEN0307,Sainsbury's So Good Cotton Pads 100pk,Health & Beauty,So Good,3.51,60,47,4
-SAI-GEN0308,Sainsbury's Handmade Yogurt 500g,Dairy & Eggs,Sainsbury's,1.04,60,34,2
-SAI-GEN0309,Sainsbury's Spicy Rice 1kg,Ambient Grocery,Sainsbury's,1.63,37,25,2
-SAI-GEN0310,Sainsbury's Fresh Baked Beans 415g,Ambient Grocery,Sainsbury's,3.83,48,35,2
-SAI-GEN0311,Taste the Difference Smoked Chicken Nuggets 500g,Frozen,Taste the Difference,3.44,16,12,2
-SAI-GEN0312,Sainsbury's Stone Baked Cereal 500g,Ambient Grocery,Sainsbury's,6.8,46,29,1
-SAI-GEN0313,Sainsbury's Salted Potatoes 2.5kg,Fresh Produce,Sainsbury's,3.1,50,38,1
-SAI-GEN0314,Sainsbury's Roasted Lasagne 400g,Frozen,Sainsbury's,6.79,64,40,2
-SAI-GEN0315,Sainsbury's Stone Baked Rolls 6pk,Fresh Bakery,Sainsbury's,4.87,68,47,2
-SAI-GEN0316,Sainsbury's Handmade Coffee 200g,Drinks,Sainsbury's,6.87,46,35,3
-SAI-GEN0317,Taste the Difference finest Olive Oil 500ml,Ambient Grocery,Taste the Difference,4.89,33,20,4
-SAI-GEN0318,Walkers finest Foil 10m,Household,Branded,8.68,36,18,3
-SAI-GEN0319,Sainsbury's Unsalted Butter 250g,Dairy & Eggs,Sainsbury's,6.67,41,31,1
-SAI-GEN0320,Cadbury British Ketchup 500g,Ambient Grocery,Branded,8.58,43,22,4
-SAI-GEN0321,Taste the Difference Fresh Rolls 6pk,Fresh Bakery,Taste the Difference,2.78,22,17,1
-SAI-GEN0322,Sainsbury's So Good Popcorn 100g,Snacks,So Good,4.05,56,32,4
-SAI-GEN0323,Taste the Difference Premium Salmon Fillets 240g,Meat & Fish,Taste the Difference,8.79,34,19,1
-SAI-GEN0324,Sainsbury's Classic Brie 200g,Dairy & Eggs,Sainsbury's,1.52,68,34,1
-SAI-GEN0325,Sainsbury's So Good Chopped Tomatoes 400g,Ambient Grocery,So Good,3.33,63,49,3
-SAI-GEN0326,Sainsbury's Corn Fed Nuts 200g,Snacks,Sainsbury's,6.59,62,38,1
-SAI-GEN0327,Sainsbury's Roasted Peas 1kg,Frozen,Sainsbury's,6.93,74,52,4
-SAI-GEN0328,Sainsbury's So Good Washing Up Liquid 500ml,Household,So Good,1.49,84,46,2
-SAI-GEN0329,Sainsbury's finest Peanut Butter 280g,Ambient Grocery,Sainsbury's,1.36,58,44,2
-SAI-GEN0330,Taste the Difference Chilled Plasters 40pk,Health & Beauty,Taste the Difference,4.75,16,10,1
-SAI-GEN0331,Taste the Difference Handmade Bacon 300g,Meat & Fish,Taste the Difference,0.96,26,19,1
-SAI-GEN0332,Taste the Difference Free Range Bleach 750ml,Household,Taste the Difference,1.5,23,17,2
-SAI-GEN0333,Sainsbury's Roasted Baguette,Fresh Bakery,Sainsbury's,5.88,44,27,1
-SAI-GEN0334,Sainsbury's Unsalted Bin Liners 20pk,Household,Sainsbury's,1.24,42,23,2
-SAI-GEN0335,Persil Chilled Squash 1L,Drinks,Branded,5.16,47,32,1
-SAI-GEN0336,Sainsbury's Chilled Olive Oil 500ml,Ambient Grocery,Sainsbury's,1.18,60,41,1
-SAI-GEN0337,Sainsbury's So Good Tea Bags 80pk,Drinks,So Good,5.45,72,56,1
-SAI-GEN0338,Sainsbury's Classic Salmon Fillets 240g,Meat & Fish,Sainsbury's,7.74,58,39,2
-SAI-GEN0339,Taste the Difference Mixed Bleach 750ml,Household,Taste the Difference,9.48,22,11,3
-SAI-GEN0340,Sainsbury's Fresh Fish Fingers 10pk,Frozen,Sainsbury's,0.78,43,24,1
-SAI-GEN0341,Sainsbury's Corn Fed Croissants 4pk,Fresh Bakery,Sainsbury's,7.68,61,45,1
-SAI-GEN0342,Sainsbury's Organic Pasta 500g,Ambient Grocery,Sainsbury's,5.26,68,35,1
-SAI-GEN0343,Sainsbury's Unsalted Cola 2L,Drinks,Sainsbury's,2.6,57,42,1
-SAI-GEN0344,Taste the Difference Mixed Cola 2L,Drinks,Taste the Difference,5.61,25,14,2
-SAI-GEN0345,Sainsbury's So Good Sponges 4pk,Household,So Good,1.51,82,46,3
-SAI-GEN0346,Kellogg's Classic Tea Bags 80pk,Drinks,Branded,8.1,50,28,1
-SAI-GEN0347,Sainsbury's Scottish Salmon Fillets 240g,Meat & Fish,Sainsbury's,1.55,58,32,3
-SAI-GEN0348,Taste the Difference Corn Fed Mozzarella 125g,Dairy & Eggs,Taste the Difference,6.21,24,14,2
-SAI-GEN0349,Sainsbury's Premium Lemonade 2L,Drinks,Sainsbury's,1.82,48,29,1
-SAI-GEN0350,Sainsbury's Frozen Sponges 4pk,Household,Sainsbury's,6.78,72,47,3
-SAI-GEN0351,Sainsbury's Mixed Pasta 500g,Ambient Grocery,Sainsbury's,5.45,43,27,2
-SAI-GEN0352,Sainsbury's Smoked Chicken Breast 600g,Meat & Fish,Sainsbury's,4.95,51,29,3
-SAI-GEN0353,Sainsbury's Sweet Milk 2 Pints,Dairy & Eggs,Sainsbury's,4.69,66,42,1
-SAI-GEN0354,Sainsbury's Smoked Bacon 300g,Meat & Fish,Sainsbury's,7.97,69,52,2
-SAI-GEN0355,Taste the Difference Stone Baked Rice Cakes 130g,Snacks,Taste the Difference,6.2,17,13,2
-SAI-GEN0356,Sainsbury's Sweet Hash Browns 700g,Frozen,Sainsbury's,6.77,43,33,1
-SAI-GEN0357,Taste the Difference Salted Shower Gel 250ml,Health & Beauty,Taste the Difference,6.88,19,9,1
-SAI-GEN0358,Sainsbury's Scottish Baguette,Fresh Bakery,Sainsbury's,3.55,75,45,1
-SAI-GEN0359,Taste the Difference Scottish Ibuprofen 16pk,Health & Beauty,Taste the Difference,2.88,25,14,3
-SAI-GEN0360,Sainsbury's Chilled Mozzarella 125g,Dairy & Eggs,Sainsbury's,1.4,68,51,1
-SAI-GEN0361,Sainsbury's Mixed Toilet Roll 9pk,Household,Sainsbury's,4.11,46,30,1
-SAI-GEN0362,Taste the Difference Smoked Paracetamol 16pk,Health & Beauty,Taste the Difference,11.64,34,23,4
-SAI-GEN0363,Sainsbury's Frozen Chocolate Bar 200g,Snacks,Sainsbury's,4.39,41,25,3
-SAI-GEN0364,Sainsbury's Fresh Crackers 150g,Snacks,Sainsbury's,6.02,39,19,2
-SAI-GEN0365,Sainsbury's Fresh Bin Liners 20pk,Household,Sainsbury's,2.86,58,30,4
-SAI-GEN0366,Taste the Difference Roasted Oranges 5pk,Fresh Produce,Taste the Difference,4.44,24,13,1
-SAI-GEN0367,Sainsbury's Classic Oranges 5pk,Fresh Produce,Sainsbury's,7.16,36,19,2
-SAI-GEN0368,Sainsbury's Fresh Pizza 400g,Frozen,Sainsbury's,1.26,56,38,3
-SAI-GEN0369,Taste the Difference Organic Bin Liners 20pk,Household,Taste the Difference,2.07,24,15,1
-SAI-GEN0370,Taste the Difference Premium Foil 10m,Household,Taste the Difference,2.97,27,14,4
-SAI-GEN0371,Taste the Difference Salted Wholemeal Bread 800g,Fresh Bakery,Taste the Difference,9.98,35,20,2
-SAI-GEN0372,Sainsbury's Fresh Chicken Breast 600g,Meat & Fish,Sainsbury's,1.28,68,42,2
-SAI-GEN0373,Sainsbury's Smoked Peanut Butter 280g,Ambient Grocery,Sainsbury's,7.06,38,20,1
-SAI-GEN0374,Sainsbury's Handmade Salmon Fillets 240g,Meat & Fish,Sainsbury's,7.82,48,24,2
-SAI-GEN0375,Sainsbury's So Good Soup 400g,Ambient Grocery,So Good,2.18,55,30,3
-SAI-GEN0376,Sainsbury's Free Range Lamb Chops 400g,Meat & Fish,Sainsbury's,6.53,36,19,4
-SAI-GEN0377,Sainsbury's Organic Cola 2L,Drinks,Sainsbury's,3.05,46,30,3
-SAI-GEN0378,Sainsbury's Unsalted Bacon 300g,Meat & Fish,Sainsbury's,2.13,37,24,1
-SAI-GEN0379,Sainsbury's Frozen Bin Liners 20pk,Household,Sainsbury's,7.84,51,29,4
-SAI-GEN0380,Sainsbury's Stone Baked Laundry Pods 20pk,Household,Sainsbury's,6.07,51,36,1
-SAI-GEN0381,Taste the Difference Handmade Chicken Breast 600g,Meat & Fish,Taste the Difference,5.1,35,19,3
-SAI-GEN0382,Cadbury Smoked Rice Cakes 130g,Snacks,Branded,6.21,52,36,2
-SAI-GEN0383,Sainsbury's Free Range Lamb Chops 400g,Meat & Fish,Sainsbury's,6.35,54,41,1
-SAI-GEN0384,Sainsbury's Free Range Milk 2 Pints,Dairy & Eggs,Sainsbury's,1.19,68,54,1
-SAI-GEN0385,Sainsbury's Fresh Tea Bags 80pk,Drinks,Sainsbury's,4.88,61,38,2
-SAI-GEN0386,Taste the Difference Salted Brie 200g,Dairy & Eggs,Taste the Difference,11.04,21,12,1
-SAI-GEN0387,Sainsbury's So Good Carrots 1kg,Fresh Produce,So Good,2.02,69,55,2
-SAI-GEN0388,Sainsbury's So Good Wraps 8pk,Fresh Bakery,So Good,2.05,71,41,2
-SAI-GEN0389,Sainsbury's Roasted Croissants 4pk,Fresh Bakery,Sainsbury's,4.66,71,40,1
-SAI-GEN0390,Colgate Premium Tea Bags 80pk,Drinks,Branded,8.94,38,26,4
-SAI-GEN0391,Fairy Chilled Hand Wash 250ml,Health & Beauty,Branded,3.93,49,32,4
-SAI-GEN0392,Sainsbury's So Good Washing Up Liquid 500ml,Household,So Good,1.46,74,52,1
-SAI-GEN0393,Sainsbury's So Good Sourdough 400g,Fresh Bakery,So Good,4.51,76,42,2
-SAI-GEN0394,Sainsbury's Roasted Fish Fingers 10pk,Frozen,Sainsbury's,5.72,51,38,3
-SAI-GEN0395,Pringles Sweet Rice Cakes 130g,Snacks,Branded,9.52,30,16,4
-SAI-GEN0396,Sainsbury's So Good Baguette,Fresh Bakery,So Good,2.42,81,40,2
-SAI-GEN0397,Andrex Salted Laundry Pods 20pk,Household,Branded,0.92,37,29,3
-SAI-GEN0398,Sainsbury's Chilled Toilet Roll 9pk,Household,Sainsbury's,6.89,49,38,1
-SAI-GEN0399,Taste the Difference Organic Laundry Pods 20pk,Household,Taste the Difference,8.76,18,11,1
-SAI-GEN0400,Sainsbury's Fresh Ice Cream 1L,Frozen,Sainsbury's,5.04,65,48,2
-SAI-GEN0401,Sainsbury's Classic Bleach 750ml,Household,Sainsbury's,6.37,37,28,2
-SAI-GEN0402,Taste the Difference Handmade Sourdough 400g,Fresh Bakery,Taste the Difference,2.25,31,16,1
-SAI-GEN0403,Sainsbury's So Good Tortilla Chips 200g,Snacks,So Good,1.69,80,45,1
-SAI-GEN0404,Sainsbury's British Oven Chips 1.5kg,Frozen,Sainsbury's,3.64,64,33,3
-SAI-GEN0405,Colgate Smoked Shower Gel 250ml,Health & Beauty,Branded,5.88,54,36,3
-SAI-GEN0406,Taste the Difference Smoked Carrots 1kg,Fresh Produce,Taste the Difference,4.04,30,17,1
-SAI-GEN0407,Sainsbury's Mixed Blueberries 150g,Fresh Produce,Sainsbury's,4.79,58,34,1
-SAI-GEN0408,Colgate Premium Toothpaste 75ml,Health & Beauty,Branded,9.84,60,33,3
-SAI-GEN0409,Taste the Difference British Spinach 200g,Fresh Produce,Taste the Difference,2.58,28,17,1
-SAI-GEN0410,Sainsbury's Chilled Pizza 400g,Frozen,Sainsbury's,5.06,36,27,1
-SAI-GEN0411,Taste the Difference Organic Tomatoes 500g,Fresh Produce,Taste the Difference,10.83,17,10,2
-SAI-GEN0412,L'Oreal Frozen Peanut Butter 280g,Ambient Grocery,Branded,4.64,36,25,3
-SAI-GEN0413,Sainsbury's Classic Turkey Mince 500g,Meat & Fish,Sainsbury's,6.56,43,28,4
-SAI-GEN0414,Sainsbury's Unsalted Ice Cream 1L,Frozen,Sainsbury's,4.78,39,22,2
-SAI-GEN0415,Sainsbury's Value Oranges 5pk,Fresh Produce,Sainsbury's,4.96,72,40,1
-SAI-GEN0416,Sainsbury's Free Range Rolls 6pk,Fresh Bakery,Sainsbury's,0.62,49,32,1
-SAI-GEN0417,Taste the Difference Spicy Rice Cakes 130g,Snacks,Taste the Difference,10.83,24,14,2
-SAI-GEN0418,Sainsbury's Roasted Apples 6pk,Fresh Produce,Sainsbury's,4.09,69,42,1
-SAI-GEN0419,Taste the Difference Premium Croissants 4pk,Fresh Bakery,Taste the Difference,7.77,30,22,1
-SAI-GEN0420,Sainsbury's Mixed Lasagne 400g,Frozen,Sainsbury's,0.59,72,57,4
-SAI-GEN0421,Sainsbury's Organic Baked Beans 415g,Ambient Grocery,Sainsbury's,3.27,56,42,4
-SAI-GEN0422,Taste the Difference Fresh Oven Chips 1.5kg,Frozen,Taste the Difference,6.4,27,13,4
-SAI-GEN0423,Sainsbury's Mixed Shampoo 250ml,Health & Beauty,Sainsbury's,0.94,59,39,2
-SAI-GEN0424,Sainsbury's Chilled Hand Wash 250ml,Health & Beauty,Sainsbury's,6.96,38,26,3
-SAI-GEN0425,Nestle finest Squash 1L,Drinks,Branded,6.7,44,29,3
-SAI-GEN0426,Taste the Difference Salted Strawberries 400g,Fresh Produce,Taste the Difference,3.42,23,14,2
-SAI-GEN0427,Persil Roasted Toothpaste 75ml,Health & Beauty,Branded,3.78,50,33,1
-SAI-GEN0428,Nivea Spicy Toothpaste 75ml,Health & Beauty,Branded,4.32,57,41,2
-SAI-GEN0429,Colgate Mixed Coffee 200g,Drinks,Branded,5.73,50,33,1
-SAI-GEN0430,Walkers Salted Squash 1L,Drinks,Branded,7.33,35,21,3
-SAI-GEN0431,Sainsbury's Chilled Turkey Mince 500g,Meat & Fish,Sainsbury's,0.73,73,53,1
-SAI-GEN0432,Sainsbury's Value Peas 1kg,Frozen,Sainsbury's,4.37,67,39,4
-SAI-GEN0433,Taste the Difference Free Range Laundry Pods 20pk,Household,Taste the Difference,6.04,28,21,4
-SAI-GEN0434,Sainsbury's Corn Fed Bleach 750ml,Household,Sainsbury's,7.26,37,22,3
-SAI-GEN0435,Sainsbury's So Good Ketchup 500g,Ambient Grocery,So Good,4.72,58,36,4
-SAI-GEN0436,Sainsbury's Handmade Cod Fillets 400g,Meat & Fish,Sainsbury's,3.8,64,41,4
-SAI-GEN0437,Taste the Difference Fresh Ice Cream 1L,Frozen,Taste the Difference,8.56,33,20,1
-SAI-GEN0438,Sainsbury's Premium Strawberries 400g,Fresh Produce,Sainsbury's,6.96,47,32,2
-SAI-GEN0439,Coca-Cola Spicy Foil 10m,Household,Branded,7.19,58,39,1
-SAI-GEN0440,Sainsbury's So Good Strawberries 400g,Fresh Produce,So Good,1.24,84,61,2
-SAI-GEN0441,Sainsbury's British Pizza 400g,Frozen,Sainsbury's,7.45,62,33,4
-SAI-GEN0442,Sainsbury's Handmade Baguette,Fresh Bakery,Sainsbury's,7.62,75,47,2
-SAI-GEN0443,Sainsbury's Frozen Blueberries 150g,Fresh Produce,Sainsbury's,6.47,43,27,1
-SAI-GEN0444,Taste the Difference Premium Turkey Mince 500g,Meat & Fish,Taste the Difference,5.01,17,8,4
-SAI-GEN0445,Sainsbury's Stone Baked Lamb Chops 400g,Meat & Fish,Sainsbury's,1.18,65,37,3
-SAI-GEN0446,Kellogg's Value Cereal 500g,Ambient Grocery,Branded,7.31,32,25,1
-SAI-GEN0447,Sainsbury's Sweet Sourdough 400g,Fresh Bakery,Sainsbury's,3.56,38,22,2
-SAI-GEN0448,Sainsbury's So Good Milk 2 Pints,Dairy & Eggs,So Good,1.9,53,38,2
-SAI-GEN0449,Sainsbury's So Good Cream 300ml,Dairy & Eggs,So Good,3.04,89,70,1
-SAI-GEN0450,Taste the Difference Premium Cola 2L,Drinks,Taste the Difference,0.95,32,16,2
-SAI-GEN0451,Sainsbury's Premium Lamb Chops 400g,Meat & Fish,Sainsbury's,7.69,53,30,1
-SAI-GEN0452,Kellogg's Value Cotton Pads 100pk,Health & Beauty,Branded,2.95,54,32,3
-SAI-GEN0453,Colgate Handmade Laundry Pods 20pk,Household,Branded,1.78,35,25,1
-SAI-GEN0454,Sainsbury's British Mixed Veg 1kg,Frozen,Sainsbury's,6.22,62,42,4
-SAI-GEN0455,Sainsbury's Handmade Energy Drink 500ml,Drinks,Sainsbury's,3.97,36,25,2
-SAI-GEN0456,Sainsbury's Classic Peanut Butter 280g,Ambient Grocery,Sainsbury's,4.63,68,38,2
-SAI-GEN0457,Sainsbury's Scottish Oven Chips 1.5kg,Frozen,Sainsbury's,4.67,54,35,4
-SAI-GEN0458,Sainsbury's Classic Peas 1kg,Frozen,Sainsbury's,7.45,73,47,1
-SAI-GEN0459,Coca-Cola Corn Fed Laundry Pods 20pk,Household,Branded,5.76,45,24,3
-SAI-GEN0460,Sainsbury's Value Rolls 6pk,Fresh Bakery,Sainsbury's,4.21,67,45,1
-SAI-GEN0461,Sainsbury's Corn Fed Bananas,Fresh Produce,Sainsbury's,2.84,54,30,2
-SAI-GEN0462,Sainsbury's So Good Lamb Chops 400g,Meat & Fish,So Good,2.98,68,44,2
-SAI-GEN0463,Sainsbury's Free Range Mixed Veg 1kg,Frozen,Sainsbury's,2.0,53,36,4
-SAI-GEN0464,Sainsbury's Free Range Lamb Chops 400g,Meat & Fish,Sainsbury's,3.67,47,33,1
-SAI-GEN0465,Heinz Mixed Chocolate Bar 200g,Snacks,Branded,9.44,30,22,4
-SAI-GEN0466,Taste the Difference Salted Mozzarella 125g,Dairy & Eggs,Taste the Difference,11.73,28,20,1
-SAI-GEN0467,Colgate Stone Baked Chocolate Bar 200g,Snacks,Branded,4.85,60,35,4
-SAI-GEN0468,Sainsbury's Roasted Olive Oil 500ml,Ambient Grocery,Sainsbury's,2.15,74,57,4
-SAI-GEN0469,Sainsbury's Frozen Prawns 200g,Meat & Fish,Sainsbury's,1.6,75,40,1
-SAI-GEN0470,Sainsbury's Handmade Baguette,Fresh Bakery,Sainsbury's,1.38,44,30,2
-SAI-GEN0471,Sainsbury's Spicy Sourdough 400g,Fresh Bakery,Sainsbury's,1.62,43,29,2
-SAI-GEN0472,Sainsbury's So Good Sparkling Water 6x500ml,Drinks,So Good,1.97,73,50,2
-SAI-GEN0473,Sainsbury's finest Sourdough 400g,Fresh Bakery,Sainsbury's,6.47,37,22,2
-SAI-GEN0474,Sainsbury's Chilled Tortilla Chips 200g,Snacks,Sainsbury's,7.95,74,42,4
-SAI-GEN0475,Sainsbury's Frozen Sourdough 400g,Fresh Bakery,Sainsbury's,7.84,58,43,2
-SAI-GEN0476,Sainsbury's Unsalted Eggs 12pk,Dairy & Eggs,Sainsbury's,6.07,44,24,1
-SAI-GEN0477,Sainsbury's Free Range Chocolate Bar 200g,Snacks,Sainsbury's,2.19,56,43,1
-SAI-GEN0478,Nivea Free Range Washing Up Liquid 500ml,Household,Branded,7.93,56,29,2
-SAI-GEN0479,Sainsbury's Salted Muffins 4pk,Fresh Bakery,Sainsbury's,1.71,39,29,1
-SAI-GEN0480,Sainsbury's British Toothpaste 75ml,Health & Beauty,Sainsbury's,5.92,64,44,3
-SAI-GEN0481,Sainsbury's Sweet Mints 4pk,Snacks,Sainsbury's,3.97,65,33,3
-SAI-GEN0482,Sainsbury's Frozen Pork Sausages 8pk,Meat & Fish,Sainsbury's,3.81,46,33,1
-SAI-GEN0483,Sainsbury's Fresh Broccoli 300g,Fresh Produce,Sainsbury's,1.14,73,44,1
-SAI-GEN0484,Sainsbury's British Lasagne 400g,Frozen,Sainsbury's,1.88,71,47,2
-SAI-GEN0485,Coca-Cola Spicy Nuts 200g,Snacks,Branded,2.13,53,27,4
-SAI-GEN0486,Sainsbury's Premium Sparkling Water 6x500ml,Drinks,Sainsbury's,5.35,53,38,2
-SAI-GEN0487,Persil Chilled Sponges 4pk,Household,Branded,7.29,33,20,1
-SAI-GEN0488,Sainsbury's So Good White Bread 800g,Fresh Bakery,So Good,0.43,79,55,1
-SAI-GEN0489,Sainsbury's Fresh Bacon 300g,Meat & Fish,Sainsbury's,2.68,40,21,2
-SAI-GEN0490,Sainsbury's Corn Fed Turkey Mince 500g,Meat & Fish,Sainsbury's,7.46,51,27,2
-SAI-GEN0491,Taste the Difference Handmade Hand Wash 250ml,Health & Beauty,Taste the Difference,8.42,31,20,4
-SAI-GEN0492,Sainsbury's British Turkey Mince 500g,Meat & Fish,Sainsbury's,0.59,42,24,3
-SAI-GEN0493,Sainsbury's Sweet Foil 10m,Household,Sainsbury's,6.28,58,46,2
-SAI-GEN0494,Taste the Difference Sweet Tea Bags 80pk,Drinks,Taste the Difference,1.11,25,15,2
-SAI-GEN0495,Sainsbury's Fresh Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,3.31,63,49,2
-SAI-GEN0496,Sainsbury's finest Milk 2 Pints,Dairy & Eggs,Sainsbury's,1.85,56,43,1
-SAI-GEN0497,Sainsbury's Scottish Chicken Nuggets 500g,Frozen,Sainsbury's,4.17,37,25,1
-SAI-GEN0498,Sainsbury's Stone Baked Chicken Nuggets 500g,Frozen,Sainsbury's,5.8,65,42,2
-SAI-GEN0499,Nivea Classic Shampoo 250ml,Health & Beauty,Branded,1.13,57,33,3
-SAI-GEN0500,Sainsbury's Chilled Baguette,Fresh Bakery,Sainsbury's,4.75,54,32,2
-SAI-GEN0501,Sainsbury's finest Pork Sausages 8pk,Meat & Fish,Sainsbury's,5.43,54,34,3
-SAI-GEN0502,Sainsbury's finest Bacon 300g,Meat & Fish,Sainsbury's,5.81,71,46,1
-SAI-GEN0503,Coca-Cola Organic Washing Up Liquid 500ml,Household,Branded,0.81,31,22,4
-SAI-GEN0504,Taste the Difference Corn Fed Bagels 5pk,Fresh Bakery,Taste the Difference,2.69,28,17,1
-SAI-GEN0505,Sainsbury's So Good Hash Browns 700g,Frozen,So Good,3.39,76,53,4
-SAI-GEN0506,Taste the Difference Chilled Crisps 6pk,Snacks,Taste the Difference,9.82,28,21,3
-SAI-GEN0507,Sainsbury's British Muffins 4pk,Fresh Bakery,Sainsbury's,1.87,71,43,1
-SAI-GEN0508,Sainsbury's Value Chicken Nuggets 500g,Frozen,Sainsbury's,7.76,53,37,3
-SAI-GEN0509,Taste the Difference Roasted Baguette,Fresh Bakery,Taste the Difference,9.2,22,16,1
-SAI-GEN0510,Sainsbury's Mixed Peanut Butter 280g,Ambient Grocery,Sainsbury's,5.25,51,39,2
-SAI-GEN0511,Sainsbury's Corn Fed Crackers 150g,Snacks,Sainsbury's,5.63,52,33,2
-SAI-GEN0512,Taste the Difference Frozen Hash Browns 700g,Frozen,Taste the Difference,3.85,32,20,1
-SAI-GEN0513,Sainsbury's British Squash 1L,Drinks,Sainsbury's,7.45,64,51,1
-SAI-GEN0514,Persil Scottish Sugar 1kg,Ambient Grocery,Branded,7.21,32,22,1
-SAI-GEN0515,Persil Handmade Tortilla Chips 200g,Snacks,Branded,9.52,54,34,3
-SAI-GEN0516,Sainsbury's Value Nuts 200g,Snacks,Sainsbury's,0.85,41,21,4
-SAI-GEN0517,Sainsbury's Premium Jam 340g,Ambient Grocery,Sainsbury's,6.5,65,45,1
-SAI-GEN0518,Sainsbury's Frozen Cod Fillets 400g,Meat & Fish,Sainsbury's,1.04,48,28,4
-SAI-GEN0519,Sainsbury's Value Chicken Nuggets 500g,Frozen,Sainsbury's,5.13,47,34,1
-SAI-GEN0520,Sainsbury's Scottish Chopped Tomatoes 400g,Ambient Grocery,Sainsbury's,6.01,63,47,4
-SAI-GEN0521,Sainsbury's Organic Rolls 6pk,Fresh Bakery,Sainsbury's,3.98,41,32,1
-SAI-GEN0522,Sainsbury's Classic Bin Liners 20pk,Household,Sainsbury's,4.28,35,17,3
-SAI-GEN0523,Sainsbury's So Good Flour 1.5kg,Ambient Grocery,So Good,4.58,76,42,2
-SAI-GEN0524,Sainsbury's Free Range Orange Juice 1L,Drinks,Sainsbury's,4.14,65,50,2
-SAI-GEN0525,Persil Handmade Fabric Conditioner 1L,Household,Branded,1.59,48,24,2
-SAI-GEN0526,Sainsbury's Unsalted Cotton Pads 100pk,Health & Beauty,Sainsbury's,3.04,72,55,3
-SAI-GEN0527,Kellogg's Fresh Bin Liners 20pk,Household,Branded,9.11,33,23,2
-SAI-GEN0528,Sainsbury's Smoked Wraps 8pk,Fresh Bakery,Sainsbury's,6.39,39,24,1
-SAI-GEN0529,Sainsbury's finest White Bread 800g,Fresh Bakery,Sainsbury's,7.57,35,17,1
-SAI-GEN0530,Sainsbury's So Good Lemonade 2L,Drinks,So Good,1.24,53,37,3
-SAI-GEN0531,Persil Free Range Cereal 500g,Ambient Grocery,Branded,8.97,44,23,2
-SAI-GEN0532,Taste the Difference Scottish Peanut Butter 280g,Ambient Grocery,Taste the Difference,11.6,20,10,4
-SAI-GEN0533,Sainsbury's Classic White Bread 800g,Fresh Bakery,Sainsbury's,0.93,37,28,2
-SAI-GEN0534,Taste the Difference Stone Baked Chicken Nuggets 500g,Frozen,Taste the Difference,11.49,18,9,3
-SAI-GEN0535,Sainsbury's Mixed Pork Sausages 8pk,Meat & Fish,Sainsbury's,3.15,51,27,1
-SAI-GEN0536,Fairy Spicy Laundry Pods 20pk,Household,Branded,1.72,36,20,1
-SAI-GEN0537,Colgate Frozen Pasta 500g,Ambient Grocery,Branded,2.82,36,20,1
-SAI-GEN0538,Sainsbury's Spicy Coffee 200g,Drinks,Sainsbury's,5.8,35,25,3
-SAI-GEN0539,Sainsbury's Chilled Apple Juice 1L,Drinks,Sainsbury's,7.99,42,26,1
-SAI-GEN0540,Sainsbury's Chilled Fish Fingers 10pk,Frozen,Sainsbury's,2.1,60,37,2
-SAI-GEN0541,Sainsbury's Smoked Rice Cakes 130g,Snacks,Sainsbury's,1.37,47,32,4
-SAI-GEN0542,Coca-Cola Free Range Sponges 4pk,Household,Branded,9.67,38,23,4
-SAI-GEN0543,Taste the Difference Free Range Still Water 6x500ml,Drinks,Taste the Difference,4.77,31,23,1
-SAI-GEN0544,Sainsbury's Mixed Cream 300ml,Dairy & Eggs,Sainsbury's,6.03,58,45,1
-SAI-GEN0545,Sainsbury's So Good Oven Chips 1.5kg,Frozen,So Good,2.38,67,42,3
-SAI-GEN0546,Sainsbury's So Good Squash 1L,Drinks,So Good,3.31,52,30,1
-SAI-GEN0547,Fairy Spicy Crisps 6pk,Snacks,Branded,1.86,40,31,1
-SAI-GEN0548,Sainsbury's So Good Yogurt 500g,Dairy & Eggs,So Good,4.91,62,36,2
-SAI-GEN0549,Sainsbury's Chilled Nuts 200g,Snacks,Sainsbury's,5.23,72,36,4
-SAI-GEN0550,Colgate Stone Baked Toothpaste 75ml,Health & Beauty,Branded,1.89,54,33,3
-SAI-GEN0551,Sainsbury's finest Wraps 8pk,Fresh Bakery,Sainsbury's,4.93,71,44,2
-SAI-GEN0552,Andrex Smoked Foil 10m,Household,Branded,8.46,33,22,1
-SAI-GEN0553,Taste the Difference Premium Chocolate Bar 200g,Snacks,Taste the Difference,6.31,28,19,3
-SAI-GEN0554,Sainsbury's Organic Bacon 300g,Meat & Fish,Sainsbury's,7.47,57,38,3
-SAI-GEN0555,Sainsbury's Roasted Brie 200g,Dairy & Eggs,Sainsbury's,6.75,71,41,2
-SAI-GEN0556,Sainsbury's Corn Fed Oven Chips 1.5kg,Frozen,Sainsbury's,5.46,52,39,3
-SAI-GEN0557,Taste the Difference British Nuts 200g,Snacks,Taste the Difference,5.59,34,19,4
-SAI-GEN0558,Taste the Difference Spicy Bacon 300g,Meat & Fish,Taste the Difference,11.31,32,23,1
-SAI-GEN0559,Sainsbury's Corn Fed Spinach 200g,Fresh Produce,Sainsbury's,1.63,57,37,2
-SAI-GEN0560,Sainsbury's Premium Eggs 12pk,Dairy & Eggs,Sainsbury's,3.16,59,32,1
-SAI-GEN0561,Sainsbury's Stone Baked Brie 200g,Dairy & Eggs,Sainsbury's,2.05,72,37,1
-SAI-GEN0562,Taste the Difference Scottish Laundry Pods 20pk,Household,Taste the Difference,3.9,25,19,4
-SAI-GEN0563,Sainsbury's Spicy Chicken Nuggets 500g,Frozen,Sainsbury's,3.22,45,24,1
-SAI-GEN0564,Pringles Sweet Squash 1L,Drinks,Branded,9.05,43,26,1
-SAI-GEN0565,Sainsbury's Frozen Onions 1kg,Fresh Produce,Sainsbury's,3.29,73,49,2
-SAI-GEN0566,Sainsbury's Classic Hash Browns 700g,Frozen,Sainsbury's,6.53,45,32,2
-SAI-GEN0567,Sainsbury's So Good Sourdough 400g,Fresh Bakery,So Good,3.7,56,31,2
-SAI-GEN0568,Sainsbury's Frozen Rice Cakes 130g,Snacks,Sainsbury's,7.94,45,34,1
-SAI-GEN0569,Sainsbury's Smoked Eggs 12pk,Dairy & Eggs,Sainsbury's,3.81,65,49,1
-SAI-GEN0570,Cadbury Organic Shampoo 250ml,Health & Beauty,Branded,1.99,42,31,2
-SAI-GEN0571,Sainsbury's Sweet Bleach 750ml,Household,Sainsbury's,6.22,59,30,3
-SAI-GEN0572,Sainsbury's British Muffins 4pk,Fresh Bakery,Sainsbury's,2.4,53,39,1
-SAI-GEN0573,Sainsbury's Frozen Fabric Conditioner 1L,Household,Sainsbury's,6.94,73,36,4
-SAI-GEN0574,Persil Stone Baked Kitchen Roll 2pk,Household,Branded,4.84,31,21,2
-SAI-GEN0575,Sainsbury's Scottish Shampoo 250ml,Health & Beauty,Sainsbury's,3.89,60,40,2
-SAI-GEN0576,Sainsbury's Chilled Rolls 6pk,Fresh Bakery,Sainsbury's,4.51,71,37,1
-SAI-GEN0577,Kellogg's Spicy Toothpaste 75ml,Health & Beauty,Branded,8.96,56,43,2
-SAI-GEN0578,Taste the Difference Value Bananas,Fresh Produce,Taste the Difference,4.71,33,25,1
-SAI-GEN0579,Sainsbury's Salted Carrots 1kg,Fresh Produce,Sainsbury's,6.12,66,50,1
-SAI-GEN0580,Taste the Difference Frozen Croissants 4pk,Fresh Bakery,Taste the Difference,9.93,30,23,1
-SAI-GEN0581,Sainsbury's Salted Yogurt 500g,Dairy & Eggs,Sainsbury's,5.3,35,24,1
-SAI-GEN0582,Sainsbury's So Good Foil 10m,Household,So Good,2.09,61,36,2
-SAI-GEN0583,Taste the Difference Mixed Bleach 750ml,Household,Taste the Difference,1.5,17,11,3
-SAI-GEN0584,Taste the Difference Value Ketchup 500g,Ambient Grocery,Taste the Difference,10.11,18,11,3
-SAI-GEN0585,Sainsbury's Chilled Orange Juice 1L,Drinks,Sainsbury's,0.66,54,40,1
-SAI-GEN0586,McVitie's Scottish Flour 1.5kg,Ambient Grocery,Branded,2.89,34,18,1
-SAI-GEN0587,Taste the Difference Handmade Mixed Veg 1kg,Frozen,Taste the Difference,2.91,17,12,1
-SAI-GEN0588,Sainsbury's So Good Fish Fingers 10pk,Frozen,So Good,3.84,89,62,3
-SAI-GEN0589,Sainsbury's Scottish Fish Fingers 10pk,Frozen,Sainsbury's,5.49,49,26,2
-SAI-GEN0590,Sainsbury's British Ibuprofen 16pk,Health & Beauty,Sainsbury's,4.93,54,36,2
-SAI-GEN0591,Sainsbury's Mixed Popcorn 100g,Snacks,Sainsbury's,4.31,57,37,2
-SAI-GEN0592,Sainsbury's Corn Fed Popcorn 100g,Snacks,Sainsbury's,1.19,56,37,1
-SAI-GEN0593,Sainsbury's So Good Milk 2 Pints,Dairy & Eggs,So Good,1.69,55,33,2
-SAI-GEN0594,Sainsbury's Corn Fed Tortilla Chips 200g,Snacks,Sainsbury's,6.61,50,38,2
-SAI-GEN0595,Sainsbury's Spicy Pasta 500g,Ambient Grocery,Sainsbury's,1.18,61,41,2
-SAI-GEN0596,Taste the Difference Stone Baked Sponges 4pk,Household,Taste the Difference,11.67,25,15,3
-SAI-GEN0597,Sainsbury's Salted Carrots 1kg,Fresh Produce,Sainsbury's,6.94,68,46,1
-SAI-GEN0598,Sainsbury's Scottish Turkey Mince 500g,Meat & Fish,Sainsbury's,3.18,70,55,3
-SAI-GEN0599,Taste the Difference Free Range Washing Up Liquid 500ml,Household,Taste the Difference,2.43,19,12,4
-SAI-GEN0600,Taste the Difference Smoked Olive Oil 500ml,Ambient Grocery,Taste the Difference,7.17,27,15,1
-SAI-GEN0601,Andrex finest Rice Cakes 130g,Snacks,Branded,2.51,32,22,3
-SAI-GEN0602,Fairy Mixed Kitchen Roll 2pk,Household,Branded,5.0,54,37,4
-SAI-GEN0603,Taste the Difference Value Sugar 1kg,Ambient Grocery,Taste the Difference,7.33,20,10,3
-SAI-GEN0604,Sainsbury's Handmade Oranges 5pk,Fresh Produce,Sainsbury's,3.67,71,39,1
-SAI-GEN0605,Sainsbury's Value Hand Wash 250ml,Health & Beauty,Sainsbury's,3.1,51,29,3
-SAI-GEN0606,Sainsbury's So Good Crisps 6pk,Snacks,So Good,0.99,63,36,4
-SAI-GEN0607,Cadbury finest Sugar 1kg,Ambient Grocery,Branded,9.84,52,35,3
-SAI-GEN0608,Sainsbury's Smoked Hash Browns 700g,Frozen,Sainsbury's,1.02,38,28,3
-SAI-GEN0609,Sainsbury's British Baguette,Fresh Bakery,Sainsbury's,2.65,46,30,2
-SAI-GEN0610,Sainsbury's Unsalted Baguette,Fresh Bakery,Sainsbury's,3.29,73,46,1
-SAI-GEN0611,Sainsbury's finest Popcorn 100g,Snacks,Sainsbury's,3.63,63,45,1
-SAI-GEN0612,Sainsbury's Premium Ibuprofen 16pk,Health & Beauty,Sainsbury's,7.06,42,21,4
-SAI-GEN0613,Sainsbury's Organic Croissants 4pk,Fresh Bakery,Sainsbury's,7.96,60,33,2
-SAI-GEN0614,Sainsbury's Organic Hash Browns 700g,Frozen,Sainsbury's,6.67,62,38,4
-SAI-GEN0615,Sainsbury's Frozen Milk 2 Pints,Dairy & Eggs,Sainsbury's,6.28,45,30,1
-SAI-GEN0616,Sainsbury's So Good Blueberries 150g,Fresh Produce,So Good,5.35,78,57,2
-SAI-GEN0617,Taste the Difference Frozen Spinach 200g,Fresh Produce,Taste the Difference,1.01,30,19,1
-SAI-GEN0618,Sainsbury's Frozen Milk 4 Pints,Dairy & Eggs,Sainsbury's,2.97,53,30,1
-SAI-GEN0619,Sainsbury's Scottish Wraps 8pk,Fresh Bakery,Sainsbury's,7.45,51,29,2
-SAI-GEN0620,Sainsbury's Organic Oats 1kg,Ambient Grocery,Sainsbury's,2.78,68,39,2
-SAI-GEN0621,Sainsbury's Premium Popcorn 100g,Snacks,Sainsbury's,1.13,50,37,1
-SAI-GEN0622,Sainsbury's Unsalted Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,4.7,69,37,2
-SAI-GEN0623,Taste the Difference Organic White Bread 800g,Fresh Bakery,Taste the Difference,6.84,24,14,1
-SAI-GEN0624,Heinz Smoked Flour 1.5kg,Ambient Grocery,Branded,7.85,55,33,1
-SAI-GEN0625,Sainsbury's Roasted Baguette,Fresh Bakery,Sainsbury's,2.65,43,24,2
-SAI-GEN0626,Taste the Difference Spicy Nuts 200g,Snacks,Taste the Difference,8.18,26,15,1
-SAI-GEN0627,Sainsbury's So Good Bleach 750ml,Household,So Good,1.95,83,49,2
-SAI-GEN0628,Sainsbury's Roasted Hash Browns 700g,Frozen,Sainsbury's,3.46,75,55,3
-SAI-GEN0629,Sainsbury's Premium Brie 200g,Dairy & Eggs,Sainsbury's,3.41,47,27,1
-SAI-GEN0630,Sainsbury's Unsalted Eggs 6pk,Dairy & Eggs,Sainsbury's,3.04,63,49,1
-SAI-GEN0631,Taste the Difference Premium Popcorn 100g,Snacks,Taste the Difference,7.85,30,18,2
-SAI-GEN0632,Sainsbury's finest Chopped Tomatoes 400g,Ambient Grocery,Sainsbury's,5.45,68,39,4
-SAI-GEN0633,Taste the Difference Salted Mixed Veg 1kg,Frozen,Taste the Difference,0.98,24,17,4
-SAI-GEN0634,Sainsbury's So Good Mixed Veg 1kg,Frozen,So Good,2.34,63,48,3
-SAI-GEN0635,Taste the Difference Unsalted Beef Mince 500g,Meat & Fish,Taste the Difference,3.76,15,10,3
-SAI-GEN0636,Sainsbury's So Good Sponges 4pk,Household,So Good,4.01,63,42,1
-SAI-GEN0637,Persil Roasted Orange Juice 1L,Drinks,Branded,9.28,49,37,3
-SAI-GEN0638,Sainsbury's Frozen Rolls 6pk,Fresh Bakery,Sainsbury's,6.87,61,38,2
-SAI-GEN0639,Walkers Salted Sponges 4pk,Household,Branded,8.92,58,35,1
-SAI-GEN0640,Taste the Difference Salted Chocolate Bar 200g,Snacks,Taste the Difference,6.04,18,14,1
-SAI-GEN0641,Taste the Difference Classic Broccoli 300g,Fresh Produce,Taste the Difference,4.8,25,16,1
-SAI-GEN0642,Nivea Scottish Foil 10m,Household,Branded,8.81,59,31,4
-SAI-GEN0643,Sainsbury's So Good Kitchen Roll 2pk,Household,So Good,1.43,72,43,3
-SAI-GEN0644,Sainsbury's Spicy Croissants 4pk,Fresh Bakery,Sainsbury's,3.37,50,27,1
-SAI-GEN0645,Sainsbury's Premium Popcorn 100g,Snacks,Sainsbury's,7.47,58,33,3
-SAI-GEN0646,Sainsbury's finest Pork Sausages 8pk,Meat & Fish,Sainsbury's,7.95,58,39,2
-SAI-GEN0647,Sainsbury's Stone Baked Cotton Pads 100pk,Health & Beauty,Sainsbury's,3.37,48,36,4
-SAI-GEN0648,Sainsbury's Sweet Brie 200g,Dairy & Eggs,Sainsbury's,2.03,54,31,1
-SAI-GEN0649,Cadbury Scottish Oats 1kg,Ambient Grocery,Branded,5.99,54,33,3
-SAI-GEN0650,Sainsbury's Smoked Fish Fingers 10pk,Frozen,Sainsbury's,3.06,48,37,4
-SAI-GEN0651,Sainsbury's Classic Cod Fillets 400g,Meat & Fish,Sainsbury's,4.0,54,36,4
-SAI-GEN0652,Taste the Difference British Orange Juice 1L,Drinks,Taste the Difference,2.03,35,22,1
-SAI-GEN0653,Sainsbury's So Good Sparkling Water 6x500ml,Drinks,So Good,1.23,52,38,4
-SAI-GEN0654,Sainsbury's So Good Bin Liners 20pk,Household,So Good,0.78,81,47,4
-SAI-GEN0655,Taste the Difference Frozen Fabric Conditioner 1L,Household,Taste the Difference,8.05,16,8,1
-SAI-GEN0656,Taste the Difference Organic Bagels 5pk,Fresh Bakery,Taste the Difference,3.9,34,26,1
-SAI-GEN0657,Sainsbury's Corn Fed Pizza 400g,Frozen,Sainsbury's,6.27,37,27,3
-SAI-GEN0658,Sainsbury's Mixed Sparkling Water 6x500ml,Drinks,Sainsbury's,6.25,72,36,3
-SAI-GEN0659,Sainsbury's Spicy White Bread 800g,Fresh Bakery,Sainsbury's,6.36,41,22,2
-SAI-GEN0660,Sainsbury's Chilled Mozzarella 125g,Dairy & Eggs,Sainsbury's,5.48,61,35,2
-SAI-GEN0661,Sainsbury's So Good Foil 10m,Household,So Good,5.0,87,43,1
-SAI-GEN0662,Sainsbury's So Good Wraps 8pk,Fresh Bakery,So Good,1.04,66,39,1
-SAI-GEN0663,Taste the Difference Spicy Ice Cream 1L,Frozen,Taste the Difference,10.14,21,10,4
-SAI-GEN0664,Walkers finest Toothpaste 75ml,Health & Beauty,Branded,0.99,51,31,3
-SAI-GEN0665,Sainsbury's Mixed Still Water 6x500ml,Drinks,Sainsbury's,2.1,57,45,4
-SAI-GEN0666,Sainsbury's Premium Eggs 12pk,Dairy & Eggs,Sainsbury's,1.77,62,37,2
-SAI-GEN0667,Taste the Difference Spicy Bin Liners 20pk,Household,Taste the Difference,2.19,24,18,2
-SAI-GEN0668,Sainsbury's Classic Flour 1.5kg,Ambient Grocery,Sainsbury's,4.11,54,37,1
-SAI-GEN0669,Sainsbury's Spicy Ice Cream 1L,Frozen,Sainsbury's,2.83,37,26,4
-SAI-GEN0670,Sainsbury's So Good Toothpaste 75ml,Health & Beauty,So Good,4.5,77,57,4
-SAI-GEN0671,Taste the Difference Organic Bleach 750ml,Household,Taste the Difference,8.61,28,20,2
-SAI-GEN0672,Sainsbury's Corn Fed Sourdough 400g,Fresh Bakery,Sainsbury's,2.54,66,39,2
-SAI-GEN0673,Sainsbury's So Good Bacon 300g,Meat & Fish,So Good,1.32,56,33,3
-SAI-GEN0674,Taste the Difference Handmade Lamb Chops 400g,Meat & Fish,Taste the Difference,2.03,18,12,2
-SAI-GEN0675,Sainsbury's Value Carrots 1kg,Fresh Produce,Sainsbury's,6.5,65,51,2
-SAI-GEN0676,Taste the Difference Spicy Shower Gel 250ml,Health & Beauty,Taste the Difference,6.64,33,23,4
-SAI-GEN0677,Taste the Difference Roasted Popcorn 100g,Snacks,Taste the Difference,7.86,32,23,1
-SAI-GEN0678,Sainsbury's Salted Jam 340g,Ambient Grocery,Sainsbury's,1.43,41,25,2
-SAI-GEN0679,Taste the Difference Handmade Shower Gel 250ml,Health & Beauty,Taste the Difference,9.77,28,16,4
-SAI-GEN0680,Sainsbury's Premium Blueberries 150g,Fresh Produce,Sainsbury's,1.68,43,30,2
-SAI-GEN0681,Sainsbury's Smoked Peas 1kg,Frozen,Sainsbury's,3.49,68,34,1
-SAI-GEN0682,Sainsbury's So Good Rice Cakes 130g,Snacks,So Good,2.09,81,58,4
-SAI-GEN0683,Sainsbury's Spicy Spinach 200g,Fresh Produce,Sainsbury's,6.13,42,23,2
-SAI-GEN0684,Sainsbury's Sweet Lamb Chops 400g,Meat & Fish,Sainsbury's,7.73,54,41,2
-SAI-GEN0685,Sainsbury's Spicy Foil 10m,Household,Sainsbury's,4.27,62,41,1
-SAI-GEN0686,Sainsbury's So Good Cheddar 400g,Dairy & Eggs,So Good,0.71,52,28,1
-SAI-GEN0687,Sainsbury's Handmade Beef Mince 500g,Meat & Fish,Sainsbury's,6.76,35,20,2
-SAI-GEN0688,Taste the Difference Salted Apple Juice 1L,Drinks,Taste the Difference,7.49,18,11,2
-SAI-GEN0689,Taste the Difference Scottish Bananas,Fresh Produce,Taste the Difference,2.88,22,17,2
-SAI-GEN0690,Sainsbury's Spicy Washing Up Liquid 500ml,Household,Sainsbury's,4.3,40,31,2
-SAI-GEN0691,Sainsbury's Roasted Lemonade 2L,Drinks,Sainsbury's,7.48,42,24,1
-SAI-GEN0692,Sainsbury's finest Hand Wash 250ml,Health & Beauty,Sainsbury's,4.08,71,45,3
-SAI-GEN0693,Persil Value Cola 2L,Drinks,Branded,2.96,57,35,1
-SAI-GEN0694,Sainsbury's Chilled Oven Chips 1.5kg,Frozen,Sainsbury's,2.28,73,55,4
-SAI-GEN0695,Sainsbury's Smoked Pork Sausages 8pk,Meat & Fish,Sainsbury's,5.25,35,17,3
-SAI-GEN0696,Sainsbury's Value Bleach 750ml,Household,Sainsbury's,5.38,53,32,4
-SAI-GEN0697,Sainsbury's Fresh Eggs 6pk,Dairy & Eggs,Sainsbury's,0.66,47,30,2
-SAI-GEN0698,Sainsbury's So Good Rolls 6pk,Fresh Bakery,So Good,4.38,63,34,2
-SAI-GEN0699,Cadbury British Jam 340g,Ambient Grocery,Branded,4.88,56,33,1
-SAI-GEN0700,Sainsbury's Fresh Milk 4 Pints,Dairy & Eggs,Sainsbury's,5.28,63,40,2
-SAI-GEN0701,Sainsbury's Mixed Milk 4 Pints,Dairy & Eggs,Sainsbury's,1.86,72,41,1
-SAI-GEN0702,Sainsbury's Premium Peas 1kg,Frozen,Sainsbury's,6.15,56,34,2
-SAI-GEN0703,Sainsbury's Fresh Mozzarella 125g,Dairy & Eggs,Sainsbury's,2.94,67,48,2
-SAI-GEN0704,Sainsbury's Fresh Pizza 400g,Frozen,Sainsbury's,6.3,39,27,3
-SAI-GEN0705,Sainsbury's Scottish Nuts 200g,Snacks,Sainsbury's,7.92,54,39,4
-SAI-GEN0706,Sainsbury's Sweet Brie 200g,Dairy & Eggs,Sainsbury's,4.7,35,21,1
-SAI-GEN0707,Sainsbury's Smoked Bacon 300g,Meat & Fish,Sainsbury's,1.8,58,32,1
-SAI-GEN0708,Sainsbury's So Good Fabric Conditioner 1L,Household,So Good,2.08,80,41,4
-SAI-GEN0709,Nivea Classic Toilet Roll 9pk,Household,Branded,1.05,39,27,1
-SAI-GEN0710,Sainsbury's So Good Spinach 200g,Fresh Produce,So Good,5.43,88,48,1
-SAI-GEN0711,Sainsbury's British Mixed Veg 1kg,Frozen,Sainsbury's,3.79,61,47,1
-SAI-GEN0712,Taste the Difference Salted Prawns 200g,Meat & Fish,Taste the Difference,10.73,33,24,2
-SAI-GEN0713,Sainsbury's Corn Fed Fabric Conditioner 1L,Household,Sainsbury's,6.26,36,24,3
-SAI-GEN0714,Sainsbury's Spicy Ibuprofen 16pk,Health & Beauty,Sainsbury's,7.99,51,30,1
-SAI-GEN0715,Sainsbury's Chilled Butter 250g,Dairy & Eggs,Sainsbury's,4.99,67,38,2
-SAI-GEN0716,Sainsbury's Stone Baked Mints 4pk,Snacks,Sainsbury's,7.91,39,19,3
-SAI-GEN0717,Sainsbury's Value Bananas,Fresh Produce,Sainsbury's,6.23,58,36,1
-SAI-GEN0718,Sainsbury's So Good Croissants 4pk,Fresh Bakery,So Good,5.56,66,47,2
-SAI-GEN0719,Sainsbury's Fresh Tea Bags 80pk,Drinks,Sainsbury's,6.14,62,34,4
-SAI-GEN0720,Sainsbury's So Good Laundry Pods 20pk,Household,So Good,3.54,89,70,1
-SAI-GEN0721,Sainsbury's Smoked Turkey Mince 500g,Meat & Fish,Sainsbury's,1.55,40,30,2
-SAI-GEN0722,Sainsbury's Corn Fed Oven Chips 1.5kg,Frozen,Sainsbury's,6.23,43,25,2
-SAI-GEN0723,Taste the Difference Corn Fed Bananas,Fresh Produce,Taste the Difference,11.8,33,19,1
-SAI-GEN0724,Taste the Difference finest Coffee 200g,Drinks,Taste the Difference,4.4,33,20,2
-SAI-GEN0725,Taste the Difference Spicy Pasta 500g,Ambient Grocery,Taste the Difference,1.17,21,12,4
-SAI-GEN0726,Sainsbury's Frozen Tea Bags 80pk,Drinks,Sainsbury's,0.76,40,28,2
-SAI-GEN0727,Sainsbury's So Good Wraps 8pk,Fresh Bakery,So Good,4.68,66,49,2
-SAI-GEN0728,Taste the Difference Classic Foil 10m,Household,Taste the Difference,10.57,19,14,2
-SAI-GEN0729,Sainsbury's Mixed Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,3.64,52,27,1
-SAI-GEN0730,Sainsbury's So Good Fabric Conditioner 1L,Household,So Good,3.44,62,46,1
-SAI-GEN0731,Sainsbury's Stone Baked Apples 6pk,Fresh Produce,Sainsbury's,5.13,40,20,1
-SAI-GEN0732,Sainsbury's Free Range Crackers 150g,Snacks,Sainsbury's,6.23,38,27,4
-SAI-GEN0733,Sainsbury's Premium Wraps 8pk,Fresh Bakery,Sainsbury's,7.42,60,38,2
-SAI-GEN0734,Taste the Difference Mixed Shampoo 250ml,Health & Beauty,Taste the Difference,6.9,28,18,3
-SAI-GEN0735,Sainsbury's So Good Sponges 4pk,Household,So Good,1.97,86,61,2
-SAI-GEN0736,Sainsbury's Frozen Salmon Fillets 240g,Meat & Fish,Sainsbury's,4.33,60,35,2
-SAI-GEN0737,Sainsbury's Scottish Grapes 500g,Fresh Produce,Sainsbury's,3.05,71,41,2
-SAI-GEN0738,Sainsbury's British White Bread 800g,Fresh Bakery,Sainsbury's,0.88,66,43,1
-SAI-GEN0739,Sainsbury's So Good Ice Cream 1L,Frozen,So Good,4.72,70,50,1
-SAI-GEN0740,Sainsbury's finest Brie 200g,Dairy & Eggs,Sainsbury's,7.64,54,27,1
-SAI-GEN0741,Sainsbury's Unsalted Fish Fingers 10pk,Frozen,Sainsbury's,5.17,72,45,2
-SAI-GEN0742,McVitie's Corn Fed Kitchen Roll 2pk,Household,Branded,3.56,48,29,2
-SAI-GEN0743,Sainsbury's Unsalted Strawberries 400g,Fresh Produce,Sainsbury's,3.21,63,45,2
-SAI-GEN0744,Sainsbury's So Good Bin Liners 20pk,Household,So Good,0.59,90,59,4
-SAI-GEN0745,Sainsbury's Mixed Chocolate Bar 200g,Snacks,Sainsbury's,0.8,42,30,4
-SAI-GEN0746,Taste the Difference British Plasters 40pk,Health & Beauty,Taste the Difference,9.39,34,25,4
-SAI-GEN0747,Sainsbury's British Oven Chips 1.5kg,Frozen,Sainsbury's,7.23,47,32,3
-SAI-GEN0748,Sainsbury's Salted Lasagne 400g,Frozen,Sainsbury's,2.5,60,33,4
-SAI-GEN0749,Sainsbury's finest Muffins 4pk,Fresh Bakery,Sainsbury's,0.79,69,53,1
-SAI-GEN0750,Sainsbury's Mixed Toilet Roll 9pk,Household,Sainsbury's,5.44,61,31,2
-SAI-GEN0751,Taste the Difference finest Deodorant 150ml,Health & Beauty,Taste the Difference,7.32,31,17,2
-SAI-GEN0752,Fairy British Ibuprofen 16pk,Health & Beauty,Branded,5.82,57,30,4
-SAI-GEN0753,Taste the Difference Handmade Fabric Conditioner 1L,Household,Taste the Difference,9.3,29,19,2
-SAI-GEN0754,Sainsbury's Classic Potatoes 2.5kg,Fresh Produce,Sainsbury's,7.11,72,37,1
-SAI-GEN0755,Sainsbury's So Good Olive Oil 500ml,Ambient Grocery,So Good,2.15,76,40,1
-SAI-GEN0756,Sainsbury's finest Energy Drink 500ml,Drinks,Sainsbury's,2.62,49,33,4
-SAI-GEN0757,Sainsbury's Roasted Grapes 500g,Fresh Produce,Sainsbury's,6.44,52,41,2
-SAI-GEN0758,Sainsbury's Corn Fed Salmon Fillets 240g,Meat & Fish,Sainsbury's,2.26,49,31,2
-SAI-GEN0759,Sainsbury's Spicy Mozzarella 125g,Dairy & Eggs,Sainsbury's,1.82,49,34,1
-SAI-GEN0760,Sainsbury's Premium Mints 4pk,Snacks,Sainsbury's,2.23,63,33,3
-SAI-GEN0761,Coca-Cola Stone Baked Bin Liners 20pk,Household,Branded,9.04,55,42,4
-SAI-GEN0762,Sainsbury's Sweet Milk 4 Pints,Dairy & Eggs,Sainsbury's,6.7,73,52,2
-SAI-GEN0763,Sainsbury's Free Range Coffee 200g,Drinks,Sainsbury's,7.46,74,55,4
-SAI-GEN0764,Taste the Difference Scottish Chicken Nuggets 500g,Frozen,Taste the Difference,8.48,24,17,2
-SAI-GEN0765,Sainsbury's Premium Sourdough 400g,Fresh Bakery,Sainsbury's,7.78,51,34,1
-SAI-GEN0766,Taste the Difference Corn Fed Beef Mince 500g,Meat & Fish,Taste the Difference,7.85,25,19,3
-SAI-GEN0767,Sainsbury's Free Range Flour 1.5kg,Ambient Grocery,Sainsbury's,5.84,69,54,2
-SAI-GEN0768,Sainsbury's Premium Milk 4 Pints,Dairy & Eggs,Sainsbury's,6.48,62,38,1
-SAI-GEN0769,Sainsbury's Fresh Bananas,Fresh Produce,Sainsbury's,4.86,64,34,2
-SAI-GEN0770,Nivea Unsalted Ibuprofen 16pk,Health & Beauty,Branded,8.72,54,29,1
-SAI-GEN0771,Taste the Difference Spicy Baguette,Fresh Bakery,Taste the Difference,8.49,35,25,2
-SAI-GEN0772,Sainsbury's Value Mozzarella 125g,Dairy & Eggs,Sainsbury's,2.51,63,42,2
-SAI-GEN0773,Taste the Difference Chilled Eggs 6pk,Dairy & Eggs,Taste the Difference,0.89,33,16,2
-SAI-GEN0774,Sainsbury's Smoked Tea Bags 80pk,Drinks,Sainsbury's,7.56,45,31,3
-SAI-GEN0775,Sainsbury's Sweet Milk 4 Pints,Dairy & Eggs,Sainsbury's,4.34,58,30,1
-SAI-GEN0776,Sainsbury's Premium Peas 1kg,Frozen,Sainsbury's,6.73,38,22,2
-SAI-GEN0777,Sainsbury's Value Cream 300ml,Dairy & Eggs,Sainsbury's,6.57,51,26,1
-SAI-GEN0778,Sainsbury's Mixed Rolls 6pk,Fresh Bakery,Sainsbury's,3.02,52,32,2
-SAI-GEN0779,Sainsbury's Sweet Peas 1kg,Frozen,Sainsbury's,6.46,38,24,2
-SAI-GEN0780,Sainsbury's British Bleach 750ml,Household,Sainsbury's,3.19,42,25,1
-SAI-GEN0781,Sainsbury's Roasted Cola 2L,Drinks,Sainsbury's,3.33,45,25,3
-SAI-GEN0782,Sainsbury's Stone Baked Mixed Veg 1kg,Frozen,Sainsbury's,7.56,56,36,3
-SAI-GEN0783,Taste the Difference Chilled Squash 1L,Drinks,Taste the Difference,4.62,23,11,3
-SAI-GEN0784,Taste the Difference Organic Hash Browns 700g,Frozen,Taste the Difference,8.28,27,14,1
-SAI-GEN0785,Sainsbury's Handmade Ibuprofen 16pk,Health & Beauty,Sainsbury's,1.96,73,51,3
-SAI-GEN0786,Kellogg's Organic Squash 1L,Drinks,Branded,9.53,46,33,4
-SAI-GEN0787,Sainsbury's Classic Mozzarella 125g,Dairy & Eggs,Sainsbury's,5.0,61,40,2
-SAI-GEN0788,Taste the Difference finest Mixed Veg 1kg,Frozen,Taste the Difference,9.81,22,11,1
-SAI-GEN0789,Sainsbury's Salted Deodorant 150ml,Health & Beauty,Sainsbury's,6.77,65,40,2
-SAI-GEN0790,L'Oreal Corn Fed Hand Wash 250ml,Health & Beauty,Branded,6.83,58,44,4
-SAI-GEN0791,Sainsbury's Classic Tea Bags 80pk,Drinks,Sainsbury's,6.35,48,24,3
-SAI-GEN0792,Sainsbury's Chilled Sugar 1kg,Ambient Grocery,Sainsbury's,7.16,68,37,3
-SAI-GEN0793,Taste the Difference British Orange Juice 1L,Drinks,Taste the Difference,9.71,17,10,1
-SAI-GEN0794,Sainsbury's Classic Bananas,Fresh Produce,Sainsbury's,2.39,40,22,1
-SAI-GEN0795,Sainsbury's Roasted Salmon Fillets 240g,Meat & Fish,Sainsbury's,4.7,68,47,4
-SAI-GEN0796,Sainsbury's So Good Plasters 40pk,Health & Beauty,So Good,3.14,66,33,2
-SAI-GEN0797,Sainsbury's Stone Baked Oven Chips 1.5kg,Frozen,Sainsbury's,7.62,73,46,1
-SAI-GEN0798,Sainsbury's British Yogurt 500g,Dairy & Eggs,Sainsbury's,3.61,59,46,1
-SAI-GEN0799,Sainsbury's finest Rolls 6pk,Fresh Bakery,Sainsbury's,3.36,69,48,2
-SAI-GEN0800,Sainsbury's Premium Salmon Fillets 240g,Meat & Fish,Sainsbury's,7.19,43,21,2
-SAI-GEN0801,Sainsbury's Salted Hand Wash 250ml,Health & Beauty,Sainsbury's,4.7,49,34,4
-SAI-GEN0802,Sainsbury's So Good Rolls 6pk,Fresh Bakery,So Good,4.3,74,41,2
-SAI-GEN0803,Sainsbury's Organic Cereal 500g,Ambient Grocery,Sainsbury's,2.34,46,24,4
-SAI-GEN0804,Sainsbury's So Good Oven Chips 1.5kg,Frozen,So Good,4.85,68,46,1
-SAI-GEN0805,Sainsbury's So Good Fish Fingers 10pk,Frozen,So Good,2.74,72,57,4
-SAI-GEN0806,Sainsbury's Corn Fed Cream 300ml,Dairy & Eggs,Sainsbury's,0.92,46,30,1
-SAI-GEN0807,Sainsbury's Roasted Hash Browns 700g,Frozen,Sainsbury's,3.32,63,33,3
-SAI-GEN0808,Taste the Difference Smoked Peas 1kg,Frozen,Taste the Difference,1.52,22,12,1
-SAI-GEN0809,Sainsbury's Chilled Peanut Butter 280g,Ambient Grocery,Sainsbury's,6.21,56,34,3
-SAI-GEN0810,Sainsbury's Sweet Toothpaste 75ml,Health & Beauty,Sainsbury's,2.01,66,43,4
-SAI-GEN0811,Sainsbury's Spicy Beef Mince 500g,Meat & Fish,Sainsbury's,1.46,66,52,3
-SAI-GEN0812,Sainsbury's Spicy Peas 1kg,Frozen,Sainsbury's,1.39,67,39,4
-SAI-GEN0813,Coca-Cola Smoked Mints 4pk,Snacks,Branded,2.89,38,29,2
-SAI-GEN0814,Sainsbury's So Good Milk 4 Pints,Dairy & Eggs,So Good,0.99,66,46,1
-SAI-GEN0815,Sainsbury's Value Chicken Breast 600g,Meat & Fish,Sainsbury's,6.31,60,46,3
-SAI-GEN0816,Sainsbury's Organic Nuts 200g,Snacks,Sainsbury's,3.83,36,22,3
-SAI-GEN0817,Sainsbury's Corn Fed Fish Fingers 10pk,Frozen,Sainsbury's,6.41,72,38,2
-SAI-GEN0818,Sainsbury's So Good Sponges 4pk,Household,So Good,3.18,65,42,1
-SAI-GEN0819,Sainsbury's Handmade Rice 1kg,Ambient Grocery,Sainsbury's,7.37,71,55,2
-SAI-GEN0820,Sainsbury's So Good Bleach 750ml,Household,So Good,2.2,60,47,4
-SAI-GEN0821,Sainsbury's Free Range Tea Bags 80pk,Drinks,Sainsbury's,5.63,39,25,2
-SAI-GEN0822,Taste the Difference Salted Apples 6pk,Fresh Produce,Taste the Difference,8.76,32,19,2
-SAI-GEN0823,Sainsbury's Free Range Oats 1kg,Ambient Grocery,Sainsbury's,8.0,63,36,2
-SAI-GEN0824,McVitie's Salted Deodorant 150ml,Health & Beauty,Branded,5.5,39,26,1
-SAI-GEN0825,Sainsbury's Spicy Peas 1kg,Frozen,Sainsbury's,5.96,40,22,1
-SAI-GEN0826,Sainsbury's Organic Soup 400g,Ambient Grocery,Sainsbury's,1.82,38,28,1
-SAI-GEN0827,Sainsbury's Scottish Lasagne 400g,Frozen,Sainsbury's,7.26,53,34,4
-SAI-GEN0828,Sainsbury's Frozen Oven Chips 1.5kg,Frozen,Sainsbury's,1.37,53,39,2
-SAI-GEN0829,Sainsbury's So Good Cream 300ml,Dairy & Eggs,So Good,3.5,71,48,2
-SAI-GEN0830,Andrex Stone Baked Plasters 40pk,Health & Beauty,Branded,1.56,50,28,3
-SAI-GEN0831,Sainsbury's So Good Plasters 40pk,Health & Beauty,So Good,1.11,61,40,2
-SAI-GEN0832,Sainsbury's Handmade Beef Mince 500g,Meat & Fish,Sainsbury's,6.52,49,29,3
-SAI-GEN0833,Sainsbury's So Good Yogurt 500g,Dairy & Eggs,So Good,2.04,89,46,1
-SAI-GEN0834,Sainsbury's Organic Cheddar 400g,Dairy & Eggs,Sainsbury's,0.64,57,45,2
-SAI-GEN0835,Taste the Difference Mixed Coffee 200g,Drinks,Taste the Difference,11.38,15,11,3
-SAI-GEN0836,Sainsbury's Fresh Squash 1L,Drinks,Sainsbury's,7.68,42,23,2
-SAI-GEN0837,Pringles Free Range Plasters 40pk,Health & Beauty,Branded,8.11,34,26,2
-SAI-GEN0838,Taste the Difference Mixed Apple Juice 1L,Drinks,Taste the Difference,8.46,31,16,2
-SAI-GEN0839,Sainsbury's Roasted Oranges 5pk,Fresh Produce,Sainsbury's,1.21,37,28,1
-SAI-GEN0840,Sainsbury's So Good Cola 2L,Drinks,So Good,1.4,90,69,4
-SAI-GEN0841,Taste the Difference Organic Popcorn 100g,Snacks,Taste the Difference,11.23,30,23,3
-SAI-GEN0842,Sainsbury's finest Wholemeal Bread 800g,Fresh Bakery,Sainsbury's,0.71,66,35,1
-SAI-GEN0843,Sainsbury's So Good Pork Sausages 8pk,Meat & Fish,So Good,2.58,73,58,2
-SAI-GEN0844,Sainsbury's So Good Yogurt 500g,Dairy & Eggs,So Good,3.35,73,48,2
-SAI-GEN0845,Sainsbury's Unsalted Cream 300ml,Dairy & Eggs,Sainsbury's,1.13,45,35,2
-SAI-GEN0846,Sainsbury's Scottish Pizza 400g,Frozen,Sainsbury's,6.7,37,28,4
-SAI-GEN0847,Sainsbury's So Good Blueberries 150g,Fresh Produce,So Good,1.68,86,51,2
-SAI-GEN0848,Sainsbury's British Carrots 1kg,Fresh Produce,Sainsbury's,4.16,73,50,2
-SAI-GEN0849,Sainsbury's Chilled Prawns 200g,Meat & Fish,Sainsbury's,4.41,66,34,4
-SAI-GEN0850,Sainsbury's Spicy Lamb Chops 400g,Meat & Fish,Sainsbury's,3.74,69,38,1
-SAI-GEN0851,Sainsbury's Chilled Baked Beans 415g,Ambient Grocery,Sainsbury's,1.54,71,35,4
-SAI-GEN0852,Sainsbury's Value Energy Drink 500ml,Drinks,Sainsbury's,4.3,56,33,4
-SAI-GEN0853,Sainsbury's finest Bleach 750ml,Household,Sainsbury's,6.99,72,44,4
-SAI-GEN0854,Taste the Difference Unsalted Paracetamol 16pk,Health & Beauty,Taste the Difference,7.2,29,16,4
-SAI-GEN0855,Sainsbury's Frozen Squash 1L,Drinks,Sainsbury's,5.68,52,26,2
-SAI-GEN0856,Sainsbury's Roasted Lasagne 400g,Frozen,Sainsbury's,5.44,70,36,1
-SAI-GEN0857,Sainsbury's British Olive Oil 500ml,Ambient Grocery,Sainsbury's,1.36,42,31,2
-SAI-GEN0858,Heinz British Cotton Pads 100pk,Health & Beauty,Branded,5.82,49,37,2
-SAI-GEN0859,Sainsbury's Chilled Salmon Fillets 240g,Meat & Fish,Sainsbury's,1.81,49,32,2
-SAI-GEN0860,Taste the Difference Roasted Fish Fingers 10pk,Frozen,Taste the Difference,3.9,31,23,2
-SAI-GEN0861,Sainsbury's Stone Baked Prawns 200g,Meat & Fish,Sainsbury's,2.17,74,53,3
-SAI-GEN0862,Sainsbury's Fresh Prawns 200g,Meat & Fish,Sainsbury's,2.69,56,42,1
-SAI-GEN0863,Sainsbury's Classic Bacon 300g,Meat & Fish,Sainsbury's,5.24,43,32,1
-SAI-GEN0864,Sainsbury's Scottish Lasagne 400g,Frozen,Sainsbury's,5.02,47,29,2
-SAI-GEN0865,Sainsbury's Salted Milk 4 Pints,Dairy & Eggs,Sainsbury's,4.04,50,28,2
-SAI-GEN0866,Sainsbury's Spicy Bananas,Fresh Produce,Sainsbury's,6.58,67,46,2
-SAI-GEN0867,Nestle Classic Crackers 150g,Snacks,Branded,1.03,38,22,2
-SAI-GEN0868,Sainsbury's Corn Fed Croissants 4pk,Fresh Bakery,Sainsbury's,6.57,60,42,2
-SAI-GEN0869,Taste the Difference Classic Oats 1kg,Ambient Grocery,Taste the Difference,0.83,21,15,2
-SAI-GEN0870,Sainsbury's Smoked Cream 300ml,Dairy & Eggs,Sainsbury's,7.31,39,28,1
-SAI-GEN0871,Sainsbury's Organic Turkey Mince 500g,Meat & Fish,Sainsbury's,3.37,44,23,1
-SAI-GEN0872,Sainsbury's Fresh Apples 6pk,Fresh Produce,Sainsbury's,1.22,43,32,1
-SAI-GEN0873,Sainsbury's So Good Muffins 4pk,Fresh Bakery,So Good,5.4,52,41,1
-SAI-GEN0874,Sainsbury's Unsalted Oranges 5pk,Fresh Produce,Sainsbury's,7.71,46,36,1
-SAI-GEN0875,Taste the Difference Sweet Olive Oil 500ml,Ambient Grocery,Taste the Difference,3.85,17,10,2
-SAI-GEN0876,Sainsbury's So Good Washing Up Liquid 500ml,Household,So Good,5.51,56,43,2
-SAI-GEN0877,Sainsbury's Corn Fed Beef Mince 500g,Meat & Fish,Sainsbury's,5.35,51,30,1
-SAI-GEN0878,Sainsbury's So Good Sparkling Water 6x500ml,Drinks,So Good,1.69,83,50,1
-SAI-GEN0879,Sainsbury's So Good Paracetamol 16pk,Health & Beauty,So Good,5.29,85,67,4
-SAI-GEN0880,Sainsbury's So Good Wraps 8pk,Fresh Bakery,So Good,2.71,85,53,1
-SAI-GEN0881,Taste the Difference Roasted Cream 300ml,Dairy & Eggs,Taste the Difference,9.87,35,18,1
-SAI-GEN0882,Sainsbury's So Good Crackers 150g,Snacks,So Good,4.36,80,63,1
-SAI-GEN0883,Sainsbury's So Good Foil 10m,Household,So Good,4.72,86,51,2
-SAI-GEN0884,Sainsbury's Classic Mints 4pk,Snacks,Sainsbury's,3.28,68,53,3
-SAI-GEN0885,McVitie's Scottish Tortilla Chips 200g,Snacks,Branded,8.33,44,22,1
-SAI-GEN0886,Sainsbury's Fresh Lemons 3pk,Fresh Produce,Sainsbury's,2.68,45,23,2
-SAI-GEN0887,Sainsbury's So Good Butter 250g,Dairy & Eggs,So Good,0.7,68,43,2
-SAI-GEN0888,Sainsbury's Value Rice Cakes 130g,Snacks,Sainsbury's,5.46,46,34,1
-SAI-GEN0889,Taste the Difference British Wraps 8pk,Fresh Bakery,Taste the Difference,11.38,29,20,1
-SAI-GEN0890,Sainsbury's So Good Cod Fillets 400g,Meat & Fish,So Good,5.49,89,49,3
-SAI-GEN0891,Taste the Difference Chilled Wraps 8pk,Fresh Bakery,Taste the Difference,3.74,17,13,2
-SAI-GEN0892,Taste the Difference finest Crackers 150g,Snacks,Taste the Difference,8.93,28,14,3
-SAI-GEN0893,Sainsbury's So Good Oats 1kg,Ambient Grocery,So Good,5.57,81,41,3
-SAI-GEN0894,Sainsbury's So Good Bacon 300g,Meat & Fish,So Good,2.88,63,33,1
-SAI-GEN0895,Sainsbury's Fresh Biscuits 400g,Snacks,Sainsbury's,5.48,40,25,2
-SAI-GEN0896,Nivea Free Range Squash 1L,Drinks,Branded,5.6,49,35,1
-SAI-GEN0897,Sainsbury's So Good Kitchen Roll 2pk,Household,So Good,5.58,81,53,2
-SAI-GEN0898,Sainsbury's Salted Lamb Chops 400g,Meat & Fish,Sainsbury's,2.24,69,35,3
-SAI-GEN0899,McVitie's Free Range Cereal 500g,Ambient Grocery,Branded,2.57,40,31,4
-SAI-GEN0900,Sainsbury's So Good Chicken Nuggets 500g,Frozen,So Good,2.47,63,37,2
-SAI-GEN0901,Colgate Premium Energy Drink 500ml,Drinks,Branded,9.06,30,18,1
-SAI-GEN0902,Coca-Cola Handmade Ibuprofen 16pk,Health & Beauty,Branded,9.8,53,27,1
-SAI-GEN0903,Taste the Difference Sweet Tea Bags 80pk,Drinks,Taste the Difference,1.74,28,16,4
-SAI-GEN0904,Taste the Difference Handmade Milk 2 Pints,Dairy & Eggs,Taste the Difference,2.46,35,26,1
-SAI-GEN0905,Sainsbury's So Good Popcorn 100g,Snacks,So Good,2.84,73,44,1
-SAI-GEN0906,Sainsbury's So Good Fabric Conditioner 1L,Household,So Good,3.13,83,49,1
-SAI-GEN0907,Sainsbury's Handmade Oranges 5pk,Fresh Produce,Sainsbury's,4.29,41,26,1
-SAI-GEN0908,L'Oreal Mixed Ketchup 500g,Ambient Grocery,Branded,6.93,46,32,2
-SAI-GEN0909,Fairy Spicy Tea Bags 80pk,Drinks,Branded,4.63,47,34,2
-SAI-GEN0910,Sainsbury's finest Mozzarella 125g,Dairy & Eggs,Sainsbury's,7.42,73,55,1
-SAI-GEN0911,Taste the Difference Mixed Muffins 4pk,Fresh Bakery,Taste the Difference,9.3,18,12,1
-SAI-GEN0912,Sainsbury's Salted Ketchup 500g,Ambient Grocery,Sainsbury's,6.09,53,29,4
-SAI-GEN0913,Taste the Difference Handmade Toothpaste 75ml,Health & Beauty,Taste the Difference,5.1,26,18,4
-SAI-GEN0914,Sainsbury's Premium Hash Browns 700g,Frozen,Sainsbury's,7.98,68,53,2
-SAI-GEN0915,Sainsbury's Unsalted Coffee 200g,Drinks,Sainsbury's,2.76,61,34,4
-SAI-GEN0916,Sainsbury's Corn Fed Washing Up Liquid 500ml,Household,Sainsbury's,3.29,43,25,2
-SAI-GEN0917,Taste the Difference Corn Fed Salmon Fillets 240g,Meat & Fish,Taste the Difference,8.32,24,12,1
-SAI-GEN0918,Sainsbury's So Good Popcorn 100g,Snacks,So Good,3.78,68,52,1
-SAI-GEN0919,Sainsbury's Mixed Salmon Fillets 240g,Meat & Fish,Sainsbury's,6.61,58,42,2
-SAI-GEN0920,Sainsbury's Handmade Chicken Nuggets 500g,Frozen,Sainsbury's,1.53,39,27,1
-SAI-GEN0921,Coca-Cola Mixed Hand Wash 250ml,Health & Beauty,Branded,5.81,39,21,4
-SAI-GEN0922,Sainsbury's Smoked Turkey Mince 500g,Meat & Fish,Sainsbury's,0.99,47,26,3
-SAI-GEN0923,Sainsbury's Value Cheddar 400g,Dairy & Eggs,Sainsbury's,3.26,46,29,2
-SAI-GEN0924,Sainsbury's Roasted Wraps 8pk,Fresh Bakery,Sainsbury's,7.59,45,24,2
-SAI-GEN0925,Sainsbury's So Good Carrots 1kg,Fresh Produce,So Good,2.79,51,29,1
-SAI-GEN0926,Sainsbury's finest Sponges 4pk,Household,Sainsbury's,3.96,57,44,4
-SAI-GEN0927,Nestle Organic Crackers 150g,Snacks,Branded,5.41,44,27,1
-SAI-GEN0928,Sainsbury's finest Foil 10m,Household,Sainsbury's,2.37,39,28,3
-SAI-GEN0929,Sainsbury's Classic Turkey Mince 500g,Meat & Fish,Sainsbury's,3.66,71,54,3
-SAI-GEN0930,Persil Unsalted Energy Drink 500ml,Drinks,Branded,2.46,44,31,4
-SAI-GEN0931,Sainsbury's Frozen Grapes 500g,Fresh Produce,Sainsbury's,3.61,70,39,1
-SAI-GEN0932,Sainsbury's Sweet Toothpaste 75ml,Health & Beauty,Sainsbury's,4.06,40,25,4
-SAI-GEN0933,Sainsbury's Premium Tortilla Chips 200g,Snacks,Sainsbury's,4.25,45,28,1
-SAI-GEN0934,Walkers Handmade Flour 1.5kg,Ambient Grocery,Branded,7.66,53,29,1
-SAI-GEN0935,Sainsbury's Free Range Lamb Chops 400g,Meat & Fish,Sainsbury's,1.87,64,46,3
-SAI-GEN0936,Taste the Difference Fresh Kitchen Roll 2pk,Household,Taste the Difference,11.25,32,22,1
-SAI-GEN0937,Sainsbury's Fresh Crackers 150g,Snacks,Sainsbury's,5.3,48,28,3
-SAI-GEN0938,McVitie's Corn Fed Cotton Pads 100pk,Health & Beauty,Branded,1.79,35,24,2
-SAI-GEN0939,Sainsbury's So Good Peanut Butter 280g,Ambient Grocery,So Good,4.75,53,36,1
-SAI-GEN0940,Sainsbury's Unsalted Fabric Conditioner 1L,Household,Sainsbury's,5.19,44,31,4
-SAI-GEN0941,Andrex Value Sparkling Water 6x500ml,Drinks,Branded,7.9,30,22,4
-SAI-GEN0942,Sainsbury's Organic Apples 6pk,Fresh Produce,Sainsbury's,2.63,54,34,2
-SAI-GEN0943,Taste the Difference Sweet Carrots 1kg,Fresh Produce,Taste the Difference,6.76,28,14,2
-SAI-GEN0944,Sainsbury's Free Range Pork Sausages 8pk,Meat & Fish,Sainsbury's,1.67,56,36,2
-SAI-GEN0945,Sainsbury's Classic Eggs 12pk,Dairy & Eggs,Sainsbury's,7.34,42,27,1
-SAI-GEN0946,Taste the Difference Chilled Mozzarella 125g,Dairy & Eggs,Taste the Difference,5.54,25,16,2
-SAI-GEN0947,Sainsbury's Roasted Bananas,Fresh Produce,Sainsbury's,3.85,63,33,2
-SAI-GEN0948,Taste the Difference Value Toothpaste 75ml,Health & Beauty,Taste the Difference,2.56,25,15,4
-SAI-GEN0949,Taste the Difference Corn Fed Cream 300ml,Dairy & Eggs,Taste the Difference,7.88,27,21,2
-SAI-GEN0950,Persil Frozen Cola 2L,Drinks,Branded,2.86,38,30,1
-SAI-GEN0951,Sainsbury's So Good Olive Oil 500ml,Ambient Grocery,So Good,3.68,71,52,3
-SAI-GEN0952,Sainsbury's Smoked Mozzarella 125g,Dairy & Eggs,Sainsbury's,2.78,41,31,1
-SAI-GEN0953,Sainsbury's Fresh Mixed Veg 1kg,Frozen,Sainsbury's,6.34,72,37,2
-SAI-GEN0954,Taste the Difference Unsalted Cod Fillets 400g,Meat & Fish,Taste the Difference,5.43,35,25,3
-SAI-GEN0955,Nestle Classic Bin Liners 20pk,Household,Branded,5.6,49,37,3
-SAI-GEN0956,Sainsbury's Roasted Milk 2 Pints,Dairy & Eggs,Sainsbury's,2.28,48,26,1
-SAI-GEN0957,Sainsbury's So Good Lemons 3pk,Fresh Produce,So Good,3.86,50,28,2
-SAI-GEN0958,Sainsbury's So Good Squash 1L,Drinks,So Good,2.0,58,34,3
-SAI-GEN0959,Sainsbury's Unsalted Mixed Veg 1kg,Frozen,Sainsbury's,4.25,70,54,2
-SAI-GEN0960,Taste the Difference Value Lemons 3pk,Fresh Produce,Taste the Difference,5.42,35,25,2
-SAI-GEN0961,Sainsbury's Salted Mixed Veg 1kg,Frozen,Sainsbury's,4.27,60,32,3
-SAI-GEN0962,Persil Unsalted Mints 4pk,Snacks,Branded,4.46,30,15,4
-SAI-GEN0963,Sainsbury's So Good Chocolate Bar 200g,Snacks,So Good,4.42,80,55,3
-SAI-GEN0964,Sainsbury's British Wraps 8pk,Fresh Bakery,Sainsbury's,0.65,60,45,1
-SAI-GEN0965,Sainsbury's Handmade Crackers 150g,Snacks,Sainsbury's,1.65,68,39,2
-SAI-GEN0966,Sainsbury's Smoked Kitchen Roll 2pk,Household,Sainsbury's,4.17,73,47,2
-SAI-GEN0967,Sainsbury's Handmade Baked Beans 415g,Ambient Grocery,Sainsbury's,5.16,40,26,3
-SAI-GEN0968,Taste the Difference British Bacon 300g,Meat & Fish,Taste the Difference,10.56,15,8,4
-SAI-GEN0969,Taste the Difference Fresh Prawns 200g,Meat & Fish,Taste the Difference,8.38,25,18,3
-SAI-GEN0970,Sainsbury's Fresh Cod Fillets 400g,Meat & Fish,Sainsbury's,5.1,38,23,2
-SAI-GEN0971,Sainsbury's Unsalted Beef Mince 500g,Meat & Fish,Sainsbury's,1.08,42,32,1
-SAI-GEN0972,Sainsbury's Scottish Lasagne 400g,Frozen,Sainsbury's,5.94,44,27,2
-SAI-GEN0973,Persil Organic Crackers 150g,Snacks,Branded,6.51,59,45,4
-SAI-GEN0974,Sainsbury's Sweet Crackers 150g,Snacks,Sainsbury's,1.46,42,32,2
-SAI-GEN0975,Sainsbury's Organic Fabric Conditioner 1L,Household,Sainsbury's,1.31,47,24,4
-SAI-GEN0976,Sainsbury's Scottish Baguette,Fresh Bakery,Sainsbury's,3.75,49,35,1
-SAI-GEN0977,Sainsbury's Roasted Squash 1L,Drinks,Sainsbury's,1.48,71,50,1
-SAI-GEN0978,Sainsbury's Premium Peanut Butter 280g,Ambient Grocery,Sainsbury's,7.01,55,29,4
-SAI-GEN0979,Sainsbury's Fresh Sourdough 400g,Fresh Bakery,Sainsbury's,4.34,46,27,2
-SAI-GEN0980,Sainsbury's So Good Hand Wash 250ml,Health & Beauty,So Good,4.5,64,38,4
-SAI-GEN0981,Taste the Difference Smoked Mozzarella 125g,Dairy & Eggs,Taste the Difference,7.88,16,12,1
-SAI-GEN0982,Sainsbury's Value Baguette,Fresh Bakery,Sainsbury's,5.9,48,36,2
-SAI-GEN0983,Sainsbury's Corn Fed Baked Beans 415g,Ambient Grocery,Sainsbury's,6.22,45,35,2
-SAI-GEN0984,Sainsbury's Value Cotton Pads 100pk,Health & Beauty,Sainsbury's,7.62,70,41,2
-SAI-GEN0985,Sainsbury's Smoked Biscuits 400g,Snacks,Sainsbury's,0.62,41,23,3
-SAI-GEN0986,Sainsbury's Value Cereal 500g,Ambient Grocery,Sainsbury's,2.73,46,23,3
-SAI-GEN0987,Sainsbury's So Good Oven Chips 1.5kg,Frozen,So Good,0.92,60,39,3
-SAI-GEN0988,Sainsbury's Unsalted Coffee 200g,Drinks,Sainsbury's,6.41,59,34,1
-SAI-GEN0989,Taste the Difference Sweet Bleach 750ml,Household,Taste the Difference,10.08,33,20,1
-SAI-GEN0990,L'Oreal Premium Chopped Tomatoes 400g,Ambient Grocery,Branded,7.85,40,25,3
-SAI-GEN0991,Nestle Premium Still Water 6x500ml,Drinks,Branded,9.19,37,23,4
-SAI-GEN0992,Sainsbury's finest Deodorant 150ml,Health & Beauty,Sainsbury's,5.9,73,37,1
-SAI-GEN0993,Taste the Difference Stone Baked Cheddar 400g,Dairy & Eggs,Taste the Difference,5.15,30,18,2
-SAI-GEN0994,Sainsbury's Stone Baked Bleach 750ml,Household,Sainsbury's,4.92,47,29,1
-SAI-GEN0995,McVitie's Value Shampoo 250ml,Health & Beauty,Branded,5.85,37,21,2
-SAI-GEN0996,Sainsbury's So Good Ketchup 500g,Ambient Grocery,So Good,5.12,56,37,4
-SAI-GEN0997,Sainsbury's Smoked Milk 2 Pints,Dairy & Eggs,Sainsbury's,7.16,64,41,1
-SAI-GEN0998,Taste the Difference Mixed Wholemeal Bread 800g,Fresh Bakery,Taste the Difference,2.13,27,21,1
-SAI-GEN0999,Andrex Salted Hand Wash 250ml,Health & Beauty,Branded,6.02,37,28,3
-SAI-GEN1000,McVitie's Scottish Toilet Roll 9pk,Household,Branded,4.46,34,20,3
+SAI-81B0000,World War 2 Gliders Asstd Designs,Ambient Grocery,Sainsbury's,0.29,225,675,3
+SAI-436E001,Jumbo Bag Red Retrospot,Ambient Grocery,Branded,1.95,152,456,2
+SAI-121F002,White Hanging Heart T-Light Holder,Household,Sainsbury's,2.95,146,440,1
+SAI-8B9A003,Small Popcorn Holder,Snacks,Sainsbury's,0.85,151,453,3
+SAI-018E004,Medium Ceramic Top Storage Jar,Household,Branded,1.25,641,1925,2
+SAI-5085005,Assorted Colour Bird Ornament,Ambient Grocery,Sainsbury's,1.69,131,393,3
+SAI-EF80006,Pack Of 72 Retrospot Cake Cases,Fresh Bakery,Branded,0.55,123,370,1
+SAI-020F007,Brocade Ring Purse,Ambient Grocery,Sainsbury's,0.29,239,719,1
+SAI-DB2D008,Pack Of 60 Pink Paisley Cake Cases,Fresh Bakery,Sainsbury's,0.55,83,251,2
+SAI-9D5A009,60 Teatime Fairy Cake Cases,Fresh Bakery,Taste the Difference,0.55,75,227,1
+SAI-07E8010,Assorted Colours Silk Fan,Ambient Grocery,Branded,0.83,93,280,1
+SAI-7ADF011,Victorian Glass Hanging T-Light,Ambient Grocery,Sainsbury's,1.25,71,214,1
+SAI-5A78012,Pack Of 12 London Tissues,Household,Taste the Difference,0.29,105,315,2
+SAI-580D013,Colour Glass T-Light Holder Hanging,Household,Sainsbury's,0.65,77,233,2
+SAI-01C8014,Antique Silver Tea Glass Etched,Drinks,Taste the Difference,1.25,69,208,1
+SAI-63F4015,Jumbo Bag Pink Polkadot,Ambient Grocery,Branded,1.95,66,199,1
+SAI-00AD016,Paper Chain Kit 50'S Christmas,Ambient Grocery,Sainsbury's,2.95,118,355,3
+SAI-68FC017,Strawberry Ceramic Trinket Box,Household,So Good,1.25,62,188,2
+SAI-2167018,Pack Of 72 Skull Cake Cases,Fresh Bakery,Sainsbury's,0.55,66,199,1
+SAI-8943019,Jumbo Bag Strawberry,Ambient Grocery,Branded,1.95,64,194,1
+SAI-2DAE020,Girls Alphabet Iron On Patches,Ambient Grocery,Sainsbury's,0.42,158,475,1
+SAI-94FA021,Lunch Bag Red Retrospot,Ambient Grocery,Sainsbury's,1.65,54,164,3
+SAI-927B022,Red  Harmonica In Box,Household,Sainsbury's,1.25,84,253,2
+SAI-18D3023,Rotating Silver Angels T-Light Hldr,Household,Sainsbury's,2.55,126,379,2
+SAI-F997024,Pack Of 12 Suki Tissues,Household,Taste the Difference,0.29,88,264,1
+SAI-09B4025,Hanging Jam Jar T-Light Holder,Household,So Good,0.85,70,212,2
+SAI-B719026,Small Chinese Style Scissor,Ambient Grocery,So Good,0.42,400,1201,3
+SAI-EBA2027,Jumbo  Bag Baroque Black White,Ambient Grocery,Taste the Difference,1.95,54,162,3
+SAI-BB59028,Charlotte Bag Suki Design,Ambient Grocery,Sainsbury's,0.85,52,157,1
+SAI-627B029,60 Cake Cases Vintage Christmas,Fresh Bakery,Sainsbury's,0.55,131,393,1
+SAI-028B030,Heart Of Wicker Small,Ambient Grocery,Sainsbury's,1.65,67,203,1
+SAI-B02D031,Pack Of 12 Red Retrospot Tissues,Household,Branded,0.29,77,232,1
+SAI-0FCE032,Jumbo Storage Bag Suki,Ambient Grocery,Sainsbury's,1.95,47,143,2
+SAI-C3FC033,72 Sweetheart Fairy Cake Cases,Fresh Bakery,Sainsbury's,0.55,55,165,2
+SAI-7B26034,Mini Paint Set Vintage,Ambient Grocery,Sainsbury's,0.65,86,260,3
+SAI-D4A7035,Party Bunting,Household,Branded,4.95,48,146,1
+SAI-96B6036,Set/20 Red Retrospot Paper Napkins,Ambient Grocery,Sainsbury's,0.85,45,135,2
+SAI-CA6E037,Jumbo Shopper Vintage Red Paisley,Ambient Grocery,Branded,1.95,47,142,2
+SAI-87A3038,Place Setting White Heart,Household,Branded,0.42,65,197,1
+SAI-927A039,Vintage Snap Cards,Ambient Grocery,Sainsbury's,0.85,45,135,1
+SAI-CFC6040,Pack Of 60 Dinosaur Cake Cases,Fresh Bakery,Branded,0.55,48,146,2
+SAI-6D98041,Lunch Bag  Black Skull.,Ambient Grocery,Sainsbury's,1.65,41,125,1
+SAI-55EA042,Red Retrospot Wrap,Ambient Grocery,Sainsbury's,0.42,59,177,1
+SAI-B2F8043,Red Retrospot Charlotte Bag,Ambient Grocery,Branded,0.85,43,131,2
+SAI-B0B6044,Pack Of 12 Hearts Design Tissues,Household,Branded,0.29,54,163,1
+SAI-1A0E045,Hanging Heart Zinc T-Light Holder,Household,Sainsbury's,0.85,45,136,2
+SAI-20E7046,Pack Of 12 Pink Paisley Tissues,Household,Branded,0.29,79,239,2
+SAI-00E9047,Jumbo Bag Pink Vintage Paisley,Ambient Grocery,Branded,1.95,44,134,1
+SAI-71F7048,Regency Cakestand 3 Tier,Fresh Bakery,Taste the Difference,12.75,44,133,1
+SAI-EB4F049,Pack Of 12 Woodland Tissues,Household,Sainsbury's,0.29,77,233,1
+SAI-D903050,Jumbo Bag Scandinavian Paisley,Ambient Grocery,Sainsbury's,1.95,43,131,2
+SAI-85F3051,Asstd Design Bubble Gum Ring,Ambient Grocery,Sainsbury's,0.21,107,321,2
+SAI-831E052,"Assorted Flower Colour ""Leis""",Fresh Produce,So Good,0.65,114,342,1
+SAI-96D2053,Please One Person Metal Sign,Ambient Grocery,Taste the Difference,2.1,53,160,2
+SAI-0B6E054,Multi Colour Silver T-Light Holder,Household,Sainsbury's,0.85,66,198,1
+SAI-C983055,Disco Ball Christmas Decoration,Ambient Grocery,Sainsbury's,0.12,106,319,1
+SAI-266D056,Lunch Bag Suki  Design,Ambient Grocery,So Good,1.65,37,113,2
+SAI-1D4B057,Pink Blue Felt Craft Trinket Box,Household,Branded,1.25,43,130,3
+SAI-81BE058,Lunch Bag Cars Blue,Ambient Grocery,Branded,1.65,35,106,1
+SAI-61D1059,Gin + Tonic Diet Metal Sign,Ambient Grocery,Branded,2.1,38,114,2
+SAI-72DD060,Hanging Heart Jar T-Light Holder,Household,Branded,1.25,37,113,3
+SAI-BF6F061,Black Record Cover Frame,Household,Sainsbury's,3.75,58,175,1
+SAI-A7DC062,Jumbo Bag Owls,Ambient Grocery,Sainsbury's,1.95,44,132,1
+SAI-96AA063,Pink Cream Felt Craft Trinket Box,Dairy & Eggs,Branded,1.25,38,114,3
+SAI-0F1B064,Grand Chocolatecandle,Snacks,Sainsbury's,1.45,44,133,2
+SAI-8012065,Sweetheart Ceramic Trinket Box,Snacks,Taste the Difference,1.25,39,118,1
+SAI-0695066,Paper Chain Kit Vintage Christmas,Ambient Grocery,Sainsbury's,2.95,87,263,1
+SAI-8A75067,Heart Of Wicker Large,Ambient Grocery,So Good,2.95,43,130,1
+SAI-94FB068,Aged Glass Silver T-Light Holder,Household,Taste the Difference,0.65,50,150,2
+SAI-56F1069,Cream Heart Card Holder,Dairy & Eggs,Sainsbury's,3.95,38,114,3
+SAI-92CF070,Jumbo Bag Vintage Doily,Ambient Grocery,So Good,2.08,98,294,1
+SAI-5E73071,Boys Alphabet Iron On Patches,Ambient Grocery,Taste the Difference,0.42,102,307,1
+SAI-A09A072,Lunch Bag Pink Polkadot,Ambient Grocery,Sainsbury's,1.65,32,96,1
+SAI-8EC2073,Box Of 24 Cocktail Parasols,Household,Branded,0.42,35,105,2
+SAI-154A074,Red Hanging Heart T-Light Holder,Household,Sainsbury's,2.95,32,98,1
+SAI-FE89075,Fancy Fonts Birthday Wrap,Ambient Grocery,So Good,0.42,53,160,1
+SAI-5B4D076,Cook With Wine Metal Sign,Ambient Grocery,Sainsbury's,1.95,36,108,1
+SAI-4B16077,Chilli Lights,Frozen,So Good,4.95,38,115,1
+SAI-F3EC078,Zinc Metal Heart Decoration,Ambient Grocery,Branded,1.25,31,94,2
+SAI-F8BD079,Wooden Picture Frame White Finish,Household,Sainsbury's,2.55,32,96,2
+SAI-6023080,Grow A Flytrap Or Sunflower In Tin,Fresh Produce,Sainsbury's,1.25,84,253,2
+SAI-9396081,Bag 250G Swirly Marbles,Ambient Grocery,Branded,0.85,53,159,2
+SAI-89B3082,Lunch Bag Woodland,Ambient Grocery,Sainsbury's,1.65,29,89,2
+SAI-1976083,Antique Silver Tea Glass Engraved,Drinks,Sainsbury's,1.25,42,128,1
+SAI-C815084,Vintage Heads And Tails Card Game,Ambient Grocery,Sainsbury's,1.25,33,101,2
+SAI-7AF6085,Hand Over The Chocolate   Sign,Snacks,Branded,2.1,31,93,1
+SAI-1D24086,Lunch Bag Spaceboy Design,Ambient Grocery,Taste the Difference,1.65,29,88,1
+SAI-FBD5087,Wrap Pink Fairy Cakes,Fresh Bakery,Branded,0.42,58,175,1
+SAI-DCF6088,Cacti T-Light Candles,Household,Branded,0.42,55,166,1
+SAI-186B089,Strawberry Charlotte Bag,Ambient Grocery,So Good,0.85,29,89,1
+SAI-4079090,Colour Glass. Star T-Light Holder,Household,Sainsbury's,3.25,44,132,1
+SAI-BAA9091,12 Pencils Small Tube Red Retrospot,Ambient Grocery,So Good,0.65,40,122,3
+SAI-68F7092,Woodland Charlotte Bag,Ambient Grocery,Sainsbury's,0.85,30,90,2
+SAI-B6D7093,Pack Of 6 Birdy Gift Tags,Ambient Grocery,Branded,1.25,41,123,2
+SAI-009B094,Rabbit Night Light,Ambient Grocery,Taste the Difference,2.08,114,342,1
+SAI-03AB095,Red Toadstool Led Night Light,Ambient Grocery,Sainsbury's,1.65,32,96,3
+SAI-2A7E096,Chinese Dragon Paper Lanterns,Ambient Grocery,So Good,0.42,81,244,2
+SAI-CE48097,Natural Slate Heart Chalkboard,Ambient Grocery,Sainsbury's,2.95,32,98,1
+SAI-3C6E098,Wooden Frame Antique White,Household,Branded,2.95,28,86,3
+SAI-7BDA099,Lunch Box I Love London,Household,Branded,1.95,39,119,2
+SAI-DB93100,Charlotte Bag Pink Polkadot,Ambient Grocery,Branded,0.85,28,84,1
+SAI-C2D3101,Set/6 Red Spotty Paper Plates,Ambient Grocery,Sainsbury's,0.85,34,104,3
+SAI-41E5102,Pack Of 12 Skull Tissues,Household,Branded,0.29,51,153,1
+SAI-BCBB103,Set/5 Red Retrospot Lid Glass Bowls,Ambient Grocery,Sainsbury's,2.95,26,78,2
+SAI-592D104,Jumbo Bag Spaceboy Design,Ambient Grocery,Sainsbury's,1.95,31,95,1
+SAI-3BDC105,Bag 125G Swirly Marbles,Ambient Grocery,Taste the Difference,0.42,42,128,2
+SAI-1956106,Pink Polkadot Wrap,Ambient Grocery,Branded,0.42,47,142,1
+SAI-06AE107,Hand Warmer Owl Design,Ambient Grocery,Branded,2.1,73,220,1
+SAI-DEA2108,Set Of 20 Vintage Christmas Napkins,Ambient Grocery,Sainsbury's,0.85,70,211,2
+SAI-7F34109,Recycling Bag Retrospot,Ambient Grocery,Branded,2.1,28,84,2
+SAI-FA05110,Single Heart Zinc T-Light Holder,Household,Branded,0.95,30,91,2
+SAI-4A3F111,Heart Filigree Dove  Small,Ambient Grocery,Sainsbury's,1.25,33,100,1
+SAI-E574112,Large Circular Mirror Mobile,Health & Beauty,Sainsbury's,1.25,60,181,1
+SAI-410A113,6 Ribbons Rustic Charm,Ambient Grocery,So Good,1.65,27,83,1
+SAI-8501114,Dinosaur Keyrings Assorted,Ambient Grocery,Branded,0.21,52,157,2
+SAI-462B115,Paper Bunting Retrospot,Household,Branded,2.95,26,78,2
+SAI-AA34116,Blue Polkadot Wrap,Ambient Grocery,Taste the Difference,0.42,47,143,1
+SAI-FE87117,Jam Making Set Printed,Ambient Grocery,Sainsbury's,1.45,46,139,2
+SAI-3D5A118,Wooden Heart Christmas Scandinavian,Ambient Grocery,Sainsbury's,0.85,59,178,1
+SAI-F8AF119,Hand Warmer Scotty Dog Design,Ambient Grocery,Branded,2.1,74,222,1
+SAI-F947120,Jumbo Bag Apples,Ambient Grocery,So Good,2.08,65,195,3
+SAI-F7E7121,Jumbo Storage Bag Skulls,Ambient Grocery,So Good,1.95,24,74,1
+SAI-8435122,Hand Warmer Bird Design,Ambient Grocery,Sainsbury's,2.1,68,206,3
+SAI-771F123,Paper Chain Kit Retrospot,Ambient Grocery,Taste the Difference,2.95,24,73,3
+SAI-A0B5124,Fairy Cake Flannel Assorted Colour,Fresh Bakery,So Good,2.55,39,119,3
+SAI-E8D9125,Traditional Modelling Clay,Ambient Grocery,Sainsbury's,1.25,35,105,1
+SAI-45B9126,Swallows Greeting Card,Household,Branded,0.42,34,104,1
+SAI-61E4127,12 Pencils Small Tube Skull,Ambient Grocery,Sainsbury's,0.65,30,91,2
+SAI-C1A7128,Black Heart Card Holder,Household,So Good,3.95,37,113,2
+SAI-E778129,Home Sweet Home Mug,Drinks,Taste the Difference,1.25,30,92,1
+SAI-7694130,Travel Card Wallet Keep Calm,Ambient Grocery,Branded,0.42,57,171,3
+SAI-E77D131,Homemade Jam Scented Candles,Household,Sainsbury's,1.45,46,138,2
+SAI-ECA5132,No Singing Metal Sign,Ambient Grocery,Branded,2.1,25,77,2
+SAI-8E6A133,Wooden Star Christmas Scandinavian,Ambient Grocery,Branded,0.83,67,201,2
+SAI-6993134,Spaceboy Birthday Card,Ambient Grocery,Sainsbury's,0.42,27,81,1
+SAI-9C04135,Jumbo Bag Toys,Ambient Grocery,Branded,2.08,27,81,2
+SAI-83DF136,Jumbo Bag Alphabet,Ambient Grocery,Branded,2.08,61,184,3
+SAI-4979137,Feltcraft Butterfly Hearts,Dairy & Eggs,Taste the Difference,1.45,26,79,2
+SAI-8481138,Hot Baths Metal Sign,Health & Beauty,Branded,2.1,25,77,2
+SAI-2C97139,Heart Ivory Trellis Small,Ambient Grocery,Branded,1.25,27,83,2
+SAI-C969140,Silver Hanging T-Light Holder,Household,Branded,1.65,31,95,1
+SAI-AD5F141,Jumbo Bag Woodland Animals,Ambient Grocery,Sainsbury's,2.08,25,75,1
+SAI-470D142,Bathroom Metal Sign,Health & Beauty,Taste the Difference,0.55,22,67,1
+SAI-3682143,Skulls And Crossbones Wrap,Ambient Grocery,Taste the Difference,0.42,44,134,2
+SAI-FB70144,Hot Water Bottle Tea And Sympathy,Drinks,Sainsbury's,3.95,33,101,2
+SAI-DACD145,Feltcraft 6 Flower Friends,Fresh Produce,Sainsbury's,2.1,24,74,1
+SAI-64FF146,Moroccan Tea Glass,Drinks,Branded,0.85,43,131,1
+SAI-EEDD147,Pack Of 12 Pink Polkadot Tissues,Household,Sainsbury's,0.29,40,122,2
+SAI-0F6D148,Pack Of 60 Spaceboy Cake Cases,Fresh Bakery,Branded,0.55,26,80,1
+SAI-976F149,Spaceboy Gift Wrap,Ambient Grocery,Branded,0.42,41,125,1
+SAI-93B0150,Pens Assorted Funny Face,Ambient Grocery,Sainsbury's,0.21,61,183,2
+SAI-DC05151,Small Glass Heart Trinket Pot,Ambient Grocery,Taste the Difference,2.1,24,72,2
+SAI-DA3B152,Set/6 Red Spotty Paper Cups,Drinks,Branded,0.65,32,96,3
+SAI-9938153,Polkadot Pen,Ambient Grocery,Taste the Difference,0.85,82,246,1
+SAI-A1CD154,Red Woolly Hottie White Heart.,Ambient Grocery,Branded,3.75,34,104,1
+SAI-F2AA155,Essential Balm 3.5G Tin In Envelope,Household,Taste the Difference,0.18,198,594,1
+SAI-7043156,Rain Poncho Retrospot,Ambient Grocery,Sainsbury's,0.85,41,124,3
+SAI-3822157,Pack Of 12 Traditional Crayons,Ambient Grocery,Branded,0.42,32,96,2
+SAI-07DF158,Roses Regency Teacup And Saucer,Fresh Produce,Taste the Difference,2.95,29,89,1
+SAI-598E159,Traditional Wooden Skipping Rope,Ambient Grocery,Sainsbury's,1.25,30,90,1
+SAI-3508160,Wrap English Rose,Fresh Produce,Taste the Difference,0.42,41,124,2
+SAI-B0EB161,Chocolate Hot Water Bottle,Drinks,Branded,4.95,25,75,1
+SAI-90B4162,Wood Black Board Ant White Finish,Ambient Grocery,So Good,6.75,25,75,2
+SAI-69CB163,Set Of 4 Pantry Jelly Moulds,Ambient Grocery,Taste the Difference,1.25,44,134,2
+SAI-6FCB164,Wooden Box Of Dominoes,Household,Taste the Difference,1.25,25,75,1
+SAI-B54B165,Set 12 Kids Colour  Chalk Sticks,Ambient Grocery,Sainsbury's,0.42,27,82,2
+SAI-536E166,Lunch Bag Vintage Doily,Ambient Grocery,Sainsbury's,1.65,58,175,1
+SAI-0858167,Clothes Pegs Retrospot Pack 24,Household,Sainsbury's,1.49,30,91,1
+SAI-7F7C168,Set 12 Retro White Chalk Sticks,Ambient Grocery,Branded,0.42,26,79,2
+SAI-7905169,"Fancy Font Birthday Card,",Ambient Grocery,Taste the Difference,0.42,28,85,1
+SAI-F712170,Edwardian Parasol Natural,Ambient Grocery,Taste the Difference,5.95,23,69,1
+SAI-460E171,Save The Planet Mug,Drinks,Sainsbury's,1.25,27,81,1
+SAI-2955172,Hand Warmer Red Retrospot,Ambient Grocery,Sainsbury's,2.1,68,205,2
+SAI-4FD3173,Jumbo Bag Vintage Leaf,Ambient Grocery,Branded,2.08,54,164,1
+SAI-76E2174,Red Retrospot Shopper Bag,Ambient Grocery,Sainsbury's,1.25,20,60,2
+SAI-6969175,Manual,Ambient Grocery,Taste the Difference,2.1,28,86,3
+SAI-AE8E176,Paper Pocket Traveling Fan,Ambient Grocery,Branded,0.14,51,154,1
+SAI-2B34177,Sleeping Cat Erasers,Ambient Grocery,Sainsbury's,0.21,30,91,2
+SAI-E013178,Gingham Heart Decoration,Meat & Fish,Sainsbury's,0.85,33,99,2
+SAI-6B7E179,T-Light Glass Fluted Antique,Ambient Grocery,So Good,1.25,49,149,2
+SAI-D84F180,Blue Harmonica In Box,Household,Sainsbury's,1.25,28,84,2
+SAI-89AB181,Bubblegum Ring Assorted,Ambient Grocery,Taste the Difference,0.42,82,246,2
+SAI-6802182,Lunch Bag Apple Design,Ambient Grocery,So Good,1.65,49,148,1
+SAI-E6BF183,Painted Metal Pears Assorted,Ambient Grocery,So Good,1.69,25,75,3
+SAI-1454184,Tea Bag Plate Red Retrospot,Drinks,Sainsbury's,0.85,22,68,1
+SAI-4CFA185,Doormat Union Flag,Household,Sainsbury's,7.49,18,56,1
+SAI-C4F6186,Pink Heart Shape Egg Frying Pan,Dairy & Eggs,Sainsbury's,1.65,28,84,2
+SAI-02E2187,Scottie Dog Hot Water Bottle,Drinks,Sainsbury's,4.95,24,72,1
+SAI-5489188,Pottering In The Shed Metal Sign,Ambient Grocery,Branded,2.08,19,57,1
+SAI-35A8189,Set Of 3 Heart Cookie Cutters,Fresh Bakery,Branded,1.25,20,61,1
+SAI-1846190,Soldiers Egg Cup,Dairy & Eggs,Sainsbury's,1.25,52,156,2
+SAI-8821191,10 Colour Spaceboy Pen,Ambient Grocery,Branded,0.85,33,100,3
+SAI-864D192,Sombrero,Ambient Grocery,Branded,1.95,91,275,2
+SAI-9C15193,Jumbo Bag 50'S Christmas,Ambient Grocery,Sainsbury's,2.08,71,214,1
+SAI-2E19194,Hand Warmer Union Jack,Ambient Grocery,Branded,2.1,61,183,2
+SAI-2F58195,Lovebird Hanging Decoration White,Ambient Grocery,So Good,0.85,18,54,1
+SAI-A37F196,Wooden School Colouring Set,Ambient Grocery,Sainsbury's,1.65,24,72,2
+SAI-2851197,Set Of 72 Retrospot Paper  Doilies,Ambient Grocery,Sainsbury's,1.45,20,62,3
+SAI-EBE1198,Spaceboy Lunch Box,Household,Branded,1.95,23,70,1
+SAI-C05A199,Potting Shed Tea Mug,Drinks,Branded,1.25,23,69,2
+SAI-C08A200,Wrap Suki And Friends,Ambient Grocery,Sainsbury's,0.42,41,124,3
+SAI-B839201,Blue Stripe Ceramic Drawer Knob,Household,Taste the Difference,1.25,22,67,2
+SAI-CF83202,Funky Diva Pen,Ambient Grocery,Sainsbury's,0.85,50,150,3
+SAI-54CB203,Recipe Box Pantry Yellow Design,Household,Sainsbury's,2.95,21,65,1
+SAI-7DE4204,Grow Your Own Plant In A Can,Fresh Produce,So Good,1.25,43,130,1
+SAI-D722205,Party Cone Christmas Decoration,Ambient Grocery,Sainsbury's,0.85,47,143,3
+SAI-B9CF206,Set/6 Fruit Salad Paper Cups,Drinks,So Good,0.19,95,285,2
+SAI-D947207,Retrospot Tea Set Ceramic 11 Pc,Drinks,Branded,4.95,16,50,1
+SAI-C93F208,Paper Chain Kit Empire,Ambient Grocery,Sainsbury's,2.95,26,80,1
+SAI-56DB209,Magic Drawing Slate Spaceboy,Ambient Grocery,Branded,0.42,30,90,2
+SAI-FA28210,Green Regency Teacup And Saucer,Drinks,Branded,2.95,23,69,2
+SAI-E75A211,Toy Tidy Pink Polkadot,Ambient Grocery,Sainsbury's,2.1,18,55,1
+SAI-1D42212,Edwardian Parasol Black,Ambient Grocery,Sainsbury's,5.95,22,66,2
+SAI-2806213,Gardeners Kneeling Pad Keep Calm,Fresh Produce,Taste the Difference,1.65,50,150,3
+SAI-ADF2214,Filigris Heart With Butterfly,Dairy & Eggs,Sainsbury's,1.25,25,75,1
+SAI-ED05215,Set Of 6 Ribbons Vintage Christmas,Ambient Grocery,Sainsbury's,2.89,47,141,2
+SAI-600A216,Ivory Hanging Decoration  Heart,Ambient Grocery,Branded,0.85,22,68,1
+SAI-F4D6217,Wrap Christmas Village,Ambient Grocery,Sainsbury's,0.42,70,212,2
+SAI-FE43218,Mini Highlighter Pens,Ambient Grocery,Sainsbury's,0.12,230,690,2
+SAI-B8D6219,Christmas Toilet Roll,Ambient Grocery,Branded,1.25,44,132,1
+SAI-1364220,Set/6 Fruit Salad  Paper Plates,Ambient Grocery,Sainsbury's,0.83,87,263,3
+SAI-7C4B221,Pink Fairy Cake Childrens Apron,Fresh Bakery,Sainsbury's,1.95,18,55,1
+SAI-7370222,Doughnut Lip Gloss,Health & Beauty,Branded,1.25,56,170,3
+SAI-0B51223,Set Of 60 Pantry Design Cake Cases,Fresh Bakery,So Good,0.55,54,162,2
+SAI-9595224,Magic Drawing Slate Purdey,Ambient Grocery,Sainsbury's,0.42,36,110,1
+SAI-8D42225,White Spot Blue Ceramic Drawer Knob,Household,Branded,1.25,21,63,2
+SAI-4740226,Ceramic Strawberry Cake Money Bank,Fresh Bakery,Taste the Difference,1.45,23,70,3
+SAI-2884227,Travel Sewing Kit,Ambient Grocery,Sainsbury's,1.65,27,81,1
+SAI-4A71228,Set/10 Red Polkadot Party Candles,Household,Sainsbury's,1.25,19,59,1
+SAI-244E229,Alarm Clock Bakelike Red,Household,Sainsbury's,3.75,23,71,1
+SAI-F757230,Balloon Water Bomb Pack Of 35,Drinks,Sainsbury's,0.42,40,121,2
+SAI-0BFD231,Christmas Pudding Trinket Pot,Ambient Grocery,Branded,1.45,41,125,2
+SAI-9B2A232,Doormat Red Retrospot,Household,So Good,7.95,15,46,1
+SAI-3AA2233,Beware Of The Cat Metal Sign,Ambient Grocery,Sainsbury's,1.69,18,55,3
+SAI-389E234,Ladies & Gentlemen Metal Sign,Ambient Grocery,Sainsbury's,2.55,18,56,3
+SAI-97F6235,Gumball Coat Rack,Ambient Grocery,Sainsbury's,2.55,22,66,3
+SAI-86CF236,Red Retrospot Bowl,Ambient Grocery,Sainsbury's,1.25,18,54,3
+SAI-0E1D237,Paper Bunting White Lace,Household,Taste the Difference,2.95,25,75,3
+SAI-12F7238,Tea Party Birthday Card,Drinks,Sainsbury's,0.42,19,59,2
+SAI-B161239,Set Of 3 Butterfly Cookie Cutters,Dairy & Eggs,So Good,1.25,17,53,2
+SAI-F6A3240,Assorted Creepy Crawlies,Ambient Grocery,Branded,0.42,41,124,2
+SAI-DA3C241,Empire Gift Wrap,Ambient Grocery,Taste the Difference,0.42,40,120,2
+SAI-DAA1242,White Spot Red Ceramic Drawer Knob,Household,Taste the Difference,1.25,19,59,3
+SAI-747C243,Popart Wooden Pencils Asst,Ambient Grocery,Sainsbury's,0.04,146,439,1
+SAI-B698244,Heart Ivory Trellis Large,Ambient Grocery,So Good,1.65,19,59,3
+SAI-2B6F245,Toilet Metal Sign,Ambient Grocery,Taste the Difference,0.55,17,51,2
+SAI-FEC1246,Red Stripe Ceramic Drawer Knob,Household,Sainsbury's,1.25,19,57,1
+SAI-562D247,Set Of 3 Notebooks In Parcel,Ambient Grocery,Taste the Difference,1.65,26,78,1
+SAI-1B98248,"Key Fob , Shed",Ambient Grocery,Taste the Difference,0.65,18,54,1
+SAI-5519249,Assorted Colour T-Light Holder,Household,So Good,0.85,36,110,3
+SAI-E936250,"Record Frame 7"" Single Size",Household,Branded,2.55,25,75,2
+SAI-C58F251,Angel Decoration 3 Buttons,Ambient Grocery,Sainsbury's,0.42,47,143,2
+SAI-C3E6252,Assorted Incense Pack,Ambient Grocery,Branded,0.21,126,380,1
+SAI-D207253,Multicolour Spring Flower Mug,Fresh Produce,So Good,1.38,54,163,2
+SAI-3FB5254,Traditional Knitting Nancy,Household,So Good,1.65,23,69,2
+SAI-9C87255,Hanging Metal Heart Lantern,Ambient Grocery,Branded,1.65,19,57,1
+SAI-280D256,Doormat Hearts,Household,So Good,7.95,14,44,3
+SAI-FBDB257,Blue Spot Ceramic Drawer Knob,Household,Sainsbury's,1.25,18,54,1
+SAI-0727258,Red Spot Ceramic Drawer Knob,Household,Sainsbury's,1.25,20,61,2
+SAI-F3AF259,Home Building Block Word,Ambient Grocery,So Good,5.95,13,39,1
+SAI-B26F260,Chocolate This Way Metal Sign,Snacks,Taste the Difference,2.1,15,47,1
+SAI-EAE6261,Set/10 Pink Polkadot Party Candles,Household,So Good,1.25,18,56,2
+SAI-F221262,Party Metal Sign,Ambient Grocery,Branded,1.45,17,51,1
+SAI-C0D8263,Baking Set 9 Piece Retrospot,Ambient Grocery,Taste the Difference,4.95,15,45,1
+SAI-7530264,3 Hearts Hanging Decoration Rustic,Ambient Grocery,Sainsbury's,2.95,30,90,3
+SAI-9334265,Clear Drawer Knob Acrylic Edwardian,Household,Branded,1.25,27,83,3
+SAI-7581266,Area Patrolled Metal Sign,Ambient Grocery,So Good,2.1,17,53,2
+SAI-EAC9267,Wrap Vintage Leaf Design,Ambient Grocery,Branded,0.42,50,151,3
+SAI-60BA268,3 Stripey Mice Feltcraft,Frozen,Branded,1.95,17,51,1
+SAI-E6B7269,Plasters In Tin Spaceboy,Household,Taste the Difference,1.65,18,54,1
+SAI-A1C0270,Heart Filigree Dove Large,Ambient Grocery,So Good,1.65,21,63,2
+SAI-585B271,Spotty Bunting,Household,Sainsbury's,4.95,39,117,2
+SAI-AE91272,Zinc Folkart Sleigh Bells,Ambient Grocery,Branded,1.69,32,96,1
+SAI-56FD273,Retrospot Childrens Apron,Ambient Grocery,Sainsbury's,1.95,17,53,2
+SAI-E21C274,Dolly Girl Lunch Box,Household,Taste the Difference,1.95,18,56,2
+SAI-9EE0275,Knitted Union Flag Hot Water Bottle,Drinks,Taste the Difference,3.75,20,60,3
+SAI-89DF276,Pink Regency Teacup And Saucer,Drinks,Taste the Difference,2.95,22,67,2
+SAI-64D4277,Vintage Union Jack Memoboard,Ambient Grocery,Branded,9.95,23,71,1
+SAI-61DE278,Plasters In Tin Vintage Paisley,Household,Sainsbury's,1.65,17,52,1
+SAI-3654279,Set Of 60 I Love London Cake Cases,Fresh Bakery,Branded,0.55,47,141,2
+SAI-C2A7280,Traditional Wooden Catch Cup Game,Drinks,Branded,1.25,18,56,1
+SAI-4B4B281,Hand Warmer Babushka Design,Ambient Grocery,Sainsbury's,2.1,38,114,1
+SAI-4B8D282,Retrospot Party Bag + Sticker Set,Ambient Grocery,Sainsbury's,1.65,20,60,2
+SAI-7E4A283,Jam Making Set With Jars,Household,Sainsbury's,4.25,24,72,1
+SAI-0BA3284,Pack Of 20 Skull Paper Napkins,Ambient Grocery,So Good,0.85,19,59,1
+SAI-1CF3285,Alarm Clock Bakelike Green,Household,Taste the Difference,3.75,22,68,2
+SAI-49CC286,Doormat New England,Household,Sainsbury's,7.95,14,43,2
+SAI-9F72287,Plasters In Tin Strongman,Household,Branded,1.65,18,56,3
+SAI-5FFF288,Retrospot Heart Hot Water Bottle,Drinks,Sainsbury's,4.95,17,53,3
+SAI-9328289,Vintage Union Jack Bunting,Household,Taste the Difference,8.5,14,42,1
+SAI-964E290,Cowboys And Indians Birthday Card,Ambient Grocery,Taste the Difference,0.42,20,60,3
+SAI-F785291,"Elephant, Birthday Card,",Ambient Grocery,Taste the Difference,0.42,20,60,1
+SAI-07DE292,Black Silver Flower T-Light Holder,Fresh Produce,Branded,0.85,338,1015,1
+SAI-E22C293,Card Motorbike Santa,Ambient Grocery,Sainsbury's,0.42,42,126,1
+SAI-89C4294,Gardeners Kneeling Pad Cup Of Tea,Fresh Produce,Sainsbury's,1.65,38,115,1
+SAI-4849295,Kings Choice Mug,Drinks,Sainsbury's,1.25,24,72,2
+SAI-2754296,Doormat Fairy Cake,Fresh Bakery,Sainsbury's,7.95,15,45,1
+SAI-836A297,Wrap I Love London,Ambient Grocery,Branded,0.42,50,151,1
+SAI-331D298,White Skull Hot Water Bottle,Drinks,Branded,3.75,29,87,1
+SAI-5E1E299,Christmas Hanging Star With Bell,Ambient Grocery,Sainsbury's,0.83,45,135,1
+SAI-A34D300,Gin & Tonic Diet Greeting Card,Household,Sainsbury's,0.42,20,60,1
+SAI-9103301,Inflatable Political Globe,Ambient Grocery,Sainsbury's,0.85,32,98,1
+SAI-A90A302,Pack 20 English Rose Paper Napkins,Fresh Produce,Sainsbury's,0.85,22,66,1
+SAI-C6DD303,Glass Heart T-Light Holder,Household,Sainsbury's,0.85,23,70,1
+SAI-45C8304,Plasters In Tin Circus Parade,Household,Taste the Difference,1.65,17,53,2
+SAI-BD06305,Natural Slate Rectangle Chalkboard,Ambient Grocery,Sainsbury's,1.65,16,49,2
+SAI-7C25306,Pens Assorted Spaceball,Ambient Grocery,Branded,0.21,46,139,1
+SAI-4257307,Gingerbread Man Cookie Cutter,Fresh Bakery,Branded,1.25,27,83,3
+SAI-BE9A308,Lunch Bag Alphabet Design,Ambient Grocery,Sainsbury's,1.65,33,100,1
+SAI-D3E6309,Card Billboard Font,Ambient Grocery,Branded,0.42,23,69,2
+SAI-3011310,Lunch Bag Dolly Girl Design,Ambient Grocery,Sainsbury's,1.65,18,54,1
+SAI-EA02311,Fawn Blue Hot Water Bottle,Drinks,Sainsbury's,2.95,20,61,1
+SAI-12FD312,Retro Coffee Mugs Assorted,Drinks,Branded,1.25,24,72,1
+SAI-26EF313,Magic Drawing Slate Dolly Girl,Ambient Grocery,Taste the Difference,0.42,26,79,2
+SAI-1C51314,Red Retrospot Oven Glove,Ambient Grocery,Sainsbury's,1.25,14,44,1
+SAI-599B315,Wooden Tree Christmas Scandinavian,Ambient Grocery,Branded,0.85,39,119,3
+SAI-F2A4316,Red Retrospot Cup,Drinks,Taste the Difference,0.85,16,48,2
+SAI-7825317,Small Heart Flowers Hook,Fresh Produce,Sainsbury's,0.85,20,60,1
+SAI-02FA318,Heart Decoration Rustic Hanging,Ambient Grocery,Taste the Difference,0.79,22,66,1
+SAI-5653319,White Jewelled Heart Decoration,Ambient Grocery,Sainsbury's,0.85,20,60,1
+SAI-6BA8320,Set Of 72 Pink Heart Paper Doilies,Ambient Grocery,Sainsbury's,1.45,13,40,1
+SAI-3E8E321,Star Decoration Rustic,Ambient Grocery,Sainsbury's,0.42,35,106,1
+SAI-F7C6322,Jumbo Bag Pears,Ambient Grocery,Sainsbury's,2.08,34,104,3
+SAI-F282323,Red 3 Piece Mini Dots Cutlery Set,Ambient Grocery,Taste the Difference,3.75,14,43,2
+SAI-A48E324,Assorted Laquered Incense Holders,Household,Branded,0.42,92,278,1
+SAI-9F60325,Set 12 Kids  White Chalk Sticks,Ambient Grocery,Sainsbury's,0.42,21,63,2
+SAI-14C7326,Red Retrospot Peg Bag,Ambient Grocery,Taste the Difference,2.55,15,45,2
+SAI-406F327,"Key Fob , Back Door",Ambient Grocery,Taste the Difference,0.65,16,48,1
+SAI-9E87328,Suki  Shoulder Bag,Ambient Grocery,Sainsbury's,1.65,14,44,1
+SAI-8AE0329,Red Retrospot Small Milk Jug,Dairy & Eggs,Branded,2.55,13,40,2
+SAI-8B60330,Feltcraft Doll Molly,Ambient Grocery,Sainsbury's,2.95,16,48,3
+SAI-7D3C331,Hanging Heart With Bell,Ambient Grocery,Branded,1.25,29,88,1
+SAI-6B40332,Doormat Fancy Font Home Sweet Home,Snacks,Sainsbury's,7.95,13,41,1
+SAI-E18B333,Jazz Hearts Address Book,Ambient Grocery,Sainsbury's,0.42,27,82,1
+SAI-64EC334,Card I Love London,Ambient Grocery,Sainsbury's,0.42,26,78,1
+SAI-0477335,Heart Decoration With Pearls,Ambient Grocery,Sainsbury's,0.85,17,53,3
+SAI-DBDA336,Wrap Red Apples,Ambient Grocery,Sainsbury's,0.42,35,107,2
+SAI-EC6B337,Metal Sign Take It Or Leave It,Ambient Grocery,Taste the Difference,2.95,14,44,3
+SAI-4F37338,"Key Fob , Garage Design",Ambient Grocery,Sainsbury's,0.65,16,48,1
+SAI-51B5339,Ice Cream Sundae Lip Gloss,Dairy & Eggs,So Good,1.25,44,134,3
+SAI-9403340,Wrap Alphabet Design,Ambient Grocery,Branded,0.42,42,126,1
+SAI-8E8C341,Washroom Metal Sign,Ambient Grocery,Sainsbury's,1.45,14,44,2
+SAI-A0EA342,Feng Shui Pillar Candle,Household,So Good,0.19,59,177,2
+SAI-009A343,Hanging Heart Mirror Decoration,Health & Beauty,Taste the Difference,0.65,15,46,1
+SAI-FE4E344,Pack Of 6 Skull Paper Plates,Ambient Grocery,Branded,0.85,25,75,1
+SAI-C23D345,Heart Decoration Painted Zinc,Ambient Grocery,Sainsbury's,0.65,19,58,1
+SAI-1CE8346,Pink Polkadot Bowl,Ambient Grocery,Taste the Difference,1.25,15,45,1
+SAI-5659347,Ribbon Reel Stripes Design,Ambient Grocery,Sainsbury's,1.65,14,42,2
+SAI-4D87348,Small Heart Measuring Spoons,Ambient Grocery,Sainsbury's,0.85,13,39,2
+SAI-5836349,12 Pencil Small Tube Woodland,Ambient Grocery,Sainsbury's,0.65,21,63,1
+SAI-894C350,Set Of 36 Teatime Paper Doilies,Drinks,Taste the Difference,1.45,14,42,1
+SAI-DEC7351,Small Dolly Mix Design Orange Bowl,Ambient Grocery,Sainsbury's,0.83,16,49,1
+SAI-745B352,Christmas Star Wish List Chalkboard,Ambient Grocery,Sainsbury's,1.25,36,109,3
+SAI-1F53353,Set Of 20 Kids Cookie Cutters,Fresh Bakery,Sainsbury's,2.1,15,47,2
+SAI-44E2354,Pack Of 60 Mushroom Cake Cases,Fresh Bakery,Sainsbury's,0.55,13,40,2
+SAI-81EA355,You'Re Confusing Me Metal Sign,Ambient Grocery,Branded,1.69,16,49,2
+SAI-CE1B356,Childrens Apron Spaceboy Design,Ambient Grocery,Taste the Difference,1.95,12,38,1
+SAI-653C357,Magic Drawing Slate Circus Parade,Ambient Grocery,Sainsbury's,0.42,25,75,3
+SAI-68F0358,Christmas Metal Tags Assorted,Ambient Grocery,Branded,0.85,41,123,3
+SAI-DF73359,Zinc Willie Winkie  Candle Stick,Household,Sainsbury's,0.85,16,50,2
+SAI-ECEC360,Set/20 Strawberry Paper Napkins,Ambient Grocery,So Good,0.85,16,48,1
+SAI-4602361,Card Christmas Village,Ambient Grocery,Sainsbury's,0.42,36,110,2
+SAI-0B02362,Jazz Hearts Purse Notebook,Ambient Grocery,Taste the Difference,0.83,21,65,2
+SAI-D3CB363,Ice Cream Pen Lip Gloss,Dairy & Eggs,Sainsbury's,1.25,41,125,2
+SAI-2A51364,Robot Birthday Card,Ambient Grocery,Sainsbury's,0.42,18,54,1
+SAI-A281365,Set 2 Tea Towels I Love London,Drinks,Sainsbury's,3.25,20,61,2
+SAI-8AFF366,Christmas Retrospot Heart Wood,Ambient Grocery,Branded,0.85,24,72,2
+SAI-9C8F367,Pink Doughnut Trinket Pot,Ambient Grocery,Sainsbury's,1.65,15,46,3
+SAI-B9E1368,Large Popcorn Holder,Snacks,Sainsbury's,1.65,21,65,2
+SAI-9757369,Vintage Kid Dolly Card,Ambient Grocery,Taste the Difference,0.42,17,53,1
+SAI-E6A2370,Set Of 36 Paisley Flower Doilies,Fresh Produce,Taste the Difference,1.45,14,42,1
+SAI-84D1371,Cream Cupid Hearts Coat Hanger,Dairy & Eggs,Branded,3.25,14,43,2
+SAI-F9B5372,Set/6 Pink  Butterfly T-Lights,Dairy & Eggs,Sainsbury's,2.1,17,53,3
+SAI-A79E373,Lunch Bag Vintage Leaf Design,Ambient Grocery,Sainsbury's,1.65,30,91,2
+SAI-5A0E374,Set Of 3 Cake Tins Pantry Design,Fresh Bakery,So Good,4.95,21,65,2
+SAI-79D2375,4 Traditional Spinning Tops,Ambient Grocery,Sainsbury's,1.45,17,51,3
+SAI-38B8376,Jumbo Bag Vintage Christmas,Ambient Grocery,Branded,2.08,48,145,1
+SAI-5E74377,Small Hanging Ivory/Red Wood Bird,Ambient Grocery,Sainsbury's,0.42,19,58,2
+SAI-D78F378,Pink 3 Piece Mini Dots Cutlery Set,Ambient Grocery,Branded,3.75,13,39,2
+SAI-6746379,Grey Heart Hot Water Bottle,Drinks,Branded,3.75,21,65,2
+SAI-AA3A380,Ceramic Heart Fairy Cake Money Bank,Fresh Bakery,Sainsbury's,1.45,17,51,1
+SAI-64CD381,Gardeners Kneeling Pad,Fresh Produce,Sainsbury's,1.25,36,109,2
+SAI-F31C382,Hot Water Bottle Keep Calm,Drinks,Sainsbury's,4.95,59,179,2
+SAI-0EAD383,Pottering Mug,Drinks,Branded,1.25,16,48,3
+SAI-7383384,Angel Decoration Stars On Dress,Ambient Grocery,Sainsbury's,0.42,33,101,2
+SAI-903A385,Traditional Christmas Ribbons,Ambient Grocery,Sainsbury's,1.25,21,64,2
+SAI-8719386,Victorian  Metal Postcard Spring,Ambient Grocery,Sainsbury's,1.69,20,61,1
+SAI-E44B387,Love Building Block Word,Ambient Grocery,Branded,5.95,10,30,1
+SAI-5F5F388,Red Retrospot Picnic Bag,Ambient Grocery,Sainsbury's,2.95,14,42,2
+SAI-239E389,Tea Time Party Bunting,Drinks,Branded,4.65,15,47,2
+SAI-2DB4390,60 Cake Cases Dolly Girl Design,Fresh Bakery,Branded,0.55,20,62,2
+SAI-C145391,Laundry 15C Metal Sign,Ambient Grocery,Sainsbury's,1.45,13,40,1
+SAI-5D94392,Lipstick Pen Red,Health & Beauty,Sainsbury's,0.42,21,63,3
+SAI-BB3B393,Camouflage Led Torch,Ambient Grocery,Taste the Difference,1.69,22,66,1
+SAI-50F3394,Feltcraft Cushion Rabbit,Ambient Grocery,Taste the Difference,3.75,15,47,3
+SAI-866D395,Teatime Pen Case & Pens,Drinks,Sainsbury's,0.85,100,302,2
+SAI-8F7F396,Wrap Doiley Design,Ambient Grocery,Taste the Difference,0.42,38,115,2
+SAI-2C02397,"Feather Pen,Hot Pink",Ambient Grocery,Sainsbury's,0.83,24,72,3
+SAI-DAD6398,Feltcraft Cushion Butterfly,Dairy & Eggs,So Good,3.75,15,47,2
+SAI-E288399,Edwardian Parasol Red,Ambient Grocery,Branded,5.95,15,46,3
+SAI-6A97400,Set/10 Blue Spotty Party Candles,Household,Branded,1.25,16,48,1
+SAI-A2E0401,Pop Art Pen Case & Pens,Ambient Grocery,Taste the Difference,0.85,208,625,2
+SAI-F994402,36 Doilies Vintage Christmas,Ambient Grocery,Taste the Difference,1.45,50,150,2
+SAI-A466403,Charlotte Bag Apples Design,Ambient Grocery,So Good,0.85,30,90,3
+SAI-426A404,Pens Assorted Funky Jeweled,Ambient Grocery,Taste the Difference,0.42,46,138,1
+SAI-FBFF405,Blue Polkadot Cup,Drinks,So Good,0.85,14,42,2
+SAI-DA68406,Plasters In Tin Skulls,Household,Sainsbury's,1.65,13,41,3
+SAI-F427407,Pack Of 20 Napkins Pantry Design,Ambient Grocery,Branded,0.85,17,52,2
+SAI-F804408,Pink Party Bags,Ambient Grocery,Taste the Difference,2.1,21,65,1
+SAI-EC97409,12 Pencils Tall Tube Red Retrospot,Ambient Grocery,Sainsbury's,0.85,15,47,1
+SAI-3AC4410,I Can Only Please One Person Mug,Drinks,Branded,1.25,17,51,1
+SAI-B7C2411,Doormat Keep Calm And Come In,Household,Sainsbury's,7.95,37,111,1
+SAI-CF92412,Round Snack Boxes Set Of 4 Fruits,Snacks,Taste the Difference,2.95,12,37,3
+SAI-70E5413,Regency Tea Plate Green,Drinks,Sainsbury's,1.65,36,108,1
+SAI-F8ED414,Hot Water Bottle I Am So Poorly,Drinks,Branded,4.65,19,59,1
+SAI-5658415,Regency Tea Plate Roses,Fresh Produce,Sainsbury's,1.65,34,102,1
+SAI-1D60416,Pack Of 6 Sandcastle Flags Assorted,Ambient Grocery,Sainsbury's,0.85,22,67,1
+SAI-0A3D417,Recycled Pencil With Rabbit Eraser,Ambient Grocery,Taste the Difference,0.21,24,74,1
+SAI-40C5418,Lavender Scented Fabric Heart,Health & Beauty,So Good,1.25,17,53,1
+SAI-21AD419,Place Setting White Star,Household,Taste the Difference,0.42,30,92,2
+SAI-A15A420,Feltcraft Cushion Owl,Ambient Grocery,Sainsbury's,3.75,13,40,2
+SAI-AB66421,Photo Cube,Ambient Grocery,Sainsbury's,1.65,17,52,3
+SAI-3C1C422,Pink  Polkadot Cup,Drinks,Sainsbury's,0.85,13,41,1
+SAI-7675423,12 Pencils Tall Tube Posy,Ambient Grocery,Sainsbury's,0.29,35,105,3
+SAI-B557424,Scandinavian Reds Ribbons,Ambient Grocery,Taste the Difference,1.25,14,42,2
+SAI-63AE425,Penny Farthing Birthday Card,Ambient Grocery,Sainsbury's,0.42,17,51,2
+SAI-7219426,Polkadot Rain Hat,Ambient Grocery,Sainsbury's,0.79,18,56,3
+SAI-6093427,White Dove Honeycomb Paper Garland,Ambient Grocery,Sainsbury's,1.65,27,81,1
+SAI-8548428,Happy Stencil Craft,Ambient Grocery,Sainsbury's,1.25,17,52,1
+SAI-F5B2429,Skulls  Water Transfer Tattoos,Drinks,Taste the Difference,0.85,16,50,1
+SAI-E5E6430,Small Ceramic Top Storage Jar,Household,Branded,0.83,42,126,1
+SAI-99BD431,Memo Board Retrospot  Design,Ambient Grocery,Taste the Difference,4.95,12,38,1
+SAI-1FDA432,Vintage Billboard Tea Mug,Drinks,Taste the Difference,1.25,24,74,2
+SAI-17D7433,Red Retrospot Umbrella,Ambient Grocery,Sainsbury's,5.95,12,38,1
+SAI-AE8B434,Tea Time Tea Towels,Drinks,Branded,2.95,22,67,3
+SAI-2279435,Wicker Star,Ambient Grocery,Sainsbury's,2.1,18,55,1
+SAI-F382436,Plasters In Tin Woodland Animals,Household,Branded,1.65,12,37,1
+SAI-9137437,Gin And Tonic Mug,Drinks,Sainsbury's,1.25,14,43,1
+SAI-96DC438,Star Decoration Painted Zinc,Ambient Grocery,Branded,0.63,38,115,2
+SAI-991C439,Alarm Clock Bakelike Pink,Household,Sainsbury's,3.75,15,46,1
+SAI-216C440,Wood 2 Drawer Cabinet White Finish,Household,Sainsbury's,5.95,11,33,2
+SAI-9B8D441,Candleholder Pink Hanging Heart,Household,Sainsbury's,2.95,17,51,1
+SAI-D3D9442,Rocking Horse Red Christmas,Ambient Grocery,Branded,0.85,26,80,1
+SAI-5D36443,Japanese Crocheted Animal,Ambient Grocery,Branded,0.42,40,121,1
+SAI-301C444,Sandalwood Fan,Ambient Grocery,Sainsbury's,0.85,22,68,1
+SAI-1961445,Pink Happy Birthday Bunting,Household,Branded,5.45,12,37,3
+SAI-B238446,Kitchen Metal Sign,Ambient Grocery,Branded,0.55,12,37,1
+SAI-19F3447,Skulls Greeting Card,Household,Branded,0.42,21,65,1
+SAI-F4E6448,Red Retrospot Cake Stand,Fresh Bakery,Sainsbury's,10.95,10,30,3
+SAI-B8F7449,Christmas Craft Little Friends,Ambient Grocery,Sainsbury's,2.1,28,86,1
+SAI-6C23450,Empire Birthday Card,Ambient Grocery,Sainsbury's,0.42,17,51,1
+SAI-9B37451,Large Red Retrospot Windmill,Ambient Grocery,Sainsbury's,2.1,26,79,2
+SAI-1501452,Piece Of Camo Stationery Set,Ambient Grocery,Taste the Difference,0.08,108,326,3
+SAI-8541453,Strawberry Shopper Bag,Ambient Grocery,Branded,1.25,11,35,1
+SAI-2BC1454,Set Of 12 Fairy Cake Baking Cases,Fresh Bakery,Sainsbury's,0.83,38,114,1
+SAI-F32A455,White Metal Lantern,Ambient Grocery,Taste the Difference,3.75,12,38,1
+SAI-B949456,Fine Wicker Heart,Ambient Grocery,Branded,1.25,27,82,1
+SAI-3550457,Pack Of 12 Blue Paisley Tissues,Household,Taste the Difference,0.29,19,58,1
+SAI-E111458,I'M On Holiday Metal Sign,Ambient Grocery,Sainsbury's,2.1,12,36,3
+SAI-4943459,English Rose Notebook A7 Size,Fresh Produce,Branded,0.42,13,39,1
+SAI-D343460,Blue Polkadot Bowl,Ambient Grocery,Branded,1.25,13,39,1
+SAI-F98A461,Gingham Rose Wrap,Meat & Fish,Branded,0.42,34,104,2
+SAI-BEE5462,Christmas Gingham Star,Meat & Fish,Taste the Difference,0.85,27,83,1
+SAI-52C8463,Picture Dominoes,Ambient Grocery,Sainsbury's,1.45,14,44,2
+SAI-38E5464,Pack Of 12 Coloured Pencils,Ambient Grocery,Branded,0.85,20,61,1
+SAI-F985465,Glitter Hanging Butterfly String,Dairy & Eggs,Sainsbury's,2.1,15,45,2
+SAI-697F466,Set Of 6 Spice Tins Pantry Design,Frozen,So Good,3.95,23,71,2
+SAI-7D0E467,Pink Paper Parasol,Ambient Grocery,Sainsbury's,2.95,26,79,1
+SAI-E6E2468,Wood S/3 Cabinet Ant White Finish,Ambient Grocery,Sainsbury's,7.95,9,28,3
+SAI-3F52469,Charlotte Bag Dolly Girl Design,Ambient Grocery,Sainsbury's,0.85,16,50,2
+SAI-5792470,36 Pencils Tube Red Retrospot,Ambient Grocery,Sainsbury's,1.25,13,40,2
+SAI-27C2471,Tea Party  Wrapping Paper,Drinks,Branded,0.42,33,101,2
+SAI-22A8472,Travel Card Wallet Vintage Ticket,Ambient Grocery,Sainsbury's,0.42,24,74,1
+SAI-30F2473,Retrospot Cigar Box Matches,Household,Sainsbury's,1.25,17,52,3
+SAI-F45F474,Travel Card Wallet I Love London,Ambient Grocery,Branded,0.42,38,115,2
+SAI-02C0475,Metal 4 Hook Hanger French Chateau,Drinks,Branded,2.95,11,35,2
+SAI-6880476,Set 20 Napkins Fairy Cakes Design,Fresh Bakery,Sainsbury's,0.85,17,51,3
+SAI-8800477,Blue 3 Piece Mini Dots Cutlery Set,Ambient Grocery,Taste the Difference,3.75,11,34,1
+SAI-1F7E478,Embossed Glass Tealight Holder,Drinks,Taste the Difference,1.25,18,56,1
+SAI-E39E479,"Key Fob , Front  Door",Ambient Grocery,Sainsbury's,0.65,15,46,2
+SAI-4EB9480,Heart Wooden Christmas Decoration,Ambient Grocery,Sainsbury's,0.85,27,83,2
+SAI-7100481,Vintage Red Teatime Mug,Drinks,Sainsbury's,1.25,24,74,1
+SAI-4F17482,Folkart Zinc Heart Christmas Dec,Ambient Grocery,Sainsbury's,0.85,12,38,1
+SAI-3E0A483,Skulls  Stickers,Ambient Grocery,Branded,0.85,18,56,1
+SAI-62BA484,Coffee Mug Cat + Bird Design,Drinks,Taste the Difference,2.55,13,39,1
+SAI-A42C485,Red Gingham Rose Jewellery Box,Meat & Fish,Branded,1.65,12,38,3
+SAI-8B95486,Jumbo Bag Paisley Park,Ambient Grocery,Branded,2.08,115,347,1
+SAI-4BD2487,Christmas Tree Star Decoration,Ambient Grocery,Sainsbury's,0.42,25,76,1
+SAI-3D33488,12 Pencils Tall Tube Skulls,Ambient Grocery,Taste the Difference,0.85,14,44,1
+SAI-4B1C489,Set Of 9 Black Skull Balloons,Ambient Grocery,Taste the Difference,0.85,17,52,2
+SAI-C552490,Jumbo Bag Dolly Girl Design,Ambient Grocery,Sainsbury's,2.08,14,44,2
+SAI-BB8B491,Vintage Doily Jumbo Bag Red,Ambient Grocery,Sainsbury's,2.08,118,354,1
+SAI-31F0492,Red Retrospot Mug,Drinks,Branded,2.95,15,46,1
+SAI-0A3C493,Doormat Welcome Puppies,Household,Branded,7.95,12,38,1
+SAI-EFBC494,Small White Heart Of Wicker,Ambient Grocery,Sainsbury's,1.65,30,91,2
+SAI-9C90495,Lipstick Pen Fuschia,Health & Beauty,Branded,0.42,18,55,2
+SAI-B515496,Wrap Poppies  Design,Ambient Grocery,Sainsbury's,0.42,45,135,2
+SAI-BB66497,Red Retrospot Plate,Ambient Grocery,Sainsbury's,1.69,13,40,1
+SAI-6425498,Asstd Design Racing Car Pen,Ambient Grocery,So Good,1.69,25,75,1
+SAI-22E9499,Pack Of 6 Skull Paper Cups,Drinks,So Good,0.65,19,59,1

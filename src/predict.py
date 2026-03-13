@@ -57,6 +57,16 @@ def run_inference(model=None, meta=None) -> pd.DataFrame:
     features = compute_features(base)
     snapshot = get_latest_snapshot(features)
 
+    # We need days_of_cover for display (not for prediction)
+    EPS = 1e-6
+    if "days_of_cover" not in snapshot.columns:
+        if "stock_on_hand" in snapshot.columns and "sales_velocity_7d" in snapshot.columns:
+            snapshot["days_of_cover"] = (
+                snapshot["stock_on_hand"] / (snapshot["sales_velocity_7d"] + EPS)
+            )
+        else:
+            snapshot["days_of_cover"] = 0.0
+
     # Product metadata for display
     keep_cols = [
         "product_id", "product_name", "category",

@@ -13,13 +13,19 @@ venv/
 .venv/
 env/
 
-# Models (large files — commit only with Git LFS if needed)
+# Models — all model artefacts are committed (total < 5 MB)
+# Uncomment below to exclude large models if needed:
 # models/*.joblib
 # models/*.pkl
 
-# Data (raw data is generated, not committed)
-# data/raw/
-# data/processed/
+# Data — raw CSVs and processed features are committed for reproducibility
+# SQLite local dev database is excluded (app auto-regenerates it)
+data/retail_brain.db
+data/cache/
+
+# Logs & temp outputs
+logs/
+result.txt
 
 # IDE
 .vscode/
@@ -29,5 +35,5 @@ env/
 .DS_Store
 Thumbs.db
 
-# Streamlit
-.streamlit/
+# Streamlit secrets (never commit keys!) — config.toml IS committed
+.streamlit/secrets.toml

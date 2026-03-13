@@ -33,104 +33,289 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ── CSS — Sainsbury's brand palette (orange #F06A00, purple #7B2D8B) ───────────
+# ── CSS — Retail Brain v2.0 Premium UI ───────────────────────────────────────
 st.markdown("""
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-  html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+/* =================================================================
+   Retail Brain x Sainsbury's — Premium Dark UI
+   Palette: Sainsbury's Orange #F06A00 · Purple #7B2D8B · Deep #080c12
+   ================================================================= */
 
-  /* Background */
-  .stApp { background: #0d1117; color: #f0f6fc; }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
-  /* Sidebar — Sainsbury's deep purple/dark */
-  [data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #1a1033 0%, #0d1117 100%);
-    border-right: 1px solid #30363d;
-  }
-  [data-testid="stSidebar"] * { color: #f0f6fc !important; }
+html, body, [class*="css"] {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
 
-  /* Brand bar at top of sidebar */
-  .brand-bar {
-    background: linear-gradient(135deg, #F06A00 0%, #E8521E 50%, #7B2D8B 100%);
-    border-radius: 12px;
-    padding: 14px 16px;
-    margin-bottom: 10px;
-  }
-  .brand-title { font-size: 1.1rem; font-weight: 800; color: white; }
-  .brand-sub   { font-size: 0.72rem; color: rgba(255,255,255,0.8); margin-top:2px; }
+/* ── App background with ambient glow ── */
+.stApp { background: #080c12; color: #e2e8f0; }
+.stApp::before {
+  content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background:
+    radial-gradient(ellipse at 15% 15%, rgba(240,106,0,.038) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 85%, rgba(123,45,139,.038) 0%, transparent 55%);
+}
 
-  /* KPI Cards */
-  .kpi-card {
-    background: linear-gradient(135deg, #161b22 0%, #1c2128 100%);
-    border: 1px solid #30363d;
-    border-radius: 16px;
-    padding: 20px 22px;
-    text-align: center;
-    transition: transform .2s, box-shadow .2s;
-  }
-  .kpi-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 28px rgba(240,106,0,.20);
-  }
-  .kpi-value {
-    font-size: 2.0rem; font-weight: 700;
-    background: linear-gradient(135deg, #F06A00, #f5a623);
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-  }
-  .kpi-label { font-size: 0.8rem; color: #8b949e; margin-top: 4px; }
+/* ── Sidebar ── */
+[data-testid="stSidebar"] {
+  background: #060910 !important;
+  border-right: 1px solid rgba(255,255,255,.055) !important;
+}
+[data-testid="stSidebar"] * { color: #c9d1d9 !important; }
+[data-testid="stSidebar"] > div:first-child { padding: 0 !important; }
 
-  /* Tier badges */
-  .badge-ttd  { background:#7B2D8B22; color:#c77dff; border:1px solid #7B2D8B55;
-                padding:2px 9px; border-radius:99px; font-size:.75rem; font-weight:600; }
-  .badge-std  { background:#F06A0022; color:#F06A00; border:1px solid #F06A0055;
-                padding:2px 9px; border-radius:99px; font-size:.75rem; font-weight:600; }
-  .badge-branded { background:#0d419d22; color:#58a6ff; border:1px solid #0d419d55;
-                padding:2px 9px; border-radius:99px; font-size:.75rem; font-weight:600; }
+/* Brand header strip */
+.brand-header {
+  padding: 22px 20px 18px;
+  background: linear-gradient(135deg, #c4440a 0%, #F06A00 45%, #7B2D8B 100%);
+  position: relative; overflow: hidden;
+}
+.brand-header::after {
+  content: ''; position: absolute; top: -40px; right: -40px;
+  width: 120px; height: 120px; background: rgba(255,255,255,.06); border-radius: 50%;
+}
+.brand-name {
+  font-size: 1.15rem; font-weight: 900; letter-spacing: -.5px;
+  color: #fff; margin: 0 0 4px; position: relative; z-index: 1;
+}
+.brand-tagline {
+  font-size: .67rem; color: rgba(255,255,255,.72);
+  line-height: 1.45; position: relative; z-index: 1;
+}
 
-  /* Risk badges */
-  .badge-danger  { background:#ef444422; color:#ef4444; border:1px solid #ef444455;
-                   padding:2px 9px; border-radius:99px; font-size:.78rem; font-weight:600; }
-  .badge-warning { background:#f59e0b22; color:#f59e0b; border:1px solid #f59e0b55;
-                   padding:2px 9px; border-radius:99px; font-size:.78rem; font-weight:600; }
-  .badge-success { background:#22c55e22; color:#22c55e; border:1px solid #22c55e55;
-                   padding:2px 9px; border-radius:99px; font-size:.78rem; font-weight:600; }
+/* Live status dot */
+@keyframes pulse-green {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(74,222,128,.55); }
+  50%       { box-shadow: 0 0 0 5px rgba(74,222,128,0); }
+}
+.status-dot {
+  display: inline-block; width: 7px; height: 7px;
+  background: #4ade80; border-radius: 50%;
+  animation: pulse-green 2.2s infinite;
+  margin-right: 5px; vertical-align: middle;
+}
 
-  /* Insight cards */
-  .insight-card {
-    background: #161b22;
-    border: 1px solid #30363d;
-    border-left: 4px solid #F06A00;
-    border-radius: 12px;
-    padding: 16px 20px;
-    margin-bottom: 14px;
-    line-height: 1.65;
-    color: #e6edf3;
-  }
-  .insight-product { font-size: 1.0rem; font-weight:600; color:#f5a623; margin-bottom:6px; }
+/* Sidebar stat box */
+.sb-stat {
+  background: rgba(240,106,0,.07); border: 1px solid rgba(240,106,0,.18);
+  border-radius: 10px; padding: 10px 14px; margin-bottom: 6px;
+}
+.sb-stat-val { font-size: 1.35rem; font-weight: 700; color: #F06A00 !important; line-height: 1; }
+.sb-stat-lbl { font-size: .67rem; color: #6e7681 !important; margin-top: 3px; }
 
-  /* Event pill */
-  .event-pill {
-    background: rgba(240,106,0,0.15);
-    border: 1px solid rgba(240,106,0,0.4);
-    color: #F06A00;
-    padding: 3px 12px; border-radius: 99px; font-size:0.78rem; font-weight:600;
-  }
+/* ── KPI Cards ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.kpi-card {
+  background: linear-gradient(145deg, #0e1420, #131a25);
+  border: 1px solid rgba(255,255,255,.065);
+  border-radius: 18px; padding: 22px 18px;
+  text-align: center;
+  transition: all .28s cubic-bezier(.4,0,.2,1);
+  animation: fadeUp .4s ease-out;
+  position: relative; overflow: hidden;
+}
+.kpi-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, transparent, #F06A00, transparent);
+  opacity: 0; transition: opacity .28s;
+}
+.kpi-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(240,106,0,.3);
+  box-shadow: 0 16px 48px rgba(0,0,0,.5), 0 0 0 1px rgba(240,106,0,.12);
+}
+.kpi-card:hover::before { opacity: 1; }
+.kpi-value {
+  font-size: 2.15rem; font-weight: 800; line-height: 1; letter-spacing: -1.5px;
+  background: linear-gradient(135deg, #F06A00, #fbbf24);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.kpi-label {
+  font-size: .72rem; color: #5a6270; margin-top: 7px;
+  font-weight: 600; text-transform: uppercase; letter-spacing: .06em;
+}
+.kpi-sub { font-size: .67rem; color: #404955; margin-top: 3px; }
 
-  /* Section headers */
-  .section-header {
-    font-size: 1.15rem; font-weight:600; color:#f0f6fc;
-    margin: 18px 0 10px 0;
-    border-bottom: 1px solid #21262d; padding-bottom:7px;
-  }
+/* ── Feature / Tech cards ── */
+.feature-card {
+  background: linear-gradient(145deg, #0e1420, #131a25);
+  border: 1px solid rgba(255,255,255,.065);
+  border-radius: 16px; padding: 22px 18px;
+  transition: all .28s cubic-bezier(.4,0,.2,1);
+  height: 100%; position: relative; overflow: hidden;
+}
+.feature-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(240,106,0,.28);
+  box-shadow: 0 12px 36px rgba(0,0,0,.45);
+}
+.feature-icon { font-size: 2.0rem; margin-bottom: 11px; display: block; }
+.feature-title { font-size: .95rem; font-weight: 700; color: #dde4f0; margin-bottom: 7px; }
+.feature-desc { font-size: .76rem; color: #5a6270; line-height: 1.58; }
+.feature-tag {
+  display: inline-block; margin-top: 12px;
+  background: rgba(240,106,0,.1); color: #fb923c;
+  border: 1px solid rgba(240,106,0,.25);
+  font-size: .62rem; font-weight: 800;
+  padding: 2px 9px; border-radius: 99px;
+  text-transform: uppercase; letter-spacing: .08em;
+}
 
-  /* Buttons */
-  .stButton > button {
-    background: linear-gradient(135deg, #F06A00, #E8521E);
-    color:white; border:none; border-radius:8px; font-weight:500;
-    transition: opacity .2s;
-  }
-  .stButton > button:hover { opacity:.85; }
-  .stApp { scrollbar-color: #F06A00 #161b22; }
+/* ── Pipeline steps ── */
+.pipeline-step {
+  background: linear-gradient(145deg, #0e1420, #131a25);
+  border: 1px solid rgba(255,255,255,.065);
+  border-radius: 14px; padding: 20px 16px; text-align: center;
+  transition: all .25s; height: 100%;
+}
+.pipeline-step:hover { border-color: rgba(240,106,0,.28); transform: translateY(-3px); }
+.pipeline-num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px;
+  background: linear-gradient(135deg, #F06A00, #7B2D8B);
+  border-radius: 50%; font-size: .78rem; font-weight: 900; color: #fff;
+  margin-bottom: 12px;
+}
+.pipeline-title { font-size: .9rem; font-weight: 700; color: #dde4f0; margin-bottom: 7px; }
+.pipeline-desc { font-size: .73rem; color: #5a6270; line-height: 1.52; }
+
+/* ── Hero banner ── */
+.hero-banner {
+  position: relative;
+  background: linear-gradient(135deg, rgba(240,106,0,.07) 0%, rgba(123,45,139,.07) 100%);
+  border: 1px solid rgba(240,106,0,.2);
+  border-radius: 22px; padding: 44px 48px; margin-bottom: 30px; overflow: hidden;
+}
+.hero-banner::before {
+  content: ''; position: absolute; top: -100px; right: -100px;
+  width: 360px; height: 360px;
+  background: radial-gradient(circle, rgba(240,106,0,.06) 0%, transparent 65%);
+  border-radius: 50%;
+}
+.hero-banner::after {
+  content: ''; position: absolute; bottom: -80px; left: 25%;
+  width: 250px; height: 250px;
+  background: radial-gradient(circle, rgba(123,45,139,.045) 0%, transparent 65%);
+  border-radius: 50%;
+}
+.hero-title {
+  font-size: 3.2rem; font-weight: 900; line-height: 1.0;
+  letter-spacing: -2px; margin: 0 0 8px;
+  background: linear-gradient(135deg, #F06A00 0%, #fbbf24 45%, #c084fc 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  position: relative; z-index: 1;
+}
+.hero-subtitle {
+  font-size: 1.25rem; color: #8492a6; font-weight: 300;
+  letter-spacing: -.3px; margin-bottom: 14px;
+  position: relative; z-index: 1;
+}
+.hero-sub {
+  font-size: 1.01rem; color: #6e7a8a; max-width: 700px;
+  line-height: 1.68; margin: 0 0 22px; position: relative; z-index: 1;
+}
+.hero-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.09);
+  padding: 4px 12px; border-radius: 99px;
+  font-size: .73rem; color: #8492a6;
+  margin-right: 7px; margin-bottom: 5px; position: relative; z-index: 1;
+}
+
+/* ── Section headers ── */
+.section-header {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 1.0rem; font-weight: 700; color: #c9d1d9;
+  margin: 28px 0 14px;
+}
+.section-header::after {
+  content: ''; flex: 1; height: 1px;
+  background: linear-gradient(90deg, rgba(255,255,255,.07), transparent);
+}
+
+/* ── Insight cards ── */
+.insight-card {
+  background: #0d1420; border: 1px solid rgba(255,255,255,.065);
+  border-left: 3px solid #F06A00; border-radius: 12px;
+  padding: 15px 18px; margin-bottom: 12px;
+  line-height: 1.65; color: #c9d1d9;
+  transition: border-left-color .2s, transform .2s;
+}
+.insight-card:hover { border-left-color: #fbbf24; transform: translateX(2px); }
+.insight-product { font-size: .95rem; font-weight: 700; color: #fbbf24; margin-bottom: 7px; }
+
+/* ── Risk / tier badges ── */
+.badge-ttd     { background:rgba(192,132,252,.1); color:#c084fc; border:1px solid rgba(192,132,252,.3); padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
+.badge-std     { background:rgba(251,146, 60,.1); color:#fb923c; border:1px solid rgba(251,146,60,.3);  padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
+.badge-branded { background:rgba(129,140,248,.1); color:#818cf8; border:1px solid rgba(129,140,248,.3); padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
+.badge-danger  { background:rgba(248,113,113,.1); color:#f87171; border:1px solid rgba(248,113,113,.3); padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
+.badge-warning { background:rgba(251,191, 36,.1); color:#fbbf24; border:1px solid rgba(251,191,36,.3);  padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
+.badge-success { background:rgba( 74,222,128,.1); color:#4ade80; border:1px solid rgba(74,222,128,.3);  padding:2px 10px; border-radius:99px; font-size:.72rem; font-weight:700; }
+
+/* ── Event pill (animated shimmer) ── */
+@keyframes sheen { 0% { background-position:-200% center; } 100% { background-position:200% center; } }
+.event-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: linear-gradient(90deg, rgba(240,106,0,.15), rgba(123,45,139,.15), rgba(240,106,0,.15));
+  background-size: 200%; border: 1px solid rgba(240,106,0,.32);
+  color: #fb923c; padding: 5px 16px; border-radius: 99px;
+  font-size: .78rem; font-weight: 600; animation: sheen 3s linear infinite;
+}
+
+/* ── Buttons ── */
+.stButton > button {
+  background: linear-gradient(135deg, #F06A00, #c4440a) !important;
+  color: #fff !important; border: none !important;
+  border-radius: 10px !important; font-weight: 600 !important;
+  box-shadow: 0 4px 14px rgba(240,106,0,.28) !important;
+  transition: all .22s !important;
+}
+.stButton > button:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 7px 22px rgba(240,106,0,.4) !important;
+}
+
+/* ── Metrics ── */
+[data-testid="metric-container"] {
+  background: linear-gradient(145deg, #0e1420, #131a25) !important;
+  border: 1px solid rgba(255,255,255,.065) !important;
+  border-radius: 14px !important; padding: 18px !important;
+}
+[data-testid="metric-container"] [data-testid="stMetricValue"] { color: #F06A00 !important; }
+
+/* ── Expander ── */
+[data-testid="stExpander"] {
+  background: #0d1420 !important;
+  border: 1px solid rgba(255,255,255,.065) !important; border-radius: 12px !important;
+}
+
+/* ── Selectbox ── */
+[data-baseweb="select"] > div { background: #0d1420 !important; border-color: rgba(255,255,255,.1) !important; }
+
+/* ── Tabs ── */
+.stTabs [data-baseweb="tab-list"] { background: #0d1420 !important; border-radius: 10px !important; gap: 3px !important; padding: 4px !important; }
+.stTabs [data-baseweb="tab"] { border-radius: 8px !important; color: #5a6270 !important; font-weight: 500 !important; }
+.stTabs [aria-selected="true"] { background: rgba(240,106,0,.13) !important; color: #F06A00 !important; }
+
+/* ── Dataframe ── */
+[data-testid="stDataFrame"] { border-radius: 12px; overflow: hidden; }
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #080c12; }
+::-webkit-scrollbar-thumb { background: #1c2433; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #F06A00; }
+
+/* ── Misc ── */
+hr { border-color: rgba(255,255,255,.055) !important; }
+.stSpinner > div { border-top-color: #F06A00 !important; }
+.stProgress > div > div { background: linear-gradient(90deg, #F06A00, #7B2D8B) !important; }
+@keyframes risk-blink { 0%,100%{opacity:1;} 50%{opacity:.55;} }
+.risk-blink { animation: risk-blink 2s ease-in-out infinite; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -156,30 +341,93 @@ def get_products():      return load_products()
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 with st.sidebar:
+    # ── Brand Header
     st.markdown("""
-    <div class="brand-bar">
-      <div class="brand-title">🛒 Retail Brain</div>
-      <div class="brand-sub">Sainsbury's × AI Stockout Intelligence</div>
+    <div class="brand-header">
+      <div class="brand-name">🛒 Retail Brain</div>
+      <div class="brand-tagline">
+        Sainsbury's AI Stockout Intelligence<br>
+        Store SBY-LON-001 · London Flagship
+      </div>
     </div>""", unsafe_allow_html=True)
 
-    st.markdown("<p style='color:#8b949e;font-size:0.75rem;'>Store: <b style='color:#F06A00'>SBY-LON-001</b> · Q4 2024</p>",
-                unsafe_allow_html=True)
+    # ── Live status
+    st.markdown(
+        "<div style='padding:9px 16px 2px;'>"
+        "<span class='status-dot'></span>"
+        "<span style='font-size:.73rem;color:#4ade80;font-weight:700;'>LIVE</span>"
+        "<span style='font-size:.7rem;color:#404955;margin-left:7px;'>All systems operational</span>"
+        "</div>",
+        unsafe_allow_html=True,
+    )
     st.divider()
 
+    # ── Navigation
+    st.markdown(
+        "<p style='font-size:.6rem;font-weight:700;color:#404955;letter-spacing:.12em;"
+        "text-transform:uppercase;margin:2px 0 4px;padding:0 6px;'>Navigate</p>",
+        unsafe_allow_html=True,
+    )
     page = st.radio(
-        "Navigate",
+        "nav",
         ["🏠 Overview", "📋 Risk Table", "🔍 Product Detail",
-         "💡 Manager Insights", "📅 Event Calendar"],
+         "💡 Manager Insights", "📅 Event Calendar",
+         "🧠 Intelligence Hub", "📦 Auto-Orders",
+         "📈 Demand Forecast", "🤖 Co-Pilot"],
         label_visibility="collapsed",
     )
     st.divider()
-    if st.button("🔄 Refresh Predictions"):
+
+    # ── Quick stat: high-risk SKU count
+    try:
+        _df = get_predictions()
+        _hi = int((_df["risk_level"] == "High").sum())
+        _tot = len(_df)
+        st.markdown(
+            f"<div class='sb-stat'>"
+            f"<div class='sb-stat-val'>{_hi}</div>"
+            f"<div class='sb-stat-lbl'>High-risk SKUs right now (of {_tot})</div>"
+            f"</div>",
+            unsafe_allow_html=True,
+        )
+    except Exception:
+        pass
+
+    # ── Project phase guide
+    st.markdown(
+        "<p style='font-size:.6rem;font-weight:700;color:#404955;letter-spacing:.12em;"
+        "text-transform:uppercase;margin:10px 0 6px;padding:0 6px;'>Project Phases</p>",
+        unsafe_allow_html=True,
+    )
+    _phases = [
+        ("1", "Data Ingestion",   "#818cf8", "rgba(129,140,248,.1)",  "rgba(129,140,248,.28)"),
+        ("2", "ML Predictions",   "#fb923c", "rgba(251,146, 60,.1)",  "rgba(251,146,60,.28)"),
+        ("3", "Explainability",   "#4ade80", "rgba( 74,222,128,.1)",  "rgba(74,222,128,.28)"),
+        ("4", "Intelligence Hub", "#c084fc", "rgba(192,132,252,.1)",  "rgba(192,132,252,.28)"),
+        ("5", "Co-Pilot AI",      "#F06A00", "rgba(240,106,  0,.1)",  "rgba(240,106,0,.28)"),
+    ]
+    _ph_html = "<div style='display:flex;flex-direction:column;gap:4px;padding:0 2px;'>"
+    for _n, _lbl, _c, _bg, _bd in _phases:
+        _ph_html += (
+            f"<div style='display:flex;align-items:center;gap:8px;background:{_bg};"
+            f"border:1px solid {_bd};border-radius:8px;padding:6px 10px;'>"
+            f"<span style='display:inline-flex;align-items:center;justify-content:center;"
+            f"min-width:18px;height:18px;background:{_c}22;border-radius:4px;"
+            f"font-size:.65rem;font-weight:800;color:{_c};'>{_n}</span>"
+            f"<span style='font-size:.72rem;color:{_c};font-weight:600;'>{_lbl}</span>"
+            f"</div>"
+        )
+    _ph_html += "</div>"
+    st.markdown(_ph_html, unsafe_allow_html=True)
+
+    st.divider()
+    if st.button("🔄 Refresh Data", use_container_width=True):
         st.cache_data.clear()
         st.rerun()
     st.markdown(
-        "<p style='color:#21262d;font-size:0.7rem;margin-top:8px;'>"
-        "© 2024 Sainsbury's PLC · Retail Brain v1.0<br>"
-        "Powered by XGBoost + OpenAI</p>",
+        "<p style='color:#1c2433;font-size:.65rem;margin-top:10px;text-align:center;line-height:1.6;'>"
+        "Retail Brain v2.0 · Sainsbury's PLC<br>"
+        "XGBoost · Holt-Winters · IsolationForest · RAG</p>",
         unsafe_allow_html=True,
     )
 
@@ -204,106 +452,178 @@ with st.spinner("Loading Sainsbury's intelligence engine …"):
 # PAGE 1 — OVERVIEW
 # ═══════════════════════════════════════════════════════════════════════════════
 if page == "🏠 Overview":
-    st.markdown("""
-        <div style="background: linear-gradient(135deg, rgba(240,106,0,0.1) 0%, rgba(123,45,139,0.1) 100%);
-                    border-radius: 16px; padding: 32px 36px; border: 1px solid rgba(240,106,0,0.2); 
-                    margin-bottom: 24px; position: relative; overflow: hidden;
-                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px);">
-            <div style="position: absolute; right: -20px; top: -40px; opacity: 0.1; font-size: 14rem;">🛒</div>
-            <h1 style="color: #F06A00; margin:0 0 12px 0; font-size: 2.6rem; font-weight: 800; letter-spacing: -0.5px;">
-                Retail Brain <span style="color:#e6edf3; font-weight:300;">| Stockout Intelligence</span>
-            </h1>
-            <p style="color: #8b949e; font-size: 1.15rem; margin: 0 0 16px 0; max-width: 700px; line-height: 1.5;">
-                Advanced predictive analytics engine monitoring <strong>Sainsbury's SBY-LON-001 (London Flagship)</strong>. 
-                Utilising XGBoost to forecast inventory depletion risks across 1000 premium SKUs during Q4 peak trading.
-            </p>
-            <div style="display: flex; gap: 12px;">
-               <span style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 6px; font-size: 0.8rem; color:#8b949e;">Q4 2024 Simulation</span>
-               <span style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 6px; font-size: 0.8rem; color:#8b949e;">Live Decision Intelligence</span>
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
+    prods_df = get_products()
 
-    # Active UK event banner
+    # ── Hero Banner ────────────────────────────────────────────────────────────
+    # Active event detection (shown in hero chips)
+    _event_chip = ""
     try:
-        sales = get_raw_sales()
-        latest_date = pd.to_datetime(sales["date"]).max()
-        latest_event = sales[sales["date"] == latest_date]["uk_event"].mode()[0]
-        if latest_event != "Normal":
-            st.markdown(
-                f'<div style="margin:8px 0 16px 0;">'
-                f'<span class="event-pill">🗓️ Active Trading Event: {latest_event}</span>'
-                f'</div>', unsafe_allow_html=True
-            )
+        _sales_tmp = get_raw_sales()
+        _ld = pd.to_datetime(_sales_tmp["date"]).max()
+        _ev = _sales_tmp[_sales_tmp["date"] == _ld]["uk_event"].mode()[0]
+        if _ev != "Normal":
+            _event_chip = f"<span class='hero-chip' style='border-color:rgba(240,106,0,.4);color:#fb923c;'>📅 {_ev}</span>"
     except Exception:
         pass
 
-    st.markdown("---")
+    st.markdown(f"""
+    <div class="hero-banner">
+      <div class="hero-title">Retail Brain</div>
+      <div class="hero-subtitle">AI-Powered Stockout Intelligence &amp; Demand Forecasting</div>
+      <p class="hero-sub">
+        An end-to-end supply chain intelligence platform monitoring
+        <strong style="color:#F06A00;">Sainsbury's SBY-LON-001 (London Flagship)</strong>.
+        Five AI models — trained on 1&nbsp;million+ real UK retail transactions — work in concert
+        to prevent stockouts, forecast demand 90&nbsp;days ahead, detect demand anomalies,
+        and auto-generate purchase orders.
+      </p>
+      <div>
+        <span class="hero-chip">🏪 Store SBY-LON-001</span>
+        <span class="hero-chip">📦 500 SKUs Live</span>
+        <span class="hero-chip">📊 1M+ Transactions</span>
+        <span class="hero-chip">🤖 5 AI Models</span>
+        <span class="hero-chip">🇬🇧 UCI Online Retail II</span>
+        {_event_chip}
+      </div>
+    </div>
+    """, unsafe_allow_html=True)
 
-    # KPIs
-    total     = len(df)
-    n_high    = int((df["risk_level"] == "High").sum())
-    n_medium  = int((df["risk_level"] == "Medium").sum())
-    avg_doc   = df["days_of_cover"].clip(upper=999).mean()
-    avg_risk  = df["stockout_probability"].mean() * 100
-    prods_df  = get_products()
-    n_ttd     = int((prods_df["tier"] == "Taste the Difference").sum())
-
-    c1, c2, c3, c4, c5, c6 = st.columns(6)
-    for col, val, label, color in [
-        (c1, total,    "Total SKUs",          None),
-        (c2, n_high,   "🔴 High Risk",         "#ef4444"),
-        (c3, n_medium, "🟡 Medium Risk",        "#f59e0b"),
-        (c4, f"{avg_doc:.1f}", "Avg Days Cover", None),
-        (c5, f"{avg_risk:.0f}%", "Avg Risk Score", None),
-        (c6, n_ttd,    "Taste the Diff SKUs",  "#c77dff"),
-    ]:
-        style = f'style="-webkit-text-fill-color:{color};"' if color else ""
-        col.markdown(
-            f'<div class="kpi-card"><div class="kpi-value" {style}>{val}</div>'
-            f'<div class="kpi-label">{label}</div></div>',
+    # ── How It Works — 4-step pipeline ────────────────────────────────────────
+    st.markdown('<div class="section-header">🔬 How It Works</div>', unsafe_allow_html=True)
+    _p1, _p2, _p3, _p4 = st.columns(4)
+    for _col, _n, _title, _desc in zip(
+        [_p1, _p2, _p3, _p4],
+        ["1", "2", "3", "4"],
+        ["Ingest", "Predict", "Forecast", "Act"],
+        [
+            "UCI Online Retail II — 1.06 M UK transactions cleaned into 500-product daily timeseries across 2 years.",
+            "XGBoost scores each product's 7-day stockout probability using 14 engineered features (AUC&nbsp;0.785, 94%&nbsp;recall).",
+            "Holt-Winters exponential smoothing generates 30–90-day demand forecasts with seasonality &amp; UK event uplift.",
+            "Auto-PO engine raises replenishment orders · IsolationForest flags anomalies · LLM Co-Pilot answers ops questions.",
+        ],
+    ):
+        _col.markdown(
+            f'<div class="pipeline-step">'
+            f'<div class="pipeline-num">{_n}</div>'
+            f'<div class="pipeline-title">{_title}</div>'
+            f'<div class="pipeline-desc">{_desc}</div>'
+            f'</div>',
             unsafe_allow_html=True,
         )
 
     st.markdown("<br>", unsafe_allow_html=True)
 
+    # ── AI Model Stack ─────────────────────────────────────────────────────────
+    st.markdown('<div class="section-header">⚙️ AI Model Stack</div>', unsafe_allow_html=True)
+    _t1, _t2, _t3, _t4 = st.columns(4)
+    for _col, _icon, _title, _desc, _tag in zip(
+        [_t1, _t2, _t3, _t4],
+        ["🎯", "📈", "🔍", "🤖"],
+        ["Stockout Predictor", "Demand Forecaster", "Anomaly Detector", "Co-Pilot AI"],
+        [
+            "XGBoost gradient-boosted trees — 14 features, AUC 0.785, 94% recall on stockout class. Scores all 500 products daily.",
+            "Holt-Winters double exponential smoothing with category seasonality &amp; UK holiday uplift. Horizons up to 90 days with 90% CI.",
+            "IsolationForest + rolling Z-score. Detected 20,431 anomalies across 2 years with root-cause tags: supply chain, promo, shock.",
+            "RAG-based assistant using GPT-4o-mini (or rule-based fallback). Answers any ops question with live risk, forecast &amp; anomaly context.",
+        ],
+        ["XGBoost · Phase 2", "Holt-Winters · Phase 5", "IsolationForest · Phase 5", "LLM RAG · Phase 5"],
+    ):
+        _col.markdown(
+            f'<div class="feature-card">'
+            f'<div class="feature-icon">{_icon}</div>'
+            f'<div class="feature-title">{_title}</div>'
+            f'<div class="feature-desc">{_desc}</div>'
+            f'<div class="feature-tag">{_tag}</div>'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # ── Live KPIs ──────────────────────────────────────────────────────────────
+    total    = len(df)
+    n_high   = int((df["risk_level"] == "High").sum())
+    n_medium = int((df["risk_level"] == "Medium").sum())
+    avg_doc  = df["days_of_cover"].clip(upper=999).mean()
+    avg_risk = df["stockout_probability"].mean() * 100
+    n_ttd    = int((prods_df["tier"] == "Taste the Difference").sum())
+
+    st.markdown('<div class="section-header">📊 Live System Statistics</div>', unsafe_allow_html=True)
+    _c1, _c2, _c3, _c4, _c5, _c6 = st.columns(6)
+    for _col, _val, _lbl, _sub, _color in [
+        (_c1, str(total),          "Total SKUs",      "Products monitored",      ""),
+        (_c2, str(n_high),         "High Risk",        "Replenish immediately",   "#f87171"),
+        (_c3, str(n_medium),       "Medium Risk",      "Monitor closely",         "#fbbf24"),
+        (_c4, f"{avg_doc:.1f}d",   "Days of Cover",    "Average across portfolio", ""),
+        (_c5, f"{avg_risk:.0f}%",  "Avg Risk Score",   "Portfolio-wide",          ""),
+        (_c6, str(n_ttd),          "Premium SKUs",     "Taste the Difference",    "#c084fc"),
+    ]:
+        _cs = f'style="-webkit-text-fill-color:{_color};"' if _color else ""
+        _col.markdown(
+            f'<div class="kpi-card">'
+            f'<div class="kpi-value" {_cs}>{_val}</div>'
+            f'<div class="kpi-label">{_lbl}</div>'
+            f'<div class="kpi-sub">{_sub}</div>'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # ── Charts row ─────────────────────────────────────────────────────────────
     col_bar, col_pie = st.columns([2, 1])
     with col_bar:
         st.plotly_chart(risk_bar_chart(df, n=15), use_container_width=True)
     with col_pie:
         st.plotly_chart(risk_distribution_pie(df), use_container_width=True)
 
-    # Tier breakdown
-    st.markdown('<div class="section-header">📊 Risk Breakdown by Product Tier</div>',
-                unsafe_allow_html=True)
-    merged = df.merge(prods_df[["product_id","tier"]], on="product_id", how="left")
-    tier_risk = merged.groupby("tier")["stockout_probability"].agg(["mean","count"]).reset_index()
-    tier_risk.columns = ["Tier", "Avg Risk %", "Products"]
-    tier_risk["Avg Risk %"] = (tier_risk["Avg Risk %"] * 100).round(1)
-    tier_risk["Tier Badge"] = tier_risk["Tier"].map({
-        "Taste the Difference": "🟣 Taste the Difference",
-        "Sainsbury's":          "🟠 Sainsbury's",
-        "Branded":              "🔵 Branded",
-    })
-    st.dataframe(tier_risk[["Tier Badge","Products","Avg Risk %"]].sort_values("Avg Risk %", ascending=False),
-                 use_container_width=True, height=160)
+    # ── Tier breakdown (KPI card style) ───────────────────────────────────────
+    st.markdown('<div class="section-header">🏷️ Stockout Risk by Product Tier</div>', unsafe_allow_html=True)
+    _merged = df.merge(prods_df[["product_id", "tier"]], on="product_id", how="left")
+    _tier_data = _merged.groupby("tier")["stockout_probability"].agg(["mean", "count"]).reset_index()
+    _tier_data.columns = ["Tier", "AvgRisk", "Products"]
+    _tier_cols = st.columns(len(_tier_data))
+    _tier_palette = {"Taste the Difference": "#c084fc", "Sainsbury's": "#fb923c", "Branded": "#818cf8"}
+    for _tcol, (_, _tr) in zip(_tier_cols, _tier_data.iterrows()):
+        _tc = _tier_palette.get(_tr["Tier"], "#8b949e")
+        _tcol.markdown(
+            f'<div class="kpi-card">'
+            f'<div class="kpi-value" style="-webkit-text-fill-color:{_tc};font-size:1.8rem;">'
+            f'{_tr["AvgRisk"]*100:.1f}%</div>'
+            f'<div class="kpi-label">{_tr["Tier"]}</div>'
+            f'<div class="kpi-sub">{int(_tr["Products"])} products</div>'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
 
-    # Alert banner
+    # ── Immediate replenishment alerts ─────────────────────────────────────────
     high_risk = df[df["risk_level"] == "High"].sort_values("stockout_probability", ascending=False)
     if not high_risk.empty:
         st.markdown('<div class="section-header">🚨 Immediate Replenishment Required</div>',
                     unsafe_allow_html=True)
-        for _, row in high_risk.head(6).iterrows():
+        # Column header
+        _h0, _h1, _h2, _h3, _h4 = st.columns([3.5, 1.2, 1.2, 1.5, 2])
+        for _hcol, _htxt in zip([_h0, _h1, _h2, _h3, _h4],
+                                 ["Product", "Risk", "Time Left", "Order Qty", "Revenue at Risk"]):
+            _hcol.markdown(f"<span style='font-size:.7rem;font-weight:700;color:#404955;text-transform:uppercase;letter-spacing:.06em;'>{_htxt}</span>",
+                           unsafe_allow_html=True)
+        st.markdown("<hr style='margin:4px 0 8px;border-color:rgba(255,255,255,.06);'>", unsafe_allow_html=True)
+        for _, row in high_risk.head(8).iterrows():
             ca, cb, cc, cd, ce = st.columns([3.5, 1.2, 1.2, 1.5, 2])
-            ca.markdown(f"**{row['product_name']}**")
-            cb.markdown(f"🔴 `{row['stockout_probability']*100:.0f}%`")
-            cc.markdown(f"⏱️ {row['time_to_stockout']}")
-            cd.markdown(f"📦 Order **{row['replenishment_qty']}** units")
-            price_row = prods_df[prods_df["product_id"] == row.get("product_id","")]
+            ca.markdown(f"<span style='font-size:.88rem;font-weight:600;color:#c9d1d9;'>{row['product_name']}</span>",
+                        unsafe_allow_html=True)
+            cb.markdown(f"<span class='badge-danger risk-blink'>{row['stockout_probability']*100:.0f}%</span>",
+                        unsafe_allow_html=True)
+            cc.markdown(f"<span style='font-size:.83rem;color:#6e7681;'>{row['time_to_stockout']}</span>",
+                        unsafe_allow_html=True)
+            cd.markdown(f"<span style='font-size:.85rem;font-weight:600;color:#fb923c;'>{row['replenishment_qty']:,} units</span>",
+                        unsafe_allow_html=True)
+            price_row = prods_df[prods_df["product_id"] == row.get("product_id", "")]
             if not price_row.empty:
                 rev_risk = round(row["replenishment_qty"] * float(price_row.iloc[0]["unit_price"]), 2)
-                ce.markdown(f"💷 Revenue at risk: **£{rev_risk:,.2f}**")
-            st.markdown("<hr style='margin:3px 0;border-color:#21262d;'>", unsafe_allow_html=True)
+                ce.markdown(f"<span style='font-size:.85rem;font-weight:700;color:#f87171;'>£{rev_risk:,.2f}</span>",
+                            unsafe_allow_html=True)
+            st.markdown("<hr style='margin:4px 0;border-color:rgba(255,255,255,.04);'>", unsafe_allow_html=True)
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -613,3 +933,711 @@ elif page == "📅 Event Calendar":
 
     except Exception as e:
         st.error(f"Could not load calendar data: {e}")
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE 6 — INTELLIGENCE HUB (Phase 4)
+# ═══════════════════════════════════════════════════════════════════════════════
+elif page == "🧠 Intelligence Hub":
+    st.markdown("# 🧠 Intelligence Hub")
+    st.markdown(
+        "<p style='color:#8b949e;'>Phase 4 — Weather impact, price elasticity, and RL decision agent.</p>",
+        unsafe_allow_html=True,
+    )
+    st.markdown("---")
+
+    intel_tab = st.selectbox(
+        "Intelligence Module",
+        ["🌤️ Weather & Events", "📈 Price Elasticity", "🤖 RL Agent Status"]
+    )
+
+    # ── Weather & Events ────────────────────────────────────────────────────
+    if intel_tab == "🌤️ Weather & Events":
+        st.markdown('<div class="section-header">🌤️ Weather Impact Forecast</div>',
+                    unsafe_allow_html=True)
+        try:
+            from external_factors import fetch_weather_forecast, get_weather_impact_summary, WEATHER_SENSITIVITY
+
+            forecasts = fetch_weather_forecast()
+            if forecasts:
+                import plotly.graph_objects as go
+
+                # Weather cards
+                cols = st.columns(min(len(forecasts), 5))
+                weather_icons = {
+                    "Clear": "☀️", "Clouds": "☁️", "Rain": "🌧️",
+                    "Drizzle": "🌦️", "Snow": "❄️", "Fog": "🌫️",
+                }
+                for i, f in enumerate(forecasts[:5]):
+                    icon = weather_icons.get(f["condition"], "🌡️")
+                    cols[i].markdown(
+                        f'<div class="kpi-card">'
+                        f'<div style="font-size:2rem;">{icon}</div>'
+                        f'<div class="kpi-value" style="font-size:1.4rem;">{f["temp_avg"]}°C</div>'
+                        f'<div class="kpi-label">{f["date"]}<br>{f["condition"]} · {f["rain_mm"]}mm</div>'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
+
+                # Impact analysis
+                st.markdown("<br>", unsafe_allow_html=True)
+                st.markdown('<div class="section-header">📊 Predicted Category Demand Impact</div>',
+                            unsafe_allow_html=True)
+
+                summary = get_weather_impact_summary(forecasts)
+                for day in summary:
+                    if day["impacts"]:
+                        with st.expander(f"📅 {day['date']} — {day['condition']} {day['temp_avg']}°C"):
+                            for imp in day["impacts"]:
+                                cats = ", ".join(imp["categories"])
+                                st.markdown(
+                                    f"**{imp['trigger']}** → Demand {imp['direction']} for: {cats}"
+                                )
+            else:
+                st.info("Weather data unavailable. Set OPENWEATHER_API_KEY in .env or run with synthetic data.")
+
+        except Exception as e:
+            st.error(f"Weather module error: {e}")
+
+        # Local Events
+        st.markdown('<div class="section-header">📅 Upcoming Local Events</div>',
+                    unsafe_allow_html=True)
+        try:
+            from external_factors import get_local_events
+            from datetime import timedelta as td
+
+            today = pd.Timestamp.today().date()
+            event_rows = []
+            for i in range(14):
+                d = (today + td(days=i)).isoformat()
+                events = get_local_events(d)
+                for e in events:
+                    event_rows.append({
+                        "Date": d,
+                        "Event": e["event_name"].replace("_", " ").title(),
+                        "Footfall +": f"+{(e['footfall_multiplier']-1)*100:.0f}%",
+                        "Affected Categories": ", ".join(e["affected_categories"]),
+                    })
+            if event_rows:
+                st.dataframe(pd.DataFrame(event_rows), use_container_width=True, height=300)
+            else:
+                st.success("No major local events in the next 14 days.")
+        except Exception as e:
+            st.warning(f"Events module: {e}")
+
+    # ── Price Elasticity ────────────────────────────────────────────────────
+    elif intel_tab == "📈 Price Elasticity":
+        st.markdown('<div class="section-header">📈 Price Elasticity by Category</div>',
+                    unsafe_allow_html=True)
+        try:
+            from elasticity import PriceElasticityModel, get_category_elasticity_report
+
+            model = PriceElasticityModel.load()
+            if model.product_elasticities:
+                report = get_category_elasticity_report(model)
+
+                import plotly.graph_objects as go
+                fig = go.Figure(go.Bar(
+                    x=report["category"],
+                    y=report["mean_elasticity"].abs(),
+                    marker_color=[
+                        "#ef4444" if abs(e) > 1.5 else "#f59e0b" if abs(e) > 1.0 else "#22c55e"
+                        for e in report["mean_elasticity"]
+                    ],
+                    text=report["sensitivity"],
+                    textposition="outside",
+                ))
+                fig.update_layout(
+                    title="Price Sensitivity by Category (|Elasticity|)",
+                    height=400, paper_bgcolor="#161b22", plot_bgcolor="#161b22",
+                    font=dict(color="#f0f6fc", family="Inter"),
+                    xaxis=dict(gridcolor="#21262d"),
+                    yaxis=dict(gridcolor="#21262d", title="|Elasticity|"),
+                    margin=dict(l=40, r=20, t=55, b=80),
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+                st.markdown('<div class="section-header">🏷️ Nectar Price Simulation</div>',
+                            unsafe_allow_html=True)
+                st.dataframe(report, use_container_width=True, height=320)
+
+                # Product-level lookup
+                st.markdown('<div class="section-header">🔍 Product Elasticity Lookup</div>',
+                            unsafe_allow_html=True)
+                sel_pid = st.selectbox("Product ID", list(model.product_elasticities.keys())[:50])
+                discount = st.slider("Nectar Discount %", 5, 40, 20) / 100
+                if sel_pid:
+                    uplift = model.predict_promo_uplift(sel_pid, discount)
+                    data = model.product_elasticities[sel_pid]
+                    c1, c2, c3 = st.columns(3)
+                    c1.metric("Elasticity (ε)", f"{data['elasticity']:.2f}")
+                    c2.metric("Predicted Uplift", f"+{uplift['predicted_uplift_pct']:.1f}%")
+                    c3.metric("Confidence", uplift["confidence"].title())
+            else:
+                st.warning("Elasticity model not trained yet. Run: `python src/elasticity.py`")
+        except Exception as e:
+            st.error(f"Elasticity module error: {e}")
+
+    # ── RL Agent Status ─────────────────────────────────────────────────────
+    elif intel_tab == "🤖 RL Agent Status":
+        st.markdown('<div class="section-header">🤖 Reinforcement Learning Decision Agent</div>',
+                    unsafe_allow_html=True)
+        try:
+            from rl_agent import InventoryRLAgent
+
+            agent = InventoryRLAgent.load()
+            summary = agent.get_training_summary()
+
+            if summary["status"] == "trained":
+                c1, c2, c3, c4 = st.columns(4)
+                c1.metric("Episodes Trained", f"{summary['episodes']:,}")
+                c2.metric("Q-Table Size", f"{summary['q_table_size']:,}")
+                c3.metric("Avg Reward (last 50)", f"{summary['final_avg_reward']:.1f}")
+                c4.metric("Exploration Rate (ε)", f"{summary['epsilon']:.4f}")
+
+                # Training curve
+                if agent.episode_rewards:
+                    import plotly.graph_objects as go
+                    rewards = agent.episode_rewards
+                    window = min(20, len(rewards))
+                    smoothed = pd.Series(rewards).rolling(window, min_periods=1).mean()
+
+                    fig = go.Figure()
+                    fig.add_trace(go.Scatter(
+                        y=rewards, mode="lines", name="Episode Reward",
+                        line=dict(color="rgba(240,106,0,0.2)", width=1),
+                    ))
+                    fig.add_trace(go.Scatter(
+                        y=smoothed, mode="lines", name=f"Moving Avg ({window}ep)",
+                        line=dict(color="#F06A00", width=2),
+                    ))
+                    fig.update_layout(
+                        title="RL Agent Training Curve",
+                        height=350, paper_bgcolor="#161b22", plot_bgcolor="#161b22",
+                        font=dict(color="#f0f6fc", family="Inter"),
+                        xaxis=dict(title="Episode", gridcolor="#21262d"),
+                        yaxis=dict(title="Reward", gridcolor="#21262d"),
+                        margin=dict(l=40, r=20, t=55, b=40),
+                    )
+                    st.plotly_chart(fig, use_container_width=True)
+
+                # Quick recommendation test
+                st.markdown('<div class="section-header">🔍 Test RL Recommendation</div>',
+                            unsafe_allow_html=True)
+                tc1, tc2, tc3 = st.columns(3)
+                test_stock = tc1.number_input("Stock on Hand", 0, 500, 10)
+                test_risk = tc2.slider("Stockout Risk", 0.0, 1.0, 0.7)
+                test_velocity = tc3.number_input("Velocity (7d)", 0.0, 100.0, 8.0)
+
+                test_state = {
+                    "stock_on_hand": test_stock,
+                    "reorder_point": 30,
+                    "sales_velocity_7d": test_velocity,
+                    "stockout_probability": test_risk,
+                    "velocity_trend": 0.1,
+                    "weather_multiplier": 1.0,
+                    "event_multiplier": 1.0,
+                    "promo_demand_multiplier": 1.0,
+                    "day_of_week": pd.Timestamp.today().dayofweek,
+                }
+                rec = agent.recommend_action(test_state)
+                st.markdown(
+                    f'<div class="insight-card">'
+                    f'<div class="insight-product">🤖 Agent Decision: {rec["agent_recommendation"]}</div>'
+                    f'<p>Order quantity: <b>{rec["order_qty"]} units</b> '
+                    f'(multiplier: {rec["order_multiplier"]}x reorder point) · '
+                    f'Confidence: {rec["confidence"]:.1%}</p>'
+                    f'</div>',
+                    unsafe_allow_html=True,
+                )
+            else:
+                st.warning("RL agent not trained. Run: `python src/rl_agent.py`")
+        except Exception as e:
+            st.error(f"RL module error: {e}")
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE 7 — AUTO-ORDERS (Phase 4)
+# ═══════════════════════════════════════════════════════════════════════════════
+elif page == "📦 Auto-Orders":
+    st.markdown("# 📦 Automated Purchase Orders")
+    st.markdown(
+        "<p style='color:#8b949e;'>Phase 4 — AI-generated replenishment orders with cost-benefit analysis.</p>",
+        unsafe_allow_html=True,
+    )
+    st.markdown("---")
+
+    try:
+        from auto_replenishment import (
+            ReplenishmentEngine, generate_purchase_order_summary
+        )
+        prods_df = get_products()
+
+        engine = ReplenishmentEngine(planning_horizon_days=7, service_level_target=0.95)
+        orders = engine.generate_purchase_orders(df, prods_df)
+        summary = generate_purchase_order_summary(orders)
+
+        # Executive KPIs
+        st.markdown('<div class="section-header">📊 Order Batch Summary</div>',
+                    unsafe_allow_html=True)
+        k1, k2, k3, k4, k5 = st.columns(5)
+        for col, val, label in [
+            (k1, summary["total_orders"], "Total Orders"),
+            (k2, f'{summary["total_units"]:,}', "Total Units"),
+            (k3, f'£{summary["total_value"]:,.0f}', "Order Value"),
+            (k4, f'£{summary["revenue_protected"]:,.0f}', "Revenue Protected"),
+            (k5, f'£{summary["net_benefit"]:,.0f}', "Net Benefit"),
+        ]:
+            col.markdown(
+                f'<div class="kpi-card"><div class="kpi-value" style="font-size:1.5rem;">{val}</div>'
+                f'<div class="kpi-label">{label}</div></div>',
+                unsafe_allow_html=True,
+            )
+
+        st.markdown("<br>", unsafe_allow_html=True)
+
+        # Priority breakdown
+        st.markdown('<div class="section-header">🚨 Orders by Priority</div>',
+                    unsafe_allow_html=True)
+        priority_colors = {
+            "ORDER NOW": "#ef4444",
+            "Order Today": "#f59e0b",
+            "Order This Week": "#22c55e",
+            "Monitor": "#8b949e",
+        }
+        pc1, pc2, pc3, pc4 = st.columns(4)
+        for col, priority in zip([pc1, pc2, pc3, pc4],
+                                  ["ORDER NOW", "Order Today", "Order This Week", "Monitor"]):
+            count = summary["priority_breakdown"].get(priority, 0)
+            color = priority_colors.get(priority, "#8b949e")
+            col.markdown(
+                f'<div class="kpi-card">'
+                f'<div class="kpi-value" style="font-size:1.8rem;-webkit-text-fill-color:{color};">{count}</div>'
+                f'<div class="kpi-label">{priority}</div></div>',
+                unsafe_allow_html=True,
+            )
+
+        st.markdown("<br>", unsafe_allow_html=True)
+
+        # Detailed orders table
+        st.markdown('<div class="section-header">📋 Proposed Purchase Orders</div>',
+                    unsafe_allow_html=True)
+
+        f1, f2 = st.columns(2)
+        rec_filter = f1.multiselect(
+            "Priority Filter",
+            ["ORDER NOW", "Order Today", "Order This Week", "Monitor"],
+            default=["ORDER NOW", "Order Today", "Order This Week"],
+        )
+        cat_filter2 = f2.multiselect(
+            "Category", sorted(orders["category"].unique()),
+            default=list(orders["category"].unique()),
+        )
+
+        filtered_orders = orders[
+            orders["recommendation"].isin(rec_filter) &
+            orders["category"].isin(cat_filter2)
+        ].copy()
+
+        display_orders = filtered_orders[[
+            "recommendation", "product_name", "category",
+            "order_qty", "order_value", "urgency_score",
+            "stock_on_hand", "days_of_cover_current", "days_of_cover_after_order",
+            "holding_cost", "lost_revenue_if_no_order", "net_benefit",
+        ]].copy()
+        display_orders.columns = [
+            "Priority", "Product", "Category",
+            "Order Qty", "Order £", "Urgency",
+            "Current Stock", "Days Cover (Now)", "Days Cover (After)",
+            "Holding Cost £", "Revenue at Risk £", "Net Benefit £",
+        ]
+        display_orders["Order £"] = display_orders["Order £"].round(2)
+        display_orders["Urgency"] = display_orders["Urgency"].round(1)
+        display_orders["Net Benefit £"] = display_orders["Net Benefit £"].round(2)
+
+        st.dataframe(display_orders.reset_index(drop=True),
+                     use_container_width=True, height=480)
+
+        st.markdown(
+            f"<p style='color:#484f58;font-size:0.78rem;'>"
+            f"Showing {len(filtered_orders)} of {len(orders)} orders · "
+            f"Generated at {summary['generated_at'][:19]}</p>",
+            unsafe_allow_html=True,
+        )
+
+        # Cost-benefit chart
+        if not filtered_orders.empty:
+            import plotly.graph_objects as go
+            top20 = filtered_orders.head(20)
+            fig = go.Figure()
+            fig.add_trace(go.Bar(
+                x=top20["product_name"], y=top20["lost_revenue_if_no_order"],
+                name="Revenue at Risk £", marker_color="#ef4444",
+            ))
+            fig.add_trace(go.Bar(
+                x=top20["product_name"], y=top20["holding_cost"],
+                name="Holding Cost £", marker_color="#f59e0b",
+            ))
+            fig.add_trace(go.Bar(
+                x=top20["product_name"], y=top20["net_benefit"],
+                name="Net Benefit £", marker_color="#22c55e",
+            ))
+            fig.update_layout(
+                title="Cost-Benefit Analysis — Top 20 Orders",
+                barmode="group", height=420,
+                paper_bgcolor="#161b22", plot_bgcolor="#161b22",
+                font=dict(color="#f0f6fc", family="Inter"),
+                xaxis=dict(gridcolor="#21262d", tickangle=-45),
+                yaxis=dict(gridcolor="#21262d", title="£ GBP"),
+                margin=dict(l=40, r=20, t=55, b=120),
+                legend=dict(orientation="h", y=1.12),
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+    except Exception as e:
+        st.error(f"Auto-replenishment module error: {e}")
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE 8 — DEMAND FORECAST (Phase 5)
+# ═══════════════════════════════════════════════════════════════════════════════
+elif page == "📈 Demand Forecast":
+    st.markdown("# 📈 Demand Forecasting")
+    st.markdown(
+        "<p style='color:#8b949e;'>Phase 5 — Holt-Winters + seasonal demand forecasting with event uplift.</p>",
+        unsafe_allow_html=True,
+    )
+    st.markdown("---")
+
+    try:
+        from forecaster import DemandForecaster
+
+        @st.cache_resource(show_spinner=False)
+        def load_forecaster():
+            return DemandForecaster.load_or_train()
+
+        with st.spinner("Loading demand forecasting engine …"):
+            forecaster = load_forecaster()
+
+        prods_df = get_products()
+        cats = sorted(prods_df["category"].unique())
+
+        forecast_tab = st.selectbox(
+            "View",
+            ["📊 Category Overview", "🔍 Product Deep-Dive", "📋 All Products Table"]
+        )
+
+        # ── Category Overview ─────────────────────────────────────────────
+        if forecast_tab == "📊 Category Overview":
+            st.markdown('<div class="section-header">📊 30-Day Category Demand Forecast</div>',
+                        unsafe_allow_html=True)
+            horizon = st.slider("Forecast Horizon (days)", 7, 90, 30, step=7)
+
+            cat_rows = []
+            for cat in cats:
+                cfc = forecaster.forecast_category(cat, horizon=horizon)
+                if "error" not in cfc:
+                    s = cfc["summary"]
+                    cat_rows.append({
+                        "Category": cat,
+                        "Products": cfc["n_products"],
+                        "Total Demand": int(s["total_demand"]),
+                        "Avg Daily": round(s["avg_daily"], 1),
+                        "Peak Day": s["peak_day"],
+                    })
+
+            if cat_rows:
+                cat_df = pd.DataFrame(cat_rows).sort_values("Total Demand", ascending=False)
+
+                import plotly.graph_objects as go
+                fig_cat = go.Figure(go.Bar(
+                    x=cat_df["Category"],
+                    y=cat_df["Total Demand"],
+                    marker_color=[
+                        "#F06A00" if i < 3 else "#7B2D8B" if i < 6 else "#3d5a80"
+                        for i in range(len(cat_df))
+                    ],
+                    text=cat_df["Total Demand"].apply(lambda x: f"{x:,}"),
+                    textposition="outside",
+                ))
+                fig_cat.update_layout(
+                    title=f"{horizon}-Day Demand Forecast by Category",
+                    height=420, paper_bgcolor="#161b22", plot_bgcolor="#161b22",
+                    font=dict(color="#f0f6fc", family="Inter"),
+                    xaxis=dict(gridcolor="#21262d", tickangle=-25),
+                    yaxis=dict(gridcolor="#21262d", title="Forecasted Units"),
+                    margin=dict(l=40, r=20, t=55, b=100),
+                )
+                st.plotly_chart(fig_cat, use_container_width=True)
+                st.dataframe(cat_df, use_container_width=True, height=280)
+
+        # ── Product Deep-Dive ─────────────────────────────────────────────
+        elif forecast_tab == "🔍 Product Deep-Dive":
+            st.markdown('<div class="section-header">🔍 Single Product Forecast</div>',
+                        unsafe_allow_html=True)
+
+            cat_sel = st.selectbox("Filter by Category", ["All"] + cats)
+            pids = list(forecaster.product_models.keys())
+            if cat_sel != "All":
+                pids = [p for p in pids if forecaster.category_map.get(p) == cat_sel]
+
+            pid_sel = st.selectbox("Product ID", pids[:100])
+            horizon2 = st.slider("Horizon", 7, 90, 30, step=7, key="h2")
+
+            if pid_sel:
+                fc_result = forecaster.forecast_product(pid_sel, horizon=horizon2)
+                if "error" not in fc_result:
+                    s = fc_result["summary"]
+                    m1, m2, m3, m4 = st.columns(4)
+                    m1.metric("30-Day Total", f"{s['total_demand_30d']:,.0f} units")
+                    m2.metric("Avg Daily", f"{s['avg_daily']} units")
+                    m3.metric("Peak Day", s['peak_day'].split('-')[2] + "/" + s['peak_day'].split('-')[1])
+                    m4.metric("Historical Avg", f"{s['base_demand_historical']} units")
+
+                    daily = pd.DataFrame(fc_result["daily_forecasts"])
+                    daily["date"] = pd.to_datetime(daily["date"])
+
+                    import plotly.graph_objects as go
+                    fig_p = go.Figure()
+                    fig_p.add_trace(go.Scatter(
+                        x=daily["date"], y=daily["upper_90"],
+                        mode="lines", name="Upper 90% CI",
+                        line=dict(width=0), showlegend=False,
+                        fillcolor="rgba(240,106,0,0.15)",
+                    ))
+                    fig_p.add_trace(go.Scatter(
+                        x=daily["date"], y=daily["lower_90"],
+                        mode="lines", name="Lower 90% CI",
+                        line=dict(width=0),
+                        fill="tonexty", fillcolor="rgba(240,106,0,0.15)",
+                        showlegend=False,
+                    ))
+                    fig_p.add_trace(go.Scatter(
+                        x=daily["date"], y=daily["forecast"],
+                        mode="lines+markers", name="Forecast",
+                        line=dict(color="#F06A00", width=2.5),
+                        marker=dict(size=4),
+                    ))
+                    # Annotate events
+                    events = daily[daily["event"].notna()]
+                    if not events.empty:
+                        fig_p.add_trace(go.Scatter(
+                            x=events["date"], y=events["forecast"],
+                            mode="markers", name="Event Day",
+                            marker=dict(color="#7B2D8B", size=10, symbol="star"),
+                        ))
+                    fig_p.update_layout(
+                        title=f"Demand Forecast — {pid_sel} ({fc_result['category']})",
+                        height=420, paper_bgcolor="#161b22", plot_bgcolor="#161b22",
+                        font=dict(color="#f0f6fc", family="Inter"),
+                        xaxis=dict(gridcolor="#21262d"),
+                        yaxis=dict(gridcolor="#21262d", title="Units"),
+                        margin=dict(l=40, r=20, t=55, b=40),
+                        legend=dict(orientation="h", y=1.12),
+                    )
+                    st.plotly_chart(fig_p, use_container_width=True)
+
+                    # Event table
+                    event_days = daily[daily["event"].notna()][["date","event","event_multiplier","forecast"]]
+                    if not event_days.empty:
+                        st.markdown('<div class="section-header">🗓️ Event-Adjusted Days</div>',
+                                    unsafe_allow_html=True)
+                        event_days["date"] = event_days["date"].dt.strftime("%Y-%m-%d")
+                        event_days.columns = ["Date","Event","Multiplier","Forecast (units)"]
+                        st.dataframe(event_days.reset_index(drop=True),
+                                     use_container_width=True, height=200)
+
+        # ── All Products Table ────────────────────────────────────────────
+        elif forecast_tab == "📋 All Products Table":
+            st.markdown('<div class="section-header">📋 All Products — 30-Day Forecast Summary</div>',
+                        unsafe_allow_html=True)
+
+            cat_f = st.selectbox("Category Filter", ["All"] + cats, key="fc_cat")
+            with st.spinner("Building forecast summaries …"):
+                summaries = forecaster.get_all_product_summaries(horizon=30)
+
+            if cat_f != "All":
+                summaries = [s for s in summaries if s["category"] == cat_f]
+
+            if summaries:
+                fc_df = pd.DataFrame(summaries)
+                fc_df["vs_historical"] = fc_df["vs_historical"].apply(
+                    lambda x: f"{x:+.1f}%"
+                )
+                fc_df.columns = [
+                    "Product ID", "Category", "30d Total", "Avg Daily",
+                    "Peak Day", "Peak Units", "vs Historical", "Training Days"
+                ]
+                st.dataframe(fc_df.reset_index(drop=True), use_container_width=True, height=520)
+                st.markdown(
+                    f"<p style='color:#484f58;font-size:0.78rem;'>Showing {len(summaries)} products</p>",
+                    unsafe_allow_html=True,
+                )
+
+    except FileNotFoundError:
+        st.warning("Forecasting model not found. Run: `python src/forecaster.py`")
+    except Exception as e:
+        st.error(f"Forecasting error: {e}")
+        import traceback; st.code(traceback.format_exc())
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# PAGE 9 — CO-PILOT (Phase 5)
+# ═══════════════════════════════════════════════════════════════════════════════
+elif page == "🤖 Co-Pilot":
+    st.markdown("# 🤖 RetailBrain Co-Pilot")
+    st.markdown(
+        "<p style='color:#8b949e;'>Phase 5 — Conversational AI assistant for store managers with live retail context.</p>",
+        unsafe_allow_html=True,
+    )
+    st.markdown("---")
+
+    try:
+        from copilot import RetailCopilot
+        from anomaly_detector import AnomalyDetector
+        from data_ingestion import load_sales, load_inventory, load_calendar
+
+        @st.cache_resource(show_spinner=False)
+        def load_copilot_resources():
+            """Load anomaly detector and co-pilot (cached at session level)."""
+            from forecaster import DemandForecaster
+            det = AnomalyDetector()
+            with st.spinner("Analysing demand patterns …"):
+                det.fit(load_sales(), load_inventory(), load_calendar(), get_products())
+            fc = DemandForecaster.load_or_train()
+            return det, fc
+
+        with st.spinner("Initialising Co-Pilot …"):
+            det, fc = load_copilot_resources()
+            copilot = RetailCopilot()
+
+            # Inject live context
+            risk_df = df.copy()
+            risk_context = []
+            for _, row in risk_df.iterrows():
+                risk_context.append({
+                    "product_id": row.get("product_id", ""),
+                    "product_name": row.get("product_name", ""),
+                    "category": row.get("category", ""),
+                    "stockout_risk": float(row.get("stockout_probability", 0)),
+                    "units_on_hand": float(row.get("stock_on_hand", 0)),
+                    "units_on_order": float(row.get("units_on_order", 0) if "units_on_order" in row else 0),
+                    "reorder_point": float(row.get("reorder_point", 0)),
+                    "days_of_cover": float(row.get("days_of_cover", 0)),
+                })
+            anomaly_list = det.get_recent_anomalies(days=30)
+            fc_summaries = fc.get_all_product_summaries(horizon=30)
+            copilot.set_context_data(
+                risk_data=risk_context,
+                anomaly_data=anomaly_list,
+                forecast_summary=fc_summaries,
+            )
+
+        # Model status banner
+        model_label = "🟢 GPT-4o-mini" if copilot._has_openai else "🟡 Rule-Based Engine"
+        st.markdown(
+            f"<div style='background:#161b22;border:1px solid #30363d;border-left:4px solid "
+            f"{'#22c55e' if copilot._has_openai else '#f59e0b'};"
+            f"border-radius:8px;padding:10px 16px;margin-bottom:16px;'>"
+            f"<b>Model:</b> {model_label} &nbsp;·&nbsp; "
+            f"<b>Context:</b> {len(risk_context)} products · {len(anomaly_list)} anomalies · {len(fc_summaries)} forecasts"
+            f"</div>",
+            unsafe_allow_html=True,
+        )
+
+        # Conversation history
+        if "copilot_history" not in st.session_state:
+            st.session_state.copilot_history = []
+
+        # Quick-starter buttons
+        st.markdown('<div class="section-header">💬 Quick Questions</div>',
+                    unsafe_allow_html=True)
+        q_cols = st.columns(4)
+        quick_questions = [
+            "What should I order this week?",
+            "Show me the top 5 stockout risks",
+            "Are there any demand anomalies?",
+            "What's the 30-day demand forecast?",
+        ]
+        for col, qq in zip(q_cols, quick_questions):
+            if col.button(qq, use_container_width=True):
+                st.session_state.copilot_pending_question = qq
+
+        st.markdown("---")
+
+        # Chat conversation display
+        for msg in st.session_state.copilot_history:
+            role = msg["role"]
+            content = msg["content"]
+            if role == "user":
+                st.markdown(
+                    f"<div style='background:#21262d;border-radius:12px;padding:12px 16px;"
+                    f"margin-bottom:10px;border-left:3px solid #F06A00;'>"
+                    f"<b style='color:#F06A00;'>You</b><br>{content}</div>",
+                    unsafe_allow_html=True,
+                )
+            else:
+                st.markdown(
+                    f"<div style='background:#161b22;border:1px solid #30363d;border-radius:12px;"
+                    f"padding:14px 18px;margin-bottom:14px;'>"
+                    f"<b style='color:#7B2D8B;'>🤖 Co-Pilot</b><br><br>{content}</div>",
+                    unsafe_allow_html=True,
+                )
+
+        # Input area
+        with st.form("copilot_form", clear_on_submit=True):
+            user_q = st.text_input(
+                "Ask Co-Pilot anything about your retail operations …",
+                value=st.session_state.pop("copilot_pending_question", ""),
+                placeholder="e.g. What should I order this week? / Why is demand spiking on SAI-ABCD?",
+            )
+            col_send, col_clear = st.columns([5, 1])
+            submitted = col_send.form_submit_button("Send 📨", use_container_width=True)
+            cleared = col_clear.form_submit_button("Clear 🗑️", use_container_width=True)
+
+        if cleared:
+            st.session_state.copilot_history = []
+            copilot.clear_history()
+            st.rerun()
+
+        if submitted and user_q.strip():
+            with st.spinner("Co-Pilot is thinking …"):
+                result = copilot.ask(user_q.strip())
+
+            st.session_state.copilot_history.append({"role": "user", "content": user_q.strip()})
+            st.session_state.copilot_history.append({"role": "assistant", "content": result["answer"]})
+
+            # Show meta info
+            st.markdown(
+                f"<p style='color:#484f58;font-size:0.72rem;'>"
+                f"Intent: {result['intent']} · Model: {result['model_used']} · "
+                f"Sources: {', '.join(result['sources_used'])}</p>",
+                unsafe_allow_html=True,
+            )
+            st.rerun()
+
+        # Anomaly sidebar
+        if anomaly_list:
+            st.markdown("---")
+            st.markdown('<div class="section-header">🔍 Recent Anomalies (Last 30 Days)</div>',
+                        unsafe_allow_html=True)
+            high_anom = [a for a in anomaly_list if a["severity"] == "high"][:8]
+            if high_anom:
+                for a in high_anom:
+                    sev_color = {"high": "#ef4444", "medium": "#f59e0b", "low": "#22c55e"}.get(a["severity"], "#8b949e")
+                    st.markdown(
+                        f"<div style='background:#161b22;border:1px solid #30363d;"
+                        f"border-left:3px solid {sev_color};border-radius:8px;"
+                        f"padding:10px 14px;margin-bottom:8px;font-size:0.85rem;'>"
+                        f"<b>{a['date']}</b> · <code>{a['product_id']}</code> · "
+                        f"<span style='color:{sev_color};'>{a['anomaly_type'].replace('_',' ').title()}</span>"
+                        f"<br><span style='color:#8b949e;'>{a['description'][:100]}…</span>"
+                        f"</div>",
+                        unsafe_allow_html=True,
+                    )
+            else:
+                st.success("No high-severity anomalies in the last 30 days.")
+
+    except Exception as e:
+        st.error(f"Co-Pilot error: {e}")
+        import traceback; st.code(traceback.format_exc())

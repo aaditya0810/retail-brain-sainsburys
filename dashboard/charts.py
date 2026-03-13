@@ -9,14 +9,14 @@ import pandas as pd
 
 
 PALETTE = {
-    "High":   "#ef4444",
-    "Medium": "#f59e0b",
-    "Low":    "#22c55e",
-    "bg":     "#0f172a",
-    "card":   "#1e293b",
-    "accent": "#6366f1",
-    "text":   "#f8fafc",
-    "muted":  "#94a3b8",
+    "High":   "#f87171",
+    "Medium": "#fbbf24",
+    "Low":    "#4ade80",
+    "bg":     "#080c12",
+    "card":   "#0e1420",
+    "accent": "#F06A00",
+    "text":   "#e2e8f0",
+    "muted":  "#5a6270",
 }
 
 

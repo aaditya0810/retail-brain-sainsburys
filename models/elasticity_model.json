@@ -1,0 +1,4066 @@
+{
+  "product_elasticities": {
+    "SAI-009A343": {
+      "elasticity": -0.1,
+      "category": "Health & Beauty",
+      "tier": "Taste the Difference",
+      "promo_observations": 57,
+      "base_observations": 330,
+      "confidence": "high"
+    },
+    "SAI-009B094": {
+      "elasticity": -1.033,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 20,
+      "base_observations": 114,
+      "confidence": "high"
+    },
+    "SAI-00AD016": {
+      "elasticity": -1.001,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 38,
+      "base_observations": 261,
+      "confidence": "high"
+    },
+    "SAI-00E9047": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 84,
+      "base_observations": 432,
+      "confidence": "high"
+    },
+    "SAI-018E004": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 16,
+      "base_observations": 104,
+      "confidence": "high"
+    },
+    "SAI-01C8014": {
+      "elasticity": -1.385,
+      "category": "Drinks",
+      "tier": "Taste the Difference",
+      "promo_observations": 81,
+      "base_observations": 458,
+      "confidence": "high"
+    },
+    "SAI-020F007": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 39,
+      "base_observations": 257,
+      "confidence": "high"
+    },
+    "SAI-028B030": {
+      "elasticity": -1.677,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 60,
+      "base_observations": 355,
+      "confidence": "high"
+    },
+    "SAI-02C0475": {
+      "elasticity": -1.996,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 50,
+      "base_observations": 355,
+      "confidence": "high"
+    },
+    "SAI-02E2187": {
+      "elasticity": -3.338,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 81,
+      "base_observations": 317,
+      "confidence": "high"
+    },
+    "SAI-02FA318": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 38,
+      "base_observations": 247,
+      "confidence": "high"
+    },
+    "SAI-03AB095": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 71,
+      "base_observations": 405,
+      "confidence": "high"
+    },
+    "SAI-0477335": {
+      "elasticity": -0.918,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 57,
+      "base_observations": 289,
+      "confidence": "high"
+    },
+    "SAI-0695066": {
+      "elasticity": -1.444,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 31,
+      "base_observations": 178,
+      "confidence": "high"
+    },
+    "SAI-06AE107": {
+      "elasticity": -0.513,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 33,
+      "base_observations": 162,
+      "confidence": "high"
+    },
+    "SAI-0727258": {
+      "elasticity": -2.809,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 60,
+      "base_observations": 309,
+      "confidence": "high"
+    },
+    "SAI-07DE292": {
+      "elasticity": -0.7,
+      "category": "Fresh Produce",
+      "tier": "Branded",
+      "promo_observations": 4,
+      "base_observations": 16,
+      "confidence": "prior"
+    },
+    "SAI-07DF158": {
+      "elasticity": -1.959,
+      "category": "Fresh Produce",
+      "tier": "Taste the Difference",
+      "promo_observations": 59,
+      "base_observations": 312,
+      "confidence": "high"
+    },
+    "SAI-07E8010": {
+      "elasticity": -0.16,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 53,
+      "base_observations": 374,
+      "confidence": "high"
+    },
+    "SAI-0858167": {
+      "elasticity": -2.314,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 62,
+      "base_observations": 284,
+      "confidence": "high"
+    },
+    "SAI-09B4025": {
+      "elasticity": -2.656,
+      "category": "Household",
+      "tier": "So Good",
+      "promo_observations": 60,
+      "base_observations": 371,
+      "confidence": "high"
+    },
+    "SAI-0A3C493": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 53,
+      "base_observations": 308,
+      "confidence": "high"
+    },
+    "SAI-0A3D417": {
+      "elasticity": -0.637,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 26,
+      "base_observations": 185,
+      "confidence": "high"
+    },
+    "SAI-0B02362": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 35,
+      "base_observations": 232,
+      "confidence": "high"
+    },
+    "SAI-0B51223": {
+      "elasticity": -1.809,
+      "category": "Fresh Bakery",
+      "tier": "So Good",
+      "promo_observations": 28,
+      "base_observations": 127,
+      "confidence": "high"
+    },
+    "SAI-0B6E054": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 49,
+      "base_observations": 277,
+      "confidence": "high"
+    },
+    "SAI-0BA3284": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 46,
+      "base_observations": 305,
+      "confidence": "high"
+    },
+    "SAI-0BFD231": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 33,
+      "base_observations": 163,
+      "confidence": "high"
+    },
+    "SAI-0E1D237": {
+      "elasticity": -2.048,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 42,
+      "base_observations": 276,
+      "confidence": "high"
+    },
+    "SAI-0EAD383": {
+      "elasticity": -1.142,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 51,
+      "base_observations": 301,
+      "confidence": "high"
+    },
+    "SAI-0F1B064": {
+      "elasticity": -0.469,
+      "category": "Snacks",
+      "tier": "Sainsbury's",
+      "promo_observations": 59,
+      "base_observations": 368,
+      "confidence": "high"
+    },
+    "SAI-0F6D148": {
+      "elasticity": -2.194,
+      "category": "Fresh Bakery",
+      "tier": "Branded",
+      "promo_observations": 59,
+      "base_observations": 378,
+      "confidence": "high"
+    },
+    "SAI-0FCE032": {
+      "elasticity": -0.483,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 73,
+      "base_observations": 503,
+      "confidence": "high"
+    },
+    "SAI-121F002": {
+      "elasticity": -1.44,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 97,
+      "base_observations": 506,
+      "confidence": "high"
+    },
+    "SAI-12F7238": {
+      "elasticity": -2.466,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 56,
+      "base_observations": 351,
+      "confidence": "high"
+    },
+    "SAI-12FD312": {
+      "elasticity": -1.269,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 35,
+      "base_observations": 231,
+      "confidence": "high"
+    },
+    "SAI-1364220": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 14,
+      "base_observations": 82,
+      "confidence": "high"
+    },
+    "SAI-1454184": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 67,
+      "base_observations": 356,
+      "confidence": "high"
+    },
+    "SAI-14C7326": {
+      "elasticity": -0.559,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 57,
+      "base_observations": 354,
+      "confidence": "high"
+    },
+    "SAI-1501452": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 7,
+      "base_observations": 38,
+      "confidence": "medium"
+    },
+    "SAI-154A074": {
+      "elasticity": -1.295,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 83,
+      "base_observations": 429,
+      "confidence": "high"
+    },
+    "SAI-17D7433": {
+      "elasticity": -3.743,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 55,
+      "base_observations": 339,
+      "confidence": "high"
+    },
+    "SAI-1846190": {
+      "elasticity": -0.1,
+      "category": "Dairy & Eggs",
+      "tier": "Sainsbury's",
+      "promo_observations": 22,
+      "base_observations": 162,
+      "confidence": "high"
+    },
+    "SAI-186B089": {
+      "elasticity": -0.318,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 87,
+      "base_observations": 428,
+      "confidence": "high"
+    },
+    "SAI-18D3023": {
+      "elasticity": -2.435,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 40,
+      "base_observations": 208,
+      "confidence": "high"
+    },
+    "SAI-1956106": {
+      "elasticity": -3.256,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 45,
+      "base_observations": 257,
+      "confidence": "high"
+    },
+    "SAI-1961445": {
+      "elasticity": -2.981,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 62,
+      "base_observations": 339,
+      "confidence": "high"
+    },
+    "SAI-1976083": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 52,
+      "base_observations": 322,
+      "confidence": "high"
+    },
+    "SAI-19F3447": {
+      "elasticity": -1.989,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 36,
+      "base_observations": 192,
+      "confidence": "high"
+    },
+    "SAI-1A0E045": {
+      "elasticity": -0.601,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 78,
+      "base_observations": 434,
+      "confidence": "high"
+    },
+    "SAI-1B98248": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 67,
+      "base_observations": 360,
+      "confidence": "high"
+    },
+    "SAI-1C51314": {
+      "elasticity": -0.337,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 73,
+      "base_observations": 359,
+      "confidence": "high"
+    },
+    "SAI-1CE8346": {
+      "elasticity": -2.486,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 57,
+      "base_observations": 333,
+      "confidence": "high"
+    },
+    "SAI-1CF3285": {
+      "elasticity": -1.546,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 41,
+      "base_observations": 265,
+      "confidence": "high"
+    },
+    "SAI-1D24086": {
+      "elasticity": -2.273,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 86,
+      "base_observations": 446,
+      "confidence": "high"
+    },
+    "SAI-1D42212": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 55,
+      "base_observations": 333,
+      "confidence": "high"
+    },
+    "SAI-1D4B057": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 66,
+      "base_observations": 398,
+      "confidence": "high"
+    },
+    "SAI-1D60416": {
+      "elasticity": -0.424,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 29,
+      "base_observations": 205,
+      "confidence": "high"
+    },
+    "SAI-1F53353": {
+      "elasticity": -2.806,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 54,
+      "base_observations": 316,
+      "confidence": "high"
+    },
+    "SAI-1F7E478": {
+      "elasticity": -2.276,
+      "category": "Drinks",
+      "tier": "Taste the Difference",
+      "promo_observations": 36,
+      "base_observations": 212,
+      "confidence": "high"
+    },
+    "SAI-1FDA432": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Taste the Difference",
+      "promo_observations": 27,
+      "base_observations": 176,
+      "confidence": "high"
+    },
+    "SAI-20E7046": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 43,
+      "base_observations": 249,
+      "confidence": "high"
+    },
+    "SAI-2167018": {
+      "elasticity": -0.1,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 74,
+      "base_observations": 455,
+      "confidence": "high"
+    },
+    "SAI-216C440": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 72,
+      "base_observations": 377,
+      "confidence": "high"
+    },
+    "SAI-21AD419": {
+      "elasticity": -1.077,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 25,
+      "base_observations": 145,
+      "confidence": "high"
+    },
+    "SAI-2279435": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 48,
+      "base_observations": 225,
+      "confidence": "high"
+    },
+    "SAI-22A8472": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 29,
+      "base_observations": 161,
+      "confidence": "high"
+    },
+    "SAI-22E9499": {
+      "elasticity": -0.211,
+      "category": "Drinks",
+      "tier": "So Good",
+      "promo_observations": 31,
+      "base_observations": 199,
+      "confidence": "high"
+    },
+    "SAI-239E389": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 57,
+      "base_observations": 297,
+      "confidence": "high"
+    },
+    "SAI-244E229": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 58,
+      "base_observations": 289,
+      "confidence": "high"
+    },
+    "SAI-266D056": {
+      "elasticity": -1.632,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 83,
+      "base_observations": 460,
+      "confidence": "high"
+    },
+    "SAI-26EF313": {
+      "elasticity": -1.004,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 32,
+      "base_observations": 209,
+      "confidence": "high"
+    },
+    "SAI-2754296": {
+      "elasticity": -4.0,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 76,
+      "base_observations": 366,
+      "confidence": "high"
+    },
+    "SAI-27C2471": {
+      "elasticity": -0.533,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 18,
+      "base_observations": 123,
+      "confidence": "high"
+    },
+    "SAI-2806213": {
+      "elasticity": -0.757,
+      "category": "Fresh Produce",
+      "tier": "Taste the Difference",
+      "promo_observations": 27,
+      "base_observations": 145,
+      "confidence": "high"
+    },
+    "SAI-280D256": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "So Good",
+      "promo_observations": 81,
+      "base_observations": 438,
+      "confidence": "high"
+    },
+    "SAI-2851197": {
+      "elasticity": -1.982,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 51,
+      "base_observations": 388,
+      "confidence": "high"
+    },
+    "SAI-2884227": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 47,
+      "base_observations": 259,
+      "confidence": "high"
+    },
+    "SAI-2955172": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 27,
+      "base_observations": 121,
+      "confidence": "high"
+    },
+    "SAI-2A51364": {
+      "elasticity": -1.87,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 56,
+      "base_observations": 264,
+      "confidence": "high"
+    },
+    "SAI-2A7E096": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 27,
+      "base_observations": 160,
+      "confidence": "high"
+    },
+    "SAI-2B34177": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 52,
+      "base_observations": 271,
+      "confidence": "high"
+    },
+    "SAI-2B6F245": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 78,
+      "base_observations": 383,
+      "confidence": "high"
+    },
+    "SAI-2BC1454": {
+      "elasticity": -0.339,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 14,
+      "base_observations": 114,
+      "confidence": "high"
+    },
+    "SAI-2C02397": {
+      "elasticity": -1.408,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 33,
+      "base_observations": 194,
+      "confidence": "high"
+    },
+    "SAI-2C97139": {
+      "elasticity": -1.956,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 69,
+      "base_observations": 366,
+      "confidence": "high"
+    },
+    "SAI-2DAE020": {
+      "elasticity": -3.892,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 36,
+      "base_observations": 180,
+      "confidence": "high"
+    },
+    "SAI-2DB4390": {
+      "elasticity": -2.283,
+      "category": "Fresh Bakery",
+      "tier": "Branded",
+      "promo_observations": 37,
+      "base_observations": 230,
+      "confidence": "high"
+    },
+    "SAI-2E19194": {
+      "elasticity": -0.374,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 24,
+      "base_observations": 129,
+      "confidence": "high"
+    },
+    "SAI-2F58195": {
+      "elasticity": -1.054,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 80,
+      "base_observations": 434,
+      "confidence": "high"
+    },
+    "SAI-3011310": {
+      "elasticity": -1.575,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 53,
+      "base_observations": 300,
+      "confidence": "high"
+    },
+    "SAI-301C444": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 38,
+      "base_observations": 178,
+      "confidence": "high"
+    },
+    "SAI-30F2473": {
+      "elasticity": -1.238,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 52,
+      "base_observations": 218,
+      "confidence": "high"
+    },
+    "SAI-31F0492": {
+      "elasticity": -0.452,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 41,
+      "base_observations": 254,
+      "confidence": "high"
+    },
+    "SAI-331D298": {
+      "elasticity": -4.0,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 30,
+      "base_observations": 197,
+      "confidence": "high"
+    },
+    "SAI-3508160": {
+      "elasticity": -0.1,
+      "category": "Fresh Produce",
+      "tier": "Taste the Difference",
+      "promo_observations": 31,
+      "base_observations": 232,
+      "confidence": "high"
+    },
+    "SAI-3550457": {
+      "elasticity": -2.629,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 38,
+      "base_observations": 209,
+      "confidence": "high"
+    },
+    "SAI-35A8189": {
+      "elasticity": -3.974,
+      "category": "Fresh Bakery",
+      "tier": "Branded",
+      "promo_observations": 69,
+      "base_observations": 403,
+      "confidence": "high"
+    },
+    "SAI-3654279": {
+      "elasticity": -0.931,
+      "category": "Fresh Bakery",
+      "tier": "Branded",
+      "promo_observations": 28,
+      "base_observations": 123,
+      "confidence": "high"
+    },
+    "SAI-3682143": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 44,
+      "base_observations": 222,
+      "confidence": "high"
+    },
+    "SAI-3822157": {
+      "elasticity": -0.593,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 48,
+      "base_observations": 299,
+      "confidence": "high"
+    },
+    "SAI-389E234": {
+      "elasticity": -2.101,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 77,
+      "base_observations": 354,
+      "confidence": "high"
+    },
+    "SAI-38B8376": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 18,
+      "base_observations": 99,
+      "confidence": "high"
+    },
+    "SAI-38E5464": {
+      "elasticity": -1.346,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 28,
+      "base_observations": 207,
+      "confidence": "high"
+    },
+    "SAI-3AA2233": {
+      "elasticity": -0.914,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 77,
+      "base_observations": 359,
+      "confidence": "high"
+    },
+    "SAI-3AC4410": {
+      "elasticity": -1.774,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 54,
+      "base_observations": 258,
+      "confidence": "high"
+    },
+    "SAI-3BDC105": {
+      "elasticity": -2.195,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 47,
+      "base_observations": 288,
+      "confidence": "high"
+    },
+    "SAI-3C1C422": {
+      "elasticity": -2.374,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 61,
+      "base_observations": 311,
+      "confidence": "high"
+    },
+    "SAI-3C6E098": {
+      "elasticity": -2.125,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 82,
+      "base_observations": 445,
+      "confidence": "high"
+    },
+    "SAI-3D33488": {
+      "elasticity": -2.337,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 48,
+      "base_observations": 266,
+      "confidence": "high"
+    },
+    "SAI-3D5A118": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 32,
+      "base_observations": 188,
+      "confidence": "high"
+    },
+    "SAI-3E0A483": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 39,
+      "base_observations": 208,
+      "confidence": "high"
+    },
+    "SAI-3E8E321": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 22,
+      "base_observations": 154,
+      "confidence": "high"
+    },
+    "SAI-3F52469": {
+      "elasticity": -0.856,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 43,
+      "base_observations": 242,
+      "confidence": "high"
+    },
+    "SAI-3FB5254": {
+      "elasticity": -1.301,
+      "category": "Household",
+      "tier": "So Good",
+      "promo_observations": 50,
+      "base_observations": 283,
+      "confidence": "high"
+    },
+    "SAI-406F327": {
+      "elasticity": -0.714,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 62,
+      "base_observations": 325,
+      "confidence": "high"
+    },
+    "SAI-4079090": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 46,
+      "base_observations": 304,
+      "confidence": "high"
+    },
+    "SAI-40C5418": {
+      "elasticity": -0.503,
+      "category": "Health & Beauty",
+      "tier": "So Good",
+      "promo_observations": 42,
+      "base_observations": 253,
+      "confidence": "high"
+    },
+    "SAI-410A113": {
+      "elasticity": -1.434,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 66,
+      "base_observations": 435,
+      "confidence": "high"
+    },
+    "SAI-41E5102": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 51,
+      "base_observations": 237,
+      "confidence": "high"
+    },
+    "SAI-4257307": {
+      "elasticity": -0.1,
+      "category": "Fresh Bakery",
+      "tier": "Branded",
+      "promo_observations": 25,
+      "base_observations": 209,
+      "confidence": "high"
+    },
+    "SAI-426A404": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 23,
+      "base_observations": 94,
+      "confidence": "high"
+    },
+    "SAI-436E001": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 86,
+      "base_observations": 500,
+      "confidence": "high"
+    },
+    "SAI-44E2354": {
+      "elasticity": -1.388,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 80,
+      "base_observations": 351,
+      "confidence": "high"
+    },
+    "SAI-45B9126": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 64,
+      "base_observations": 294,
+      "confidence": "high"
+    },
+    "SAI-45C8304": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 47,
+      "base_observations": 324,
+      "confidence": "high"
+    },
+    "SAI-4602361": {
+      "elasticity": -0.936,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 20,
+      "base_observations": 138,
+      "confidence": "high"
+    },
+    "SAI-460E171": {
+      "elasticity": -4.0,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 64,
+      "base_observations": 316,
+      "confidence": "high"
+    },
+    "SAI-462B115": {
+      "elasticity": -0.936,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 68,
+      "base_observations": 462,
+      "confidence": "high"
+    },
+    "SAI-470D142": {
+      "elasticity": -1.308,
+      "category": "Health & Beauty",
+      "tier": "Taste the Difference",
+      "promo_observations": 74,
+      "base_observations": 460,
+      "confidence": "high"
+    },
+    "SAI-4740226": {
+      "elasticity": -0.746,
+      "category": "Fresh Bakery",
+      "tier": "Taste the Difference",
+      "promo_observations": 45,
+      "base_observations": 309,
+      "confidence": "high"
+    },
+    "SAI-4849295": {
+      "elasticity": -4.0,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 43,
+      "base_observations": 234,
+      "confidence": "high"
+    },
+    "SAI-4943459": {
+      "elasticity": -3.293,
+      "category": "Fresh Produce",
+      "tier": "Branded",
+      "promo_observations": 39,
+      "base_observations": 326,
+      "confidence": "high"
+    },
+    "SAI-4979137": {
+      "elasticity": -0.716,
+      "category": "Dairy & Eggs",
+      "tier": "Taste the Difference",
+      "promo_observations": 60,
+      "base_observations": 396,
+      "confidence": "high"
+    },
+    "SAI-49CC286": {
+      "elasticity": -2.407,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 71,
+      "base_observations": 414,
+      "confidence": "high"
+    },
+    "SAI-4A3F111": {
+      "elasticity": -0.408,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 76,
+      "base_observations": 344,
+      "confidence": "high"
+    },
+    "SAI-4A71228": {
+      "elasticity": -0.566,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 63,
+      "base_observations": 350,
+      "confidence": "high"
+    },
+    "SAI-4B16077": {
+      "elasticity": -1.88,
+      "category": "Frozen",
+      "tier": "So Good",
+      "promo_observations": 68,
+      "base_observations": 364,
+      "confidence": "high"
+    },
+    "SAI-4B1C489": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 30,
+      "base_observations": 236,
+      "confidence": "high"
+    },
+    "SAI-4B4B281": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 27,
+      "base_observations": 159,
+      "confidence": "high"
+    },
+    "SAI-4B8D282": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 61,
+      "base_observations": 291,
+      "confidence": "high"
+    },
+    "SAI-4BD2487": {
+      "elasticity": -1.997,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 22,
+      "base_observations": 161,
+      "confidence": "high"
+    },
+    "SAI-4CFA185": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 84,
+      "base_observations": 429,
+      "confidence": "high"
+    },
+    "SAI-4D87348": {
+      "elasticity": -1.994,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 72,
+      "base_observations": 375,
+      "confidence": "high"
+    },
+    "SAI-4EB9480": {
+      "elasticity": -1.73,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 27,
+      "base_observations": 142,
+      "confidence": "high"
+    },
+    "SAI-4F17482": {
+      "elasticity": -0.53,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 40,
+      "base_observations": 323,
+      "confidence": "high"
+    },
+    "SAI-4F37338": {
+      "elasticity": -0.12,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 49,
+      "base_observations": 325,
+      "confidence": "high"
+    },
+    "SAI-4FD3173": {
+      "elasticity": -1.025,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 26,
+      "base_observations": 158,
+      "confidence": "high"
+    },
+    "SAI-5085005": {
+      "elasticity": -0.805,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 96,
+      "base_observations": 483,
+      "confidence": "high"
+    },
+    "SAI-50F3394": {
+      "elasticity": -0.366,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 56,
+      "base_observations": 293,
+      "confidence": "high"
+    },
+    "SAI-51B5339": {
+      "elasticity": -1.362,
+      "category": "Dairy & Eggs",
+      "tier": "So Good",
+      "promo_observations": 21,
+      "base_observations": 114,
+      "confidence": "high"
+    },
+    "SAI-52C8463": {
+      "elasticity": -2.983,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 53,
+      "base_observations": 270,
+      "confidence": "high"
+    },
+    "SAI-536E166": {
+      "elasticity": -1.197,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 29,
+      "base_observations": 152,
+      "confidence": "high"
+    },
+    "SAI-5489188": {
+      "elasticity": -0.559,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 70,
+      "base_observations": 434,
+      "confidence": "high"
+    },
+    "SAI-54CB203": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 76,
+      "base_observations": 334,
+      "confidence": "high"
+    },
+    "SAI-5519249": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "So Good",
+      "promo_observations": 28,
+      "base_observations": 182,
+      "confidence": "high"
+    },
+    "SAI-55EA042": {
+      "elasticity": -1.997,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 75,
+      "base_observations": 335,
+      "confidence": "high"
+    },
+    "SAI-562D247": {
+      "elasticity": -3.189,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 52,
+      "base_observations": 245,
+      "confidence": "high"
+    },
+    "SAI-5653319": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 47,
+      "base_observations": 268,
+      "confidence": "high"
+    },
+    "SAI-5658415": {
+      "elasticity": -4.0,
+      "category": "Fresh Produce",
+      "tier": "Sainsbury's",
+      "promo_observations": 17,
+      "base_observations": 137,
+      "confidence": "high"
+    },
+    "SAI-5659347": {
+      "elasticity": -2.962,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 59,
+      "base_observations": 363,
+      "confidence": "high"
+    },
+    "SAI-56DB209": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 48,
+      "base_observations": 241,
+      "confidence": "high"
+    },
+    "SAI-56F1069": {
+      "elasticity": -0.469,
+      "category": "Dairy & Eggs",
+      "tier": "Sainsbury's",
+      "promo_observations": 80,
+      "base_observations": 394,
+      "confidence": "high"
+    },
+    "SAI-56FD273": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 57,
+      "base_observations": 348,
+      "confidence": "high"
+    },
+    "SAI-5792470": {
+      "elasticity": -0.538,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 57,
+      "base_observations": 297,
+      "confidence": "high"
+    },
+    "SAI-580D013": {
+      "elasticity": -2.114,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 68,
+      "base_observations": 415,
+      "confidence": "high"
+    },
+    "SAI-5836349": {
+      "elasticity": -0.748,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 36,
+      "base_observations": 242,
+      "confidence": "high"
+    },
+    "SAI-585B271": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 32,
+      "base_observations": 153,
+      "confidence": "high"
+    },
+    "SAI-592D104": {
+      "elasticity": -2.353,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 81,
+      "base_observations": 369,
+      "confidence": "high"
+    },
+    "SAI-598E159": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 55,
+      "base_observations": 309,
+      "confidence": "high"
+    },
+    "SAI-599B315": {
+      "elasticity": -0.57,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 25,
+      "base_observations": 134,
+      "confidence": "high"
+    },
+    "SAI-5A0E374": {
+      "elasticity": -0.1,
+      "category": "Fresh Bakery",
+      "tier": "So Good",
+      "promo_observations": 45,
+      "base_observations": 217,
+      "confidence": "high"
+    },
+    "SAI-5A78012": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 64,
+      "base_observations": 302,
+      "confidence": "high"
+    },
+    "SAI-5B4D076": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 56,
+      "base_observations": 406,
+      "confidence": "high"
+    },
+    "SAI-5D36443": {
+      "elasticity": -3.205,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 21,
+      "base_observations": 101,
+      "confidence": "high"
+    },
+    "SAI-5D94392": {
+      "elasticity": -4.0,
+      "category": "Health & Beauty",
+      "tier": "Sainsbury's",
+      "promo_observations": 33,
+      "base_observations": 230,
+      "confidence": "high"
+    },
+    "SAI-5E1E299": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 18,
+      "base_observations": 128,
+      "confidence": "high"
+    },
+    "SAI-5E73071": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 24,
+      "base_observations": 151,
+      "confidence": "high"
+    },
+    "SAI-5E74377": {
+      "elasticity": -0.761,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 56,
+      "base_observations": 233,
+      "confidence": "high"
+    },
+    "SAI-5F5F388": {
+      "elasticity": -0.49,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 63,
+      "base_observations": 332,
+      "confidence": "high"
+    },
+    "SAI-5FFF288": {
+      "elasticity": -4.0,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 55,
+      "base_observations": 327,
+      "confidence": "high"
+    },
+    "SAI-600A216": {
+      "elasticity": -1.364,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 62,
+      "base_observations": 312,
+      "confidence": "high"
+    },
+    "SAI-6023080": {
+      "elasticity": -4.0,
+      "category": "Fresh Produce",
+      "tier": "Sainsbury's",
+      "promo_observations": 30,
+      "base_observations": 165,
+      "confidence": "high"
+    },
+    "SAI-6093427": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 29,
+      "base_observations": 159,
+      "confidence": "high"
+    },
+    "SAI-60BA268": {
+      "elasticity": -1.889,
+      "category": "Frozen",
+      "tier": "Branded",
+      "promo_observations": 67,
+      "base_observations": 360,
+      "confidence": "high"
+    },
+    "SAI-61D1059": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 83,
+      "base_observations": 440,
+      "confidence": "high"
+    },
+    "SAI-61DE278": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 57,
+      "base_observations": 348,
+      "confidence": "high"
+    },
+    "SAI-61E4127": {
+      "elasticity": -2.15,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 79,
+      "base_observations": 326,
+      "confidence": "high"
+    },
+    "SAI-627B029": {
+      "elasticity": -3.717,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 35,
+      "base_observations": 180,
+      "confidence": "high"
+    },
+    "SAI-62BA484": {
+      "elasticity": -2.142,
+      "category": "Drinks",
+      "tier": "Taste the Difference",
+      "promo_observations": 54,
+      "base_observations": 295,
+      "confidence": "high"
+    },
+    "SAI-63AE425": {
+      "elasticity": -0.641,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 30,
+      "base_observations": 268,
+      "confidence": "high"
+    },
+    "SAI-63F4015": {
+      "elasticity": -0.423,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 72,
+      "base_observations": 464,
+      "confidence": "high"
+    },
+    "SAI-6425498": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 29,
+      "base_observations": 153,
+      "confidence": "high"
+    },
+    "SAI-64CD381": {
+      "elasticity": -4.0,
+      "category": "Fresh Produce",
+      "tier": "Sainsbury's",
+      "promo_observations": 19,
+      "base_observations": 135,
+      "confidence": "high"
+    },
+    "SAI-64D4277": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 43,
+      "base_observations": 259,
+      "confidence": "high"
+    },
+    "SAI-64EC334": {
+      "elasticity": -0.383,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 42,
+      "base_observations": 194,
+      "confidence": "high"
+    },
+    "SAI-64FF146": {
+      "elasticity": -3.223,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 53,
+      "base_observations": 217,
+      "confidence": "high"
+    },
+    "SAI-653C357": {
+      "elasticity": -0.424,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 41,
+      "base_observations": 191,
+      "confidence": "high"
+    },
+    "SAI-6746379": {
+      "elasticity": -0.934,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 34,
+      "base_observations": 226,
+      "confidence": "high"
+    },
+    "SAI-6802182": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 31,
+      "base_observations": 165,
+      "confidence": "high"
+    },
+    "SAI-6880476": {
+      "elasticity": -1.027,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 44,
+      "base_observations": 230,
+      "confidence": "high"
+    },
+    "SAI-68F0358": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 15,
+      "base_observations": 126,
+      "confidence": "high"
+    },
+    "SAI-68F7092": {
+      "elasticity": -1.949,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 77,
+      "base_observations": 430,
+      "confidence": "high"
+    },
+    "SAI-68FC017": {
+      "elasticity": -1.173,
+      "category": "Household",
+      "tier": "So Good",
+      "promo_observations": 85,
+      "base_observations": 479,
+      "confidence": "high"
+    },
+    "SAI-6969175": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 48,
+      "base_observations": 299,
+      "confidence": "high"
+    },
+    "SAI-697F466": {
+      "elasticity": -1.733,
+      "category": "Frozen",
+      "tier": "So Good",
+      "promo_observations": 32,
+      "base_observations": 169,
+      "confidence": "high"
+    },
+    "SAI-6993134": {
+      "elasticity": -0.649,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 62,
+      "base_observations": 384,
+      "confidence": "high"
+    },
+    "SAI-69CB163": {
+      "elasticity": -2.174,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 34,
+      "base_observations": 207,
+      "confidence": "high"
+    },
+    "SAI-6A97400": {
+      "elasticity": -1.797,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 63,
+      "base_observations": 272,
+      "confidence": "high"
+    },
+    "SAI-6B40332": {
+      "elasticity": -0.1,
+      "category": "Snacks",
+      "tier": "Sainsbury's",
+      "promo_observations": 67,
+      "base_observations": 377,
+      "confidence": "high"
+    },
+    "SAI-6B7E179": {
+      "elasticity": -2.31,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 25,
+      "base_observations": 170,
+      "confidence": "high"
+    },
+    "SAI-6BA8320": {
+      "elasticity": -0.991,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 54,
+      "base_observations": 410,
+      "confidence": "high"
+    },
+    "SAI-6C23450": {
+      "elasticity": -2.959,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 33,
+      "base_observations": 252,
+      "confidence": "high"
+    },
+    "SAI-6D98041": {
+      "elasticity": -1.789,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 86,
+      "base_observations": 492,
+      "confidence": "high"
+    },
+    "SAI-6FCB164": {
+      "elasticity": -1.763,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 61,
+      "base_observations": 367,
+      "confidence": "high"
+    },
+    "SAI-7043156": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 33,
+      "base_observations": 237,
+      "confidence": "high"
+    },
+    "SAI-70E5413": {
+      "elasticity": -1.792,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 37,
+      "base_observations": 110,
+      "confidence": "high"
+    },
+    "SAI-7100481": {
+      "elasticity": -1.724,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 29,
+      "base_observations": 160,
+      "confidence": "high"
+    },
+    "SAI-71F7048": {
+      "elasticity": -0.478,
+      "category": "Fresh Bakery",
+      "tier": "Taste the Difference",
+      "promo_observations": 70,
+      "base_observations": 444,
+      "confidence": "high"
+    },
+    "SAI-7219426": {
+      "elasticity": -0.958,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 39,
+      "base_observations": 233,
+      "confidence": "high"
+    },
+    "SAI-72DD060": {
+      "elasticity": -2.777,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 81,
+      "base_observations": 438,
+      "confidence": "high"
+    },
+    "SAI-7370222": {
+      "elasticity": -0.706,
+      "category": "Health & Beauty",
+      "tier": "Branded",
+      "promo_observations": 21,
+      "base_observations": 127,
+      "confidence": "high"
+    },
+    "SAI-7383384": {
+      "elasticity": -0.734,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 21,
+      "base_observations": 146,
+      "confidence": "high"
+    },
+    "SAI-745B352": {
+      "elasticity": -0.621,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 26,
+      "base_observations": 135,
+      "confidence": "high"
+    },
+    "SAI-747C243": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 8,
+      "base_observations": 46,
+      "confidence": "medium"
+    },
+    "SAI-7530264": {
+      "elasticity": -1.274,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 28,
+      "base_observations": 217,
+      "confidence": "high"
+    },
+    "SAI-7581266": {
+      "elasticity": -0.999,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 70,
+      "base_observations": 346,
+      "confidence": "high"
+    },
+    "SAI-7675423": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 21,
+      "base_observations": 127,
+      "confidence": "high"
+    },
+    "SAI-7694130": {
+      "elasticity": -1.738,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 29,
+      "base_observations": 185,
+      "confidence": "high"
+    },
+    "SAI-76E2174": {
+      "elasticity": -1.703,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 62,
+      "base_observations": 432,
+      "confidence": "high"
+    },
+    "SAI-771F123": {
+      "elasticity": -0.236,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 73,
+      "base_observations": 437,
+      "confidence": "high"
+    },
+    "SAI-7825317": {
+      "elasticity": -1.958,
+      "category": "Fresh Produce",
+      "tier": "Sainsbury's",
+      "promo_observations": 50,
+      "base_observations": 263,
+      "confidence": "high"
+    },
+    "SAI-7905169": {
+      "elasticity": -1.322,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 62,
+      "base_observations": 310,
+      "confidence": "high"
+    },
+    "SAI-79D2375": {
+      "elasticity": -0.652,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 34,
+      "base_observations": 294,
+      "confidence": "high"
+    },
+    "SAI-7ADF011": {
+      "elasticity": -1.544,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 88,
+      "base_observations": 468,
+      "confidence": "high"
+    },
+    "SAI-7AF6085": {
+      "elasticity": -0.783,
+      "category": "Snacks",
+      "tier": "Branded",
+      "promo_observations": 70,
+      "base_observations": 441,
+      "confidence": "high"
+    },
+    "SAI-7B26034": {
+      "elasticity": -2.311,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 49,
+      "base_observations": 263,
+      "confidence": "high"
+    },
+    "SAI-7BDA099": {
+      "elasticity": -0.645,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 59,
+      "base_observations": 318,
+      "confidence": "high"
+    },
+    "SAI-7C25306": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 25,
+      "base_observations": 116,
+      "confidence": "high"
+    },
+    "SAI-7C4B221": {
+      "elasticity": -0.1,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 77,
+      "base_observations": 376,
+      "confidence": "high"
+    },
+    "SAI-7D0E467": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 23,
+      "base_observations": 158,
+      "confidence": "high"
+    },
+    "SAI-7D3C331": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 34,
+      "base_observations": 175,
+      "confidence": "high"
+    },
+    "SAI-7DE4204": {
+      "elasticity": -3.11,
+      "category": "Fresh Produce",
+      "tier": "So Good",
+      "promo_observations": 37,
+      "base_observations": 168,
+      "confidence": "high"
+    },
+    "SAI-7E4A283": {
+      "elasticity": -0.549,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 46,
+      "base_observations": 246,
+      "confidence": "high"
+    },
+    "SAI-7F34109": {
+      "elasticity": -3.108,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 86,
+      "base_observations": 420,
+      "confidence": "high"
+    },
+    "SAI-7F7C168": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 57,
+      "base_observations": 341,
+      "confidence": "high"
+    },
+    "SAI-8012065": {
+      "elasticity": -1.538,
+      "category": "Snacks",
+      "tier": "Taste the Difference",
+      "promo_observations": 68,
+      "base_observations": 397,
+      "confidence": "high"
+    },
+    "SAI-81B0000": {
+      "elasticity": -1.238,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 68,
+      "base_observations": 382,
+      "confidence": "high"
+    },
+    "SAI-81BE058": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 86,
+      "base_observations": 479,
+      "confidence": "high"
+    },
+    "SAI-81EA355": {
+      "elasticity": -1.974,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 52,
+      "base_observations": 304,
+      "confidence": "high"
+    },
+    "SAI-831E052": {
+      "elasticity": -1.698,
+      "category": "Fresh Produce",
+      "tier": "So Good",
+      "promo_observations": 34,
+      "base_observations": 161,
+      "confidence": "high"
+    },
+    "SAI-836A297": {
+      "elasticity": -1.442,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 17,
+      "base_observations": 114,
+      "confidence": "high"
+    },
+    "SAI-83DF136": {
+      "elasticity": -1.272,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 29,
+      "base_observations": 168,
+      "confidence": "high"
+    },
+    "SAI-8435122": {
+      "elasticity": -3.843,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 22,
+      "base_observations": 161,
+      "confidence": "high"
+    },
+    "SAI-8481138": {
+      "elasticity": -1.383,
+      "category": "Health & Beauty",
+      "tier": "Branded",
+      "promo_observations": 78,
+      "base_observations": 391,
+      "confidence": "high"
+    },
+    "SAI-84D1371": {
+      "elasticity": -0.1,
+      "category": "Dairy & Eggs",
+      "tier": "Branded",
+      "promo_observations": 65,
+      "base_observations": 334,
+      "confidence": "high"
+    },
+    "SAI-8501114": {
+      "elasticity": -0.872,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 37,
+      "base_observations": 227,
+      "confidence": "high"
+    },
+    "SAI-8541453": {
+      "elasticity": -1.176,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 60,
+      "base_observations": 353,
+      "confidence": "high"
+    },
+    "SAI-8548428": {
+      "elasticity": -1.493,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 38,
+      "base_observations": 255,
+      "confidence": "high"
+    },
+    "SAI-85F3051": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 37,
+      "base_observations": 173,
+      "confidence": "high"
+    },
+    "SAI-864D192": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 18,
+      "base_observations": 86,
+      "confidence": "high"
+    },
+    "SAI-866D395": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 9,
+      "base_observations": 45,
+      "confidence": "medium"
+    },
+    "SAI-86CF236": {
+      "elasticity": -0.276,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 62,
+      "base_observations": 381,
+      "confidence": "high"
+    },
+    "SAI-8719386": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 45,
+      "base_observations": 227,
+      "confidence": "high"
+    },
+    "SAI-87A3038": {
+      "elasticity": -1.106,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 59,
+      "base_observations": 325,
+      "confidence": "high"
+    },
+    "SAI-8800477": {
+      "elasticity": -1.479,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 64,
+      "base_observations": 350,
+      "confidence": "high"
+    },
+    "SAI-8821191": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 37,
+      "base_observations": 248,
+      "confidence": "high"
+    },
+    "SAI-8943019": {
+      "elasticity": -1.803,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 85,
+      "base_observations": 456,
+      "confidence": "high"
+    },
+    "SAI-894C350": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Taste the Difference",
+      "promo_observations": 63,
+      "base_observations": 350,
+      "confidence": "high"
+    },
+    "SAI-89AB181": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 18,
+      "base_observations": 100,
+      "confidence": "high"
+    },
+    "SAI-89B3082": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 82,
+      "base_observations": 469,
+      "confidence": "high"
+    },
+    "SAI-89C4294": {
+      "elasticity": -0.785,
+      "category": "Fresh Produce",
+      "tier": "Sainsbury's",
+      "promo_observations": 34,
+      "base_observations": 140,
+      "confidence": "high"
+    },
+    "SAI-89DF276": {
+      "elasticity": -0.56,
+      "category": "Drinks",
+      "tier": "Taste the Difference",
+      "promo_observations": 54,
+      "base_observations": 266,
+      "confidence": "high"
+    },
+    "SAI-8A75067": {
+      "elasticity": -0.347,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 60,
+      "base_observations": 362,
+      "confidence": "high"
+    },
+    "SAI-8AE0329": {
+      "elasticity": -0.462,
+      "category": "Dairy & Eggs",
+      "tier": "Branded",
+      "promo_observations": 66,
+      "base_observations": 391,
+      "confidence": "high"
+    },
+    "SAI-8AFF366": {
+      "elasticity": -2.459,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 29,
+      "base_observations": 211,
+      "confidence": "high"
+    },
+    "SAI-8B60330": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 53,
+      "base_observations": 331,
+      "confidence": "high"
+    },
+    "SAI-8B95486": {
+      "elasticity": -1.068,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 8,
+      "base_observations": 32,
+      "confidence": "medium"
+    },
+    "SAI-8B9A003": {
+      "elasticity": -0.1,
+      "category": "Snacks",
+      "tier": "Sainsbury's",
+      "promo_observations": 97,
+      "base_observations": 457,
+      "confidence": "high"
+    },
+    "SAI-8D42225": {
+      "elasticity": -2.129,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 64,
+      "base_observations": 333,
+      "confidence": "high"
+    },
+    "SAI-8E6A133": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 31,
+      "base_observations": 150,
+      "confidence": "high"
+    },
+    "SAI-8E8C341": {
+      "elasticity": -1.853,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 64,
+      "base_observations": 339,
+      "confidence": "high"
+    },
+    "SAI-8EC2073": {
+      "elasticity": -1.347,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 63,
+      "base_observations": 421,
+      "confidence": "high"
+    },
+    "SAI-8F7F396": {
+      "elasticity": -1.081,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 14,
+      "base_observations": 128,
+      "confidence": "high"
+    },
+    "SAI-903A385": {
+      "elasticity": -2.246,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 40,
+      "base_observations": 222,
+      "confidence": "high"
+    },
+    "SAI-90B4162": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 63,
+      "base_observations": 368,
+      "confidence": "high"
+    },
+    "SAI-9103301": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 43,
+      "base_observations": 158,
+      "confidence": "high"
+    },
+    "SAI-9137437": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 61,
+      "base_observations": 286,
+      "confidence": "high"
+    },
+    "SAI-927A039": {
+      "elasticity": -0.683,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 95,
+      "base_observations": 458,
+      "confidence": "high"
+    },
+    "SAI-927B022": {
+      "elasticity": -1.223,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 56,
+      "base_observations": 323,
+      "confidence": "high"
+    },
+    "SAI-92CF070": {
+      "elasticity": -3.873,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 27,
+      "base_observations": 156,
+      "confidence": "high"
+    },
+    "SAI-9328289": {
+      "elasticity": -0.359,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 77,
+      "base_observations": 410,
+      "confidence": "high"
+    },
+    "SAI-9334265": {
+      "elasticity": -0.715,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 35,
+      "base_observations": 231,
+      "confidence": "high"
+    },
+    "SAI-9396081": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 46,
+      "base_observations": 264,
+      "confidence": "high"
+    },
+    "SAI-93B0150": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 26,
+      "base_observations": 164,
+      "confidence": "high"
+    },
+    "SAI-9403340": {
+      "elasticity": -2.641,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 27,
+      "base_observations": 116,
+      "confidence": "high"
+    },
+    "SAI-94FA021": {
+      "elasticity": -0.868,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 103,
+      "base_observations": 489,
+      "confidence": "high"
+    },
+    "SAI-94FB068": {
+      "elasticity": -3.214,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 51,
+      "base_observations": 310,
+      "confidence": "high"
+    },
+    "SAI-9595224": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 25,
+      "base_observations": 202,
+      "confidence": "high"
+    },
+    "SAI-964E290": {
+      "elasticity": -0.455,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 59,
+      "base_observations": 277,
+      "confidence": "high"
+    },
+    "SAI-96AA063": {
+      "elasticity": -0.766,
+      "category": "Dairy & Eggs",
+      "tier": "Branded",
+      "promo_observations": 72,
+      "base_observations": 434,
+      "confidence": "high"
+    },
+    "SAI-96B6036": {
+      "elasticity": -2.468,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 101,
+      "base_observations": 468,
+      "confidence": "high"
+    },
+    "SAI-96D2053": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 46,
+      "base_observations": 365,
+      "confidence": "high"
+    },
+    "SAI-96DC438": {
+      "elasticity": -0.243,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 21,
+      "base_observations": 109,
+      "confidence": "high"
+    },
+    "SAI-9757369": {
+      "elasticity": -1.707,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 41,
+      "base_observations": 281,
+      "confidence": "high"
+    },
+    "SAI-976F149": {
+      "elasticity": -1.031,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 40,
+      "base_observations": 239,
+      "confidence": "high"
+    },
+    "SAI-97F6235": {
+      "elasticity": -3.383,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 61,
+      "base_observations": 305,
+      "confidence": "high"
+    },
+    "SAI-991C439": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 53,
+      "base_observations": 269,
+      "confidence": "high"
+    },
+    "SAI-9938153": {
+      "elasticity": -0.491,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 20,
+      "base_observations": 119,
+      "confidence": "high"
+    },
+    "SAI-99BD431": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 63,
+      "base_observations": 332,
+      "confidence": "high"
+    },
+    "SAI-9B2A232": {
+      "elasticity": -0.206,
+      "category": "Household",
+      "tier": "So Good",
+      "promo_observations": 76,
+      "base_observations": 444,
+      "confidence": "high"
+    },
+    "SAI-9B37451": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 29,
+      "base_observations": 157,
+      "confidence": "high"
+    },
+    "SAI-9B8D441": {
+      "elasticity": -0.985,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 52,
+      "base_observations": 236,
+      "confidence": "high"
+    },
+    "SAI-9C04135": {
+      "elasticity": -2.868,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 61,
+      "base_observations": 385,
+      "confidence": "high"
+    },
+    "SAI-9C15193": {
+      "elasticity": -1.999,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 23,
+      "base_observations": 109,
+      "confidence": "high"
+    },
+    "SAI-9C87255": {
+      "elasticity": -0.391,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 65,
+      "base_observations": 336,
+      "confidence": "high"
+    },
+    "SAI-9C8F367": {
+      "elasticity": -1.657,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 53,
+      "base_observations": 318,
+      "confidence": "high"
+    },
+    "SAI-9C90495": {
+      "elasticity": -0.1,
+      "category": "Health & Beauty",
+      "tier": "Branded",
+      "promo_observations": 38,
+      "base_observations": 211,
+      "confidence": "high"
+    },
+    "SAI-9D5A009": {
+      "elasticity": -2.106,
+      "category": "Fresh Bakery",
+      "tier": "Taste the Difference",
+      "promo_observations": 80,
+      "base_observations": 471,
+      "confidence": "high"
+    },
+    "SAI-9E87328": {
+      "elasticity": -2.926,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 50,
+      "base_observations": 367,
+      "confidence": "high"
+    },
+    "SAI-9EE0275": {
+      "elasticity": -0.885,
+      "category": "Drinks",
+      "tier": "Taste the Difference",
+      "promo_observations": 61,
+      "base_observations": 298,
+      "confidence": "high"
+    },
+    "SAI-9F60325": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 34,
+      "base_observations": 259,
+      "confidence": "high"
+    },
+    "SAI-9F72287": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 63,
+      "base_observations": 303,
+      "confidence": "high"
+    },
+    "SAI-A09A072": {
+      "elasticity": -2.763,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 78,
+      "base_observations": 462,
+      "confidence": "high"
+    },
+    "SAI-A0B5124": {
+      "elasticity": -0.1,
+      "category": "Fresh Bakery",
+      "tier": "So Good",
+      "promo_observations": 60,
+      "base_observations": 254,
+      "confidence": "high"
+    },
+    "SAI-A0EA342": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "So Good",
+      "promo_observations": 14,
+      "base_observations": 88,
+      "confidence": "high"
+    },
+    "SAI-A15A420": {
+      "elasticity": -3.771,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 67,
+      "base_observations": 316,
+      "confidence": "high"
+    },
+    "SAI-A1C0270": {
+      "elasticity": -1.162,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 48,
+      "base_observations": 296,
+      "confidence": "high"
+    },
+    "SAI-A1CD154": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 56,
+      "base_observations": 271,
+      "confidence": "high"
+    },
+    "SAI-A281365": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 42,
+      "base_observations": 242,
+      "confidence": "high"
+    },
+    "SAI-A2E0401": {
+      "elasticity": -0.5,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 2,
+      "base_observations": 24,
+      "confidence": "prior"
+    },
+    "SAI-A34D300": {
+      "elasticity": -1.27,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 43,
+      "base_observations": 285,
+      "confidence": "high"
+    },
+    "SAI-A37F196": {
+      "elasticity": -1.544,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 57,
+      "base_observations": 325,
+      "confidence": "high"
+    },
+    "SAI-A42C485": {
+      "elasticity": -3.225,
+      "category": "Meat & Fish",
+      "tier": "Branded",
+      "promo_observations": 55,
+      "base_observations": 311,
+      "confidence": "high"
+    },
+    "SAI-A466403": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 22,
+      "base_observations": 158,
+      "confidence": "high"
+    },
+    "SAI-A48E324": {
+      "elasticity": -1.306,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 11,
+      "base_observations": 56,
+      "confidence": "high"
+    },
+    "SAI-A79E373": {
+      "elasticity": -0.904,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 28,
+      "base_observations": 159,
+      "confidence": "high"
+    },
+    "SAI-A7DC062": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 59,
+      "base_observations": 379,
+      "confidence": "high"
+    },
+    "SAI-A90A302": {
+      "elasticity": -0.1,
+      "category": "Fresh Produce",
+      "tier": "Sainsbury's",
+      "promo_observations": 46,
+      "base_observations": 250,
+      "confidence": "high"
+    },
+    "SAI-AA34116": {
+      "elasticity": -2.05,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 42,
+      "base_observations": 247,
+      "confidence": "high"
+    },
+    "SAI-AA3A380": {
+      "elasticity": -4.0,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 54,
+      "base_observations": 275,
+      "confidence": "high"
+    },
+    "SAI-AB66421": {
+      "elasticity": -1.181,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 39,
+      "base_observations": 259,
+      "confidence": "high"
+    },
+    "SAI-AD5F141": {
+      "elasticity": -0.398,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 64,
+      "base_observations": 410,
+      "confidence": "high"
+    },
+    "SAI-ADF2214": {
+      "elasticity": -1.882,
+      "category": "Dairy & Eggs",
+      "tier": "Sainsbury's",
+      "promo_observations": 42,
+      "base_observations": 298,
+      "confidence": "high"
+    },
+    "SAI-AE8B434": {
+      "elasticity": -4.0,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 37,
+      "base_observations": 188,
+      "confidence": "high"
+    },
+    "SAI-AE8E176": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 27,
+      "base_observations": 165,
+      "confidence": "high"
+    },
+    "SAI-AE91272": {
+      "elasticity": -1.083,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 33,
+      "base_observations": 191,
+      "confidence": "high"
+    },
+    "SAI-B02D031": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 54,
+      "base_observations": 309,
+      "confidence": "high"
+    },
+    "SAI-B0B6044": {
+      "elasticity": -0.301,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 60,
+      "base_observations": 375,
+      "confidence": "high"
+    },
+    "SAI-B0EB161": {
+      "elasticity": -0.402,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 65,
+      "base_observations": 368,
+      "confidence": "high"
+    },
+    "SAI-B161239": {
+      "elasticity": -0.1,
+      "category": "Dairy & Eggs",
+      "tier": "So Good",
+      "promo_observations": 67,
+      "base_observations": 383,
+      "confidence": "high"
+    },
+    "SAI-B238446": {
+      "elasticity": -1.82,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 69,
+      "base_observations": 325,
+      "confidence": "high"
+    },
+    "SAI-B26F260": {
+      "elasticity": -0.179,
+      "category": "Snacks",
+      "tier": "Taste the Difference",
+      "promo_observations": 75,
+      "base_observations": 396,
+      "confidence": "high"
+    },
+    "SAI-B2F8043": {
+      "elasticity": -1.531,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 91,
+      "base_observations": 461,
+      "confidence": "high"
+    },
+    "SAI-B515496": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 11,
+      "base_observations": 90,
+      "confidence": "high"
+    },
+    "SAI-B54B165": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 61,
+      "base_observations": 330,
+      "confidence": "high"
+    },
+    "SAI-B557424": {
+      "elasticity": -1.702,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 53,
+      "base_observations": 312,
+      "confidence": "high"
+    },
+    "SAI-B698244": {
+      "elasticity": -1.081,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 62,
+      "base_observations": 336,
+      "confidence": "high"
+    },
+    "SAI-B6D7093": {
+      "elasticity": -0.956,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 58,
+      "base_observations": 316,
+      "confidence": "high"
+    },
+    "SAI-B719026": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 8,
+      "base_observations": 67,
+      "confidence": "medium"
+    },
+    "SAI-B7C2411": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 17,
+      "base_observations": 127,
+      "confidence": "high"
+    },
+    "SAI-B839201": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 52,
+      "base_observations": 344,
+      "confidence": "high"
+    },
+    "SAI-B8D6219": {
+      "elasticity": -2.419,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 30,
+      "base_observations": 162,
+      "confidence": "high"
+    },
+    "SAI-B8F7449": {
+      "elasticity": -3.563,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 33,
+      "base_observations": 137,
+      "confidence": "high"
+    },
+    "SAI-B949456": {
+      "elasticity": -1.013,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 22,
+      "base_observations": 154,
+      "confidence": "high"
+    },
+    "SAI-B9CF206": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "So Good",
+      "promo_observations": 16,
+      "base_observations": 77,
+      "confidence": "high"
+    },
+    "SAI-B9E1368": {
+      "elasticity": -3.171,
+      "category": "Snacks",
+      "tier": "Sainsbury's",
+      "promo_observations": 39,
+      "base_observations": 226,
+      "confidence": "high"
+    },
+    "SAI-BAA9091": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 48,
+      "base_observations": 328,
+      "confidence": "high"
+    },
+    "SAI-BB3B393": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 33,
+      "base_observations": 217,
+      "confidence": "high"
+    },
+    "SAI-BB59028": {
+      "elasticity": -0.516,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 79,
+      "base_observations": 466,
+      "confidence": "high"
+    },
+    "SAI-BB66497": {
+      "elasticity": -0.434,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 52,
+      "base_observations": 285,
+      "confidence": "high"
+    },
+    "SAI-BB8B491": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 7,
+      "base_observations": 32,
+      "confidence": "medium"
+    },
+    "SAI-BCBB103": {
+      "elasticity": -1.508,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 93,
+      "base_observations": 468,
+      "confidence": "high"
+    },
+    "SAI-BD06305": {
+      "elasticity": -0.558,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 51,
+      "base_observations": 344,
+      "confidence": "high"
+    },
+    "SAI-BE9A308": {
+      "elasticity": -0.862,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 32,
+      "base_observations": 162,
+      "confidence": "high"
+    },
+    "SAI-BEE5462": {
+      "elasticity": -0.1,
+      "category": "Meat & Fish",
+      "tier": "Taste the Difference",
+      "promo_observations": 25,
+      "base_observations": 148,
+      "confidence": "high"
+    },
+    "SAI-BF6F061": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 50,
+      "base_observations": 283,
+      "confidence": "high"
+    },
+    "SAI-C05A199": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 63,
+      "base_observations": 327,
+      "confidence": "high"
+    },
+    "SAI-C08A200": {
+      "elasticity": -2.982,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 27,
+      "base_observations": 190,
+      "confidence": "high"
+    },
+    "SAI-C0D8263": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 68,
+      "base_observations": 425,
+      "confidence": "high"
+    },
+    "SAI-C145391": {
+      "elasticity": -2.899,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 61,
+      "base_observations": 351,
+      "confidence": "high"
+    },
+    "SAI-C1A7128": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "So Good",
+      "promo_observations": 52,
+      "base_observations": 273,
+      "confidence": "high"
+    },
+    "SAI-C23D345": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 46,
+      "base_observations": 259,
+      "confidence": "high"
+    },
+    "SAI-C2A7280": {
+      "elasticity": -3.133,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 58,
+      "base_observations": 319,
+      "confidence": "high"
+    },
+    "SAI-C2D3101": {
+      "elasticity": -0.296,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 60,
+      "base_observations": 363,
+      "confidence": "high"
+    },
+    "SAI-C3E6252": {
+      "elasticity": -1.096,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 12,
+      "base_observations": 49,
+      "confidence": "high"
+    },
+    "SAI-C3FC033": {
+      "elasticity": -0.1,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 84,
+      "base_observations": 415,
+      "confidence": "high"
+    },
+    "SAI-C4F6186": {
+      "elasticity": -4.0,
+      "category": "Dairy & Eggs",
+      "tier": "Sainsbury's",
+      "promo_observations": 50,
+      "base_observations": 292,
+      "confidence": "high"
+    },
+    "SAI-C552490": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 44,
+      "base_observations": 268,
+      "confidence": "high"
+    },
+    "SAI-C58F251": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 25,
+      "base_observations": 137,
+      "confidence": "high"
+    },
+    "SAI-C6DD303": {
+      "elasticity": -3.593,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 38,
+      "base_observations": 240,
+      "confidence": "high"
+    },
+    "SAI-C815084": {
+      "elasticity": -0.962,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 81,
+      "base_observations": 388,
+      "confidence": "high"
+    },
+    "SAI-C93F208": {
+      "elasticity": -0.205,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 49,
+      "base_observations": 278,
+      "confidence": "high"
+    },
+    "SAI-C969140": {
+      "elasticity": -0.154,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 55,
+      "base_observations": 325,
+      "confidence": "high"
+    },
+    "SAI-C983055": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 32,
+      "base_observations": 170,
+      "confidence": "high"
+    },
+    "SAI-CA6E037": {
+      "elasticity": -1.545,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 72,
+      "base_observations": 467,
+      "confidence": "high"
+    },
+    "SAI-CE1B356": {
+      "elasticity": -0.501,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 66,
+      "base_observations": 389,
+      "confidence": "high"
+    },
+    "SAI-CE48097": {
+      "elasticity": -1.182,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 63,
+      "base_observations": 400,
+      "confidence": "high"
+    },
+    "SAI-CF83202": {
+      "elasticity": -1.342,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 27,
+      "base_observations": 151,
+      "confidence": "high"
+    },
+    "SAI-CF92412": {
+      "elasticity": -0.292,
+      "category": "Snacks",
+      "tier": "Taste the Difference",
+      "promo_observations": 77,
+      "base_observations": 352,
+      "confidence": "high"
+    },
+    "SAI-CFC6040": {
+      "elasticity": -0.278,
+      "category": "Fresh Bakery",
+      "tier": "Branded",
+      "promo_observations": 75,
+      "base_observations": 422,
+      "confidence": "high"
+    },
+    "SAI-D207253": {
+      "elasticity": -0.1,
+      "category": "Fresh Produce",
+      "tier": "So Good",
+      "promo_observations": 20,
+      "base_observations": 122,
+      "confidence": "high"
+    },
+    "SAI-D343460": {
+      "elasticity": -2.214,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 55,
+      "base_observations": 314,
+      "confidence": "high"
+    },
+    "SAI-D3CB363": {
+      "elasticity": -3.298,
+      "category": "Dairy & Eggs",
+      "tier": "Sainsbury's",
+      "promo_observations": 16,
+      "base_observations": 123,
+      "confidence": "high"
+    },
+    "SAI-D3D9442": {
+      "elasticity": -3.297,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 20,
+      "base_observations": 164,
+      "confidence": "high"
+    },
+    "SAI-D3E6309": {
+      "elasticity": -3.275,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 41,
+      "base_observations": 237,
+      "confidence": "high"
+    },
+    "SAI-D4A7035": {
+      "elasticity": -0.852,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 96,
+      "base_observations": 442,
+      "confidence": "high"
+    },
+    "SAI-D722205": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 30,
+      "base_observations": 155,
+      "confidence": "high"
+    },
+    "SAI-D78F378": {
+      "elasticity": -3.449,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 73,
+      "base_observations": 359,
+      "confidence": "high"
+    },
+    "SAI-D84F180": {
+      "elasticity": -0.609,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 50,
+      "base_observations": 293,
+      "confidence": "high"
+    },
+    "SAI-D903050": {
+      "elasticity": -2.426,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 77,
+      "base_observations": 438,
+      "confidence": "high"
+    },
+    "SAI-D947207": {
+      "elasticity": -0.695,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 71,
+      "base_observations": 446,
+      "confidence": "high"
+    },
+    "SAI-DA3B152": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 50,
+      "base_observations": 307,
+      "confidence": "high"
+    },
+    "SAI-DA3C241": {
+      "elasticity": -1.013,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 34,
+      "base_observations": 164,
+      "confidence": "high"
+    },
+    "SAI-DA68406": {
+      "elasticity": -0.863,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 64,
+      "base_observations": 326,
+      "confidence": "high"
+    },
+    "SAI-DAA1242": {
+      "elasticity": -1.686,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 55,
+      "base_observations": 344,
+      "confidence": "high"
+    },
+    "SAI-DACD145": {
+      "elasticity": -1.874,
+      "category": "Fresh Produce",
+      "tier": "Sainsbury's",
+      "promo_observations": 64,
+      "base_observations": 415,
+      "confidence": "high"
+    },
+    "SAI-DAD6398": {
+      "elasticity": -0.1,
+      "category": "Dairy & Eggs",
+      "tier": "So Good",
+      "promo_observations": 51,
+      "base_observations": 293,
+      "confidence": "high"
+    },
+    "SAI-DB2D008": {
+      "elasticity": -1.785,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 82,
+      "base_observations": 473,
+      "confidence": "high"
+    },
+    "SAI-DB93100": {
+      "elasticity": -0.699,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 72,
+      "base_observations": 460,
+      "confidence": "high"
+    },
+    "SAI-DBDA336": {
+      "elasticity": -2.575,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 23,
+      "base_observations": 147,
+      "confidence": "high"
+    },
+    "SAI-DC05151": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 63,
+      "base_observations": 412,
+      "confidence": "high"
+    },
+    "SAI-DCF6088": {
+      "elasticity": -0.669,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 34,
+      "base_observations": 247,
+      "confidence": "high"
+    },
+    "SAI-DEA2108": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 33,
+      "base_observations": 170,
+      "confidence": "high"
+    },
+    "SAI-DEC7351": {
+      "elasticity": -3.617,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 64,
+      "base_observations": 297,
+      "confidence": "high"
+    },
+    "SAI-DF73359": {
+      "elasticity": -2.149,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 57,
+      "base_observations": 286,
+      "confidence": "high"
+    },
+    "SAI-E013178": {
+      "elasticity": -0.994,
+      "category": "Meat & Fish",
+      "tier": "Sainsbury's",
+      "promo_observations": 40,
+      "base_observations": 253,
+      "confidence": "high"
+    },
+    "SAI-E111458": {
+      "elasticity": -2.948,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 52,
+      "base_observations": 347,
+      "confidence": "high"
+    },
+    "SAI-E18B333": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 33,
+      "base_observations": 190,
+      "confidence": "high"
+    },
+    "SAI-E21C274": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 43,
+      "base_observations": 340,
+      "confidence": "high"
+    },
+    "SAI-E22C293": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 23,
+      "base_observations": 136,
+      "confidence": "high"
+    },
+    "SAI-E288399": {
+      "elasticity": -3.515,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 59,
+      "base_observations": 293,
+      "confidence": "high"
+    },
+    "SAI-E39E479": {
+      "elasticity": -1.5,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 47,
+      "base_observations": 254,
+      "confidence": "high"
+    },
+    "SAI-E44B387": {
+      "elasticity": -0.407,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 81,
+      "base_observations": 461,
+      "confidence": "high"
+    },
+    "SAI-E574112": {
+      "elasticity": -0.678,
+      "category": "Health & Beauty",
+      "tier": "Sainsbury's",
+      "promo_observations": 29,
+      "base_observations": 202,
+      "confidence": "high"
+    },
+    "SAI-E5E6430": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 23,
+      "base_observations": 97,
+      "confidence": "high"
+    },
+    "SAI-E6A2370": {
+      "elasticity": -0.1,
+      "category": "Fresh Produce",
+      "tier": "Taste the Difference",
+      "promo_observations": 68,
+      "base_observations": 333,
+      "confidence": "high"
+    },
+    "SAI-E6B7269": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 57,
+      "base_observations": 346,
+      "confidence": "high"
+    },
+    "SAI-E6BF183": {
+      "elasticity": -1.025,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 50,
+      "base_observations": 336,
+      "confidence": "high"
+    },
+    "SAI-E6E2468": {
+      "elasticity": -1.94,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 64,
+      "base_observations": 436,
+      "confidence": "high"
+    },
+    "SAI-E75A211": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 58,
+      "base_observations": 405,
+      "confidence": "high"
+    },
+    "SAI-E778129": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Taste the Difference",
+      "promo_observations": 60,
+      "base_observations": 340,
+      "confidence": "high"
+    },
+    "SAI-E77D131": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 35,
+      "base_observations": 230,
+      "confidence": "high"
+    },
+    "SAI-E8D9125": {
+      "elasticity": -2.731,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 48,
+      "base_observations": 304,
+      "confidence": "high"
+    },
+    "SAI-E936250": {
+      "elasticity": -3.217,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 52,
+      "base_observations": 258,
+      "confidence": "high"
+    },
+    "SAI-EA02311": {
+      "elasticity": -4.0,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 49,
+      "base_observations": 268,
+      "confidence": "high"
+    },
+    "SAI-EAC9267": {
+      "elasticity": -1.299,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 17,
+      "base_observations": 128,
+      "confidence": "high"
+    },
+    "SAI-EAE6261": {
+      "elasticity": -2.211,
+      "category": "Household",
+      "tier": "So Good",
+      "promo_observations": 66,
+      "base_observations": 331,
+      "confidence": "high"
+    },
+    "SAI-EB4F049": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 34,
+      "base_observations": 257,
+      "confidence": "high"
+    },
+    "SAI-EBA2027": {
+      "elasticity": -0.704,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 81,
+      "base_observations": 475,
+      "confidence": "high"
+    },
+    "SAI-EBE1198": {
+      "elasticity": -2.524,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 61,
+      "base_observations": 326,
+      "confidence": "high"
+    },
+    "SAI-EC6B337": {
+      "elasticity": -0.554,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 54,
+      "base_observations": 355,
+      "confidence": "high"
+    },
+    "SAI-EC97409": {
+      "elasticity": -1.719,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 51,
+      "base_observations": 289,
+      "confidence": "high"
+    },
+    "SAI-ECA5132": {
+      "elasticity": -0.277,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 83,
+      "base_observations": 392,
+      "confidence": "high"
+    },
+    "SAI-ECEC360": {
+      "elasticity": -2.648,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 66,
+      "base_observations": 292,
+      "confidence": "high"
+    },
+    "SAI-ED05215": {
+      "elasticity": -1.65,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 30,
+      "base_observations": 152,
+      "confidence": "high"
+    },
+    "SAI-EEDD147": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 42,
+      "base_observations": 247,
+      "confidence": "high"
+    },
+    "SAI-EF80006": {
+      "elasticity": -4.0,
+      "category": "Fresh Bakery",
+      "tier": "Branded",
+      "promo_observations": 59,
+      "base_observations": 527,
+      "confidence": "high"
+    },
+    "SAI-EFBC494": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 21,
+      "base_observations": 129,
+      "confidence": "high"
+    },
+    "SAI-F221262": {
+      "elasticity": -0.484,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 57,
+      "base_observations": 377,
+      "confidence": "high"
+    },
+    "SAI-F282323": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 63,
+      "base_observations": 370,
+      "confidence": "high"
+    },
+    "SAI-F2A4316": {
+      "elasticity": -2.956,
+      "category": "Drinks",
+      "tier": "Taste the Difference",
+      "promo_observations": 56,
+      "base_observations": 336,
+      "confidence": "high"
+    },
+    "SAI-F2AA155": {
+      "elasticity": -0.1,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 12,
+      "base_observations": 45,
+      "confidence": "high"
+    },
+    "SAI-F31C382": {
+      "elasticity": -0.555,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 15,
+      "base_observations": 79,
+      "confidence": "high"
+    },
+    "SAI-F32A455": {
+      "elasticity": -2.282,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 64,
+      "base_observations": 316,
+      "confidence": "high"
+    },
+    "SAI-F382436": {
+      "elasticity": -1.197,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 62,
+      "base_observations": 336,
+      "confidence": "high"
+    },
+    "SAI-F3AF259": {
+      "elasticity": -2.639,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 79,
+      "base_observations": 489,
+      "confidence": "high"
+    },
+    "SAI-F3EC078": {
+      "elasticity": -1.102,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 72,
+      "base_observations": 454,
+      "confidence": "high"
+    },
+    "SAI-F427407": {
+      "elasticity": -0.312,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 43,
+      "base_observations": 266,
+      "confidence": "high"
+    },
+    "SAI-F45F474": {
+      "elasticity": -0.413,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 16,
+      "base_observations": 107,
+      "confidence": "high"
+    },
+    "SAI-F4D6217": {
+      "elasticity": -0.859,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 21,
+      "base_observations": 100,
+      "confidence": "high"
+    },
+    "SAI-F4E6448": {
+      "elasticity": -0.1,
+      "category": "Fresh Bakery",
+      "tier": "Sainsbury's",
+      "promo_observations": 62,
+      "base_observations": 427,
+      "confidence": "high"
+    },
+    "SAI-F5B2429": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "Taste the Difference",
+      "promo_observations": 47,
+      "base_observations": 257,
+      "confidence": "high"
+    },
+    "SAI-F6A3240": {
+      "elasticity": -2.514,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 22,
+      "base_observations": 170,
+      "confidence": "high"
+    },
+    "SAI-F712170": {
+      "elasticity": -4.0,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 68,
+      "base_observations": 385,
+      "confidence": "high"
+    },
+    "SAI-F757230": {
+      "elasticity": -4.0,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 29,
+      "base_observations": 173,
+      "confidence": "high"
+    },
+    "SAI-F785291": {
+      "elasticity": -1.783,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 49,
+      "base_observations": 287,
+      "confidence": "high"
+    },
+    "SAI-F7C6322": {
+      "elasticity": -2.422,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 22,
+      "base_observations": 156,
+      "confidence": "high"
+    },
+    "SAI-F7E7121": {
+      "elasticity": -1.373,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 82,
+      "base_observations": 427,
+      "confidence": "high"
+    },
+    "SAI-F804408": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 43,
+      "base_observations": 204,
+      "confidence": "high"
+    },
+    "SAI-F8AF119": {
+      "elasticity": -0.676,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 21,
+      "base_observations": 156,
+      "confidence": "high"
+    },
+    "SAI-F8BD079": {
+      "elasticity": -2.335,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 74,
+      "base_observations": 441,
+      "confidence": "high"
+    },
+    "SAI-F8ED414": {
+      "elasticity": -2.219,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 49,
+      "base_observations": 217,
+      "confidence": "high"
+    },
+    "SAI-F947120": {
+      "elasticity": -0.392,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 33,
+      "base_observations": 164,
+      "confidence": "high"
+    },
+    "SAI-F985465": {
+      "elasticity": -0.1,
+      "category": "Dairy & Eggs",
+      "tier": "Sainsbury's",
+      "promo_observations": 52,
+      "base_observations": 262,
+      "confidence": "high"
+    },
+    "SAI-F98A461": {
+      "elasticity": -1.282,
+      "category": "Meat & Fish",
+      "tier": "Branded",
+      "promo_observations": 12,
+      "base_observations": 127,
+      "confidence": "high"
+    },
+    "SAI-F994402": {
+      "elasticity": -0.1,
+      "category": "Ambient Grocery",
+      "tier": "Taste the Difference",
+      "promo_observations": 14,
+      "base_observations": 94,
+      "confidence": "high"
+    },
+    "SAI-F997024": {
+      "elasticity": -4.0,
+      "category": "Household",
+      "tier": "Taste the Difference",
+      "promo_observations": 53,
+      "base_observations": 302,
+      "confidence": "high"
+    },
+    "SAI-F9B5372": {
+      "elasticity": -0.1,
+      "category": "Dairy & Eggs",
+      "tier": "Sainsbury's",
+      "promo_observations": 47,
+      "base_observations": 273,
+      "confidence": "high"
+    },
+    "SAI-FA05110": {
+      "elasticity": -1.301,
+      "category": "Household",
+      "tier": "Branded",
+      "promo_observations": 73,
+      "base_observations": 392,
+      "confidence": "high"
+    },
+    "SAI-FA28210": {
+      "elasticity": -1.521,
+      "category": "Drinks",
+      "tier": "Branded",
+      "promo_observations": 46,
+      "base_observations": 330,
+      "confidence": "high"
+    },
+    "SAI-FB70144": {
+      "elasticity": -1.087,
+      "category": "Drinks",
+      "tier": "Sainsbury's",
+      "promo_observations": 58,
+      "base_observations": 292,
+      "confidence": "high"
+    },
+    "SAI-FBD5087": {
+      "elasticity": -0.1,
+      "category": "Fresh Bakery",
+      "tier": "Branded",
+      "promo_observations": 40,
+      "base_observations": 228,
+      "confidence": "high"
+    },
+    "SAI-FBDB257": {
+      "elasticity": -1.21,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 69,
+      "base_observations": 345,
+      "confidence": "high"
+    },
+    "SAI-FBFF405": {
+      "elasticity": -0.1,
+      "category": "Drinks",
+      "tier": "So Good",
+      "promo_observations": 71,
+      "base_observations": 315,
+      "confidence": "high"
+    },
+    "SAI-FE43218": {
+      "elasticity": -0.8,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 3,
+      "base_observations": 34,
+      "confidence": "prior"
+    },
+    "SAI-FE4E344": {
+      "elasticity": -2.624,
+      "category": "Ambient Grocery",
+      "tier": "Branded",
+      "promo_observations": 40,
+      "base_observations": 199,
+      "confidence": "high"
+    },
+    "SAI-FE87117": {
+      "elasticity": -2.54,
+      "category": "Ambient Grocery",
+      "tier": "Sainsbury's",
+      "promo_observations": 42,
+      "base_observations": 245,
+      "confidence": "high"
+    },
+    "SAI-FE89075": {
+      "elasticity": -3.397,
+      "category": "Ambient Grocery",
+      "tier": "So Good",
+      "promo_observations": 36,
+      "base_observations": 278,
+      "confidence": "high"
+    },
+    "SAI-FEC1246": {
+      "elasticity": -2.464,
+      "category": "Household",
+      "tier": "Sainsbury's",
+      "promo_observations": 67,
+      "base_observations": 340,
+      "confidence": "high"
+    }
+  },
+  "category_elasticities": {
+    "Health & Beauty": {
+      "mean_elasticity": -1.097,
+      "median_elasticity": -0.692,
+      "std": 1.184,
+      "n_products": 8
+    },
+    "Ambient Grocery": {
+      "mean_elasticity": -1.473,
+      "median_elasticity": -1.054,
+      "std": 1.322,
+      "n_products": 285
+    },
+    "Household": {
+      "mean_elasticity": -1.597,
+      "median_elasticity": -1.282,
+      "std": 1.356,
+      "n_products": 88
+    },
+    "Drinks": {
+      "mean_elasticity": -1.509,
+      "median_elasticity": -1.114,
+      "std": 1.402,
+      "n_products": 48
+    },
+    "Fresh Produce": {
+      "mean_elasticity": -1.783,
+      "median_elasticity": -1.786,
+      "std": 1.445,
+      "n_products": 16
+    },
+    "Fresh Bakery": {
+      "mean_elasticity": -1.487,
+      "median_elasticity": -0.979,
+      "std": 1.439,
+      "n_products": 26
+    },
+    "Snacks": {
+      "mean_elasticity": -0.829,
+      "median_elasticity": -0.38,
+      "std": 0.993,
+      "n_products": 8
+    },
+    "Dairy & Eggs": {
+      "mean_elasticity": -0.968,
+      "median_elasticity": -0.466,
+      "std": 1.217,
+      "n_products": 14
+    },
+    "Frozen": {
+      "mean_elasticity": -1.834,
+      "median_elasticity": -1.88,
+      "std": 0.072,
+      "n_products": 3
+    },
+    "Meat & Fish": {
+      "mean_elasticity": -1.4,
+      "median_elasticity": -1.138,
+      "std": 1.14,
+      "n_products": 4
+    }
+  }
+}

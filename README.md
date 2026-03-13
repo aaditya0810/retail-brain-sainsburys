@@ -18,6 +18,12 @@ This project was built on a highly realistic synthetic dataset simulating Sainsb
 - **XGBoost Risk Model:** Predicts 72-hour stockout probability based on 18 engineered features (velocity, stock-to-sales ratio, etc.).
 - **LLM Manager Insights:** OpenAI `gpt-4o-mini` generates plain-English briefings explaining *why* a product is at risk.
 
+### Phase 4: Advanced ML & Intelligence
+- **Weather & Event Integration:** Pulls weather forecasts (OpenWeatherMap) and local event data (Premier League, Winter Wonderland, etc.) to predict demand spikes for weather-sensitive products like ice cream, soup, and BBQ items.
+- **Price Elasticity Model:** Calculates price elasticity of demand per product and category, predicting exactly how much a Nectar price drop will boost sales.
+- **Automated Replenishment:** Generates cost-optimised purchase orders with full cost-benefit analysis — holding costs vs. lost revenue — instead of just flagging risk.
+- **Reinforcement Learning Agent:** A tile-coded Q-learning decision agent that learns which replenishment strategies maximise profit and minimise waste over time.
+
 ---
 
 ## 🚀 Live Demo
@@ -53,6 +59,18 @@ python src/train_model.py
 streamlit run dashboard/app.py
 ```
 View the dashboard in your browser at `http://localhost:8501`.
+
+### 4. Phase 4: Train Advanced Models (Optional)
+```bash
+# Train Price Elasticity Model
+python src/elasticity.py
+
+# Train RL Decision Agent
+python src/rl_agent.py
+```
+
+These models enhance the Intelligence Hub and Auto-Orders dashboard pages.
+To enable live weather data, add `OPENWEATHER_API_KEY` to your `.env` file (free tier from [openweathermap.org](https://openweathermap.org/api)).
 
 ---
 

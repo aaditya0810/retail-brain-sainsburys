@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Brain | AI Stock Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="dark-mode">
+
+    <!-- Auth View -->
+    <div id="auth-view" class="view">
+        <div class="auth-card glass">
+            <div class="brand-logo">
+                <i class="ph-bold ph-brain"></i>
+                <span>RETAIL BRAIN</span>
+            </div>
+            <h1>Welcome Back</h1>
+            <p>Admin Dashboard for Sainsbury's Stock Intelligence</p>
+            <form id="login-form">
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" id="email" value="admin@retailbrain.ai" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="password" value="admin123" required>
+                </div>
+                <button type="submit" class="btn-primary">Sign In <i class="ph ph-arrow-right"></i></button>
+            </form>
+            <div id="login-error" class="error-msg"></div>
+        </div>
+    </div>
+
+    <!-- Main Dashboard View -->
+    <div id="dashboard-view" class="view hidden">
+        <aside class="sidebar glass">
+            <div class="sidebar-header">
+                <i class="ph-bold ph-brain"></i>
+                <span>Retail Brain</span>
+            </div>
+            <nav>
+                <a href="#" class="nav-item active" data-view="overview"><i class="ph ph-chart-line"></i> Inventory Risk</a>
+                <a href="#" class="nav-item" data-view="products"><i class="ph ph-package"></i> Product Catalog</a>
+                <a href="#" class="nav-item" data-view="audit"><i class="ph ph-file-text"></i> Audit Logs</a>
+                <a href="#" class="nav-item" id="logout-btn"><i class="ph ph-sign-out"></i> Logout</a>
+            </nav>
+            <div class="store-badge">
+                <i class="ph ph-storefront"></i>
+                <div>
+                    <span class="store-name">Sainsbury's London</span>
+                    <span class="store-id" id="display-store-id">ID: SBY-LON-001</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="content">
+            <header class="top-bar">
+                <div class="search-container glass">
+                    <i class="ph ph-magnifying-glass"></i>
+                    <input type="text" placeholder="Search products, store alerts..." id="top-search">
+                </div>
+                <div class="user-profile">
+                    <span id="display-email">admin@retailbrain.ai</span>
+                    <div class="avatar">A</div>
+                </div>
+            </header>
+
+            <!-- Overview Section -->
+            <section id="section-overview" class="dashboard-section">
+                <div class="section-header">
+                    <h2>Stockout Risk Intelligence</h2>
+                    <button class="btn-outline" id="export-csv"><i class="ph ph-download"></i> Export Risk CSV</button>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card glass glow-red">
+                        <i class="ph ph-warning-octagon"></i>
+                        <div class="stat-info">
+                            <span class="label">Critical Risks</span>
+                            <span class="value" id="count-critical">8</span>
+                        </div>
+                    </div>
+                    <div class="stat-card glass glow-blue">
+                        <i class="ph ph-trend-down"></i>
+                        <div class="stat-info">
+                            <span class="label">Avg. Probability</span>
+                            <span class="value">64.2%</span>
+                        </div>
+                    </div>
+                    <div class="stat-card glass glow-green">
+                        <i class="ph ph-check-circle"></i>
+                        <div class="stat-info">
+                            <span class="label">API Status</span>
+                            <span class="value">Active</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-container glass">
+                    <table id="risk-table">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Category</th>
+                                <th>Stock</th>
+                                <th>Cover</th>
+                                <th>Loss Risk</th>
+                                <th>Prediction</th>
+                            </tr>
+                        </thead>
+                        <tbody id="risk-tbody">
+                            <!-- Populated by app.js -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Audit Logs Section (Hidden Initially) -->
+            <section id="section-audit" class="dashboard-section hidden">
+                <div class="section-header">
+                    <h2>System Audit Logs</h2>
+                </div>
+                <div class="table-container glass">
+                    <table id="audit-table">
+                        <thead>
+                            <tr>
+                                <th>Timestamp</th>
+                                <th>User</th>
+                                <th>Action</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody id="audit-tbody">
+                            <!-- Populated by app.js -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Alert Notifications (Toast) -->
+    <div id="alert-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
