@@ -19,6 +19,9 @@ COPY models/     ./models/
 COPY data/       ./data/
 COPY scripts/    ./scripts/
 
+# Pre-generate engineered features at build time (excluded from git due to size)
+RUN python src/feature_engineering.py
+
 # Render injects $PORT at runtime; default 8501 for local Docker
 EXPOSE 8501
 

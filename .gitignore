@@ -18,9 +18,9 @@ env/
 # models/*.joblib
 # models/*.pkl
 
-# Data — raw CSVs and processed features are committed for reproducibility
-# SQLite local dev database is excluded (app auto-regenerates it)
-data/retail_brain.db
+# Data — raw CSVs are committed for reproducibility
+# Processed features are regenerated during Docker build (too large for git at 5K SKUs)
+data/processed/
 data/cache/
 
 # Logs & temp outputs

@@ -124,32 +124,38 @@ SAINSBURYS_PRODUCTS = [
 # ─────────────────────────────────────────────────────────────────────────────
 # Dynamically Generate 924 More Products to reach 1000 SKUs
 # ─────────────────────────────────────────────────────────────────────────────
-ADJECTIVES = ["Premium", "Organic", "British", "Scottish", "Fresh", "finest", "Value", "Classic", "Spicy", "Sweet", "Smoked", "Roasted", "Free Range", "Corn Fed", "Stone Baked", "Salted", "Unsalted", "Mixed", "Chilled", "Frozen", "Handmade"]
+ADJECTIVES = ["Premium", "Organic", "British", "Scottish", "Fresh", "Finest", "Value", "Classic", "Spicy", "Sweet", "Smoked", "Roasted", "Free Range", "Corn Fed", "Stone Baked", "Salted", "Unsalted", "Mixed", "Chilled", "Handmade", "Whole", "Reduced Fat", "Extra Mature", "Slow Cooked", "Hand Stretched", "Gluten Free", "Vegan", "Plant Based", "Low Sugar", "High Protein", "Enriched", "Fortified", "Seasonal", "Limited Edition", "Locally Sourced", "Award Winning", "Sustainably Sourced", "Easy Cook"]
 NOUNS = {
-    "Dairy & Eggs": ["Milk 2 Pints", "Milk 4 Pints", "Cheddar 400g", "Brie 200g", "Yogurt 500g", "Butter 250g", "Eggs 6pk", "Eggs 12pk", "Cream 300ml", "Mozzarella 125g"],
-    "Fresh Bakery": ["White Bread 800g", "Wholemeal Bread 800g", "Sourdough 400g", "Baguette", "Croissants 4pk", "Bagels 5pk", "Muffins 4pk", "Rolls 6pk", "Wraps 8pk"],
-    "Meat & Fish": ["Chicken Breast 600g", "Beef Mince 500g", "Pork Sausages 8pk", "Salmon Fillets 240g", "Cod Fillets 400g", "Bacon 300g", "Lamb Chops 400g", "Turkey Mince 500g", "Prawns 200g"],
-    "Fresh Produce": ["Bananas", "Apples 6pk", "Oranges 5pk", "Potatoes 2.5kg", "Carrots 1kg", "Broccoli 300g", "Spinach 200g", "Tomatoes 500g", "Onions 1kg", "Grapes 500g", "Strawberries 400g", "Blueberries 150g", "Lemons 3pk"],
-    "Drinks": ["Orange Juice 1L", "Apple Juice 1L", "Cola 2L", "Sparkling Water 6x500ml", "Still Water 6x500ml", "Lemonade 2L", "Coffee 200g", "Tea Bags 80pk", "Squash 1L", "Energy Drink 500ml"],
-    "Ambient Grocery": ["Rice 1kg", "Pasta 500g", "Baked Beans 415g", "Chopped Tomatoes 400g", "Flour 1.5kg", "Sugar 1kg", "Olive Oil 500ml", "Cereal 500g", "Oats 1kg", "Peanut Butter 280g", "Jam 340g", "Soup 400g", "Ketchup 500g"],
-    "Snacks": ["Crisps 6pk", "Tortilla Chips 200g", "Popcorn 100g", "Chocolate Bar 200g", "Biscuits 400g", "Nuts 200g", "Crackers 150g", "Rice Cakes 130g", "Mints 4pk"],
-    "Frozen": ["Peas 1kg", "Oven Chips 1.5kg", "Pizza 400g", "Lasagne 400g", "Ice Cream 1L", "Fish Fingers 10pk", "Chicken Nuggets 500g", "Mixed Veg 1kg", "Hash Browns 700g"],
-    "Household": ["Toilet Roll 9pk", "Kitchen Roll 2pk", "Washing Up Liquid 500ml", "Laundry Pods 20pk", "Fabric Conditioner 1L", "Bleach 750ml", "Bin Liners 20pk", "Foil 10m", "Sponges 4pk"],
-    "Health & Beauty": ["Ibuprofen 16pk", "Paracetamol 16pk", "Toothpaste 75ml", "Shower Gel 250ml", "Shampoo 250ml", "Deodorant 150ml", "Hand Wash 250ml", "Cotton Pads 100pk", "Plasters 40pk"]
+    "Dairy & Eggs": ["Milk 2 Pints", "Milk 4 Pints", "Milk 6 Pints", "Cheddar 400g", "Cheddar 750g", "Brie 200g", "Camembert 250g", "Stilton 200g", "Yogurt 500g", "Greek Yogurt 450g", "Butter 250g", "Clotted Cream 227g", "Eggs 6pk", "Eggs 12pk", "Cream 300ml", "Mozzarella 125g", "Feta 200g", "Cream Cheese 180g", "Custard 500g", "Soured Cream 300ml"],
+    "Fresh Bakery": ["White Bread 800g", "Wholemeal Bread 800g", "Sourdough 400g", "Baguette", "Croissants 4pk", "Bagels 5pk", "Muffins 4pk", "Rolls 6pk", "Wraps 8pk", "Pitta Breads 6pk", "Crumpets 6pk", "English Muffins 4pk", "Pain au Chocolat 4pk", "Danish Pastries 4pk", "Focaccia 280g", "Naan Breads 2pk", "Tiger Bloomer 800g", "Seeded Batch 800g"],
+    "Meat & Fish": ["Chicken Breast 600g", "Chicken Thighs 800g", "Whole Chicken 1.5kg", "Beef Mince 500g", "Beef Steak 300g", "Pork Sausages 8pk", "Pork Chops 500g", "Salmon Fillets 240g", "Salmon Side 400g", "Cod Fillets 400g", "Haddock Fillets 300g", "Bacon 300g", "Gammon Joint 750g", "Lamb Chops 400g", "Lamb Mince 500g", "Turkey Breast 500g", "Turkey Crown 2kg", "Prawns 200g", "Scallops 200g", "Tuna Steaks 240g"],
+    "Fresh Produce": ["Bananas Loose", "Apples 6pk", "Oranges 5pk", "Potatoes 2.5kg", "Sweet Potatoes 1kg", "Carrots 1kg", "Broccoli 300g", "Cauliflower", "Spinach 200g", "Kale 200g", "Tomatoes 500g", "Cherry Tomatoes 250g", "Onions 1kg", "Red Onions 500g", "Grapes 500g", "Strawberries 400g", "Raspberries 150g", "Blueberries 150g", "Lemons 3pk", "Limes 5pk", "Avocado", "Cucumber", "Courgettes 3pk", "Peppers 3pk", "Mushrooms 400g", "Garlic Bulb", "Ginger Root 100g", "Asparagus 200g", "Tenderstem Broccoli 200g"],
+    "Drinks": ["Orange Juice 1L", "Apple Juice 1L", "Cranberry Juice 1L", "Cola 2L", "Diet Cola 2L", "Sparkling Water 6x500ml", "Still Water 6x500ml", "Lemonade 2L", "Coffee Beans 200g", "Instant Coffee 200g", "Tea Bags 80pk", "Green Tea 40pk", "Squash 1L", "Energy Drink 500ml", "Iced Tea 500ml", "Kombucha 330ml", "Oat Milk 1L", "Almond Milk 1L", "Soy Milk 1L", "Prosecco 75cl"],
+    "Ambient Grocery": ["Long Grain Rice 1kg", "Basmati Rice 1kg", "Arborio Rice 500g", "Spaghetti 500g", "Penne 500g", "Fusilli 500g", "Tagliatelle 375g", "Baked Beans 415g", "Chopped Tomatoes 400g", "Passata 500g", "Flour 1.5kg", "Self Raising Flour 1.5kg", "Sugar 1kg", "Caster Sugar 1kg", "Olive Oil 500ml", "Vegetable Oil 1L", "Cornflakes 500g", "Porridge Oats 1kg", "Peanut Butter 280g", "Almond Butter 170g", "Strawberry Jam 340g", "Marmalade 340g", "Tomato Ketchup 500g", "Mayonnaise 400g", "Soy Sauce 150ml", "Coconut Milk 400ml", "Chickpeas 400g", "Kidney Beans 400g", "Lentils 500g", "Vegetable Stock 500ml"],
+    "Snacks": ["Ready Salted Crisps 6pk", "Cheese & Onion Crisps 6pk", "Tortilla Chips 200g", "Popcorn 100g", "Salted Popcorn 100g", "Milk Chocolate Bar 200g", "Dark Chocolate 100g", "White Chocolate 150g", "Digestive Biscuits 400g", "Shortbread Fingers 200g", "Hobnobs 300g", "Mixed Nuts 200g", "Cashew Nuts 200g", "Almonds 200g", "Crackers 200g", "Rice Cakes 130g", "Cereal Bars 6pk", "Flapjacks 5pk", "Jelly Babies 200g", "Wine Gums 190g"],
+    "Frozen": ["Garden Peas 1kg", "Petits Pois 900g", "Oven Chips 1.5kg", "Sweet Potato Fries 750g", "Margherita Pizza 400g", "Pepperoni Pizza 400g", "Lasagne 400g", "Shepherd's Pie 400g", "Vanilla Ice Cream 1L", "Strawberry Ice Cream 1L", "Fish Fingers 10pk", "Battered Cod 2pk", "Chicken Nuggets 500g", "Chicken Kievs 2pk", "Mixed Vegetables 1kg", "Spinach 900g", "Hash Browns 700g", "Waffles 8pk", "Yorkshire Puddings 8pk", "Croissants 4pk"],
+    "Household": ["Toilet Roll 9pk", "Toilet Roll 18pk", "Kitchen Roll 2pk", "Washing Up Liquid 500ml", "Laundry Pods 20pk", "Laundry Liquid 1.5L", "Fabric Conditioner 1L", "Bleach 750ml", "Antibacterial Spray 500ml", "Floor Cleaner 1L", "Bin Liners 20pk", "Freezer Bags 25pk", "Cling Film 30m", "Foil 10m", "Sponges 4pk", "Dishwasher Tablets 30pk", "Toilet Cleaner 500ml", "Air Freshener 300ml", "Washing Powder 1kg", "Dryer Sheets 40pk"],
+    "Health & Beauty": ["Ibuprofen 200mg 16pk", "Paracetamol 500mg 16pk", "Vitamin C 1000mg 60pk", "Vitamin D 1000IU 90pk", "Omega 3 60 Capsules", "Toothpaste 75ml", "Electric Toothbrush Heads 3pk", "Shower Gel 250ml", "Bubble Bath 500ml", "Shampoo 250ml", "Conditioner 250ml", "Dry Shampoo 200ml", "Deodorant Spray 150ml", "Roll On Deodorant 50ml", "Hand Wash 250ml", "Hand Cream 75ml", "Cotton Pads 100pk", "Cotton Buds 200pk", "Plasters 40pk", "Razors 4pk"],
+    "Wine & Spirits": ["Sauvignon Blanc 75cl", "Pinot Grigio 75cl", "Chardonnay 75cl", "Merlot 75cl", "Cabernet Sauvignon 75cl", "Shiraz 75cl", "Prosecco 75cl", "Champagne 75cl", "Rose Wine 75cl", "Gin 70cl", "Vodka 70cl", "Rum 70cl", "Whisky 70cl", "Baileys 70cl", "Tia Maria 70cl", "Pimms 70cl", "Sherry 75cl", "Port 75cl", "Beer 4x440ml", "Lager 12x330ml"],
+    "Baby & Toddler": ["Infant Formula 800g", "Follow On Formula 800g", "Baby Wipes 72pk", "Nappies Size 3 40pk", "Nappies Size 4 34pk", "Nappies Size 5 28pk", "Baby Shampoo 250ml", "Baby Lotion 200ml", "Baby Food Pouch 100g", "Baby Porridge 125g", "Toddler Snacks 7pk", "Baby Rice 100g", "Sudocrem 125g", "Calpol 200ml", "Teething Gel 15g"],
+    "Pet Food": ["Dog Food Pouches 12pk", "Cat Food Pouches 12pk", "Dry Dog Food 2kg", "Dry Cat Food 1.5kg", "Dog Treats 200g", "Cat Treats 60g", "Dog Biscuits 500g", "Cat Milk 200ml", "Hamster Food 1kg", "Bird Seed 1kg"],
+    "Free From": ["Gluten Free Bread 400g", "Gluten Free Pasta 500g", "Dairy Free Milk 1L", "Dairy Free Butter 250g", "Vegan Cheese 200g", "Gluten Free Flour 1kg", "Oat Free Granola 400g", "Nut Free Cereal Bar 5pk", "Vegan Sausages 6pk", "Plant Based Mince 500g"],
+    "World Foods": ["Basmati Rice 5kg", "Jasmine Rice 5kg", "Coconut Milk 400ml", "Soy Sauce 250ml", "Fish Sauce 200ml", "Oyster Sauce 255ml", "Miso Paste 200g", "Curry Paste 290g", "Naan Breads 4pk", "Chapattis 8pk", "Tortilla Chips 200g", "Tahini 300g", "Harissa Paste 120g", "Kimchi 300g"]
 }
-BRANDS = ["Heinz", "Kellogg's", "Walkers", "Cadbury", "Coca-Cola", "Fairy", "Andrex", "McVitie's", "Pringles", "Colgate", "Nivea", "Persil", "L'Oreal", "Nestle"]
+BRANDS = ["Heinz", "Kellogg's", "Walkers", "Cadbury", "Coca-Cola", "Fairy", "Andrex", "McVitie's", "Pringles", "Colgate", "Nivea", "Persil", "L'Oreal", "Nestle", "Innocent", "Alpro", "Oatly", "Warburtons", "Hovis", "Kenco", "PG Tips", "Yorkshire Tea", "Nescafe", "Muller", "Activia", "Lurpak", "Cathedral City", "Philadelphia", "Dairylea", "Cravendale", "Aptamil", "Pampers", "Huggies", "Sudocrem", "Pedigree", "Whiskas", "Felix", "Bakers", "PURINA", "Schweppes", "Robinsons", "Ribena", "Tropicana", "Copella"]
 
-for i in range(len(SAINSBURYS_PRODUCTS) + 1, 1001):
+for i in range(len(SAINSBURYS_PRODUCTS) + 1, 5001):
     cat = random.choice(list(NOUNS.keys()))
     noun = random.choice(NOUNS[cat])
     adj = random.choice(ADJECTIVES)
     
     tier_rand = random.random()
-    if cat in ["Household", "Health & Beauty", "Drinks", "Snacks", "Ambient Grocery"]:
-        if tier_rand < 0.25:
+    branded_cats = ["Household", "Health & Beauty", "Drinks", "Snacks", "Ambient Grocery", "Wine & Spirits", "Baby & Toddler", "Pet Food", "World Foods"]
+    if cat in branded_cats:
+        if tier_rand < 0.30:
             tier = "Branded"
             brand = random.choice(BRANDS)
-            name = f"{brand} {adj} {noun}"
+            name = f"{brand} {noun}"
         elif tier_rand < 0.65:
             tier = "Sainsbury's"
             name = f"Sainsbury's {adj} {noun}"
@@ -159,11 +165,19 @@ for i in range(len(SAINSBURYS_PRODUCTS) + 1, 1001):
         else:
             tier = "So Good"
             name = f"Sainsbury's So Good {noun}"
+    elif cat == "Free From":
+        tier = random.choice(["Sainsbury's", "Taste the Difference", "Branded"])
+        if tier == "Branded":
+            name = f"{random.choice(BRANDS)} {noun}"
+        elif tier == "Taste the Difference":
+            name = f"Taste the Difference {noun}"
+        else:
+            name = f"Sainsbury's Free From {noun}"
     else:
-        if tier_rand < 0.7:
+        if tier_rand < 0.68:
              tier = "Sainsbury's"
              name = f"Sainsbury's {adj} {noun}"
-        elif tier_rand < 0.9:
+        elif tier_rand < 0.88:
              tier = "Taste the Difference"
              name = f"Taste the Difference {adj} {noun}"
         else:
@@ -279,6 +293,11 @@ CATEGORY_SEASONALITY = {
     "Frozen":           {"Oct": 1.0,  "Nov": 1.0,  "Dec": 1.4},  # Christmas ready meals
     "Household":        {"Oct": 1.0,  "Nov": 0.95, "Dec": 1.2},
     "Health & Beauty":  {"Oct": 1.0,  "Nov": 1.0,  "Dec": 1.1},
+    "Wine & Spirits":   {"Oct": 1.1,  "Nov": 1.4,  "Dec": 2.2},  # Huge festive spike
+    "Baby & Toddler":   {"Oct": 1.0,  "Nov": 1.0,  "Dec": 1.1},
+    "Pet Food":         {"Oct": 1.0,  "Nov": 1.0,  "Dec": 1.2},
+    "Free From":        {"Oct": 1.0,  "Nov": 1.0,  "Dec": 1.1},
+    "World Foods":      {"Oct": 1.1,  "Nov": 1.0,  "Dec": 1.2},
 }
 
 MONTH_NAMES = {10: "Oct", 11: "Nov", 12: "Dec"}
@@ -444,5 +463,5 @@ replenishment_df = pd.DataFrame(replenishment_records)
 replenishment_df.to_csv(os.path.join(OUTPUT_DIR, "replenishment.csv"), index=False)
 print(f"✅ replenishment.csv — {len(replenishment_df):,} replenishment orders")
 print("\n🎉 Sainsbury's Q4 2024 dataset ready in data/raw/")
-print(f"   Store: SBY-LON-001 | Period: Oct–Dec 2024 | Products: {len(products_df)}")
+print(f"   Store: SBY-LON-001 | Period: Oct–Dec 2024 | Products: {len(products_df):,}")
 print(f"   Peak events: Christmas Eve (+200%), Black Friday (+60%), Halloween (+50%)")
