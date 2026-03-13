@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: sainsburys-retail-brain
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+
+    envVars:
+      # Optional — app uses a rule-based fallback if not set
+      - key: OPENAI_API_KEY
+        sync: false          # set this in the Render dashboard manually
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: OPENWEATHER_API_KEY
+        sync: false          # optional — synthetic weather used as fallback
+      - key: LOG_LEVEL
+        value: WARNING
+      - key: LOG_FORMAT
+        value: text
+
+    # Render free tier auto-sleeps after 15 min of inactivity.
+    # First request after sleep may take ~30s to warm up.
+    healthCheckPath: /
